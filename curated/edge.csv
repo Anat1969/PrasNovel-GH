@@ -1,0 +1,97 @@
+src,src_label,src_label_he,src_nobel_id,dst,dst_label,dst_label_he,dst_nobel_id,type,property,source_url,confidence
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q102307492,Pieter Coenraad Frederik Frowein,,,mentor_of,P184,https://www.wikidata.org/wiki/Q102307492#P184,wikidata_statement
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q102349442,Johannes Jacobus van Laar,,,mentor_of,P184,https://www.wikidata.org/wiki/Q102349442#P184,wikidata_statement
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q320050,Ernst Cohen,ארנסט כהן,,mentor_of,P1066,https://www.wikidata.org/wiki/Q320050#P1066,wikidata_statement
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q5659887,Harold A. Wilson,הרולד א. וילסון,,mentor_of,P184,https://www.wikidata.org/wiki/Q5659887#P184,wikidata_statement
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q65561531,Albertus van Bijlert,,,mentor_of,P184,https://www.wikidata.org/wiki/Q65561531#P184,wikidata_statement
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q67198284,Gerrit Hondius Boldingh,,,mentor_of,P184,https://www.wikidata.org/wiki/Q67198284#P184,wikidata_statement
+Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,Q907107,Wilder Dwight Bancroft,,,mentor_of,P184,https://www.wikidata.org/wiki/Q907107#P184,wikidata_statement
+Q108195538,Rhishard Llewellyn Jones,,,Q60429,Chandrasekhara Venkata Raman,צ'נדרסקהארה ונקאטה ראמאן,37,mentor_of,P1066,https://www.wikidata.org/wiki/Q60429#P1066,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q102573857,Crystal S. Yang,קריסטל יאנג,,mentor_of,P184,https://www.wikidata.org/wiki/Q102573857#P184,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q102736408,Martin Jay Eisenberg,מרטין ג'יי אייזנברג,,mentor_of,P184,https://www.wikidata.org/wiki/Q102736408#P184,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q113301027,Noam Yuchtman,,,mentor_of,P184,https://www.wikidata.org/wiki/Q113301027#P184,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q22097176,Robert Whaples,רוברט וייפלס,,mentor_of,P184,https://www.wikidata.org/wiki/Q22097176#P184,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q29571108,Leah Platt Boustan,ליאה בוסטן,,mentor_of,P184,https://www.wikidata.org/wiki/Q29571108#P184,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q616305,Cecilia Rouse,ססיליה ראוס,,mentor_of,P184,https://www.wikidata.org/wiki/Q616305#P184,wikidata_statement
+Q1097475,Claudia Goldin,קלודיה גולדין,1034,Q67942474,Daniel K. Fetter,דניאל ק. פטר,,mentor_of,P184,https://www.wikidata.org/wiki/Q67942474#P184,wikidata_statement
+Q110911237,Walter Klemperer,,,Q743252,Omar M. Yaghi,עומר יאגי,1055,mentor_of,P184,https://www.wikidata.org/wiki/Q743252#P184,wikidata_statement
+Q132489,Amartya Sen,אמרטיה סן,719,Q11402042,Yukinobu Kitamura,,,mentor_of,P184,https://www.wikidata.org/wiki/Q11402042#P184,wikidata_statement
+Q132489,Amartya Sen,אמרטיה סן,719,Q18206849,Ravi Kanbur,,,mentor_of,P184,https://www.wikidata.org/wiki/Q18206849#P184,wikidata_statement
+Q132489,Amartya Sen,אמרטיה סן,719,Q30068933,Stephan Klasen,,,mentor_of,P184,https://www.wikidata.org/wiki/Q30068933#P184,wikidata_statement
+Q132489,Amartya Sen,אמרטיה סן,719,Q3522869,Kaushik Basu,,,mentor_of,P184,https://www.wikidata.org/wiki/Q3522869#P184,wikidata_statement
+Q132489,Amartya Sen,אמרטיה סן,719,Q7052775,Q7052775,,,mentor_of,P184,https://www.wikidata.org/wiki/Q7052775#P184,wikidata_statement
+Q133232,Gabriel Lippmann,גבריאל ליפמן,12,Q7186,Marie Curie,מארי קירי,6,mentor_of,P184,https://www.wikidata.org/wiki/Q7186#P184,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q11928879,Josep Pujol i Capsada,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q11928879#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q1492672,Galo Leoz Ortín,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q1492672#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q17620571,Luis Sagaz Zubelzu,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q17620571#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q30181103,Teófilo Hernando Ortega,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q30181103#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q3113964,Nicolás Achúcarro y Lund,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q3113964#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q3327470,Blas Cabrera Felipe,,,mentor_of,P184,https://www.wikidata.org/wiki/Q3327470#P184,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q556211,Gonzalo Rodríguez Lafora,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q556211#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q5860451,Fernando de Castro Rodríguez,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q5860451#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q5935102,Jorge Francisco Tello,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q5935102#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q77846325,Gil Saltor y Lavall,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q77846325#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q9028286,Manuela Solís i Claràs,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q9028286#P1066,wikidata_statement
+Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,Q98106902,Eduardo Alfonso,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q98106902#P1066,wikidata_statement
+Q153761,Elinor Ostrom,אלינור אוסטרום,846,Q103083278,John Paul McIver,,,mentor_of,P184,https://www.wikidata.org/wiki/Q103083278#P184,wikidata_statement
+Q168362,John Desmond Bernal,ג'ון דזמונד ברנל,,Q7487,Dorothy Hodgkin,דורותי קרופוט הודג'קין,230,mentor_of,P184,https://www.wikidata.org/wiki/Q7487#P184,wikidata_statement
+Q17321350,Eduard Mulder,,,Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,mentor_of,P1066,https://www.wikidata.org/wiki/Q102822#P1066,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q102314545,Leendert Marinus Koyck,,,mentor_of,P184,https://www.wikidata.org/wiki/Q102314545#P184,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q103338266,Hans Linnemann,,,mentor_of,P184,https://www.wikidata.org/wiki/Q103338266#P184,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q110968,Tjalling Koopmans,צ'אלינג קופמאנס,687,mentor_of,P184,https://www.wikidata.org/wiki/Q110968#P184,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q112416259,Hendricus Cornelis Bos,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q112416259#P1066,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q15127383,Sukhamoy Chakraborty,,,mentor_of,P184,https://www.wikidata.org/wiki/Q15127383#P184,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q2002977,Hans van den Doel,,,mentor_of,P184,https://www.wikidata.org/wiki/Q2002977#P184,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q47339488,Petrus Johannes Verdoorn,,,mentor_of,P184,https://www.wikidata.org/wiki/Q47339488#P184,wikidata_statement
+Q183181,Jan Tinbergen,יאן טינברגן,678,Q64418380,Q64418380,,,mentor_of,P184,https://www.wikidata.org/wiki/Q64418380#P184,wikidata_statement
+Q191020,Gary S. Becker,גארי בקר,708,Q1097475,Claudia Goldin,קלודיה גולדין,1034,mentor_of,P184,https://www.wikidata.org/wiki/Q1097475#P184,wikidata_statement
+Q19571855,Mary Emilie Holmes,מרי אמילי הולמס,,Q180989,Jane Addams,ג'יין אדמס,496,mentor_of,P1066,https://www.wikidata.org/wiki/Q180989#P1066,wikidata_statement
+Q199654,Barbara McClintock,ברברה מקלינטוק,428,Q18643889,Almiro Blumenschein,אלמירו בלומנשיין,,mentor_of,P184,https://www.wikidata.org/wiki/Q18643889#P184,wikidata_statement
+Q234793,Joan Robinson,ג'ואן רובינסון,,Q132489,Amartya Sen,אמרטיה סן,719,mentor_of,P1066,https://www.wikidata.org/wiki/Q132489#P1066,wikidata_statement
+Q237821,Robert Fogel,רוברט פוגל,709,Q1097475,Claudia Goldin,קלודיה גולדין,1034,mentor_of,P184,https://www.wikidata.org/wiki/Q1097475#P184,wikidata_statement
+Q240448,Armen Alchian,ארמן אלצ'יאן,,Q153761,Elinor Ostrom,אלינור אוסטרום,846,mentor_of,P1066,https://www.wikidata.org/wiki/Q153761#P1066,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q102235931,Emil Silbernagel,,,mentor_of,P184,https://www.wikidata.org/wiki/Q102235931#P184,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q102470538,John Patrick Donaghey,,,mentor_of,P184,https://www.wikidata.org/wiki/Q102470538#P184,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q105393,Peter Pringsheim,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q105393#P1066,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q331067,Abram Ioffe,אברם יופה,,mentor_of,P184,https://www.wikidata.org/wiki/Q331067#P184,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q5395181,Ernst Wagner,,,mentor_of,P184,https://www.wikidata.org/wiki/Q5395181#P184,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q5740028,Herman March,,,mentor_of,P184,https://www.wikidata.org/wiki/Q5740028#P184,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q68556,Heinrich Kayser,,,mentor_of,P184,https://www.wikidata.org/wiki/Q68556#P184,wikidata_statement
+Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,Q87502,Rudolf Ladenburg,,,mentor_of,P184,https://www.wikidata.org/wiki/Q87502#P184,wikidata_statement
+Q370468,Piero Sraffa,פיירו סראפה,,Q132489,Amartya Sen,אמרטיה סן,719,mentor_of,P1066,https://www.wikidata.org/wiki/Q132489#P1066,wikidata_statement
+Q4497895,Jack Hirshleifer,,,Q153761,Elinor Ostrom,אלינור אוסטרום,846,mentor_of,P1066,https://www.wikidata.org/wiki/Q153761#P1066,wikidata_statement
+Q4722582,Alfred E. Kahn,,,Q1097475,Claudia Goldin,קלודיה גולדין,1034,mentor_of,P184,https://www.wikidata.org/wiki/Q1097475#P184,wikidata_statement
+Q4746998,Amiya Kumar Dasgupta,,,Q132489,Amartya Sen,אמרטיה סן,719,mentor_of,P1066,https://www.wikidata.org/wiki/Q132489#P1066,wikidata_statement
+Q4822241,Aureliano Maestre de San Juan,,,Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,mentor_of,P184,https://www.wikidata.org/wiki/Q150526#P184,wikidata_statement
+Q556543,Gérard Mourou,ז'ראר מורו,961,Q56855591,Donna Strickland,דונה סטריקלנד,962,mentor_of,P1066,https://www.wikidata.org/wiki/Q56855591#P1066,wikidata_statement
+Q5863042,Florencio Ballarín Causada,,,Q150526,Santiago Ramón y Cajal,סנטיאגו רמון אי קחאל,299,mentor_of,P1066,https://www.wikidata.org/wiki/Q150526#P1066,wikidata_statement
+Q60429,Chandrasekhara Venkata Raman,צ'נדרסקהארה ונקאטה ראמאן,37,Q1760743,S. Pancharatnam,,,mentor_of,P184,https://www.wikidata.org/wiki/Q1760743#P184,wikidata_statement
+Q60429,Chandrasekhara Venkata Raman,צ'נדרסקהארה ונקאטה ראמאן,37,Q325470,Vikram Sarabhai,ויקראם סאראבהאי,,mentor_of,P184,https://www.wikidata.org/wiki/Q325470#P184,wikidata_statement
+Q60429,Chandrasekhara Venkata Raman,צ'נדרסקהארה ונקאטה ראמאן,37,Q4511444,Anna Mani,אנה מני,,mentor_of,P184,https://www.wikidata.org/wiki/Q4511444#P184,wikidata_statement
+Q60429,Chandrasekhara Venkata Raman,צ'נדרסקהארה ונקאטה ראמאן,37,Q6323839,K. R. Ramanathan,ק. ר. רמנתן,,mentor_of,P184,https://www.wikidata.org/wiki/Q6323839#P184,wikidata_statement
+Q60429,Chandrasekhara Venkata Raman,צ'נדרסקהארה ונקאטה ראמאן,37,Q910690,G. N. Ramachandran,גופאלאסמודרם ראמצ'נדרן,,mentor_of,P184,https://www.wikidata.org/wiki/Q910690#P184,wikidata_statement
+Q60554,August Kundt,אוגוסט קונדט,,Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,mentor_of,P1066,https://www.wikidata.org/wiki/Q35149#P1066,wikidata_statement
+Q61818418,Dwaine Marvick,דוויין מרוויק,,Q153761,Elinor Ostrom,אלינור אוסטרום,846,mentor_of,P184,https://www.wikidata.org/wiki/Q153761#P184,wikidata_statement
+Q68225,Gustav Zeuner,גוסטב צוינר,,Q35149,Wilhelm Röntgen,וילהלם רנטגן,1,mentor_of,P184,https://www.wikidata.org/wiki/Q35149#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q103167056,Emile Henriot,,,mentor_of,P184,https://www.wikidata.org/wiki/Q103167056#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q115206499,Joseph-Ernest Gendreau,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q115206499#P1066,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q16559447,Gioacchino Failla,,,mentor_of,P184,https://www.wikidata.org/wiki/Q16559447#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q18507270,Ștefania Mărăcineanu,סטפניה מרצ'ינאנו,,mentor_of,P184,https://www.wikidata.org/wiki/Q18507270#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q241822,Marguerite Perey,מרגריט פרי,,mentor_of,P184,https://www.wikidata.org/wiki/Q241822#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q3107416,Émile Henriot,,,mentor_of,P184,https://www.wikidata.org/wiki/Q3107416#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q3593654,Óscar Moreno,,,mentor_of,P184,https://www.wikidata.org/wiki/Q3593654#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q433169,Ellen Gleditsch,,,mentor_of,P802,https://www.wikidata.org/wiki/Q7186#P802,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q4511438,Alice Leigh-Smith,,,mentor_of,P1066,https://www.wikidata.org/wiki/Q4511438#P1066,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q468371,André-Louis Debierne,אנדרה לואי דביירן,,mentor_of,P184,https://www.wikidata.org/wiki/Q468371#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q67180509,Zheng Dazhang,,,mentor_of,P184,https://www.wikidata.org/wiki/Q67180509#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q7504,Irène Joliot-Curie,אירן ז'וליו-קירי,194,mentor_of,P802,https://www.wikidata.org/wiki/Q7186#P802,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q9031531,Shi Shiyuan,,,mentor_of,P184,https://www.wikidata.org/wiki/Q9031531#P184,wikidata_statement
+Q7186,Marie Curie,מארי קירי,6,Q9663423,Branca Edmée Marques,,,mentor_of,P184,https://www.wikidata.org/wiki/Q9663423#P184,wikidata_statement
+Q7361264,Rollins Adams Emerson,רולינס א. אמרסון,,Q199654,Barbara McClintock,ברברה מקלינטוק,428,mentor_of,P184,https://www.wikidata.org/wiki/Q199654#P184,wikidata_statement
+Q7487,Dorothy Hodgkin,דורותי קרופוט הודג'קין,230,Q102289521,Judith Ann Kathleen Howard,,,mentor_of,P184,https://www.wikidata.org/wiki/Q102289521#P184,wikidata_statement
+Q7487,Dorothy Hodgkin,דורותי קרופוט הודג'קין,230,Q45766574,Barbara Wharton Low,ברברה וורטון לואו,,mentor_of,P184,https://www.wikidata.org/wiki/Q45766574#P184,wikidata_statement
+Q7487,Dorothy Hodgkin,דורותי קרופוט הודג'קין,230,Q6303470,Judith Howard,ג'ודית האווארד,,mentor_of,P184,https://www.wikidata.org/wiki/Q6303470#P184,wikidata_statement
+Q7487,Dorothy Hodgkin,דורותי קרופוט הודג'קין,230,Q7814993,Tom Blundell,טום בלאנדל,,mentor_of,P184,https://www.wikidata.org/wiki/Q7814993#P184,wikidata_statement
+Q7487,Dorothy Hodgkin,דורותי קרופוט הודג'קין,230,Q92903,David Sayre,,,mentor_of,P184,https://www.wikidata.org/wiki/Q92903#P184,wikidata_statement
+Q76784,August Kekulé,פרידריך אוגוסט קקולה,,Q102822,Jacobus Henricus van 't Hoff,יאקובוס ואן 'ט הוף,160,mentor_of,P1066,https://www.wikidata.org/wiki/Q102822#P1066,wikidata_statement
+Q84227,Paul Ehrenfest,פאול ארנפסט,,Q183181,Jan Tinbergen,יאן טינברגן,678,mentor_of,P184,https://www.wikidata.org/wiki/Q183181#P184,wikidata_statement

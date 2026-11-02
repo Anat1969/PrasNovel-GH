@@ -1,0 +1,857 @@
+nobel_id,year,field,institution,institution_now,ror_id,city,country,country_now,continent
+745,2001,economics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+102,1975,physics,Niels Bohr Institute,Niels Bohr Institute,,Copenhagen,Denmark,Denmark,Europe
+779,2004,chemistry,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,,Haifa,Israel,Israel,Asia
+259,1982,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+114,1979,physics,International Centre for Theoretical Physics,International Centre for Theoretical Physics,,Trieste,Italy,Italy,Europe
+114,1979,physics,Imperial College,Imperial College,,London,United Kingdom,United Kingdom,Europe
+982,2019,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+843,2009,chemistry,Weizmann Institute of Science,Weizmann Institute of Science,,Rehovot,Israel,Israel,Asia
+866,2011,physics,Johns Hopkins University,Johns Hopkins University,,"Baltimore, MD",USA,USA,North America
+866,2011,physics,Space Telescope Science Institute,Space Telescope Science Institute,,"Baltimore, MD",USA,USA,North America
+199,1939,chemistry,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,,Berlin-Dahlem,Germany,Germany,Europe
+199,1939,chemistry,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+164,1905,chemistry,Munich University,Munich University,,Munich,Germany,Germany,Europe
+185,1928,chemistry,Goettingen University,Goettingen University,,Göttingen,Germany,Germany,Europe
+292,1999,chemistry,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+853,2010,chemistry,Hokkaido University,Hokkaido University,,Sapporo,Japan,Japan,Asia
+978,2019,chemistry,Asahi Kasei Corporation,Asahi Kasei Corporation,,Tokyo,Japan,Japan,Asia
+978,2019,chemistry,Meijo University,Meijo University,,Nagoya,Japan,Japan,Asia
+1012,2022,physics,Institut d’Optique Graduate School – Université Paris-Saclay,Institut d’Optique Graduate School – Université Paris-Saclay,,Paris,France,France,Europe
+1012,2022,physics,École Polytechnique,École Polytechnique,,Palaiseau,France,France,Europe
+729,2000,chemistry,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+376,1963,medicine,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+730,2000,chemistry,University of Pennsylvania,University of Pennsylvania,,"Philadelphia, PA",USA,USA,North America
+11,1907,physics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+403,1974,medicine,Université Catholique de Louvain,Université Catholique de Louvain,,Louvain,Belgium,Belgium,Europe
+26,1921,physics,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,,Berlin,Germany,Germany,Europe
+814,2007,physics,Universit&eacute; Paris-Sud,Universit&eacute; Paris-Sud,,Orsay,France,France,Europe
+814,2007,physics,Unit&eacute; Mixte de Physique CNRS/THALES,Unit&eacute; Mixte de Physique CNRS/THALES,,Orsay,France,France,Europe
+332,1937,medicine,Szeged University,Szeged University,,Szeged,Hungary,Hungary,Europe
+304,1910,medicine,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+83,1964,physics,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,,Moscow,USSR,Russia,Europe
+1031,2023,chemistry,Nanocrystals Technology Inc.,Nanocrystals Technology Inc.,,"New York, NY",USA,USA,North America
+766,2003,physics,Argonne National Laboratory,Argonne National Laboratory,,"Argonne, IL",USA,USA,North America
+306,1912,medicine,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,,"New York, NY",USA,USA,North America
+392,1969,medicine,Carnegie Institution of Washington,Carnegie Institution of Washington,,"Long Island, New York, NY",USA,USA,North America
+450,1994,medicine,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,,"Dallas, TX",USA,USA,North America
+87,1966,physics,École Normale Supérieure,École Normale Supérieure,,Paris,France,France,Europe
+174,1913,chemistry,University of Zurich,University of Zurich,,Zurich,Switzerland,Switzerland,Europe
+417,1979,medicine,Tufts University,Tufts University,,"Medford, MA",USA,USA,North America
+305,1911,medicine,Uppsala University,Uppsala University,,Uppsala,Sweden,Sweden,Europe
+300,1907,medicine,Institut Pasteur,Institut Pasteur,,Paris,France,France,Europe
+882,2012,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+882,2012,economics,Harvard Business School,Harvard Business School,,"Boston, MA",USA,USA,North America
+719,1998,economics,Trinity College,Trinity College,,Cambridge,United Kingdom,United Kingdom,Europe
+360,1956,medicine,"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital","Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital",,"New York, NY",USA,USA,North America
+849,2010,physics,University of Manchester,University of Manchester,,Manchester,United Kingdom,United Kingdom,Europe
+381,1965,medicine,Institut Pasteur,Institut Pasteur,,Paris,France,France,Europe
+990,2020,physics,University of California,University of California,,"Los Angeles, CA",USA,USA,North America
+377,1963,medicine,University College,University College,,London,United Kingdom,United Kingdom,Europe
+412,1977,medicine,Veterans Administration Hospital,Veterans Administration Hospital,,"New Orleans, LA",USA,USA,North America
+802,2006,medicine,Stanford University School of Medicine,Stanford University School of Medicine,,"Stanford, CA",USA,USA,North America
+926,2015,economics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+1028,2023,physics,Lund University,Lund University,,Lund,Sweden,Sweden,Europe
+768,2003,physics,University of Illinois,University of Illinois,,"Urbana, IL",USA,USA,North America
+1014,2022,physics,University of Vienna,University of Vienna,,Vienna,Austria,Austria,Europe
+1014,2022,physics,"Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences","Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences",,Vienna,Austria,Austria,Europe
+101,1974,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+214,1952,chemistry,National Institute for Medical Research,National Institute for Medical Research,,London,United Kingdom,United Kingdom,Europe
+311,1922,medicine,London University,London University,,London,United Kingdom,United Kingdom,Europe
+998,2021,medicine,Scripps Research,Scripps Research,,"La Jolla, CA",USA,USA,North America
+998,2021,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+891,2013,chemistry,University of Southern California,University of Southern California,,"Los Angeles, CA",USA,USA,North America
+208,1948,chemistry,Uppsala University,Uppsala University,,Uppsala,Sweden,Sweden,Europe
+111,1978,physics,Bell Laboratories,Bell Laboratories,,"Holmdel, NJ",USA,USA,North America
+960,2018,physics,Bell Laboratories,Bell Laboratories,,"Holmdel, NJ",USA,USA,North America
+920,2015,physics,Queen's University,Queen's University,,Kingston,Canada,Canada,North America
+33,1927,physics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+186,1929,chemistry,London University,London University,,London,United Kingdom,United Kingdom,Europe
+368,1959,medicine,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+119,1981,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+203,1945,chemistry,University of Helsinki,University of Helsinki,,Helsinki,Finland,Finland,Europe
+722,2000,medicine,Göteborg University,Göteborg University,,Gothenburg,Sweden,Sweden,Europe
+310,1920,medicine,Copenhagen University,Copenhagen University,,Copenhagen,Denmark,Denmark,Europe
+780,2004,chemistry,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,,Haifa,Israel,Israel,Asia
+923,2015,chemistry,University of North Carolina,University of North Carolina,,"Chapel Hill, NC",USA,USA,North America
+428,1983,medicine,Cold Spring Harbor Laboratory,Cold Spring Harbor Laboratory,,"Cold Spring Harbor, NY",USA,USA,North America
+942,2017,physics,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,,,,,
+942,2017,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+789,2005,medicine,"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre","NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre",,Nedlands,Australia,Australia,Oceania
+789,2005,medicine,University of Western Australia,University of Western Australia,,Perth,Australia,Australia,Oceania
+409,1976,medicine,The Institute for Cancer Research,The Institute for Cancer Research,,"Philadelphia, PA",USA,USA,North America
+419,1980,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+1021,2022,economics,The Brookings Institution,The Brookings Institution,,"Washington, D.C.",USA,USA,North America
+103,1975,physics,Nordita,Nordita,,Copenhagen,Denmark,Denmark,Europe
+936,2016,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+426,1982,medicine,Karolinska Institutet,Karolinska Institutet,,Stockholm,Sweden,Sweden,Europe
+1002,2021,chemistry,Max-Planck-Institut für Kohlenforschung,Max-Planck-Institut für Kohlenforschung,,Mülheim an der Ruhr,Germany,Germany,Europe
+933,2016,chemistry,University of Groningen,University of Groningen,,Groningen,the Netherlands,the Netherlands,Europe
+345,1947,medicine,Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),,Buenos Aires,Argentina,Argentina,South America
+445,1991,medicine,Max-Planck-Institut für medizinische Forschung,Max-Planck-Institut für medizinische Forschung,,Heidelberg,Germany,Germany,Europe
+689,1977,economics,Stockholm School of Economics,Stockholm School of Economics,,Stockholm,Sweden,Sweden,Europe
+145,1994,physics,McMaster University,McMaster University,,"Hamilton, Ontario",Canada,Canada,North America
+99,1973,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+879,2012,chemistry,Stanford University School of Medicine,Stanford University School of Medicine,,"Stanford, CA",USA,USA,North America
+865,2011,physics,Australian National University,Australian National University,,Weston Creek,Australia,Australia,Oceania
+861,2011,medicine,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,,"Dallas, TX",USA,USA,North America
+861,2011,medicine,The Scripps Research Institute,The Scripps Research Institute,,"La Jolla, CA",USA,USA,North America
+261,1984,chemistry,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+105,1976,physics,Stanford Linear Accelerator Center,Stanford Linear Accelerator Center,,"Stanford, CA",USA,USA,North America
+34,1927,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+298,1906,medicine,Pavia University,Pavia University,,Pavia,Italy,Italy,Europe
+189,1931,chemistry,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+189,1931,chemistry,I.G. Farbenindustrie A.G.,I.G. Farbenindustrie A.G.,,Heidelberg,Germany,Germany,Europe
+343,1947,medicine,Washington University,Washington University,,"St. Louis, MO",USA,USA,North America
+43,1936,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+740,2001,physics,"University of Colorado, JILA","University of Colorado, JILA",,"Boulder, CO",USA,USA,North America
+124,1984,physics,CERN,CERN,,Geneva,Switzerland,Switzerland,Europe
+836,2009,medicine,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,,"Baltimore, MD",USA,USA,North America
+1015,2022,chemistry,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+1015,2022,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+55,1950,physics,Bristol University,Bristol University,,Bristol,United Kingdom,United Kingdom,Europe
+431,1984,medicine,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+384,1966,medicine,"University of Chicago, Ben May Laboratory for Cancer Research","University of Chicago, Ben May Laboratory for Cancer Research",,"Chicago, IL",USA,USA,North America
+25,1920,physics,Bureau International des Poids et Mesures (International Bureau of Weights and Measures),Bureau International des Poids et Mesures (International Bureau of Weights and Measures),,Sèvres,France,France,Europe
+22,1917,physics,Edinburgh University,Edinburgh University,,Edinburgh,United Kingdom,United Kingdom,Europe
+81,1964,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+269,1987,chemistry,Du Pont,Du Pont,,"Wilmington, DE",USA,USA,North America
+838,2009,physics,Standard Telecommunication Laboratories,Standard Telecommunication Laboratories,,Harlow,United Kingdom,United Kingdom,Europe
+838,2009,physics,Chinese University of Hong Kong,Chinese University of Hong Kong,,Hong Kong,China,China,Asia
+987,2020,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+318,1928,medicine,Institut Pasteur,Institut Pasteur,,Tunis,Tunisia,Tunisia,Africa
+307,1913,medicine,Sorbonne University,Sorbonne University,,Paris,France,France,Europe
+68,1957,physics,Institute for Advanced Study,Institute for Advanced Study,,"Princeton, NJ",USA,USA,North America
+319,1929,medicine,Utrecht University,Utrecht University,,Utrecht,the Netherlands,the Netherlands,Europe
+241,1972,chemistry,National Institutes of Health,National Institutes of Health,,"Bethesda, MD",USA,USA,North America
+404,1974,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+404,1974,medicine,Université Catholique de Louvain,Université Catholique de Louvain,,Louvain,Belgium,Belgium,Europe
+453,1995,medicine,Max-Planck-Institut für Entwicklungsbiologie,Max-Planck-Institut für Entwicklungsbiologie,,Tübingen,Germany,Germany,Europe
+858,2010,economics,London School of Economics and Political Science,London School of Economics and Political Science,,London,United Kingdom,United Kingdom,Europe
+873,2011,economics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+153,1997,physics,Collège de France,Collège de France,,Paris,France,France,Europe
+153,1997,physics,École Normale Supérieure,École Normale Supérieure,,Paris,France,France,Europe
+1034,2023,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+146,1994,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+44,1937,physics,Bell Telephone Laboratories,Bell Telephone Laboratories,,"New York, NY",USA,USA,North America
+772,2003,economics,University of California,University of California,,"San Diego, CA",USA,USA,North America
+333,1938,medicine,Ghent University,Ghent University,,Ghent,Belgium,Belgium,Europe
+803,2006,medicine,University of Massachusetts Medical School,University of Massachusetts Medical School,,"Worcester, MA",USA,USA,North America
+410,1976,medicine,National Institutes of Health,National Institutes of Health,,"Bethesda, MD",USA,USA,North America
+857,2010,economics,Northwestern University,Northwestern University,,"Evanston, IL",USA,USA,North America
+857,2010,economics,Aarhus University,Aarhus University,,Aarhus,Denmark,Denmark,Europe
+867,2011,chemistry,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,,Haifa,Israel,Israel,Asia
+363,1957,medicine,Istituto Superiore di Sanità (Chief Institute of Public Health),Istituto Superiore di Sanità (Chief Institute of Public Health),,Rome,Italy,Italy,Europe
+157,1998,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+759,2002,economics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+733,2000,economics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+415,1978,medicine,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,,"Baltimore, MD",USA,USA,North America
+1044,2024,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+1039,2024,chemistry,University of Washington,University of Washington,,"Seattle, WA",USA,USA,North America
+1039,2024,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+406,1975,medicine,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+1007,2021,economics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+423,1981,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+776,2004,physics,"University of California, Kavli Institute for Theoretical Physics","University of California, Kavli Institute for Theoretical Physics",,"Santa Barbara, CA",USA,USA,North America
+928,2016,physics,University of Washington,University of Washington,,"Seattle, WA",USA,USA,North America
+877,2012,physics,National Institute of Standards and Technology,National Institute of Standards and Technology,,"Boulder, CO",USA,USA,North America
+877,2012,physics,University of Colorado,University of Colorado,,"Boulder, CO",USA,USA,North America
+997,2021,medicine,University of California,University of California,,"San Francisco, CA",USA,USA,North America
+149,1996,physics,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+1003,2021,chemistry,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+1040,2024,chemistry,Google DeepMind,Google DeepMind,,London,United Kingdom,United Kingdom,Europe
+93,1971,physics,Imperial College,Imperial College,,London,United Kingdom,United Kingdom,Europe
+237,1969,chemistry,Imperial College,Imperial College,,London,United Kingdom,United Kingdom,Europe
+362,1956,medicine,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+975,2019,physics,University of Geneva,University of Geneva,,Geneva,Switzerland,Switzerland,Europe
+975,2019,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+74,1960,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+267,1987,chemistry,University of California,University of California,,"Los Angeles, CA",USA,USA,North America
+962,2018,physics,University of Waterloo,University of Waterloo,,Waterloo,Canada,Canada,North America
+230,1964,chemistry,"University of Oxford, Royal Society","University of Oxford, Royal Society",,Oxford,United Kingdom,United Kingdom,Europe
+150,1996,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+1022,2022,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+710,1993,economics,Washington University,Washington University,,"St. Louis, MO",USA,USA,North America
+1025,2023,medicine,"Penn Institute for RNA Innovations, University of Pennsylvania","Penn Institute for RNA Innovations, University of Pennsylvania",,"Philadelphia, PA",USA,USA,North America
+264,1986,chemistry,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+443,1990,medicine,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,,"Seattle, WA",USA,USA,North America
+59,1952,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+397,1971,medicine,Vanderbilt University,Vanderbilt University,,"Nashville, TN",USA,USA,North America
+324,1932,medicine,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+446,1992,medicine,University of Washington,University of Washington,,"Seattle, WA",USA,USA,North America
+807,2006,economics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+166,1907,chemistry,Landwirtschaftliche Hochschule (Agricultural College),Landwirtschaftliche Hochschule (Agricultural College),,Berlin,Germany,Germany,Europe
+905,2014,medicine,Norwegian University of Science and Technology (NTNU),Norwegian University of Science and Technology (NTNU),,Trondheim,Norway,Norway,Europe
+336,1943,medicine,Saint Louis University,Saint Louis University,,"St. Louis, MO",USA,USA,North America
+452,1995,medicine,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+349,1950,medicine,Mayo Clinic,Mayo Clinic,,"Rochester, MN",USA,USA,North America
+787,2004,economics,Arizona State University,Arizona State University,,"Tempe, AZ",USA,USA,North America
+787,2004,economics,Federal Reserve Bank of Minneapolis,Federal Reserve Bank of Minneapolis,,"Minneapolis, MN",USA,USA,North America
+365,1958,medicine,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,,"New York, NY",USA,USA,North America
+52,1947,physics,Department of Scientific and Industrial Research,Department of Scientific and Industrial Research,,London,United Kingdom,United Kingdom,Europe
+447,1992,medicine,University of Washington,University of Washington,,"Seattle, WA",USA,USA,North America
+212,1951,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+348,1949,medicine,University of Lisbon,University of Lisbon,,Lisbon,Portugal,Portugal,Europe
+348,1949,medicine,Neurological Institute,Neurological Institute,,Lisbon,Portugal,Portugal,Europe
+852,2010,chemistry,Purdue University,Purdue University,,"West Lafayette, IN",USA,USA,North America
+275,1990,chemistry,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+846,2009,economics,Indiana University,Indiana University,,"Bloomington, IN",USA,USA,North America
+846,2009,economics,Arizona State University,Arizona State University,,"Tempe, AZ",USA,USA,North America
+835,2009,medicine,University of California,University of California,,"San Francisco, CA",USA,USA,North America
+161,1902,chemistry,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+293,1901,medicine,Marburg University,Marburg University,,Marburg,Germany,Germany,Europe
+72,1959,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+991,2020,chemistry,Max Planck Unit for the Science of Pathogens,Max Planck Unit for the Science of Pathogens,,Berlin,Germany,Germany,Europe
+46,1938,physics,Rome University,Rome University,,Rome,Italy,Italy,Europe
+909,2014,chemistry,"Janelia Research Campus, Howard Hughes Medical Institute","Janelia Research Campus, Howard Hughes Medical Institute",,"Ashburn, VA",USA,USA,North America
+738,2001,physics,"University of Colorado, JILA","University of Colorado, JILA",,"Boulder, CO",USA,USA,North America
+454,1995,medicine,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+724,2000,medicine,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+821,2007,economics,Institute for Advanced Study,Institute for Advanced Study,,"Princeton, NJ",USA,USA,North America
+47,1939,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+167,1908,chemistry,Victoria University,Victoria University,,Manchester,United Kingdom,United Kingdom,Europe
+57,1951,physics,Trinity College,Trinity College,,Dublin,Ireland,Ireland,Europe
+340,1945,medicine,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+244,1973,chemistry,Technical University,Technical University,,Munich,Germany,Germany,Europe
+127,1986,physics,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Fritz-Haber-Institut der Max-Planck-Gesellschaft,,Berlin,Germany,Germany,Europe
+444,1991,medicine,Max-Planck-Institut für Biophysikalische Chemie,Max-Planck-Institut für Biophysikalische Chemie,,Göttingen,Germany,Germany,Europe
+39,1933,physics,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+983,2019,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+894,2013,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+78,1963,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+929,2016,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+283,1995,chemistry,University of California,University of California,,"Irvine, CA",USA,USA,North America
+58,1952,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+379,1964,medicine,Max-Planck-Institut für Zellchemie,Max-Planck-Institut für Zellchemie,,Munich,Germany,Germany,Europe
+14,1909,physics,Strasbourg University,Strasbourg University,,Strasbourg,Germany,France,Europe
+1027,2023,physics,Max Planck Institute of Quantum Optics,Max Planck Institute of Quantum Optics,,Garching,Germany,Germany,Europe
+1027,2023,physics,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,,Munich,Germany,Germany,Europe
+460,1998,medicine,University of Texas Medical School at Houston,University of Texas Medical School at Houston,,"Houston, TX",USA,USA,North America
+786,2004,economics,Carnegie Mellon University,Carnegie Mellon University,,"Pittsburgh, PA",USA,USA,North America
+786,2004,economics,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+963,2018,chemistry,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+372,1962,medicine,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+1064,2026,physics,University of Wisconsin–Madison,University of Wisconsin–Madison,,"Madison, WI",USA,USA,North America
+180,1922,chemistry,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+699,1985,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+887,2013,physics,Université Libre de Bruxelles,Université Libre de Bruxelles,,Brussels,Belgium,Belgium,Europe
+380,1965,medicine,Institut Pasteur,Institut Pasteur,,Paris,France,France,Europe
+824,2008,medicine,"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur","Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur",,Paris,France,France,Europe
+778,2004,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+1048,2025,medicine,Sonoma Biotherapeutics,Sonoma Biotherapeutics,,"San Francisco, CA",USA,USA,North America
+193,1935,chemistry,Institut du Radium,Institut du Radium,,Paris,France,France,Europe
+358,1954,medicine,Western Reserve University,Western Reserve University,,"Cleveland, OH",USA,USA,North America
+313,1923,medicine,University of Toronto,University of Toronto,,Toronto,Canada,Canada,North America
+148,1995,physics,University of California,University of California,,"Irvine, CA",USA,USA,North America
+222,1958,chemistry,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+222,1980,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+179,1921,chemistry,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+190,1931,chemistry,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+190,1931,chemistry,I.G. Farbenindustrie A.G.,I.G. Farbenindustrie A.G.,,Mannheim-Rheinau,Germany,Germany,Europe
+60,1953,physics,Groningen University,Groningen University,,Groningen,the Netherlands,the Netherlands,Europe
+177,1918,chemistry,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,,Berlin-Dahlem,Germany,Germany,Europe
+355,1953,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+355,1953,medicine,Massachusetts General Hospital,Massachusetts General Hospital,,"Boston, MA",USA,USA,North America
+181,1923,chemistry,Graz University,Graz University,,Graz,Austria,Austria,Europe
+12,1908,physics,Sorbonne University,Sorbonne University,,Paris,France,France,Europe
+708,1992,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+1036,2024,medicine,Massachusetts General Hospital,Massachusetts General Hospital,,"Boston, MA",USA,USA,North America
+1036,2024,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+1038,2024,physics,University of Toronto,University of Toronto,,Toronto,Canada,Canada,North America
+245,1973,chemistry,Imperial College,Imperial College,,London,United Kingdom,United Kingdom,Europe
+1063,2026,medicine,University of Würzburg,University of Würzburg,,Würzburg,Germany,Germany,Europe
+371,1961,medicine,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+253,1979,chemistry,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+744,2001,economics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+280,1994,chemistry,University of Southern California,University of Southern California,,"Los Angeles, CA",USA,USA,North America
+364,1958,medicine,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+421,1980,medicine,Jackson Laboratory,Jackson Laboratory,,"Bar Harbor, ME",USA,USA,North America
+201,1943,chemistry,Stockholm University,Stockholm University,,Stockholm,Sweden,Sweden,Europe
+405,1974,medicine,"Yale University, School of Medicine","Yale University, School of Medicine",,"New Haven, CT",USA,USA,North America
+840,2009,physics,Bell Laboratories,Bell Laboratories,,"Murray Hill, NJ",USA,USA,North America
+805,2006,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+439,1988,medicine,Wellcome Research Laboratories,Wellcome Research Laboratories,,"Research Triangle Park, NC",USA,USA,North America
+326,1934,medicine,University of Rochester,University of Rochester,,"Rochester, NY",USA,USA,North America
+696,1982,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+964,2018,chemistry,University of Missouri,University of Missouri,,Columbia,USA,USA,North America
+45,1937,physics,London University,London University,,London,United Kingdom,United Kingdom,Europe
+235,1967,chemistry,Royal Institution of Great Britain,Royal Institution of Great Britain,,London,United Kingdom,United Kingdom,Europe
+327,1934,medicine,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+387,1967,medicine,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+142,1992,physics,École Supérieure de Physique et Chimie,École Supérieure de Physique et Chimie,,Paris,France,France,Europe
+142,1992,physics,CERN,CERN,,Geneva,Switzerland,Switzerland,Europe
+430,1984,medicine,Basel Institute for Immunology,Basel Institute for Immunology,,Basel,Switzerland,Switzerland,Europe
+398,1972,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+697,1983,economics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+961,2018,physics,École Polytechnique,École Polytechnique,,Palaiseau,France,France,Europe
+961,2018,physics,University of Michigan,University of Michigan,,"Ann Arbor, MI",USA,USA,North America
+158,1999,physics,Utrecht University,Utrecht University,,Utrecht,the Netherlands,the Netherlands,Europe
+128,1986,physics,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,,Rüschlikon,Switzerland,Switzerland,Europe
+334,1939,medicine,Munster University,Munster University,,Munster,Germany,Germany,Europe
+816,2007,chemistry,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Fritz-Haber-Institut der Max-Planck-Gesellschaft,,Berlin,Germany,Germany,Europe
+240,1971,chemistry,National Research Council of Canada,National Research Council of Canada,,Ottawa,Canada,Canada,North America
+438,1988,medicine,Wellcome Research Laboratories,Wellcome Research Laboratories,,"Research Triangle Park, NC",USA,USA,North America
+344,1947,medicine,Washington University,Washington University,,"St. Louis, MO",USA,USA,North America
+1001,2021,physics,Sapienza University of Rome,Sapienza University of Rome,,Rome,Italy,Italy,Europe
+229,1963,chemistry,Institute of Technology,Institute of Technology,,Milan,Italy,Italy,Europe
+213,1951,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+418,1979,medicine,"Central Research Laboratories, EMI","Central Research Laboratories, EMI",,London,United Kingdom,United Kingdom,Europe
+972,2019,medicine,Johns Hopkins University,Johns Hopkins University,,"Baltimore, MD",USA,USA,North America
+13,1909,physics,Marconi Wireless Telegraph Co. Ltd.,Marconi Wireless Telegraph Co. Ltd.,,London,United Kingdom,United Kingdom,Europe
+1009,2021,economics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+461,1999,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+461,1999,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+17,1912,physics,Swedish Gas-Accumulator Co.,Swedish Gas-Accumulator Co.,,"Lidingö, Stockholm",Sweden,Sweden,Europe
+31,1925,physics,Halle University,Halle University,,Halle,Germany,Germany,Europe
+777,2004,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+389,1968,medicine,University of Wisconsin,University of Wisconsin,,"Madison, WI",USA,USA,North America
+751,2002,medicine,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+416,1978,medicine,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,,"Baltimore, MD",USA,USA,North America
+91,1970,physics,Royal Institute of Technology,Royal Institute of Technology,,Stockholm,Sweden,Sweden,Europe
+88,1967,physics,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+188,1930,chemistry,Technische Hochschule (Institute of Technology),Technische Hochschule (Institute of Technology),,Munich,Germany,Germany,Europe
+136,1989,physics,University of Washington,University of Washington,,"Seattle, WA",USA,USA,North America
+354,1953,medicine,Sheffield University,Sheffield University,,Sheffield,United Kingdom,United Kingdom,Europe
+329,1935,medicine,University of Freiburg im Breisgau,University of Freiburg im Breisgau,,Breisgau,Germany,Germany,Europe
+187,1929,chemistry,Stockholm University,Stockholm University,,Stockholm,Sweden,Sweden,Europe
+823,2008,medicine,German Cancer Research Center,German Cancer Research Center,,Heidelberg,Germany,Germany,Europe
+192,1934,chemistry,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+441,1989,medicine,University of California School of Medicine,University of California School of Medicine,,"San Francisco, CA",USA,USA,North America
+704,1990,economics,City University of New York,City University of New York,,"New York, NY",USA,USA,North America
+272,1988,chemistry,Max-Planck-Institut für Biophysik,Max-Planck-Institut für Biophysik,,Frankfurt-on-the-Main,Germany,Germany,Europe
+985,2020,medicine,National Institutes of Health,National Institutes of Health,,"Bethesda, MD",USA,USA,North America
+18,1913,physics,Leiden University,Leiden University,,Leiden,the Netherlands,the Netherlands,Europe
+129,1986,physics,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,,Rüschlikon,Switzerland,Switzerland,Europe
+184,1927,chemistry,Munich University,Munich University,,Munich,Germany,Germany,Europe
+2,1902,physics,Leiden University,Leiden University,,Leiden,the Netherlands,the Netherlands,Europe
+1065,2026,chemistry,Universit&eacute; Paris-Sud,Universit&eacute; Paris-Sud,,Orsay,France,France,Europe
+4,1903,physics,École Polytechnique,École Polytechnique,,Paris,France,France,Europe
+165,1906,chemistry,Sorbonne University,Sorbonne University,,Paris,France,France,Europe
+335,1943,medicine,Polytechnic Institute,Polytechnic Institute,,Copenhagen,Denmark,Denmark,Europe
+260,1983,chemistry,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+139,1990,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+262,1985,chemistry,The Medical Foundation of Buffalo,The Medical Foundation of Buffalo,,"Buffalo, NY",USA,USA,North America
+252,1979,chemistry,Purdue University,Purdue University,,"West Lafayette, IN",USA,USA,North America
+727,2000,physics,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+338,1944,medicine,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,,"New York, NY",USA,USA,North America
+691,1978,economics,Carnegie Mellon University,Carnegie Mellon University,,"Pittsburgh, PA",USA,USA,North America
+342,1946,medicine,Indiana University,Indiana University,,"Bloomington, IN",USA,USA,North America
+216,1953,chemistry,University of Freiburg,University of Freiburg,,Breisgau,Germany,Germany,Europe
+216,1953,chemistry,"Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg","Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg",,Breisgau,Germany,Germany,Europe
+731,2000,chemistry,University of Tsukuba,University of Tsukuba,,Tsukuba,Japan,Japan,Asia
+54,1949,physics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+54,1949,physics,Kyoto University,Kyoto University,,Kyoto,Japan,Japan,Asia
+907,2014,physics,Nagoya University,Nagoya University,,Nagoya,Japan,Japan,Asia
+156,1998,physics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+408,1975,medicine,University of Wisconsin,University of Wisconsin,,"Madison, WI",USA,USA,North America
+359,1955,medicine,"Karolinska Institutet, Nobel Medical Institute","Karolinska Institutet, Nobel Medical Institute",,Stockholm,Sweden,Sweden,Europe
+71,1958,physics,Lomonosov Moscow State University,Lomonosov Moscow State University,,Moscow,USSR,Russia,Europe
+71,1958,physics,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,,Moscow,USSR,Russia,Europe
+721,1958,physics,Lomonosov Moscow State University,Lomonosov Moscow State University,,Moscow,USSR,Russia,Europe
+721,1958,physics,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,,Moscow,USSR,Russia,Europe
+301,1908,medicine,Institut Pasteur,Institut Pasteur,,Paris,France,France,Europe
+250,1977,chemistry,Université Libre de Bruxelles,Université Libre de Bruxelles,,Brussels,Belgium,Belgium,Europe
+250,1977,chemistry,University of Texas,University of Texas,,"Austin, TX",USA,USA,North America
+194,1935,chemistry,Institut du Radium,Institut du Radium,,Paris,France,France,Europe
+191,1932,chemistry,General Electric Company,General Electric Company,,"Schenectady, NY",USA,USA,North America
+781,2004,chemistry,University of California,University of California,,"Irvine, CA",USA,USA,North America
+906,2014,physics,Meijo University,Meijo University,,Nagoya,Japan,Japan,Asia
+906,2014,physics,Nagoya University,Nagoya University,,Nagoya,Japan,Japan,Asia
+49,1944,physics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+296,1904,medicine,Military Medical Academy,Military Medical Academy,,St. Petersburg,Russia,Russia,Europe
+98,1973,physics,General Electric Company,General Electric Company,,"Schenectady, NY",USA,USA,North America
+130,1987,physics,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,,Rüschlikon,Switzerland,Switzerland,Europe
+80,1963,physics,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+440,1989,medicine,University of California School of Medicine,University of California School of Medicine,,"San Francisco, CA",USA,USA,North America
+930,2016,physics,Brown University,Brown University,,"Providence, RI",USA,USA,North America
+10,1906,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+728,2000,physics,Texas Instruments,Texas Instruments,,"Dallas, TX",USA,USA,North America
+134,1988,physics,CERN,CERN,,Geneva,Switzerland,Switzerland,Europe
+837,2009,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+837,2009,medicine,Massachusetts General Hospital,Massachusetts General Hospital,,"Boston, MA",USA,USA,North America
+837,2009,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+160,1901,chemistry,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+944,2017,chemistry,University of Lausanne,University of Lausanne,,Lausanne,Switzerland,Switzerland,Europe
+382,1965,medicine,Institut Pasteur,Institut Pasteur,,Paris,France,France,Europe
+715,1996,economics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+1046,2024,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+204,1946,chemistry,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+41,1935,physics,Liverpool University,Liverpool University,,Liverpool,United Kingdom,United Kingdom,Europe
+116,1980,physics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+690,1977,economics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+884,2013,medicine,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+30,1925,physics,Goettingen University,Goettingen University,,Göttingen,Germany,Germany,Europe
+732,2000,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+700,1986,economics,Center for Study of Public Choice,Center for Study of Public Choice,,"Fairfax, VA",USA,USA,North America
+958,2018,medicine,Parker Institute for Cancer Immunotherapy,Parker Institute for Cancer Immunotherapy,,"San Francisco, CA",USA,USA,North America
+958,2018,medicine,University of Texas MD Anderson Cancer Center,University of Texas MD Anderson Cancer Center,,"Houston, TX",USA,USA,North America
+973,2019,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+104,1975,physics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+695,1981,economics,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+373,1962,medicine,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+678,1969,economics,The Netherlands School of Economics,The Netherlands School of Economics,,Rotterdam,the Netherlands,the Netherlands,Europe
+223,1959,chemistry,Polarographic Institute of the Czechoslovak Academy of Science,Polarographic Institute of the Czechoslovak Academy of Science,,Prague,Czechoslovakia,Czech Republic,Europe
+32,1926,physics,Sorbonne University,Sorbonne University,,Paris,France,France,Europe
+420,1980,medicine,"Université de Paris, Laboratoire Immuno-Hématologie","Université de Paris, Laboratoire Immuno-Hématologie",,Paris,France,France,Europe
+915,2014,economics,Toulouse School of Economics (TSE),Toulouse School of Economics (TSE),,Toulouse,France,France,Europe
+268,1987,chemistry,Université Louis Pasteur,Université Louis Pasteur,,Strasbourg,France,France,Europe
+268,1987,chemistry,Collège de France,Collège de France,,Paris,France,France,Europe
+931,2016,chemistry,University of Strasbourg,University of Strasbourg,,Strasbourg,France,France,Europe
+938,2017,medicine,University of Maine,University of Maine,,"Maine, ME",USA,USA,North America
+992,2020,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+289,1997,chemistry,Aarhus University,Aarhus University,,Aarhus,Denmark,Denmark,Europe
+138,1990,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+263,1985,chemistry,US Naval Research Laboratory,US Naval Research Laboratory,,"Washington, D.C.",USA,USA,North America
+945,2017,chemistry,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+1058,2025,economics,Northwestern University,Northwestern University,,"Evanston, IL",USA,USA,North America
+1058,2025,economics,"Eitan Berglas School of Economics, Tel Aviv University","Eitan Berglas School of Economics, Tel Aviv University",,Tel Aviv,Israel,Israel,Asia
+270,1988,chemistry,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,,"Dallas, TX",USA,USA,North America
+270,1988,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+15,1910,physics,Amsterdam University,Amsterdam University,,Amsterdam,the Netherlands,the Netherlands,Europe
+316,1926,medicine,Copenhagen University,Copenhagen University,,Copenhagen,Denmark,Denmark,Europe
+24,1919,physics,Greifswald University,Greifswald University,,Greifswald,Germany,Germany,Europe
+756,2002,chemistry,Virginia Commonwealth University,Virginia Commonwealth University,,"Richmond, VA",USA,USA,North America
+976,2019,chemistry,University of Texas,University of Texas,,"Austin, TX",USA,USA,North America
+66,1956,physics,University of Illinois,University of Illinois,,"Urbana, IL",USA,USA,North America
+66,1972,physics,University of Illinois,University of Illinois,,"Urbana, IL",USA,USA,North America
+711,1994,economics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+227,1962,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+804,2006,physics,NASA Goddard Space Flight Center,NASA Goddard Space Flight Center,,"Greenbelt, MD",USA,USA,North America
+266,1986,chemistry,University of Toronto,University of Toronto,,Toronto,Canada,Canada,North America
+1050,2025,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+1013,2022,physics,J.F. Clauser & Assoc.,J.F. Clauser & Assoc.,,"Walnut Creek, CA",USA,USA,North America
+56,1951,physics,Atomic Energy Research Establishment,Atomic Energy Research Establishment,,"Harwell, Berkshire",United Kingdom,United Kingdom,Europe
+247,1975,chemistry,University of Sussex,University of Sussex,,Brighton,United Kingdom,United Kingdom,Europe
+752,2002,medicine,The Wellcome Trust Sanger Institute,The Wellcome Trust Sanger Institute,,Cambridge,United Kingdom,United Kingdom,Europe
+288,1997,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+356,1954,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+356,1954,medicine,"Research Division of Infectious Diseases, Children's Medical Center","Research Division of Infectious Diseases, Children's Medical Center",,"Boston, MA",USA,USA,North America
+712,1994,economics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+205,1946,chemistry,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,,"Princeton, NJ",USA,USA,North America
+109,1977,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+1037,2024,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+1041,2024,chemistry,Google DeepMind,Google DeepMind,,London,United Kingdom,United Kingdom,Europe
+792,2005,physics,"University of Colorado, JILA","University of Colorado, JILA",,"Boulder, CO",USA,USA,North America
+792,2005,physics,National Institute of Standards and Technology,National Institute of Standards and Technology,,"Boulder, CO",USA,USA,North America
+1052,2025,physics,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+1052,2025,physics,Qolab,Qolab,,"Los Angeles, CA",USA,USA,North America
+314,1923,medicine,University of Toronto,University of Toronto,,Toronto,Canada,Canada,North America
+903,2014,medicine,University College,University College,,London,United Kingdom,United Kingdom,Europe
+291,1998,chemistry,Northwestern University,Northwestern University,,"Evanston, IL",USA,USA,North America
+681,1972,economics,All Souls College,All Souls College,,Oxford,United Kingdom,United Kingdom,Europe
+427,1982,medicine,The Wellcome Research Laboratories,The Wellcome Research Laboratories,,Beckenham,United Kingdom,United Kingdom,Europe
+442,1990,medicine,Brigham and Women's Hospital,Brigham and Women's Hospital,,"Boston, MA",USA,USA,North America
+746,2001,economics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+337,1944,medicine,Washington University,Washington University,,"St. Louis, MO",USA,USA,North America
+144,1993,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+433,1985,medicine,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,,"Dallas, TX",USA,USA,North America
+1008,2021,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+366,1958,medicine,University of Wisconsin,University of Wisconsin,,"Madison, WI",USA,USA,North America
+862,2011,medicine,University of Strasbourg,University of Strasbourg,,Strasbourg,France,France,Europe
+309,1919,medicine,Brussels University,Brussels University,,Brussels,Belgium,Belgium,Europe
+85,1965,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+396,1970,medicine,National Institutes of Health,National Institutes of Health,,"Bethesda, MD",USA,USA,North America
+317,1927,medicine,Vienna University,Vienna University,,Vienna,Austria,Austria,Europe
+131,1987,physics,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,,Rüschlikon,Switzerland,Switzerland,Europe
+743,2001,chemistry,The Scripps Research Institute,The Scripps Research Institute,,"La Jolla, CA",USA,USA,North America
+743,2022,chemistry,Scripps Research,Scripps Research,,"La Jolla, CA",USA,USA,North America
+120,1981,physics,Uppsala University,Uppsala University,,Uppsala,Sweden,Sweden,Europe
+1061,2026,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+1061,2026,medicine,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+321,1930,medicine,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,,"New York, NY",USA,USA,North America
+400,1973,medicine,Zoologisches Institut der Universität München,Zoologisches Institut der Universität München,,Munich,Germany,Germany,Europe
+228,1963,chemistry,Max-Planck-Institut für Kohlenforschung,Max-Planck-Institut für Kohlenforschung,,Mülheim an der Ruhr,Germany,Germany,Europe
+1024,2023,medicine,Szeged University,Szeged University,,Szeged,Hungary,Hungary,Europe
+1024,2023,medicine,University of Pennsylvania,University of Pennsylvania,,"Philadelphia, PA",USA,USA,North America
+386,1967,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+257,1981,chemistry,Kyoto University,Kyoto University,,Kyoto,Japan,Japan,Asia
+121,1982,physics,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+682,1972,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+1066,2026,chemistry,Tokyo University of Science,Tokyo University of Science,,Tokyo,Japan,Japan,Asia
+943,2017,physics,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,,,,,
+943,2017,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+1000,2021,physics,Max Planck Institute for Meteorology,Max Planck Institute for Meteorology,,Hamburg,Germany,Germany,Europe
+126,1985,physics,Max-Planck-Institut für Festkörperforschung,Max-Planck-Institut für Festkörperforschung,,Stuttgart,Germany,Germany,Europe
+757,2002,chemistry,Shimadzu Corp.,Shimadzu Corp.,,Kyoto,Japan,Japan,Asia
+378,1964,medicine,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+401,1973,medicine,"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie","Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie",,Altenberg; Grünau im Almtal,Austria,Austria,Europe
+401,1973,medicine,Max-Planck-Institut für Verhaltensphysiologie,Max-Planck-Institut für Verhaltensphysiologie,,Seewiesen,Germany,Germany,Europe
+850,2010,physics,University of Manchester,University of Manchester,,Manchester,United Kingdom,United Kingdom,Europe
+211,1950,chemistry,Cologne University,Cologne University,,Cologne,Germany,Germany,Europe
+758,2002,chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),,Zurich,Switzerland,Switzerland,Europe
+758,2002,chemistry,The Scripps Research Institute,The Scripps Research Institute,,"La Jolla, CA",USA,USA,North America
+236,1968,chemistry,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+895,2013,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+21,1915,physics,Victoria University,Victoria University,,Manchester,United Kingdom,United Kingdom,Europe
+694,1980,economics,University of Pennsylvania,University of Pennsylvania,,"Philadelphia, PA",USA,USA,North America
+735,2001,medicine,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,,"Seattle, WA",USA,USA,North America
+97,1973,physics,IBM Thomas J. Watson Research Center,IBM Thomas J. Watson Research Center,,"Yorktown Heights, NY",USA,USA,North America
+132,1988,physics,Fermi National Accelerator Laboratory,Fermi National Accelerator Laboratory,,"Batavia, IL",USA,USA,North America
+95,1972,physics,Brown University,Brown University,,"Providence, RI",USA,USA,North America
+820,2007,economics,University of Minnesota,University of Minnesota,,"Minneapolis, MN",USA,USA,North America
+686,1975,economics,Academy of Sciences,Academy of Sciences,,Moscow,USSR,Russia,Europe
+200,1939,chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),,Zurich,Switzerland,Switzerland,Europe
+77,1962,physics,Academy of Sciences,Academy of Sciences,,Moscow,USSR,Russia,Europe
+775,2004,medicine,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,,"Seattle, WA",USA,USA,North America
+217,1954,chemistry,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+217,1962,peace,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+883,2012,economics,University of California,University of California,,"Los Angeles, CA",USA,USA,North America
+8,1904,physics,Royal Institution of Great Britain,Royal Institution of Great Britain,,London,United Kingdom,United Kingdom,Europe
+221,1957,chemistry,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+1030,2023,chemistry,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+36,1929,physics,"Sorbonne University, Institut Henri Poincaré","Sorbonne University, Institut Henri Poincaré",,Paris,France,France,Europe
+459,1998,medicine,University of California School of Medicine,University of California School of Medicine,,"Los Angeles, CA",USA,USA,North America
+92,1970,physics,University of Grenoble,University of Grenoble,,Grenoble,France,France,Europe
+472,1907,peace,Sorbonne University,Sorbonne University,,Paris,France,France,Europe
+825,2008,medicine,World Foundation for AIDS Research and Prevention,World Foundation for AIDS Research and Prevention,,Paris,France,France,Europe
+89,1968,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+239,1970,chemistry,Institute for Biochemical Research,Institute for Biochemical Research,,Buenos Aires,Argentina,Argentina,South America
+977,2019,chemistry,"Binghamton University, State University of New York","Binghamton University, State University of New York",,"New York, NY",USA,USA,North America
+827,2008,physics,High Energy Accelerator Research Organization (KEK),High Energy Accelerator Research Organization (KEK),,Tsukuba,Japan,Japan,Asia
+233,1967,chemistry,Max-Planck-Institut für Physikalische Chemie,Max-Planck-Institut für Physikalische Chemie,,Göttingen,Germany,Germany,Europe
+29,1924,physics,Uppsala University,Uppsala University,,Uppsala,Sweden,Sweden,Europe
+79,1963,physics,University of California,University of California,,"San Diego, CA",USA,USA,North America
+6,1911,chemistry,Sorbonne University,Sorbonne University,,Paris,France,France,Europe
+282,1995,chemistry,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+811,2007,medicine,University of Utah,University of Utah,,"Salt Lake City, UT",USA,USA,North America
+811,2007,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+390,1968,medicine,National Institutes of Health,National Institutes of Health,,"Bethesda, MD",USA,USA,North America
+830,2008,chemistry,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+889,2013,chemistry,Université de Strasbourg,Université de Strasbourg,,Strasbourg,France,France,Europe
+889,2013,chemistry,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+147,1995,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+451,1994,medicine,National Institute of Environmental Health Sciences,National Institute of Environmental Health Sciences,,"Research Triangle Park, NC",USA,USA,North America
+100,1974,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+1047,2025,medicine,Institute for Systems Biology,Institute for Systems Biology,,"Seattle, WA",USA,USA,North America
+754,2002,physics,University of Tokyo,University of Tokyo,,Tokyo,Japan,Japan,Asia
+702,1988,economics,École Nationale Supérieur des Mines de Paris,École Nationale Supérieur des Mines de Paris,,Paris,France,France,Europe
+374,1962,medicine,London University,London University,,London,United Kingdom,United Kingdom,Europe
+61,1954,physics,Edinburgh University,Edinburgh University,,Edinburgh,United Kingdom,United Kingdom,Europe
+391,1969,medicine,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+226,1962,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+23,1918,physics,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+352,1951,medicine,"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation","Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation",,"New York, NY",USA,USA,North America
+19,1914,physics,Frankfurt-on-the-Main University,Frankfurt-on-the-Main University,,Frankfurt-on-the-Main,Germany,Germany,Europe
+904,2014,medicine,Norwegian University of Science and Technology (NTNU),Norwegian University of Science and Technology (NTNU),,Trondheim,Norway,Norway,Europe
+225,1961,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+133,1988,physics,"Digital Pathways, Inc.","Digital Pathways, Inc.",,"Mountain View, CA",USA,USA,North America
+705,1990,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+986,2020,medicine,University of Alberta,University of Alberta,,Edmonton,Canada,Canada,North America
+984,2019,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+890,2013,chemistry,Stanford University School of Medicine,Stanford University School of Medicine,,"Stanford, CA",USA,USA,North America
+939,2017,medicine,Brandeis University,Brandeis University,,"Waltham, MA",USA,USA,North America
+939,2017,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+432,1985,medicine,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,,"Dallas, TX",USA,USA,North America
+279,1993,chemistry,University of British Columbia,University of British Columbia,,Vancouver,Canada,Canada,North America
+940,2017,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+1070,2026,economics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+1051,2025,physics,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+1051,2025,physics,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+1051,2025,physics,Google Quantum AI,Google Quantum AI,,"Santa Barbara, CA",USA,USA,North America
+974,2019,physics,University of Geneva,University of Geneva,,Geneva,Switzerland,Switzerland,Europe
+688,1976,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+1016,2022,chemistry,University of Copenhagen,University of Copenhagen,,Copenhagen,Denmark,Denmark,Europe
+1029,2023,chemistry,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+90,1969,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+718,1997,economics,Long Term Capital Management,Long Term Capital Management,,"Greenwich, CT",USA,USA,North America
+497,1931,peace,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+118,1981,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+82,1964,physics,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,,Moscow,USSR,Russia,Europe
+27,1922,physics,Copenhagen University,Copenhagen University,,Copenhagen,Denmark,Denmark,Europe
+429,1984,medicine,Basel Institute for Immunology,Basel Institute for Immunology,,Basel,Switzerland,Switzerland,Europe
+295,1903,medicine,Finsen Medical Light Institute,Finsen Medical Light Institute,,Copenhagen,Denmark,Denmark,Europe
+402,1973,medicine,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+220,1956,chemistry,Institute for Chemical Physics of the Academy of Sciences of the USSR,Institute for Chemical Physics of the Academy of Sciences of the USSR,,Moscow,USSR,Russia,Europe
+220,1956,chemistry,Lomonosov Moscow State University,Lomonosov Moscow State University,,Moscow,USSR,Russia,Europe
+135,1989,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+196,1937,chemistry,Birmingham University,Birmingham University,,Birmingham,United Kingdom,United Kingdom,Europe
+238,1969,chemistry,University of Oslo,University of Oslo,,Oslo,Norway,Norway,Europe
+847,2009,economics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+935,2016,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+813,2007,medicine,University of North Carolina,University of North Carolina,,"Chapel Hill, NC",USA,USA,North America
+1055,2025,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+829,2008,chemistry,Marine Biological Laboratory (MBL),Marine Biological Laboratory (MBL),,"Woods Hole, MA",USA,USA,North America
+829,2008,chemistry,Boston University Medical School,Boston University Medical School,,"Massachusetts, MA",USA,USA,North America
+210,1950,chemistry,Kiel University,Kiel University,,Kiel,Germany,Germany,Europe
+202,1944,chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,,Berlin-Dahlem,Germany,Germany,Europe
+331,1936,medicine,Graz University,Graz University,,Graz,Austria,Austria,Europe
+312,1922,medicine,Kiel University,Kiel University,,Kiel,Germany,Germany,Europe
+48,1943,physics,Carnegie Institute of Technology,Carnegie Institute of Technology,,"Pittsburgh, PA",USA,USA,North America
+169,1910,chemistry,Goettingen University,Goettingen University,,Göttingen,Germany,Germany,Europe
+322,1931,medicine,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,,Berlin-Dahlem,Germany,Germany,Europe
+73,1959,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+35,1928,physics,London University,London University,,London,United Kingdom,United Kingdom,Europe
+53,1948,physics,Victoria University,Victoria University,,Manchester,United Kingdom,United Kingdom,Europe
+679,1970,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+40,1933,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+254,1980,chemistry,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+764,2003,medicine,University of Illinois,University of Illinois,,"Urbana, IL",USA,USA,North America
+287,1997,chemistry,University of California,University of California,,"Los Angeles, CA",USA,USA,North America
+302,1908,medicine,Goettingen University,Goettingen University,,Göttingen,Germany,Germany,Europe
+302,1908,medicine,Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),,Frankfurt-on-the-Main,Germany,Germany,Europe
+723,2000,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+281,1995,chemistry,Max-Planck-Institut für Chemie,Max-Planck-Institut für Chemie,,Mainz,Germany,Germany,Europe
+246,1974,chemistry,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+197,1937,chemistry,University of Zurich,University of Zurich,,Zurich,Switzerland,Switzerland,Europe
+834,2008,economics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+969,2018,economics,NYU Stern School of Business,NYU Stern School of Business,,"New York, NY",USA,USA,North America
+922,2015,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,"Durham, NC",USA,USA,North America
+922,2015,chemistry,Duke University School of Medicine,Duke University School of Medicine,,"Durham, NC",USA,USA,North America
+346,1948,medicine,Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),,Basel,Switzerland,Switzerland,Europe
+995,2020,economics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+173,1912,chemistry,Toulouse University,Toulouse University,,Toulouse,France,France,Europe
+70,1958,physics,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,,Moscow,USSR,Russia,Europe
+51,1946,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+856,2010,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+769,2003,chemistry,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,,"Baltimore, MD",USA,USA,North America
+455,1996,medicine,St. Jude Children's Research Hospital,St. Jude Children's Research Hospital,,"Memphis, TN",USA,USA,North America
+195,1936,chemistry,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+195,1936,chemistry,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,,Berlin,Germany,Germany,Europe
+815,2007,physics,Forschungszentrum J&uuml;lich,Forschungszentrum J&uuml;lich,,Jülich,Germany,Germany,Europe
+1062,2026,medicine,Humboldt University of Berlin,Humboldt University of Berlin,,Berlin,Germany,Germany,Europe
+888,2013,physics,University of Edinburgh,University of Edinburgh,,Edinburgh,United Kingdom,United Kingdom,Europe
+1060,2025,economics,Brown University,Brown University,,"Providence, RI",USA,USA,North America
+370,1960,medicine,University College,University College,,London,United Kingdom,United Kingdom,Europe
+251,1978,chemistry,Glynn Research Laboratories,Glynn Research Laboratories,,Bodmin,United Kingdom,United Kingdom,Europe
+383,1966,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+1023,2022,economics,Washington University,Washington University,,"St. Louis, MO",USA,USA,North America
+351,1950,medicine,Mayo Clinic,Mayo Clinic,,"Rochester, MN",USA,USA,North America
+107,1977,physics,Bell Telephone Laboratories,Bell Telephone Laboratories,,"Murray Hill, NJ",USA,USA,North America
+9,1905,physics,Kiel University,Kiel University,,Kiel,Germany,Germany,Europe
+1059,2025,economics,Collège de France,Collège de France,,Paris,France,France,Europe
+1059,2025,economics,INSEAD,INSEAD,,Paris,France,France,Europe
+1059,2025,economics,London School of Economics and Political Science,London School of Economics and Political Science,,London,United Kingdom,United Kingdom,Europe
+449,1993,medicine,"Massachusetts Institute of Technology (MIT), Center for Cancer Research","Massachusetts Institute of Technology (MIT), Center for Cancer Research",,"Cambridge, MA",USA,USA,North America
+1026,2023,physics,The Ohio State University,The Ohio State University,,"Columbus, OH",USA,USA,North America
+5,1903,physics,École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),,Paris,France,France,Europe
+141,1991,physics,Collège de France,Collège de France,,Paris,France,France,Europe
+3,1902,physics,Amsterdam University,Amsterdam University,,Amsterdam,the Netherlands,the Netherlands,Europe
+64,1955,physics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+110,1978,physics,Academy of Sciences,Academy of Sciences,,Moscow,USSR,Russia,Europe
+677,1969,economics,University of Oslo,University of Oslo,,Oslo,Norway,Norway,Europe
+385,1967,medicine,Karolinska Institutet,Karolinska Institutet,,Stockholm,Sweden,Sweden,Europe
+941,2017,physics,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,,,,,
+941,2017,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+511,1950,peace,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+863,2011,medicine,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+885,2013,medicine,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+885,2013,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+753,2002,physics,University of Pennsylvania,University of Pennsylvania,,"Philadelphia, PA",USA,USA,North America
+989,2020,physics,Max Planck Institute for Extraterrestrial Physics,Max Planck Institute for Extraterrestrial Physics,,Garching,Germany,Germany,Europe
+989,2020,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+713,1994,economics,Rheinische Friedrich-Wilhelms-Universität,Rheinische Friedrich-Wilhelms-Universität,,Bonn,Germany,Germany,Europe
+407,1975,medicine,Imperial Cancer Research Fund Laboratory,Imperial Cancer Research Fund Laboratory,,London,United Kingdom,United Kingdom,Europe
+755,2002,physics,Associated Universities Inc.,Associated Universities Inc.,,"Washington, D.C.",USA,USA,North America
+774,2004,medicine,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+286,1996,chemistry,Rice University,Rice University,,"Houston, TX",USA,USA,North America
+140,1990,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+851,2010,chemistry,University of Delaware,University of Delaware,,,USA,USA,North America
+949,2017,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+946,2017,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+448,1993,medicine,New England Biolabs,New England Biolabs,,"Beverly, MA",USA,USA,North America
+198,1938,chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,,Heidelberg,Germany,Germany,Europe
+198,1938,chemistry,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+215,1952,chemistry,Rowett Research Institute,Rowett Research Institute,,Bucksburn (Scotland),United Kingdom,United Kingdom,Europe
+86,1965,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+276,1991,chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),,Zurich,Switzerland,Switzerland,Europe
+796,2005,chemistry,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+1054,2025,chemistry,University of Melbourne,University of Melbourne,,Melbourne,Australia,Australia,Oceania
+698,1984,economics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+176,1915,chemistry,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,,Berlin-Dahlem,Germany,Germany,Europe
+176,1915,chemistry,Friedrich-Wilhelms-Universität,Friedrich-Wilhelms-Universität,,Berlin,Germany,Germany,Europe
+182,1925,chemistry,Goettingen University,Goettingen University,,Göttingen,Germany,Germany,Europe
+435,1986,medicine,Institute of Cell Biology of the C.N.R.,Institute of Cell Biology of the C.N.R.,,Rome,Italy,Italy,Europe
+258,1981,chemistry,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+28,1923,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+155,1998,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+996,2020,economics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+231,1965,chemistry,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+308,1914,medicine,Vienna University,Vienna University,,Vienna,Austria,Austria,Europe
+717,1997,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+151,1996,physics,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+1069,2026,economics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+714,1995,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+284,1996,chemistry,Rice University,Rice University,,"Houston, TX",USA,USA,North America
+771,2003,economics,New York University,New York University,,"New York, NY",USA,USA,North America
+458,1998,medicine,SUNY Health Science Center,SUNY Health Science Center,,"Brooklyn, NY",USA,USA,North America
+848,2010,medicine,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+795,2005,chemistry,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+75,1961,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+271,1988,chemistry,Max-Planck-Institut für Biochemie,Max-Planck-Institut für Biochemie,,Martinsried,Germany,Germany,Europe
+799,2005,economics,"University of Jerusalem, Center for RationalityHebrew","University of Jerusalem, Center for RationalityHebrew",,Jerusalem,Israel,Israel,Asia
+878,2012,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+878,2012,chemistry,Duke University Medical Center,Duke University Medical Center,,"Durham, NC",USA,USA,North America
+896,2013,economics,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+297,1905,medicine,Institute for Infectious Diseases,Institute for Infectious Diseases,,Berlin,Germany,Germany,Europe
+701,1987,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+720,1999,economics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+232,1966,chemistry,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+96,1972,physics,University of Pennsylvania,University of Pennsylvania,,"Philadelphia, PA",USA,USA,North America
+709,1993,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+388,1968,medicine,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+112,1978,physics,Bell Laboratories,Bell Laboratories,,"Holmdel, NJ",USA,USA,North America
+770,2003,chemistry,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+770,2003,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+399,1972,medicine,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+822,2007,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+806,2006,chemistry,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+411,1977,medicine,The Salk Institute,The Salk Institute,,"San Diego, CA",USA,USA,North America
+988,2020,physics,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+422,1981,medicine,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+831,2008,chemistry,University of California,University of California,,"San Diego, CA",USA,USA,North America
+831,2008,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+456,1996,medicine,"University of Zurich, Institute of Experimental Immunology","University of Zurich, Institute of Experimental Immunology",,Zurich,Switzerland,Switzerland,Europe
+234,1967,chemistry,Institute of Physical Chemistry,Institute of Physical Chemistry,,Cambridge,United Kingdom,United Kingdom,Europe
+707,1991,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+294,1902,medicine,University College,University College,,Liverpool,United Kingdom,United Kingdom,Europe
+413,1977,medicine,Veterans Administration Hospital,Veterans Administration Hospital,,"Bronx, NY",USA,USA,North America
+791,2005,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+76,1961,physics,Technical University,Technical University,,Munich,Germany,Germany,Europe
+76,1961,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+277,1992,chemistry,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+143,1993,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+742,2001,chemistry,Nagoya University,Nagoya University,,Nagoya,Japan,Japan,Asia
+393,1969,medicine,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+106,1976,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+299,1906,medicine,Madrid University,Madrid University,,Madrid,Spain,Spain,Europe
+917,2015,medicine,Kitasato University,Kitasato University,,Tokyo,Japan,Japan,Asia
+864,2011,physics,Lawrence Berkeley National Laboratory,Lawrence Berkeley National Laboratory,,"Berkeley, CA",USA,USA,North America
+864,2011,physics,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+353,1952,medicine,Rutgers University,Rutgers University,,"New Brunswick, NJ",USA,USA,North America
+876,2012,physics,Collège de France,Collège de France,,Paris,France,France,Europe
+876,2012,physics,École Normale Supérieure,École Normale Supérieure,,Paris,France,France,Europe
+367,1959,medicine,"New York University, College of Medicine","New York University, College of Medicine",,"New York, NY",USA,USA,North America
+113,1979,physics,"Harvard University, Lyman Laboratory","Harvard University, Lyman Laboratory",,"Cambridge, MA",USA,USA,North America
+1049,2025,medicine,The University of Osaka,The University of Osaka,,Osaka,Japan,Japan,Asia
+875,2012,medicine,Kyoto University,Kyoto University,,Kyoto,Japan,Japan,Asia
+875,2012,medicine,Gladstone Institutes,Gladstone Institutes,,"San Francisco, CA",USA,USA,North America
+908,2014,physics,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+273,1989,chemistry,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+1045,2024,economics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+680,1971,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+125,1984,physics,CERN,CERN,,Geneva,Switzerland,Switzerland,Europe
+84,1965,physics,Tokyo University of Education,Tokyo University of Education,,Tokyo,Japan,Japan,Asia
+339,1945,medicine,London University,London University,,London,United Kingdom,United Kingdom,Europe
+693,1979,economics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+394,1970,medicine,University College,University College,,London,United Kingdom,United Kingdom,Europe
+37,1930,physics,Calcutta University,Calcutta University,,Calcutta,India,India,Asia
+323,1932,medicine,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+219,1956,chemistry,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+369,1960,medicine,Walter and Eliza Hall Institute for Medical Research,Walter and Eliza Hall Institute for Medical Research,,Melbourne,Australia,Australia,Oceania
+320,1929,medicine,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+965,2018,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+285,1996,chemistry,University of Sussex,University of Sussex,,Brighton,United Kingdom,United Kingdom,Europe
+330,1936,medicine,National Institute for Medical Research,National Institute for Medical Research,,London,United Kingdom,United Kingdom,Europe
+341,1945,medicine,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+932,2016,chemistry,Northwestern University,Northwestern University,,"Evanston, IL",USA,USA,North America
+437,1988,medicine,"London University, King's College Hospital Medical School","London University, King's College Hospital Medical School",,London,United Kingdom,United Kingdom,Europe
+874,2012,medicine,Gurdon Institute,Gurdon Institute,,Cambridge,United Kingdom,United Kingdom,Europe
+375,1963,medicine,Australian National University,Australian National University,,Canberra,Australia,Australia,Oceania
+812,2007,medicine,Cardiff University,Cardiff University,,Cardiff,United Kingdom,United Kingdom,Europe
+108,1977,physics,University of Cambridge,University of Cambridge,,Cambridge,United Kingdom,United Kingdom,Europe
+737,2001,medicine,Imperial Cancer Research Fund,Imperial Cancer Research Fund,,London,United Kingdom,United Kingdom,Europe
+971,2019,medicine,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+971,2019,medicine,Francis Crick Institute,Francis Crick Institute,,London,United Kingdom,United Kingdom,Europe
+765,2003,medicine,"University of Nottingham, School of Physics and Astronomy","University of Nottingham, School of Physics and Astronomy",,Nottingham,United Kingdom,United Kingdom,Europe
+207,1947,chemistry,University of Oxford,University of Oxford,,Oxford,United Kingdom,United Kingdom,Europe
+163,1904,chemistry,University College,University College,,London,United Kingdom,United Kingdom,Europe
+242,1972,chemistry,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+457,1997,medicine,University of California School of Medicine,University of California School of Medicine,,"San Francisco, CA",USA,USA,North America
+434,1986,medicine,Vanderbilt University School of Medicine,Vanderbilt University School of Medicine,,"Nashville, TN",USA,USA,North America
+910,2014,chemistry,Max Planck Institute for Biophysical Chemistry,Max Planck Institute for Biophysical Chemistry,,Göttingen,Germany,Germany,Europe
+910,2014,chemistry,German Cancer Research Center,German Cancer Research Center,,Heidelberg,Germany,Germany,Europe
+152,1997,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+115,1979,physics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+122,1983,physics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+425,1982,medicine,Karolinska Institutet,Karolinska Institutet,,Stockholm,Sweden,Sweden,Europe
+1053,2025,chemistry,Kyoto University,Kyoto University,,Kyoto,Japan,Japan,Asia
+436,1987,medicine,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+162,1903,chemistry,Stockholm University,Stockholm University,,Stockholm,Sweden,Sweden,Europe
+1011,2022,medicine,Max Planck Institute for Evolutionary Anthropology,Max Planck Institute for Evolutionary Anthropology,,Leipzig,Germany,Germany,Europe
+1011,2022,medicine,Okinawa Institute of Science and Technology,Okinawa Institute of Science and Technology,,Okinawa,Japan,Japan,Asia
+1011,2022,medicine,Leipzig University,Leipzig University,,Leipzig,Germany,Germany,Europe
+750,2002,medicine,The Molecular Sciences Institute,The Molecular Sciences Institute,,"Berkeley, CA",USA,USA,North America
+999,2021,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+350,1950,medicine,Basel University,Basel University,,Basel,Switzerland,Switzerland,Europe
+919,2015,physics,University of Tokyo,University of Tokyo,,Kashiwa,Japan,Japan,Asia
+959,2018,medicine,Kyoto University,Kyoto University,,Kyoto,Japan,Japan,Asia
+183,1926,chemistry,Uppsala University,Uppsala University,,Uppsala,Sweden,Sweden,Europe
+303,1909,medicine,Berne University,Berne University,,Bern,Switzerland,Switzerland,Europe
+793,2005,physics,Max Planck Institute of Quantum Optics,Max Planck Institute of Quantum Optics,,Garching,Germany,Germany,Europe
+793,2005,physics,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,,Munich,Germany,Germany,Europe
+175,1914,chemistry,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+692,1979,economics,University of Chicago,University of Chicago,,"Chicago, IL",USA,USA,North America
+842,2009,chemistry,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+842,2009,chemistry,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+800,2005,economics,"University of Maryland, Department of Economics and School of Public Policy","University of Maryland, Department of Economics and School of Public Policy",,"College Park, MD",USA,USA,North America
+886,2013,medicine,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+886,2013,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,,USA,USA,North America
+325,1933,medicine,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+357,1954,medicine,"Research Division of Infectious Diseases, Children's Medical Center","Research Division of Infectious Diseases, Children's Medical Center",,"Boston, MA",USA,USA,North America
+872,2011,economics,New York University,New York University,,"New York, NY",USA,USA,North America
+274,1989,chemistry,University of Colorado,University of Colorado,,"Boulder, CO",USA,USA,North America
+736,2001,medicine,Imperial Cancer Research Fund,Imperial Cancer Research Fund,,London,United Kingdom,United Kingdom,Europe
+687,1975,economics,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+921,2015,chemistry,Francis Crick Institute,Francis Crick Institute,,Hertfordshire,United Kingdom,United Kingdom,Europe
+921,2015,chemistry,Clare Hall Laboratory,Clare Hall Laboratory,,Hertfordshire,United Kingdom,United Kingdom,Europe
+424,1981,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+828,2008,physics,Kyoto Sangyo University,Kyoto Sangyo University,,Kyoto,Japan,Japan,Asia
+828,2008,physics,"Yukawa Institute for Theoretical Physics (YITP), Kyoto University","Yukawa Institute for Theoretical Physics (YITP), Kyoto University",,Kyoto,Japan,Japan,Asia
+703,1989,economics,University of Oslo,University of Oslo,,Oslo,Norway,Norway,Europe
+69,1957,physics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+918,2015,medicine,China Academy of Traditional Chinese Medicine,China Academy of Traditional Chinese Medicine,,Beijing,China,China,Asia
+395,1970,medicine,Karolinska Institutet,Karolinska Institutet,,Stockholm,Sweden,Sweden,Europe
+117,1980,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+841,2009,chemistry,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,,Cambridge,United Kingdom,United Kingdom,Europe
+760,2002,economics,George Mason University,George Mason University,,"Fairfax, VA",USA,USA,North America
+1035,2024,medicine,UMass Chan Medical School,UMass Chan Medical School,,"Worcester, MA",USA,USA,North America
+42,1936,physics,Innsbruck University,Innsbruck University,,Innsbruck,Austria,Austria,Europe
+172,1912,chemistry,Nancy University,Nancy University,,Nancy,France,France,Europe
+218,1955,chemistry,Cornell University,Cornell University,,"Ithaca, NY",USA,USA,North America
+767,2003,physics,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,,Moscow,Russia,Russia,Europe
+248,1975,chemistry,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),,Zurich,Switzerland,Switzerland,Europe
+255,1980,chemistry,"Harvard University, Biological Laboratories","Harvard University, Biological Laboratories",,"Cambridge, MA",USA,USA,North America
+67,1956,physics,Bell Telephone Laboratories,Bell Telephone Laboratories,,"Murray Hill, NJ",USA,USA,North America
+347,1949,medicine,University of Zurich,University of Zurich,,Zurich,Switzerland,Switzerland,Europe
+290,1998,chemistry,University of California,University of California,,"Santa Barbara, CA",USA,USA,North America
+62,1954,physics,University of Heidelberg,University of Heidelberg,,Heidelberg,Germany,Germany,Europe
+62,1954,physics,Max-Planck-Institut für medizinische Forschung,Max-Planck-Institut für medizinische Forschung,,Heidelberg,Germany,Germany,Europe
+178,1920,chemistry,Berlin University,Berlin University,,Berlin,Germany,Germany,Europe
+683,1973,economics,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+206,1946,chemistry,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,,"Princeton, NJ",USA,USA,North America
+414,1978,medicine,Biozentrum der Universität,Biozentrum der Universität,,Basel,Switzerland,Switzerland,Europe
+361,1956,medicine,Mainz University,Mainz University,,Mainz,Germany,Germany,Europe
+38,1932,physics,Leipzig University,Leipzig University,,Leipzig,Germany,Germany,Europe
+1,1901,physics,Munich University,Munich University,,Munich,Germany,Germany,Europe
+168,1909,chemistry,Leipzig University,Leipzig University,,Leipzig,Germany,Germany,Europe
+16,1911,physics,Würzburg University,Würzburg University,,Würzburg,Germany,Germany,Europe
+224,1960,chemistry,University of California,University of California,,"Los Angeles, CA",USA,USA,North America
+839,2009,physics,Bell Laboratories,Bell Laboratories,,"Murray Hill, NJ",USA,USA,North America
+315,1924,medicine,Leiden University,Leiden University,,Leiden,the Netherlands,the Netherlands,Europe
+123,1983,physics,California Institute of Technology (Caltech),California Institute of Technology (Caltech),,"Pasadena, CA",USA,USA,North America
+65,1956,physics,"Semiconductor Laboratory of Beckman Instruments, Inc.","Semiconductor Laboratory of Beckman Instruments, Inc.",,"Mountain View, CA",USA,USA,North America
+20,1915,physics,University College,University College,,London,United Kingdom,United Kingdom,Europe
+916,2015,medicine,Drew University,Drew University,,"Madison, NJ",USA,USA,North America
+968,2018,economics,Yale University,Yale University,,"New Haven, CT",USA,USA,North America
+154,1997,physics,National Institute of Standards and Technology,National Institute of Standards and Technology,,"Gaithersburg, MD",USA,USA,North America
+911,2014,chemistry,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+209,1949,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+706,1990,economics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+970,2019,medicine,Harvard Medical School,Harvard Medical School,,"Boston, MA",USA,USA,North America
+970,2019,medicine,Howard Hughes Medical Institute,Howard Hughes Medical Institute,,"Chevy Chase, MD",USA,USA,North America
+970,2019,medicine,Dana-Farber Cancer Institute,Dana-Farber Cancer Institute,,"Boston, MA",USA,USA,North America
+970,2019,medicine,Brigham and Women's Hospital,Brigham and Women's Hospital,,"Boston, MA",USA,USA,North America
+243,1972,chemistry,Rockefeller University,Rockefeller University,,"New York, NY",USA,USA,North America
+249,1976,chemistry,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+328,1934,medicine,Harvard University,Harvard University,,"Cambridge, MA",USA,USA,North America
+328,1934,medicine,Peter Brent Brigham Hospital,Peter Brent Brigham Hospital,,"Boston, MA",USA,USA,North America
+716,1996,economics,Columbia University,Columbia University,,"New York, NY",USA,USA,North America
+63,1955,physics,Stanford University,Stanford University,,"Stanford, CA",USA,USA,North America
+739,2001,physics,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),,"Cambridge, MA",USA,USA,North America
+137,1989,physics,University of Bonn,University of Bonn,,Bonn,Germany,Germany,Europe
+50,1945,physics,Princeton University,Princeton University,,"Princeton, NJ",USA,USA,North America
+826,2008,physics,"Enrico Fermi Institute, University of Chicago","Enrico Fermi Institute, University of Chicago",,"Chicago, IL",USA,USA,North America
+927,2016,medicine,Tokyo Institute of Technology,Tokyo Institute of Technology,,Tokyo,Japan,Japan,Asia
+265,1986,chemistry,University of California,University of California,,"Berkeley, CA",USA,USA,North America
+794,2005,chemistry,Institut Français du Pétrole,Institut Français du Pétrole,,Rueil-Malmaison,France,France,Europe
+726,2000,physics,A.F. Ioffe Physico-Technical Institute,A.F. Ioffe Physico-Technical Institute,,St. Petersburg,Russia,Russia,Europe

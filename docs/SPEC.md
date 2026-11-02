@@ -6,7 +6,7 @@
 ## 2. היקף MVP
 - **תחומים:** פיזיקה, כימיה, רפואה, כלכלה, שלום. ספרות ניתנת להוספה בשלב 2.
 - **זוכים:** 4 לכל תחום, סה"כ 20. בכל תחום: זוכה מוקדם ומאוחר, לפחות אישה אחת, ולפחות מישהו שאינו מאירופה או מארה"ב.
-- **שליפה אוטומטית:** כל 1,036 הזוכים (שלד בלבד: שם, מגדר, שנה, תחום, נימוק, מזהים). זה זול ומאפשר ספירות.
+- **שליפה אוטומטית:** כל 1,028 הזוכים הייחודיים (1,036 צמדי זוכה-פרס, נכון ל-2.11.2026) (שלד בלבד: שם, מגדר, שנה, תחום, נימוק, מזהים). זה זול ומאפשר ספירות.
 - **העשרה מלאה:** רק ל-20 הזוכים שנבחרו.
 - **כרטיסי תובנה:** 20 כרטיסים ידניים (ראו סעיף 5).
 - **גרף מנטורים:** לכל זוכה מה-20, מנטור/תלמיד מ-Wikidata.
@@ -18,12 +18,13 @@
 
 | ישות | שדות עיקריים |
 |---|---|
-| `laureate` | nobel_id (מפתח ראשי), qid (Wikidata), openalex_id, name_en, name_he, gender, birth_date, birth_place, country_now, death_date, is_org |
-| `prize` | nobel_id, year, field, motivation_en, motivation_he (מסומן כ"תרגום"), portion, age_at_award |
-| `affiliation` | nobel_id, institution, ror_id, city, country, year |
+| `laureate` | nobel_id (מפתח ראשי), qid (Wikidata), openalex_id, name_en, full_name_en, name_he, gender, birth_date, birth_city, birth_country, country_now, continent, birth_lat, birth_lon, death_date, is_org, wikipedia_en, facts_url |
+| `prize` | nobel_id, year, field, category_en, motivation_en, motivation_he (מסומן כ"תרגום"), portion, sort_order, prize_status, date_awarded, age_at_award, age_is_exact |
+| `affiliation` | nobel_id, year, field, institution (שם היסטורי), institution_now, ror_id, city, country, country_now, continent |
 | `work` | work_id (OpenAlex), nobel_id, title, year, doi, citations, is_prize_work (נבדק ידנית) |
 | `idea` | idea_id, label_he, label_en, origin_field, description_he |
-| `edge` | src, dst, type (mentor_of, coauthor_with, cites, shared_prize_with, developed_idea, applied_idea_in), source_url, confidence |
+| `edge` | src, dst (QID), src_nobel_id, dst_nobel_id, src_label, dst_label, src_label_he, dst_label_he, type (mentor_of, coauthor_with, cites, shared_prize_with, developed_idea, applied_idea_in), property (P184/P185/P1066/P802), source_url, confidence |
+| `wikidata_check` | nobel_id, qid, birth_date (API), wd_birth_dates, wd_birth_place, wd_label_he: טבלת עזר לבדיקה הצולבת, לא לתצוגה |
 | `insight` | insight_id, text_he, label (עובדה/הערכה/הנחה), source_url, quote (קצר), bias_note, apply_note |
 | `source` | url, license, retrieved_at |
 
@@ -80,3 +81,11 @@
 1. האם להתחיל עם 5 התחומים המוצעים, או לשנות?
 2. האם ממשק Streamlit מספיק לשלב הראשון, או שנדרשת גישה מרחוק?
 3. האם לאחסן ב-SQLite מקומי או ב-Supabase מההתחלה?
+
+## 11. החלטות שהתקבלו בבנייה (2.11.2026)
+- **תחומים:** חמשת התחומים המוצעים. ספרות נאספת בשלד אך לא בהעמקה.
+- **אחסון:** SQLite מקומי (`curated/prasnovel.db`, נבנה מחדש מ-raw) ו-CSV במאגר. Supabase רק כשיידרש שיתוף.
+- **ממשק:** Streamlit מקומי. גישה מרחוק ממתינה לאישור רישוי.
+- **20 הנבחרים:** הצעה ב-`config/selection.json`, נבדקת אוטומטית מול הקריטריונים. ענת מאשרת או מחליפה.
+- **מנטורים:** בנוסף ל-P184/P185 נאספים גם P1066 (תלמיד של) ו-P802 (תלמיד), כי בשלום ובכלכלה אין תמיד הנחיית דוקטורט.
+- **גיל בזכייה:** מחושב מתאריך הלידה ותאריך ההענקה. כשאחד מהם חלקי, לפי שנה בלבד, ומסומן `age_is_exact = 0`.
