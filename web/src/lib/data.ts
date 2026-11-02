@@ -18,6 +18,7 @@ export type OpenAlex = { status: "אומת" | "הערכה" | "סתירה" | "ל�
   fields?: [string, number][]; examples?: Record<string, { title: string; y: number | null; doi: string | null; c: number | null; topic: string | null }[]> };
 export type Cite = { s: string; t: string; n: number; ev: { title: string; y: number | null; doi: string | null; refs: string | null }[];
   title?: string; why?: string; label?: string };
+export type Transition = { from: { id: string; y: number }; to: { id: string; y: number }; title: string; how: string; evidence: string[] };
 export type Link = { m: string; s: string; p: string };
 export type EraTerms = { from: number; to: number; terms: string[] };
 export type Edge = { s: string; t: string; sl: string | null; tl: string | null; sh: string | null; th: string | null;
@@ -25,6 +26,7 @@ export type Edge = { s: string; t: string; sl: string | null; tl: string | null;
 export type Data = {
   meta: Record<string, string | null>; people: Person[]; prizes: Prize[]; selected: Selected[]; edges: Edge[]; cites: Cite[];
   links: Link[]; mentor_why: string | null; mentor_props: Record<string, string> | null; terms: Record<FieldCode, EraTerms[]>; evolution: Record<FieldCode, string[]>;
+  transitions: Record<FieldCode, Transition[]>;
   home: { quote_en: string; quote_he: string; quote_by: string; quote_url: string; insight: string; haiku: string[]; haiku_note: string; inspiration: string } | null;
   quality: { fields: { f: FieldCode; api_prizes: number; spec_prizes: number; api_laureates: number; spec_laureates: number }[];
     birth: Record<string, number>; mismatches: { id: string; en: string; api: string; wd: string }[]; top_institutions: { name: string; n: number }[] };

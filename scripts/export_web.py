@@ -56,6 +56,46 @@ def era_terms(prz, k=6):
     return out
 
 
+def transitions(llink, cites):
+    """Idea-to-idea transitions per field, each tagged with the evidence found in the data (citation, mentor, lineage) or none."""
+    path = CONFIG / "transitions.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))["fields"]
+    out_edges = {}
+    if llink is not None and not llink.empty:
+        for r in llink.itertuples():
+            out_edges.setdefault(r.mentor_nobel_id, set()).add(r.student_nobel_id)
+    cite_pairs = set()
+    if cites is not None:
+        cite_pairs = {(r.citing_nobel_id, r.cited_nobel_id) for r in cites.itertuples()}
+
+    def lineage(a, b, depth=4):
+        frontier, seen = {a}, {a}
+        for _ in range(depth):
+            frontier = {s for n in frontier for s in out_edges.get(n, ()) if s not in seen}
+            if b in frontier:
+                return True
+            seen |= frontier
+        return False
+
+    res = {}
+    for f, items in data.items():
+        res[f] = []
+        for it in items:
+            a, b = it["from"][0], it["to"][0]
+            ev = []
+            if (b, a) in cite_pairs:
+                ev.append("ציטוט: העבודות של המאוחר מצטטות את הקודם")
+            if b in out_edges.get(a, ()) or a in out_edges.get(b, ()):
+                ev.append("מנחה ותלמיד")
+            elif lineage(a, b):
+                ev.append("שושלת מנחים")
+            res[f].append({"from": {"id": a, "y": it["from"][1]}, "to": {"id": b, "y": it["to"][1]},
+                           "title": it["title"], "how": it["how"], "evidence": ev})
+    return res
+
+
 def main() -> int:
     lau = pd.read_csv(CURATED / "laureate.csv", dtype=str)
     prz = pd.read_csv(CURATED / "prize.csv", dtype={"nobel_id": str})
@@ -227,6 +267,7 @@ def main() -> int:
         "mentor_why": conn.get("mentor_why"),
         "mentor_props": conn.get("mentor_props"),
         "terms": era_terms(prz),
+        "transitions": transitions(llink, oa.get("cite_edge")),
         "evolution": json.loads((CONFIG / "evolution.json").read_text(encoding="utf-8"))["eras"] if (CONFIG / "evolution.json").exists() else {},
         "quality": {
             "fields": [{"f": f, "api_prizes": awarded.get(f, 0), "spec_prizes": rp,

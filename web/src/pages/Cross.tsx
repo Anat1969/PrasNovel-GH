@@ -7,24 +7,31 @@ import { go } from "../lib/route";
 import { SortHead, useSort } from "../lib/sort";
 import { FieldChips, Src, Tone } from "../lib/ui";
 
-type Row = { id: string; name: string; disc: string | null; field: FieldCode; total: number; out: number; top: [string, number][] };
+type Row = { id: string; name: string; disc: string | null; field: FieldCode; total: number; out: number; top: [string, number][]; city: number; cityTop: [string, number][] };
+/** תחומי מחקר שנוגעים לעיר ולתכנון (רמת field ב-OpenAlex). */
+const CITY = ["Environmental Science", "Social Sciences", "Engineering", "Earth and Planetary Sciences", "Energy", "Decision Sciences"];
 type Pick = { kind: "idea"; id: string; f?: string } | { kind: "cell"; a: FieldCode; b: FieldCode } | null;
 
 export default function Cross({ m, params }: { m: Model; params: Record<string, string> }) {
-  const [view, setView] = useState<"use" | "mentors">("use");
+  const [view, setView] = useState<"use" | "city" | "mentors">(params.v === "city" ? "city" : "use");
   const [fields, setFields] = useState<FieldCode[]>(() => (params.f ? (params.f.split(",") as FieldCode[]) : []));
   const [pick, setPick] = useState<Pick>(null);
   const rows: Row[] = useMemo(() => m.selected.filter((s) => s.openalex.fields?.length && (!fields.length || fields.includes(s.field))).map((s) => {
     const f = s.openalex.fields!; const home = NOBEL_TO_OA[s.field];
     const total = f.reduce((a, x) => a + x[1], 0);
     const outside = f.filter((x) => !home.includes(x[0]));
-    return { id: s.nobel_id, name: nameHe(m.byId.get(s.nobel_id)), disc: s.discovery, field: s.field, total, out: outside.reduce((a, x) => a + x[1], 0) / total, top: outside.slice(0, 2) };
-  }), [m, fields]);
+    const cityF = f.filter((x) => CITY.includes(x[0]));
+    return { id: s.nobel_id, name: nameHe(m.byId.get(s.nobel_id)), disc: s.discovery, field: s.field, total, out: outside.reduce((a, x) => a + x[1], 0) / total, top: outside.slice(0, 2),
+      city: cityF.reduce((a, x) => a + x[1], 0) / total, cityTop: cityF.slice(0, 2) };
+  }), [m, fields, view]); // view: re-sort when the lens changes
   const { sorted, s, toggle } = useSort(rows, {
-    name: (r: Row) => r.name, field: (r: Row) => FIELD[r.field].he, out: (r: Row) => r.out, total: (r: Row) => r.total,
+    name: (r: Row) => r.name, field: (r: Row) => FIELD[r.field].he, out: (r: Row) => (view === "city" ? r.city : r.out), total: (r: Row) => r.total,
   }, { key: "out", dir: "desc" });
   const T = rows.reduce((a, r) => a + r.total, 0);
   const overall = rows.reduce((a, r) => a + r.out * r.total, 0) / Math.max(1, T);
+  const cityAll = rows.reduce((a, r) => a + r.city * r.total, 0) / Math.max(1, T);
+  const cityLead = [...rows].sort((a, b) => b.city - a.city)[0];
+  const isCity = view === "city";
 
   // מנחה ותלמיד לפי תחום (הפרס הראשון של כל אחד)
   const links = useMemo(() => m.links.filter((l) => {
@@ -44,10 +51,14 @@ export default function Cross({ m, params }: { m: Model; params: Record<string, 
       <div className="screen" style={{ gridTemplateRows: "auto minmax(0,1fr)" }}>
         <div className="screen-head">
           <div>
-            {view === "use"
+            {isCity
+              ? <Rich as="h1" className="insight-line">{`**${Math.round(cityAll * 100)}%** מהשימוש ברעיונות הנבחרים הוא בתחומים שנוגעים לעיר.${cityLead ? ` בראש: **${cityLead.name}**.` : ""}`}</Rich>
+              : view === "use"
               ? <Rich as="h1" className="insight-line">{`**${Math.round(overall * 100)}%** מהעבודות שמצטטות את הרעיונות הנבחרים הן מחוץ לתחום הפרס.`}</Rich>
               : <Rich as="h1" className="insight-line">{`**${cross.length}** מתוך **${links.length}** קשרי מנחה ותלמיד בין זוכים חוצים תחומים.`}</Rich>}
-            <p className="explain">{view === "use"
+            <p className="explain">{isCity
+              ? <>סביבה, חברה, הנדסה, כדור הארץ, אנרגיה ומדעי ההחלטה. <mark className="insight">אילו רעיונות של זוכי נובל כבר עובדים בשביל העיר.</mark> לחיצה על זוכה מציגה בצד את העבודות עצמן.</>
+              : view === "use"
               ? <>הפרס מסווג לתחום אחד. <mark className="insight">הרעיון עצמו נודד: לרפואה, להנדסה, לסביבה ולחברה.</mark> לחיצה על זוכה מציגה בצד את העבודות שמשתמשות ברעיון.</>
               : <>שורה: התחום של המנחה. עמודה: התחום של התלמיד. {top && top.n > 0 && <mark className="insight">המעבר הנפוץ: מ{FIELD[top.a].he} ל{FIELD[top.b].he} ({top.n}).</mark>} לחיצה על תא מציגה בצד את הזוגות.</>}</p>
           </div>
@@ -55,33 +66,36 @@ export default function Cross({ m, params }: { m: Model; params: Record<string, 
             <FieldChips value={fields} onChange={setF} />
             <div className="seg" role="group" aria-label="תצוגה">
               <button className="seg-btn" aria-pressed={view === "use"} onClick={() => { setView("use"); setPick(null); }}>מי משתמש ברעיון</button>
+              <button className="seg-btn" aria-pressed={isCity} onClick={() => { setView("city"); setPick(null); }}>עיר ותכנון</button>
               <button className="seg-btn" aria-pressed={view === "mentors"} onClick={() => { setView("mentors"); setPick(null); }}>מנחים ותלמידים בין תחומים</button>
             </div>
           </div>
         </div>
         <div className="panel fill">
-          {view === "use" ? (
+          {view !== "mentors" ? (
             <div className="use-rows">
               <div className="use-head">
                 <SortHead k="name" s={s} toggle={toggle}>זוכה והגילוי</SortHead>
-                <SortHead k="total" s={s} toggle={toggle}>בתוך התחום · מחוצה לו</SortHead>
-                <SortHead k="out" s={s} toggle={toggle}>מחוץ</SortHead>
-                <SortHead k="field" s={s} toggle={toggle}>לאן בעיקר</SortHead>
+                <SortHead k="total" s={s} toggle={toggle}>{isCity ? "עיר ותכנון · שאר התחומים" : "בתוך התחום · מחוצה לו"}</SortHead>
+                <SortHead k="out" s={s} toggle={toggle}>{isCity ? "עיר" : "מחוץ"}</SortHead>
+                <SortHead k="field" s={s} toggle={toggle}>{isCity ? "באילו תחומים" : "לאן בעיקר"}</SortHead>
               </div>
               {sorted.map((r) => (
                 <div key={r.id} role="button" tabIndex={0} className={`use-row${pick?.kind === "idea" && pick.id === r.id ? " on" : ""}`} style={{ ["--c" as string]: FIELD[r.field].color }}
-                  onClick={() => setPick({ kind: "idea", id: r.id, f: r.top[0]?.[0] })} onKeyDown={(e) => { if (e.key === "Enter") setPick({ kind: "idea", id: r.id, f: r.top[0]?.[0] }); }}>
+                  onClick={() => setPick({ kind: "idea", id: r.id, f: (isCity ? r.cityTop : r.top)[0]?.[0] })} onKeyDown={(e) => { if (e.key === "Enter") setPick({ kind: "idea", id: r.id, f: (isCity ? r.cityTop : r.top)[0]?.[0] }); }}>
                   <span className="use-name"><FieldGlyph f={r.field} size={12} />
                     <span className="idea-n"><button className="lline-name" onClick={(e) => { e.stopPropagation(); go("people", { id: r.id }); }} title="לכרטיס הזוכה">{r.name}</button>
                       <span className="idea-disc">{r.disc}</span></span></span>
                   <span className="use-bar" title={`${r.total.toLocaleString("en-US")} עבודות מצטטות`}>
-                    <i className="in" style={{ width: `${(1 - r.out) * 100}%` }} /><i className="out" style={{ width: `${r.out * 100}%` }} />
+                    {isCity ? <><i className="city" style={{ width: `${r.city * 100}%` }} /><i className="rest" style={{ width: `${(1 - r.city) * 100}%` }} /></>
+                      : <><i className="in" style={{ width: `${(1 - r.out) * 100}%` }} /><i className="out" style={{ width: `${r.out * 100}%` }} /></>}
                   </span>
-                  <span className="num use-pct">{Math.round(r.out * 100)}%</span>
-                  <span className="use-top">{r.top.map(([f]) => OA_FIELD_HE[f] ?? f).join(" · ")}</span>
+                  <span className="num use-pct">{Math.round((isCity ? r.city : r.out) * 100)}%</span>
+                  <span className="use-top">{(isCity ? r.cityTop : r.top).map(([f]) => OA_FIELD_HE[f] ?? f).join(" · ")}</span>
                 </div>
               ))}
               <div className="legend panel-legend">
+                {isCity ? <span><i style={{ background: "var(--bank)", borderRadius: 0 }} />תחומים שנוגעים לעיר ולתכנון</span> : null}
                 <span><i style={{ background: "var(--ink)", borderRadius: 0 }} />מחוץ לתחום הפרס</span>
                 <span><i style={{ background: "#2F5D8A", borderRadius: 0 }} />בתוך התחום (בצבע התחום)</span>
                 <span>לפי תחום המחקר של העבודות המצטטות (OpenAlex)</span>
