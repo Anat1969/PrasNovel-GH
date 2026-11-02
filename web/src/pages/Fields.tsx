@@ -50,7 +50,7 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
     const s = selOf(p.id);
     return (
       <button className={`evo-card${s ? " sel" : ""}${big ? " big" : ""}${pick === p ? " on" : ""}`} onClick={() => setPick(p)} title="לחיצה: פירוט בצד">
-        {s?.image && <img src={s.image.thumb_url} alt="" loading="lazy" />}
+        {s?.image && <img src={s.image.thumb_url} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = "none"; }} />}
         <span className="evo-card-txt">
           <span className="num evo-y">{p.y}</span>
           <strong className="evo-d">{p.d}</strong>
@@ -109,7 +109,7 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
         {pick ? (
           <div className="stack rise" key={pick.id + pick.y}>
             <div className="aside-ops"><span className="label">הגילוי שנבחר</span><button className="press icon-btn" onClick={() => setPick(null)} aria-label="סגירה">×</button></div>
-            {selOf(pick.id)?.image && <img className="aside-img" src={selOf(pick.id)!.image!.thumb_url} alt={selOf(pick.id)!.image!.caption_he} />}
+            {selOf(pick.id)?.image && <img className="aside-img" src={selOf(pick.id)!.image!.thumb_url} alt={selOf(pick.id)!.image!.caption_he} onError={(e) => { e.currentTarget.style.display = "none"; }} />}
             <LaureateLine m={m} p={pick} onName={m.selIds.has(pick.id) ? () => go("people", { id: pick.id }) : undefined} />
             {selOf(pick.id)?.museum?.contribution && <p className="dc-lead">{selOf(pick.id)!.museum!.contribution}</p>}
             {selOf(pick.id)?.museum?.takeaway && <p><mark className="insight">{selOf(pick.id)!.museum!.takeaway}</mark></p>}
