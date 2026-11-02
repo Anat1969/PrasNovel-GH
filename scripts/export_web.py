@@ -247,6 +247,8 @@ def main() -> int:
             "wikidata_snapshot": latest_raw_dir("wikidata").name,
             "selection_status": sel["status"],
             "selection_criteria": sel.get("criteria"),
+            "transitions_approved": (json.loads((CONFIG / "transitions.json").read_text(encoding="utf-8")).get("approved")
+                                     if (CONFIG / "transitions.json").exists() else None),
             "why_these": sel.get("why_these"),
             "images_note": images.get("note"),
             "openalex_snapshot": next(iter(oa["openalex_link"].retrieved_at), None) if "openalex_link" in oa else None,

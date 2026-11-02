@@ -32,6 +32,7 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
   const [tr, setTr] = useState<Transition | null>(null);
   const prizeOf = (x: { id: string; y: number }) => m.prizesOf.get(x.id)?.find((p) => p.y === x.y) ?? m.prizesOf.get(x.id)?.[0];
   const trans = m.transitions?.[field] ?? [];
+  const approved = !!m.meta.transitions_approved;
   const F = FIELD[field];
   const prizes = useMemo(() => m.prizes.filter((p) => p.f === field).sort((a, b) => a.y - b.y), [m, field]);
   const first = prizes[0], last = prizes[prizes.length - 1];
@@ -118,7 +119,7 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
             <div className="tr-arrow" aria-hidden="true">↓</div>
             {prizeOf(tr.to) && <LaureateLine m={m} p={prizeOf(tr.to)!} onName={m.selIds.has(tr.to.id) ? () => go("people", { id: tr.to.id }) : undefined} compact />}
             <Rich as="p" className="tr-how">{tr.how}</Rich>
-            <TrEvidence ev={tr.evidence} />
+            <TrEvidence ev={tr.evidence} approved={approved} />
           </div>
         ) : pick ? (
           <div className="stack rise" key={pick.id + pick.y}>
@@ -134,7 +135,7 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
           </div>
         ) : (
           <>
-            <div className="label">מרעיון לרעיון ב{F.he}</div>
+            <div className="label">מרעיון לרעיון ב{F.he}{approved ? " · אושר על ידי ענת" : ""}</div>
             <ol className="tr-list">
               {trans.map((x) => (
                 <li key={x.title}>
@@ -143,12 +144,12 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
                     <strong className="tr-t">{x.title}</strong>
                     <span className="tr-names">{nameHe(m.byId.get(x.from.id))} ← {nameHe(m.byId.get(x.to.id))}</span>
                     <Rich as="p" className="tr-how">{x.how}</Rich>
-                    <TrEvidence ev={x.evidence} />
+                    <TrEvidence ev={x.evidence} approved={approved} />
                   </button>
                 </li>
               ))}
             </ol>
-            <Tone kind="problem" title="איך לקרוא">{"**מתועד**: יש ראיה בנתונים, ציטוט או קשר מנחה ותלמיד.\n**הערכה**: פרשנות על בסיס היסטוריה מקובלת, טיוטת Claude לעריכה."}</Tone>
+            <Tone kind="problem" title="איך לקרוא">{"**מתועד**: יש ראיה בנתונים, ציטוט או קשר מנחה ותלמיד.\n**פרשנות מאושרת**: קריאה של ההיסטוריה המקובלת של התחום, שענת אישרה.\nאין כאן טענה סיבתית: מעבר מתאר המשך, לא הוכחה שהגילוי הקודם גרם לבא."}</Tone>
             <Src href="https://github.com/Anat1969/PrasNovel-GH/blob/main/config/transitions.json">קובץ המעברים לעריכה</Src>
           </>
         )}
@@ -174,8 +175,8 @@ function Influence({ m, id, onPick }: { m: Model; id: string; onPick: (p: Prize)
   );
 }
 
-function TrEvidence({ ev }: { ev: string[] }) {
+function TrEvidence({ ev, approved }: { ev: string[]; approved?: boolean }) {
   return ev.length
     ? <span className="tr-ev doc">מתועד: {ev.join(" · ")}</span>
-    : <span className="tr-ev est">הערכה</span>;
+    : <span className="tr-ev est">{approved ? "פרשנות מאושרת" : "הערכה"}</span>;
 }
