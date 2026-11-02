@@ -66,15 +66,17 @@ SELECT DISTINCT ?mentor ?student ?property WHERE {
 }
 """
 
-# Academic degrees (P512) for the selected laureates, with the institution (P69 qualifier-free: P512 qualifier P1027 'conferred by').
+# Degrees as recorded on education statements: P69 (educated at) with qualifier P512 (academic degree).
+# P512 on its own mixes honorary degrees and job titles, so it is not used.
 DEGREE_Q = """
 SELECT ?item ?degree ?degree_he ?degree_en ?by_en ?by_he ?year WHERE {
   VALUES ?item { %s }
-  ?item p:P512 ?st . ?st ps:P512 ?degree .
+  ?item p:P69 ?st . ?st ps:P69 ?by . ?st pq:P512 ?degree .
   OPTIONAL { ?degree rdfs:label ?degree_he FILTER(LANG(?degree_he) = "he") }
   OPTIONAL { ?degree rdfs:label ?degree_en FILTER(LANG(?degree_en) = "en") }
-  OPTIONAL { ?st pq:P1027 ?by . OPTIONAL { ?by rdfs:label ?by_en FILTER(LANG(?by_en) = "en") } OPTIONAL { ?by rdfs:label ?by_he FILTER(LANG(?by_he) = "he") } }
-  OPTIONAL { ?st pq:P585 ?t . BIND(YEAR(?t) AS ?year) }
+  OPTIONAL { ?by rdfs:label ?by_en FILTER(LANG(?by_en) = "en") }
+  OPTIONAL { ?by rdfs:label ?by_he FILTER(LANG(?by_he) = "he") }
+  OPTIONAL { ?st pq:P582 ?t . BIND(YEAR(?t) AS ?year) }
 }
 """
 

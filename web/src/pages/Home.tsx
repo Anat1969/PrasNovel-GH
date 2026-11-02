@@ -4,17 +4,23 @@ import { CONT_HE, FIELD, FIELDS, FieldCode, Model, nameHe } from "../lib/data";
 import Rich from "../lib/Rich";
 import { go, href } from "../lib/route";
 import { stats } from "../lib/stats";
-import { Src, Tone } from "../lib/ui";
+import { ERAS, EraChips, ShapeToggle, Src, Tone } from "../lib/ui";
 
 export default function Home({ m }: { m: Model }) {
   const s = useMemo(() => stats(m), [m]);
   const [hl, setHl] = useState<FieldCode | null>(null);
-  const points: GlobePoint[] = useMemo(() => m.people.filter((p) => p.lat != null && p.lon != null).map((p) => {
-    const f = m.firstField.get(p.id)!;
-    const dim = hl && f !== hl;
+  const [pin, setPin] = useState<FieldCode | null>(null);
+  const [era, setEra] = useState<string | null>(null);
+  const [flat, setFlat] = useState(false);
+  const range = ERAS.find((e) => e.id === era);
+  const points: GlobePoint[] = useMemo(() => m.people.filter((p) => p.lat != null && p.lon != null)
+    .filter((p) => !pin || (m.prizesOf.get(p.id) ?? []).some((x) => x.f === pin))
+    .filter((p) => !range || (m.prizesOf.get(p.id) ?? []).some((x) => x.y >= range.from && x.y <= range.to)).map((p) => {
+    const f = pin ?? m.firstField.get(p.id)!;
+    const dim = !pin && hl && f !== hl;
     return { id: p.id, lat: p.lat!, lon: p.lon!, color: dim ? "rgba(27,26,23,.12)" : FIELD[f].color, big: m.selIds.has(p.id) && !dim,
       label: `${nameHe(p)} · ${FIELD[f].he} ${m.firstYear.get(p.id)}` };
-  }), [m, hl]);
+  }), [m, hl, pin, range]);
   const phys = [s.ageMed("physics", 1901, 1950), s.ageMed("physics", 2001, 2100)].map(Math.round);
   const eu = s.contShare[0];
   const h = m.home;
@@ -70,14 +76,16 @@ export default function Home({ m }: { m: Model }) {
       </section>
       <section className="panel home-globe rise" style={{ animationDelay: ".05s" }} aria-label="גלובוס">
         <div className="globe-head">
-          <span className="label">מקום הלידה של כל זוכה, לפי גבולות היום</span>
-          <span className="label">גרירה מסובבת · לחיצה פותחת</span>
+          <span className="label">מקום הלידה של כל זוכה, לפי גבולות היום · <bdi className="num">{points.length}</bdi> על המפה</span>
+          <ShapeToggle flat={flat} onChange={setFlat} />
         </div>
-        <div className="fill"><Globe points={points} onPick={(id) => go(m.selIds.has(id) ? "people" : "world", { id })} /></div>
+        <EraChips value={era} onChange={setEra} />
+        <div className="fill"><Globe flat={flat} points={points} onPick={(id) => go(m.selIds.has(id) ? "people" : "world", { id })} /></div>
         <div className="legend globe-legend" onMouseLeave={() => setHl(null)}>
+          <button className="chip" aria-pressed={!pin} onClick={() => setPin(null)}>הכול</button>
           {FIELDS.map((f) => (
-            <button key={f.code} className="chip" aria-pressed={hl === f.code} onMouseEnter={() => setHl(f.code)} onFocus={() => setHl(f.code)}
-              onClick={() => setHl(hl === f.code ? null : f.code)}>
+            <button key={f.code} className="chip" aria-pressed={pin === f.code} onMouseEnter={() => setHl(f.code)} onFocus={() => setHl(f.code)}
+              onClick={() => setPin(pin === f.code ? null : f.code)} title="לחיצה מבודדת את התחום">
               <i className="dot" style={{ background: f.color }} />{f.he} <bdi className="num" style={{ fontWeight: 400 }}>{counts[f.code]}</bdi>
             </button>
           ))}

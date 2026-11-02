@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { geoDistance, geoGraticule10, geoOrthographic, geoPath, GeoPermissibleObjects } from "d3-geo";
+import { geoDistance, geoGraticule10, geoNaturalEarth1, geoOrthographic, geoPath, GeoPermissibleObjects, GeoProjection } from "d3-geo";
 import { feature } from "topojson-client";
 import { useReducedMotion } from "./ui";
 
@@ -9,10 +9,18 @@ let landCache: Promise<GeoPermissibleObjects> | null = null;
 const loadLand = () =>
   (landCache ??= fetch("./land-110m.json").then((r) => r.json()).then((t) => feature(t, t.objects.land) as unknown as GeoPermissibleObjects));
 
-/** גלובוס מסתובב. כל נקודה לחיצה. גרירה מסובבת, ריחוף מציג שם. */
-export default function Globe({ points, onPick, focus, spin = true, height }: {
-  points: GlobePoint[]; onPick?: (id: string) => void; focus?: string | null; spin?: boolean; height?: number | string;
+/** הטלה: כדור (אורתוגרפי) או מפה שטוחה (Natural Earth), שבה כל הנקודות גלויות יחד. */
+function makeProj(flat: boolean, w: number, h: number, rot: [number, number]): GeoProjection {
+  if (flat) return geoNaturalEarth1().rotate([rot[0], 0, 0]).fitExtent([[8, 8], [w - 8, h - 8]], { type: "Sphere" });
+  const r = Math.min(w, h) / 2 - 6;
+  return geoOrthographic().scale(r).translate([w / 2, h / 2]).rotate([rot[0], rot[1], 0]).clipAngle(90);
+}
+
+/** גלובוס מסתובב או מפה שטוחה. כל נקודה לחיצה. גרירה מסובבת, ריחוף מציג שם. */
+export default function Globe({ points, onPick, focus, spin = true, height, flat = false }: {
+  points: GlobePoint[]; onPick?: (id: string) => void; focus?: string | null; spin?: boolean; height?: number | string; flat?: boolean;
 }) {
+  const flatRef = useRef(flat); flatRef.current = flat;
   const wrap = useRef<HTMLDivElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
   const [land, setLand] = useState<GeoPermissibleObjects | null>(null);
@@ -58,16 +66,17 @@ export default function Globe({ points, onPick, focus, spin = true, height }: {
     const grat = geoGraticule10();
     const draw = (t: number) => {
       const dt = last ? t - last : 16; last = t;
-      if (spin && !reduced && !drag.current && !hover) rot.current = [rot.current[0] + dt * 0.006, rot.current[1]];
+      const isFlat = flatRef.current;
+      if (spin && !isFlat && !reduced && !drag.current && !hover) rot.current = [rot.current[0] + dt * 0.006, rot.current[1]];
       const { w, h } = size.current; const ctx = cv.getContext("2d")!;
-      const r = Math.min(w, h) / 2 - 6;
-      const proj = geoOrthographic().scale(r).translate([w / 2, h / 2]).rotate([rot.current[0], rot.current[1], 0]).clipAngle(90);
+      const r = isFlat ? Math.min(w / 2, h) / 2 : Math.min(w, h) / 2 - 6;
+      const proj = makeProj(isFlat, w, h, isFlat ? [0, 0] : rot.current);
       const path = geoPath(proj, ctx);
       ctx.clearRect(0, 0, w, h);
       // כדור: עומק בצל ובגרדיאנט, מקור אור משמאל למעלה
       const g = ctx.createRadialGradient(w / 2 - r * .35, h / 2 - r * .35, r * .1, w / 2, h / 2, r);
       g.addColorStop(0, "#FFFFFF"); g.addColorStop(1, "#ECEBE6");
-      ctx.save(); ctx.shadowColor = "rgba(27,26,23,.18)"; ctx.shadowBlur = 24; ctx.shadowOffsetY = 8;
+      ctx.save(); if (!isFlat) { ctx.shadowColor = "rgba(27,26,23,.18)"; ctx.shadowBlur = 24; ctx.shadowOffsetY = 8; }
       ctx.beginPath(); path({ type: "Sphere" }); ctx.fillStyle = g; ctx.fill(); ctx.restore();
       ctx.beginPath(); path(grat); ctx.strokeStyle = "rgba(27,26,23,.07)"; ctx.lineWidth = .6; ctx.stroke();
       if (land) { ctx.beginPath(); path(land); ctx.fillStyle = "#D9D6CD"; ctx.fill(); ctx.strokeStyle = "rgba(27,26,23,.25)"; ctx.lineWidth = .5; ctx.stroke(); }
@@ -78,7 +87,7 @@ export default function Globe({ points, onPick, focus, spin = true, height }: {
       for (const big of [false, true]) {
         for (const p of pts) {
           if (!!p.big !== big) continue;
-          if (geoDistance([p.lon, p.lat], center) > Math.PI / 2 - .02) continue;
+          if (!isFlat && geoDistance([p.lon, p.lat], center) > Math.PI / 2 - .02) continue;
           const xy = proj([p.lon, p.lat]); if (!xy) continue;
           ctx.beginPath(); ctx.arc(xy[0], xy[1], (big ? 4.2 : 2.3) * k, 0, Math.PI * 2);
           ctx.fillStyle = p.color; ctx.globalAlpha = big ? 1 : .72; ctx.fill(); ctx.globalAlpha = 1;
@@ -92,17 +101,17 @@ export default function Globe({ points, onPick, focus, spin = true, height }: {
     };
     raf = requestAnimationFrame(draw);
     return () => { cancelAnimationFrame(raf); ro.disconnect(); };
-  }, [land, spin, reduced, hover]);
+  }, [land, spin, reduced, hover, flat]);
 
   const pick = (ev: React.PointerEvent): { p: GlobePoint; x: number; y: number } | null => {
     const rect = canvas.current!.getBoundingClientRect();
     const x = ev.clientX - rect.left, y = ev.clientY - rect.top;
-    const { w, h } = size.current; const r = Math.min(w, h) / 2 - 6;
-    const proj = geoOrthographic().scale(r).translate([w / 2, h / 2]).rotate([rot.current[0], rot.current[1], 0]);
+    const { w, h } = size.current; const isFlat = flatRef.current;
+    const proj = makeProj(isFlat, w, h, isFlat ? [0, 0] : rot.current);
     const center: [number, number] = [-rot.current[0], -rot.current[1]];
     let best: GlobePoint | null = null; let bd = 10;
     for (const p of pointsRef.current) {
-      if (geoDistance([p.lon, p.lat], center) > Math.PI / 2) continue;
+      if (!isFlat && geoDistance([p.lon, p.lat], center) > Math.PI / 2) continue;
       const xy = proj([p.lon, p.lat]); if (!xy) continue;
       const d = Math.hypot(xy[0] - x, xy[1] - y) - (p.big ? 3 : 0);
       if (d < bd) { bd = d; best = p; }
@@ -112,11 +121,11 @@ export default function Globe({ points, onPick, focus, spin = true, height }: {
 
   return (
     <div ref={wrap} className="globe" style={{ position: "relative", width: "100%", height: height ?? "100%", touchAction: "none" }}>
-      <canvas ref={canvas} role="img" aria-label="גלובוס של מקומות הלידה של הזוכים"
+      <canvas ref={canvas} role="img" aria-label={flat ? "מפה של מקומות הלידה של הזוכים" : "גלובוס של מקומות הלידה של הזוכים"}
         style={{ display: "block", cursor: hover ? "pointer" : drag.current ? "grabbing" : "grab" }}
         onPointerDown={(e) => { drag.current = { x: e.clientX, y: e.clientY, r: [...rot.current] as [number, number] }; (e.target as Element).setPointerCapture(e.pointerId); }}
         onPointerMove={(e) => {
-          if (drag.current) {
+          if (drag.current && !flatRef.current) {
             const d = drag.current;
             rot.current = [d.r[0] + (e.clientX - d.x) * .35, Math.max(-80, Math.min(80, d.r[1] - (e.clientY - d.y) * .35))];
           } else setHover(pick(e));

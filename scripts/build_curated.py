@@ -167,6 +167,35 @@ def build_wikidata(laureate_df):
     return entities, edge_df, source
 
 
+def build_wikidata_extra(laureate_df):
+    """Degrees (P512) of the selected laureates and mentor links where both ends are laureates (all fields)."""
+    try:
+        snapshot = latest_raw_dir("wikidata")
+    except FileNotFoundError:
+        return {}
+    qid_to_nobel = dict(zip(laureate_df["qid"], laureate_df["nobel_id"]))
+    out = {}
+    deg_path, link_path = snapshot / "degrees.json", snapshot / "laureate_links.json"
+    if deg_path.exists():
+        rows = json.loads(deg_path.read_text(encoding="utf-8"))["rows"]
+        out["degree"] = pd.DataFrame([{
+            "nobel_id": qid_to_nobel.get(r["qid"]), "qid": r["qid"], "degree": r["degree"],
+            "degree_he": r.get("degree_he"), "degree_en": r.get("degree_en"),
+            "by_en": r.get("by_en"), "by_he": r.get("by_he"), "year": r.get("year"),
+            "source_url": f"https://www.wikidata.org/wiki/{r['qid']}#P512"} for r in rows]).drop_duplicates()
+    if link_path.exists():
+        rows = json.loads(link_path.read_text(encoding="utf-8"))["rows"]
+        df = pd.DataFrame([{"mentor_qid": r["mentor"], "student_qid": r["student"], "property": r["property"]} for r in rows])
+        if not df.empty:
+            df = (df.sort_values("property").groupby(["mentor_qid", "student_qid"], as_index=False)
+                  .agg(properties=("property", lambda s: "|".join(sorted(set(s))))))
+            df["mentor_nobel_id"] = df.mentor_qid.map(qid_to_nobel)
+            df["student_nobel_id"] = df.student_qid.map(qid_to_nobel)
+            df["source_url"] = "https://www.wikidata.org/wiki/" + df.student_qid
+            out["laureate_link"] = df[df.mentor_qid != df.student_qid].reset_index(drop=True)
+    return out
+
+
 def decide_link(link: dict) -> tuple[str, list[str]]:
     """Decide which OpenAlex author ids belong to a laureate.
 
@@ -274,6 +303,7 @@ def main() -> int:
         "edge": edge,
         "wikidata_check": wikidata_check,
         **build_openalex(),
+        **build_wikidata_extra(laureate),
     }
     if DB_PATH.exists():
         DB_PATH.unlink()  # rebuilt from raw every time: idempotent

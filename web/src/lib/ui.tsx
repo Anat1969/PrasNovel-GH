@@ -73,3 +73,36 @@ export const Icon = {
 export function useReducedMotion() {
   return typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 }
+
+/** תקופות פרס: רבע מאה כל אחת. */
+export const ERAS: { id: string; he: string; from: number; to: number }[] = [
+  { id: "1901", he: "1901–1925", from: 1901, to: 1925 },
+  { id: "1926", he: "1926–1950", from: 1926, to: 1950 },
+  { id: "1951", he: "1951–1975", from: 1951, to: 1975 },
+  { id: "1976", he: "1976–2000", from: 1976, to: 2000 },
+  { id: "2001", he: "2001 ואילך", from: 2001, to: 2100 },
+];
+
+/** בורר תקופה: "כל השנים" מאפס, לחיצה בוחרת תקופה אחת. */
+export function EraChips({ value, onChange }: { value: string | null; onChange: (v: string | null) => void }) {
+  return (
+    <div className="chips" role="group" aria-label="תקופת הזכייה">
+      <button className="chip" aria-pressed={!value} onClick={() => onChange(null)}>כל השנים</button>
+      {ERAS.map((e) => (
+        <button key={e.id} className="chip" aria-pressed={value === e.id} onClick={() => onChange(value === e.id ? null : e.id)}>
+          <bdi className="num">{e.he}</bdi>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/** מתג תצוגה: כדור או מפה שטוחה. */
+export function ShapeToggle({ flat, onChange }: { flat: boolean; onChange: (flat: boolean) => void }) {
+  return (
+    <div className="seg" role="group" aria-label="צורת התצוגה">
+      <button className="seg-btn" aria-pressed={!flat} onClick={() => onChange(false)}>כדור</button>
+      <button className="seg-btn" aria-pressed={flat} onClick={() => onChange(true)}>מפה</button>
+    </div>
+  );
+}
