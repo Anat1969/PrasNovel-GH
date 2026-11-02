@@ -1,0 +1,30 @@
+# Builds web/ into app/ on every push to main, so the latest merge is viewable at
+# https://raw.githack.com/Anat1969/PrasNovel-GH/main/app/index.html
+name: build-app
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["app/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: pip install -r requirements.txt
+      - run: cd scripts && python export_web.py
+      - run: cd web && npm ci && npm run build:github
+      - name: Commit app/ if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add app web/public/data.json
+          git diff --cached --quiet || (git commit -m "Build app/ from web/" && git push)
