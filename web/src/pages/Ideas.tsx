@@ -1,22 +1,25 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { FIELD, median, Model, nameHe, Selected } from "../lib/data";
+import { FIELD, FieldCode, median, Model, nameHe, Selected } from "../lib/data";
 import FieldGlyph from "../lib/FieldGlyph";
 import IdeaCurve from "../lib/IdeaCurve";
 import Rich from "../lib/Rich";
 import { go } from "../lib/route";
 import { useSize } from "../lib/useSize";
 import YearBar from "../lib/YearBar";
-import { Src, Tone, useReducedMotion } from "../lib/ui";
+import { FieldChips, Src, Tone, useReducedMotion } from "../lib/ui";
 
 const FROM = 1875, TO = 2025;
 const STATUS_TONE: Record<string, string> = { "אומת": "st-ok", "הערכה": "st-est", "סתירה": "st-bad", "לא קושר": "st-bad", "לא רלוונטי": "st-na", "לא נאסף": "st-na" };
 
 type Row = { s: Selected; name: string; top: { title: string; y: number | null; c: number }; curve: [number, number][]; total: number; after: number; gap: number | null };
 
-export default function Ideas({ m }: { m: Model }) {
+export default function Ideas({ m, params }: { m: Model; params: Record<string, string> }) {
   const reduced = useReducedMotion();
+  const [fields, setFields] = useState<FieldCode[]>(() => (params.f ? (params.f.split(",") as FieldCode[]) : []));
+  const [openCite, setOpenCite] = useState<string | null>(null);
   const rows: Row[] = useMemo(() => m.selected
     .filter((s) => s.openalex.curve && s.openalex.curve.length && s.openalex.top?.length)
+    .filter((s) => !fields.length || fields.includes(s.field))
     .map((s) => {
       const curve = s.openalex.curve!;
       const total = curve.reduce((a, d) => a + d[1], 0);
@@ -24,7 +27,7 @@ export default function Ideas({ m }: { m: Model }) {
       const top = s.openalex.top![0];
       return { s, name: nameHe(m.byId.get(s.nobel_id)), top, curve, total, after, gap: top.y != null ? s.year - top.y : null };
     })
-    .sort((a, b) => (a.top.y ?? 0) - (b.top.y ?? 0)), [m]);
+    .sort((a, b) => (a.top.y ?? 0) - (b.top.y ?? 0)), [m, fields]);
 
   const [year, setYear] = useState(TO);
   const [playing, setPlaying] = useState(false);
@@ -45,7 +48,8 @@ export default function Ideas({ m }: { m: Model }) {
   const gaps = rows.map((r) => r.gap).filter((g): g is number => g != null);
   const mostlyAfter = rows.filter((r) => r.after > 0.5).length;
   const statuses = m.selected.reduce<Record<string, number>>((a, s) => ({ ...a, [s.openalex.status]: (a[s.openalex.status] ?? 0) + 1 }), {});
-  const cites = [...m.cites].sort((a, b) => b.n - a.n);
+  const fieldOf = (id: string) => m.selected.find((s) => s.nobel_id === id)?.field;
+  const cites = [...m.cites].filter((c) => !fields.length || fields.includes(fieldOf(c.s)!) || fields.includes(fieldOf(c.t)!)).sort((a, b) => b.n - a.n);
   const ticks = [1900, 1925, 1950, 1975, 2000];
   const xOf = (y: number) => 2 + ((y - FROM) / (TO - FROM)) * (curveW - 4);
 
@@ -60,6 +64,8 @@ export default function Ideas({ m }: { m: Model }) {
               <mark className="insight">אצל <bdi className="num">{mostlyAfter}</bdi> מתוך <bdi className="num">{rows.length}</bdi> רוב הציטוטים נרשמו אחרי הפרס.</mark>
             </p>
           </div>
+          <FieldChips value={fields} onChange={(f) => { setFields(f); go("ideas", { f: f.join(",") || undefined }); }}
+            fields={["physics", "chemistry", "medicine", "economics"]} note="שלום וספרות: ספירת ציטוטים לא מודדת אותם" />
         </div>
         <YearBar min={FROM} max={TO} value={year} onChange={(y) => { setPlaying(false); setYear(y); }} playing={playing}
           onPlay={() => { if (!playing && year >= TO) setYear(FROM); setPlaying(!playing); }} onReset={() => { setPlaying(false); setYear(TO); }} />
@@ -95,14 +101,35 @@ export default function Ideas({ m }: { m: Model }) {
         </div>
       </div>
       <aside className="panel panel-pad scroll-in stack">
-        <div className="label">מי בונה על מי, בתוך עשרים הזוכים</div>
-        {cites.length ? cites.map((c) => (
-          <a key={`${c.s}-${c.t}`} className="cite-row" href={`#/people?id=${c.s}`}>
-            <span><strong>{nameHe(m.byId.get(c.s))}</strong> מצטט/ת את <strong>{nameHe(m.byId.get(c.t))}</strong></span>
-            <span className="cite-bar"><i style={{ width: `${(c.n / cites[0].n) * 100}%`, background: FIELD[m.selected.find((s) => s.nobel_id === c.t)!.field].color }} /></span>
-            <span className="num">{c.n}</span>
-          </a>
-        )) : <p className="src">לא נמצאו ציטוטים ישירים בין הזוכים.</p>}
+        <div className="label">מי בונה על מי, בתוך הזוכים הנבחרים</div>
+        {cites.length ? cites.map((c) => {
+          const key = `${c.s}>${c.t}`; const open = openCite === key || cites.length <= 2;
+          const refs = [...new Set(c.ev.flatMap((w) => (w.refs ?? "").split(" || ").filter(Boolean)))];
+          return (
+            <div key={key} className="cite-card" data-open={open ? "1" : undefined}>
+              <button className="cite-row" onClick={() => setOpenCite(open ? null : key)} aria-expanded={open}>
+                <span><strong>{nameHe(m.byId.get(c.s))}</strong> מצטט/ת את <strong>{nameHe(m.byId.get(c.t))}</strong></span>
+                <span className="cite-bar"><i style={{ width: `${(c.n / cites[0].n) * 100}%`, background: FIELD[fieldOf(c.t)!].color }} /></span>
+                <span className="num">{c.n}</span>
+              </button>
+              {open && (
+                <div className="cite-body rise">
+                  {c.title && <div className="cite-title">{c.title}</div>}
+                  {c.why && <Rich as="p">{c.why}</Rich>}
+                  {c.label && <span className="label">[{c.label}]</span>}
+                  <div className="cite-ev">
+                    <span className="label">הראיה: <bdi className="num">{c.n}</bdi> עבודות, למשל</span>
+                    {c.ev.slice(0, 3).map((w) => (
+                      <div key={w.title} className="cite-ev-row"><span className="num">{w.y}</span>
+                        {w.doi ? <a href={w.doi} target="_blank" rel="noreferrer" dir="auto">{w.title}</a> : <span dir="auto">{w.title}</span>}</div>
+                    ))}
+                    {refs.length > 0 && <span className="src">מפנות אל: <span dir="auto">{refs.slice(0, 2).join(" · ")}</span></span>}
+                  </div>
+                </div>
+              )}
+            </div>
+          );
+        }) : <p className="src">לא נמצאו ציטוטים ישירים בתחומים שנבחרו.</p>}
         <p className="src">מספר העבודות של הזוכה המצטט שמפנות ל-25 המאמרים המובילים של המצוטט. התחומים רחוקים זה מזה, ולכן רוב הקשרים בכלכלה.</p>
         <Tone kind="problem" title="למה לא להסיק סיבה [הערכה]">{"מספר המאמרים בעולם **גדל מאוד** לאורך המאה, ולכן כל עקומה נוטה לעלות.\nזה **דפוס**, לא הוכחה שהפרס הגביר ציטוטים."}</Tone>
         <Tone kind="insight" title="מה לוקחים">{"==רעיון חי עשרות שנים אחרי שנולד.==\nההכרה הרשמית מגיעה באמצע הדרך, לא בסופה."}</Tone>

@@ -1,0 +1,1552 @@
+{
+ "query": "\nSELECT DISTINCT ?mentor ?student ?from ?property\n       ?mentor_label ?student_label ?mentor_label_he ?student_label_he WHERE {\n  VALUES ?s { %s }\n  {\n    ?s wdt:P184 ?mentor . BIND(?s AS ?student) BIND(?s AS ?from) BIND(\"P184\" AS ?property)\n  } UNION {\n    ?s wdt:P1066 ?mentor . BIND(?s AS ?student) BIND(?s AS ?from) BIND(\"P1066\" AS ?property)\n  } UNION {\n    ?s wdt:P185 ?student . BIND(?s AS ?mentor) BIND(?s AS ?from) BIND(\"P185\" AS ?property)\n  } UNION {\n    ?s wdt:P802 ?student . BIND(?s AS ?mentor) BIND(?s AS ?from) BIND(\"P802\" AS ?property)\n  } UNION {\n    ?student wdt:P184 ?s . BIND(?s AS ?mentor) BIND(?student AS ?from) BIND(\"P184\" AS ?property)\n  } UNION {\n    ?student wdt:P1066 ?s . BIND(?s AS ?mentor) BIND(?student AS ?from) BIND(\"P1066\" AS ?property)\n  }\n  OPTIONAL { ?mentor rdfs:label ?mentor_label FILTER(LANG(?mentor_label) = \"en\") }\n  OPTIONAL { ?student rdfs:label ?student_label FILTER(LANG(?student_label) = \"en\") }\n  OPTIONAL { ?mentor rdfs:label ?mentor_label_he FILTER(LANG(?mentor_label_he) = \"he\") }\n  OPTIONAL { ?student rdfs:label ?student_label_he FILTER(LANG(?student_label_he) = \"he\") }\n}\n",
+ "selected": [
+  "Q35149",
+  "Q7186",
+  "Q60429",
+  "Q56855591",
+  "Q102822",
+  "Q7487",
+  "Q106624",
+  "Q743252",
+  "Q150526",
+  "Q199654",
+  "Q462843",
+  "Q88608397",
+  "Q183181",
+  "Q132489",
+  "Q153761",
+  "Q1097475",
+  "Q12091",
+  "Q180989",
+  "Q46795",
+  "Q43969",
+  "Q44519",
+  "Q7241",
+  "Q133042",
+  "Q5646626"
+ ],
+ "rows": [
+  {
+   "student": "Q7504",
+   "student_label_he": "אירן ז'וליו-קירי",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "Irène Joliot-Curie",
+   "from": "Q7186",
+   "property": "P802"
+  },
+  {
+   "student": "Q7487",
+   "student_label_he": "דורותי קרופוט הודג'קין",
+   "mentor": "Q168362",
+   "mentor_label_he": "ג'ון דזמונד ברנל",
+   "student_label": "Dorothy Hodgkin",
+   "from": "Q7487",
+   "property": "P184",
+   "mentor_label": "John Desmond Bernal"
+  },
+  {
+   "student": "Q7186",
+   "student_label_he": "מארי קירי",
+   "mentor": "Q133232",
+   "mentor_label_he": "גבריאל ליפמן",
+   "from": "Q7186",
+   "property": "P184",
+   "mentor_label": "Gabriel Lippmann"
+  },
+  {
+   "student": "Q110968",
+   "student_label_he": "צ'אלינג קופמאנס",
+   "mentor": "Q183181",
+   "student_label": "Tjalling Koopmans",
+   "from": "Q183181",
+   "property": "P185",
+   "mentor_label": "Jan Tinbergen",
+   "mentor_label_he": "יאן טינברגן"
+  },
+  {
+   "student": "Q132489",
+   "student_label_he": "אמרטיה סן",
+   "mentor": "Q4746998",
+   "student_label": "Amartya Sen",
+   "from": "Q132489",
+   "property": "P1066",
+   "mentor_label": "Amiya Kumar Dasgupta"
+  },
+  {
+   "student": "Q132489",
+   "student_label_he": "אמרטיה סן",
+   "mentor": "Q234793",
+   "student_label": "Amartya Sen",
+   "from": "Q132489",
+   "property": "P1066",
+   "mentor_label": "Joan Robinson",
+   "mentor_label_he": "ג'ואן רובינסון"
+  },
+  {
+   "student": "Q132489",
+   "student_label_he": "אמרטיה סן",
+   "mentor": "Q234793",
+   "student_label": "Amartya Sen",
+   "from": "Q132489",
+   "property": "P184",
+   "mentor_label": "Joan Robinson",
+   "mentor_label_he": "ג'ואן רובינסון"
+  },
+  {
+   "student": "Q110968",
+   "student_label_he": "צ'אלינג קופמאנס",
+   "mentor": "Q183181",
+   "student_label": "Tjalling Koopmans",
+   "from": "Q110968",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen",
+   "mentor_label_he": "יאן טינברגן"
+  },
+  {
+   "student": "Q132489",
+   "student_label_he": "אמרטיה סן",
+   "mentor": "Q370468",
+   "student_label": "Amartya Sen",
+   "from": "Q132489",
+   "property": "P1066",
+   "mentor_label": "Piero Sraffa",
+   "mentor_label_he": "פיירו סראפה"
+  },
+  {
+   "student": "Q35149",
+   "student_label_he": "וילהלם רנטגן",
+   "mentor": "Q60554",
+   "mentor_label_he": "אוגוסט קונדט",
+   "student_label": "Wilhelm Röntgen",
+   "from": "Q35149",
+   "property": "P1066",
+   "mentor_label": "August Kundt"
+  },
+  {
+   "student": "Q35149",
+   "student_label_he": "וילהלם רנטגן",
+   "mentor": "Q60554",
+   "mentor_label_he": "אוגוסט קונדט",
+   "student_label": "Wilhelm Röntgen",
+   "from": "Q35149",
+   "property": "P184",
+   "mentor_label": "August Kundt"
+  },
+  {
+   "student": "Q35149",
+   "student_label_he": "וילהלם רנטגן",
+   "mentor": "Q68225",
+   "mentor_label_he": "גוסטב צוינר",
+   "student_label": "Wilhelm Röntgen",
+   "from": "Q35149",
+   "property": "P184",
+   "mentor_label": "Gustav Zeuner"
+  },
+  {
+   "student": "Q331067",
+   "student_label_he": "אברם יופה",
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student_label": "Abram Ioffe",
+   "from": "Q35149",
+   "property": "P802",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "student": "Q331067",
+   "student_label_he": "אברם יופה",
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student_label": "Abram Ioffe",
+   "from": "Q331067",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "student": "Q331067",
+   "student_label_he": "אברם יופה",
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student_label": "Abram Ioffe",
+   "from": "Q35149",
+   "property": "P185",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "student": "Q150526",
+   "student_label_he": "סנטיאגו רמון אי קחאל",
+   "mentor": "Q4822241",
+   "student_label": "Santiago Ramón y Cajal",
+   "from": "Q150526",
+   "property": "P184",
+   "mentor_label": "Aureliano Maestre de San Juan"
+  },
+  {
+   "student": "Q150526",
+   "student_label_he": "סנטיאגו רמון אי קחאל",
+   "mentor": "Q5863042",
+   "student_label": "Santiago Ramón y Cajal",
+   "from": "Q150526",
+   "property": "P1066",
+   "mentor_label": "Florencio Ballarín Causada"
+  },
+  {
+   "student": "Q60429",
+   "student_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "mentor": "Q108195538",
+   "student_label": "Chandrasekhara Venkata Raman",
+   "from": "Q60429",
+   "property": "P1066",
+   "mentor_label": "Rhishard Llewellyn Jones"
+  },
+  {
+   "student": "Q241822",
+   "student_label_he": "מרגריט פרי",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "Marguerite Perey",
+   "from": "Q241822",
+   "property": "P184"
+  },
+  {
+   "student": "Q241822",
+   "student_label_he": "מרגריט פרי",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "Marguerite Perey",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "student": "Q320050",
+   "student_label_he": "ארנסט כהן",
+   "mentor": "Q102822",
+   "student_label": "Ernst Cohen",
+   "from": "Q320050",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף"
+  },
+  {
+   "student": "Q153761",
+   "student_label_he": "אלינור אוסטרום",
+   "mentor": "Q61818418",
+   "student_label": "Elinor Ostrom",
+   "from": "Q153761",
+   "property": "P184",
+   "mentor_label": "Dwaine Marvick",
+   "mentor_label_he": "דוויין מרוויק"
+  },
+  {
+   "student": "Q102822",
+   "student_label_he": "יאקובוס ואן 'ט הוף",
+   "mentor": "Q17321350",
+   "student_label": "Jacobus Henricus van 't Hoff",
+   "from": "Q102822",
+   "property": "P1066",
+   "mentor_label": "Eduard Mulder"
+  },
+  {
+   "student": "Q320050",
+   "student_label_he": "ארנסט כהן",
+   "mentor": "Q102822",
+   "student_label": "Ernst Cohen",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף"
+  },
+  {
+   "student": "Q153761",
+   "student_label_he": "אלינור אוסטרום",
+   "mentor": "Q240448",
+   "student_label": "Elinor Ostrom",
+   "from": "Q153761",
+   "property": "P1066",
+   "mentor_label": "Armen Alchian",
+   "mentor_label_he": "ארמן אלצ'יאן"
+  },
+  {
+   "student": "Q320050",
+   "student_label_he": "ארנסט כהן",
+   "mentor": "Q102822",
+   "student_label": "Ernst Cohen",
+   "from": "Q102822",
+   "property": "P802",
+   "mentor_label": "Jacobus Henricus van 't Hoff",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף"
+  },
+  {
+   "student": "Q325470",
+   "student_label_he": "ויקראם סאראבהאי",
+   "mentor": "Q60429",
+   "student_label": "Vikram Sarabhai",
+   "from": "Q60429",
+   "property": "P185",
+   "mentor_label": "Chandrasekhara Venkata Raman",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן"
+  },
+  {
+   "student": "Q199654",
+   "student_label_he": "ברברה מקלינטוק",
+   "mentor": "Q7361264",
+   "student_label": "Barbara McClintock",
+   "from": "Q199654",
+   "property": "P184",
+   "mentor_label": "Rollins Adams Emerson",
+   "mentor_label_he": "רולינס א. אמרסון"
+  },
+  {
+   "student": "Q183181",
+   "student_label_he": "יאן טינברגן",
+   "mentor": "Q84227",
+   "student_label": "Jan Tinbergen",
+   "from": "Q183181",
+   "property": "P184",
+   "mentor_label": "Paul Ehrenfest",
+   "mentor_label_he": "פאול ארנפסט"
+  },
+  {
+   "student": "Q102822",
+   "student_label_he": "יאקובוס ואן 'ט הוף",
+   "mentor": "Q76784",
+   "student_label": "Jacobus Henricus van 't Hoff",
+   "from": "Q102822",
+   "property": "P1066",
+   "mentor_label": "August Kekulé",
+   "mentor_label_he": "פרידריך אוגוסט קקולה"
+  },
+  {
+   "student": "Q320050",
+   "student_label_he": "ארנסט כהן",
+   "mentor": "Q102822",
+   "student_label": "Ernst Cohen",
+   "from": "Q320050",
+   "property": "P1066",
+   "mentor_label": "Jacobus Henricus van 't Hoff",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף"
+  },
+  {
+   "student": "Q153761",
+   "student_label_he": "אלינור אוסטרום",
+   "mentor": "Q4497895",
+   "student_label": "Elinor Ostrom",
+   "from": "Q153761",
+   "property": "P1066",
+   "mentor_label": "Jack Hirshleifer"
+  },
+  {
+   "student": "Q102822",
+   "student_label_he": "יאקובוס ואן 'ט הוף",
+   "mentor": "Q17321350",
+   "student_label": "Jacobus Henricus van 't Hoff",
+   "from": "Q102822",
+   "property": "P184",
+   "mentor_label": "Eduard Mulder"
+  },
+  {
+   "student": "Q325470",
+   "student_label_he": "ויקראם סאראבהאי",
+   "mentor": "Q60429",
+   "student_label": "Vikram Sarabhai",
+   "from": "Q325470",
+   "property": "P184",
+   "mentor_label": "Chandrasekhara Venkata Raman",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן"
+  },
+  {
+   "student": "Q468371",
+   "student_label_he": "אנדרה לואי דביירן",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "André-Louis Debierne",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "student": "Q468371",
+   "student_label_he": "אנדרה לואי דביירן",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "André-Louis Debierne",
+   "from": "Q468371",
+   "property": "P184"
+  },
+  {
+   "student": "Q45766574",
+   "student_label_he": "ברברה וורטון לואו",
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student_label": "Barbara Wharton Low",
+   "from": "Q7487",
+   "property": "P185",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "student": "Q1097475",
+   "student_label_he": "קלודיה גולדין",
+   "mentor": "Q237821",
+   "mentor_label_he": "רוברט פוגל",
+   "student_label": "Claudia Goldin",
+   "from": "Q1097475",
+   "property": "P184",
+   "mentor_label": "Robert Fogel"
+  },
+  {
+   "student": "Q6303470",
+   "student_label_he": "ג'ודית האווארד",
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student_label": "Judith Howard",
+   "from": "Q6303470",
+   "property": "P184",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "student": "Q45766574",
+   "student_label_he": "ברברה וורטון לואו",
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student_label": "Barbara Wharton Low",
+   "from": "Q45766574",
+   "property": "P184",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "student": "Q1097475",
+   "student_label_he": "קלודיה גולדין",
+   "mentor": "Q4722582",
+   "student_label": "Claudia Goldin",
+   "from": "Q1097475",
+   "property": "P184",
+   "mentor_label": "Alfred E. Kahn"
+  },
+  {
+   "student": "Q7814993",
+   "student_label_he": "טום בלאנדל",
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student_label": "Tom Blundell",
+   "from": "Q7814993",
+   "property": "P184",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "student": "Q18507270",
+   "student_label_he": "סטפניה מרצ'ינאנו",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "Ștefania Mărăcineanu",
+   "from": "Q18507270",
+   "property": "P184"
+  },
+  {
+   "student": "Q910690",
+   "student_label_he": "גופאלאסמודרם ראמצ'נדרן",
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student_label": "G. N. Ramachandran",
+   "from": "Q60429",
+   "property": "P185",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "student": "Q18507270",
+   "student_label_he": "סטפניה מרצ'ינאנו",
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student_label": "Ștefania Mărăcineanu",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "student": "Q1097475",
+   "student_label_he": "קלודיה גולדין",
+   "mentor": "Q191020",
+   "mentor_label_he": "גארי בקר",
+   "student_label": "Claudia Goldin",
+   "from": "Q1097475",
+   "property": "P184",
+   "mentor_label": "Gary S. Becker"
+  },
+  {
+   "student": "Q7814993",
+   "student_label_he": "טום בלאנדל",
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student_label": "Tom Blundell",
+   "from": "Q7487",
+   "property": "P185",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "student": "Q910690",
+   "student_label_he": "גופאלאסמודרם ראמצ'נדרן",
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student_label": "G. N. Ramachandran",
+   "from": "Q910690",
+   "property": "P184",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "student": "Q6303470",
+   "student_label_he": "ג'ודית האווארד",
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student_label": "Judith Howard",
+   "from": "Q7487",
+   "property": "P185",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "student": "Q29571108",
+   "student_label_he": "ליאה בוסטן",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Leah Platt Boustan",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q22097176",
+   "student_label_he": "רוברט וייפלס",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Robert Whaples",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q18643889",
+   "student_label_he": "אלמירו בלומנשיין",
+   "mentor": "Q199654",
+   "mentor_label_he": "ברברה מקלינטוק",
+   "student_label": "Almiro Blumenschein",
+   "from": "Q18643889",
+   "property": "P184",
+   "mentor_label": "Barbara McClintock"
+  },
+  {
+   "student": "Q22097176",
+   "student_label_he": "רוברט וייפלס",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Robert Whaples",
+   "from": "Q22097176",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q29571108",
+   "student_label_he": "ליאה בוסטן",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Leah Platt Boustan",
+   "from": "Q29571108",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q18643889",
+   "student_label_he": "אלמירו בלומנשיין",
+   "mentor": "Q199654",
+   "mentor_label_he": "ברברה מקלינטוק",
+   "student_label": "Almiro Blumenschein",
+   "from": "Q199654",
+   "property": "P185",
+   "mentor_label": "Barbara McClintock"
+  },
+  {
+   "student": "Q180989",
+   "student_label_he": "ג'יין אדמס",
+   "mentor": "Q19571855",
+   "mentor_label_he": "מרי אמילי הולמס",
+   "student_label": "Jane Addams",
+   "from": "Q180989",
+   "property": "P1066",
+   "mentor_label": "Mary Emilie Holmes"
+  },
+  {
+   "student": "Q56855591",
+   "student_label_he": "דונה סטריקלנד",
+   "mentor": "Q556543",
+   "mentor_label_he": "ז'ראר מורו",
+   "student_label": "Donna Strickland",
+   "from": "Q56855591",
+   "property": "P1066",
+   "mentor_label": "Gérard Mourou"
+  },
+  {
+   "student": "Q5659887",
+   "student_label_he": "הרולד א. וילסון",
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student_label": "Harold A. Wilson",
+   "from": "Q5659887",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "student": "Q5659887",
+   "student_label_he": "הרולד א. וילסון",
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student_label": "Harold A. Wilson",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "student": "Q56855591",
+   "student_label_he": "דונה סטריקלנד",
+   "mentor": "Q556543",
+   "mentor_label_he": "ז'ראר מורו",
+   "student_label": "Donna Strickland",
+   "from": "Q56855591",
+   "property": "P184",
+   "mentor_label": "Gérard Mourou"
+  },
+  {
+   "student": "Q67942474",
+   "student_label_he": "דניאל ק. פטר",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Daniel K. Fetter",
+   "from": "Q67942474",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q102736408",
+   "student_label_he": "מרטין ג'יי אייזנברג",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Martin Jay Eisenberg",
+   "from": "Q102736408",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q102736408",
+   "student_label_he": "מרטין ג'יי אייזנברג",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Martin Jay Eisenberg",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q102573857",
+   "student_label_he": "קריסטל יאנג",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Crystal S. Yang",
+   "from": "Q102573857",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q67942474",
+   "student_label_he": "דניאל ק. פטר",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Daniel K. Fetter",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "student": "Q6323839",
+   "student_label_he": "ק. ר. רמנתן",
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student_label": "K. R. Ramanathan",
+   "from": "Q6323839",
+   "property": "P184",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "student": "Q6323839",
+   "student_label_he": "ק. ר. רמנתן",
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student_label": "K. R. Ramanathan",
+   "from": "Q60429",
+   "property": "P185",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "student": "Q4511444",
+   "student_label_he": "אנה מני",
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student_label": "Anna Mani",
+   "from": "Q4511444",
+   "property": "P184",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "student": "Q102573857",
+   "student_label_he": "קריסטל יאנג",
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student_label": "Crystal S. Yang",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "mentor": "Q153761",
+   "mentor_label_he": "אלינור אוסטרום",
+   "student": "Q103083278",
+   "student_label": "John Paul McIver",
+   "from": "Q153761",
+   "property": "P185",
+   "mentor_label": "Elinor Ostrom"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q3593654",
+   "student_label": "Óscar Moreno",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q5395181",
+   "student_label": "Ernst Wagner",
+   "from": "Q35149",
+   "property": "P185",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q3327470",
+   "student_label": "Blas Cabrera Felipe",
+   "from": "Q3327470",
+   "property": "P184",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q2002977",
+   "student_label": "Hans van den Doel",
+   "from": "Q2002977",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q67198284",
+   "student_label": "Gerrit Hondius Boldingh",
+   "from": "Q67198284",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q5740028",
+   "student_label": "Herman March",
+   "from": "Q35149",
+   "property": "P185",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q102235931",
+   "student_label": "Emil Silbernagel",
+   "from": "Q35149",
+   "property": "P185",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q102349442",
+   "student_label": "Johannes Jacobus van Laar",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q47339488",
+   "student_label": "Petrus Johannes Verdoorn",
+   "from": "Q47339488",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student": "Q113301027",
+   "student_label": "Noam Yuchtman",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q98106902",
+   "student_label": "Eduardo Alfonso",
+   "from": "Q98106902",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q3522869",
+   "student_label": "Kaushik Basu",
+   "from": "Q132489",
+   "property": "P185",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student": "Q1760743",
+   "student_label": "S. Pancharatnam",
+   "from": "Q60429",
+   "property": "P185",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q3593654",
+   "student_label": "Óscar Moreno",
+   "from": "Q3593654",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q9663423",
+   "student_label": "Branca Edmée Marques",
+   "from": "Q9663423",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q30068933",
+   "student_label": "Stephan Klasen",
+   "from": "Q30068933",
+   "property": "P184",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q907107",
+   "student_label": "Wilder Dwight Bancroft",
+   "from": "Q907107",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q7052775",
+   "from": "Q7052775",
+   "property": "P184",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q17620571",
+   "student_label": "Luis Sagaz Zubelzu",
+   "from": "Q17620571",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student": "Q102289521",
+   "student_label": "Judith Ann Kathleen Howard",
+   "from": "Q7487",
+   "property": "P185",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q18206849",
+   "student_label": "Ravi Kanbur",
+   "from": "Q18206849",
+   "property": "P184",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q103338266",
+   "student_label": "Hans Linnemann",
+   "from": "Q183181",
+   "property": "P185",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q1492672",
+   "student_label": "Galo Leoz Ortín",
+   "from": "Q1492672",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q5860451",
+   "student_label": "Fernando de Castro Rodríguez",
+   "from": "Q150526",
+   "property": "P802",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q11402042",
+   "student_label": "Yukinobu Kitamura",
+   "from": "Q11402042",
+   "property": "P184",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q2002977",
+   "student_label": "Hans van den Doel",
+   "from": "Q183181",
+   "property": "P185",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student": "Q102289521",
+   "student_label": "Judith Ann Kathleen Howard",
+   "from": "Q102289521",
+   "property": "P184",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q64418380",
+   "from": "Q183181",
+   "property": "P185",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q102307492",
+   "student_label": "Pieter Coenraad Frederik Frowein",
+   "from": "Q102307492",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q67180509",
+   "student_label": "Zheng Dazhang",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q105393",
+   "student_label": "Peter Pringsheim",
+   "from": "Q35149",
+   "property": "P802",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q556211",
+   "student_label": "Gonzalo Rodríguez Lafora",
+   "from": "Q150526",
+   "property": "P802",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q16559447",
+   "student_label": "Gioacchino Failla",
+   "from": "Q16559447",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q9031531",
+   "student_label": "Shi Shiyuan",
+   "from": "Q9031531",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q103167056",
+   "student_label": "Emile Henriot",
+   "from": "Q103167056",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q30181103",
+   "student_label": "Teófilo Hernando Ortega",
+   "from": "Q30181103",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q9028286",
+   "student_label": "Manuela Solís i Claràs",
+   "from": "Q9028286",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q102314545",
+   "student_label": "Leendert Marinus Koyck",
+   "from": "Q183181",
+   "property": "P185",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q556211",
+   "student_label": "Gonzalo Rodríguez Lafora",
+   "from": "Q556211",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q64418380",
+   "from": "Q64418380",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q18206849",
+   "student_label": "Ravi Kanbur",
+   "from": "Q132489",
+   "property": "P185",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q102307492",
+   "student_label": "Pieter Coenraad Frederik Frowein",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q3327470",
+   "student_label": "Blas Cabrera Felipe",
+   "from": "Q150526",
+   "property": "P185",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q67198284",
+   "student_label": "Gerrit Hondius Boldingh",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q112416259",
+   "student_label": "Hendricus Cornelis Bos",
+   "from": "Q112416259",
+   "property": "P1066",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q7241",
+   "mentor_label_he": "רבינדרנת טאגור",
+   "student": "Q6933638",
+   "student_label": "Mukul Dey",
+   "from": "Q7241",
+   "property": "P802",
+   "mentor_label": "Rabindranath Tagore"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q5395181",
+   "student_label": "Ernst Wagner",
+   "from": "Q5395181",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q9031531",
+   "student_label": "Shi Shiyuan",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q65561531",
+   "student_label": "Albertus van Bijlert",
+   "from": "Q65561531",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q11928879",
+   "student_label": "Josep Pujol i Capsada",
+   "from": "Q150526",
+   "property": "P802",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q103338266",
+   "student_label": "Hans Linnemann",
+   "from": "Q103338266",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student": "Q92903",
+   "student_label": "David Sayre",
+   "from": "Q7487",
+   "property": "P185",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q102314545",
+   "student_label": "Leendert Marinus Koyck",
+   "from": "Q102314545",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q3522869",
+   "student_label": "Kaushik Basu",
+   "from": "Q3522869",
+   "property": "P184",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q4511438",
+   "student_label": "Alice Leigh-Smith",
+   "from": "Q4511438",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q103167056",
+   "student_label": "Emile Henriot",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q67180509",
+   "student_label": "Zheng Dazhang",
+   "from": "Q67180509",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q5935102",
+   "student_label": "Jorge Francisco Tello",
+   "from": "Q5935102",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q87502",
+   "student_label": "Rudolf Ladenburg",
+   "from": "Q35149",
+   "property": "P185",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q77846325",
+   "student_label": "Gil Saltor y Lavall",
+   "from": "Q77846325",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q102235931",
+   "student_label": "Emil Silbernagel",
+   "from": "Q102235931",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q7241",
+   "mentor_label_he": "רבינדרנת טאגור",
+   "student": "Q7399457",
+   "student_label": "Sahana Devi",
+   "from": "Q7399457",
+   "property": "P1066",
+   "mentor_label": "Rabindranath Tagore"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q3107416",
+   "student_label": "Émile Henriot",
+   "from": "Q3107416",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q7052775",
+   "from": "Q132489",
+   "property": "P185",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q60429",
+   "mentor_label_he": "צ'נדרסקהארה ונקאטה ראמאן",
+   "student": "Q1760743",
+   "student_label": "S. Pancharatnam",
+   "from": "Q1760743",
+   "property": "P184",
+   "mentor_label": "Chandrasekhara Venkata Raman"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q11402042",
+   "student_label": "Yukinobu Kitamura",
+   "from": "Q132489",
+   "property": "P185",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q5740028",
+   "student_label": "Herman March",
+   "from": "Q5740028",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q433169",
+   "student_label": "Ellen Gleditsch",
+   "from": "Q7186",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q115206499",
+   "student_label": "Joseph-Ernest Gendreau",
+   "from": "Q115206499",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q132489",
+   "mentor_label_he": "אמרטיה סן",
+   "student": "Q30068933",
+   "student_label": "Stephan Klasen",
+   "from": "Q132489",
+   "property": "P185",
+   "mentor_label": "Amartya Sen"
+  },
+  {
+   "mentor": "Q153761",
+   "mentor_label_he": "אלינור אוסטרום",
+   "student": "Q103083278",
+   "student_label": "John Paul McIver",
+   "from": "Q103083278",
+   "property": "P184",
+   "mentor_label": "Elinor Ostrom"
+  },
+  {
+   "mentor": "Q7241",
+   "mentor_label_he": "רבינדרנת טאגור",
+   "student": "Q13009",
+   "student_label": "Lakshmiswar Sinha",
+   "from": "Q7241",
+   "property": "P802",
+   "mentor_label": "Rabindranath Tagore"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q3113964",
+   "student_label": "Nicolás Achúcarro y Lund",
+   "from": "Q150526",
+   "property": "P802",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q87502",
+   "student_label": "Rudolf Ladenburg",
+   "from": "Q87502",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q3113964",
+   "student_label": "Nicolás Achúcarro y Lund",
+   "from": "Q3113964",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q7241",
+   "mentor_label_he": "רבינדרנת טאגור",
+   "student": "Q13009",
+   "student_label": "Lakshmiswar Sinha",
+   "from": "Q13009",
+   "property": "P1066",
+   "mentor_label": "Rabindranath Tagore"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q105393",
+   "student_label": "Peter Pringsheim",
+   "from": "Q105393",
+   "property": "P1066",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q7487",
+   "mentor_label_he": "דורותי קרופוט הודג'קין",
+   "student": "Q92903",
+   "student_label": "David Sayre",
+   "from": "Q92903",
+   "property": "P184",
+   "mentor_label": "Dorothy Hodgkin"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q907107",
+   "student_label": "Wilder Dwight Bancroft",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q5860451",
+   "student_label": "Fernando de Castro Rodríguez",
+   "from": "Q5860451",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q65561531",
+   "student_label": "Albertus van Bijlert",
+   "from": "Q102822",
+   "property": "P185",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q102470538",
+   "student_label": "John Patrick Donaghey",
+   "from": "Q35149",
+   "property": "P185",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q68556",
+   "student_label": "Heinrich Kayser",
+   "from": "Q68556",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q47339488",
+   "student_label": "Petrus Johannes Verdoorn",
+   "from": "Q183181",
+   "property": "P185",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q7186",
+   "mentor_label_he": "מארי קירי",
+   "student": "Q9663423",
+   "student_label": "Branca Edmée Marques",
+   "from": "Q7186",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q35149",
+   "mentor_label_he": "וילהלם רנטגן",
+   "student": "Q102470538",
+   "student_label": "John Patrick Donaghey",
+   "from": "Q102470538",
+   "property": "P184",
+   "mentor_label": "Wilhelm Röntgen"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q5935102",
+   "student_label": "Jorge Francisco Tello",
+   "from": "Q150526",
+   "property": "P802",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q102822",
+   "mentor_label_he": "יאקובוס ואן 'ט הוף",
+   "student": "Q102349442",
+   "student_label": "Johannes Jacobus van Laar",
+   "from": "Q102349442",
+   "property": "P184",
+   "mentor_label": "Jacobus Henricus van 't Hoff"
+  },
+  {
+   "mentor": "Q183181",
+   "mentor_label_he": "יאן טינברגן",
+   "student": "Q15127383",
+   "student_label": "Sukhamoy Chakraborty",
+   "from": "Q15127383",
+   "property": "P184",
+   "mentor_label": "Jan Tinbergen"
+  },
+  {
+   "mentor": "Q1097475",
+   "mentor_label_he": "קלודיה גולדין",
+   "student": "Q113301027",
+   "student_label": "Noam Yuchtman",
+   "from": "Q113301027",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q11928879",
+   "student_label": "Josep Pujol i Capsada",
+   "from": "Q11928879",
+   "property": "P1066",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "mentor": "Q150526",
+   "mentor_label_he": "סנטיאגו רמון אי קחאל",
+   "student": "Q17620571",
+   "student_label": "Luis Sagaz Zubelzu",
+   "from": "Q150526",
+   "property": "P802",
+   "mentor_label": "Santiago Ramón y Cajal"
+  },
+  {
+   "student": "Q743252",
+   "student_label_he": "עומר יאגי",
+   "mentor": "Q110911237",
+   "student_label": "Omar M. Yaghi",
+   "from": "Q743252",
+   "property": "P184",
+   "mentor_label": "Walter Klemperer"
+  },
+  {
+   "student": "Q616305",
+   "student_label_he": "ססיליה ראוס",
+   "mentor": "Q1097475",
+   "student_label": "Cecilia Rouse",
+   "from": "Q616305",
+   "property": "P184",
+   "mentor_label": "Claudia Goldin",
+   "mentor_label_he": "קלודיה גולדין"
+  },
+  {
+   "student": "Q616305",
+   "student_label_he": "ססיליה ראוס",
+   "mentor": "Q1097475",
+   "student_label": "Cecilia Rouse",
+   "from": "Q1097475",
+   "property": "P185",
+   "mentor_label": "Claudia Goldin",
+   "mentor_label_he": "קלודיה גולדין"
+  }
+ ]
+}

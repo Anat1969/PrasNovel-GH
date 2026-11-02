@@ -1,0 +1,2775 @@
+{
+ "query": "\nSELECT DISTINCT ?mentor ?student ?property WHERE {\n  VALUES ?s { %s }\n  { ?s wdt:P184 ?mentor . BIND(?s AS ?student) BIND(\"P184\" AS ?property) } UNION\n  { ?s wdt:P1066 ?mentor . BIND(?s AS ?student) BIND(\"P1066\" AS ?property) } UNION\n  { ?s wdt:P185 ?student . BIND(?s AS ?mentor) BIND(\"P185\" AS ?property) } UNION\n  { ?s wdt:P802 ?student . BIND(?s AS ?mentor) BIND(\"P802\" AS ?property) }\n}\n",
+ "rows": [
+  {
+   "student": "Q107405",
+   "mentor": "Q103835",
+   "property": "P185"
+  },
+  {
+   "student": "Q123022",
+   "mentor": "Q103835",
+   "property": "P185"
+  },
+  {
+   "student": "Q287542",
+   "mentor": "Q102454",
+   "property": "P185"
+  },
+  {
+   "student": "Q295761",
+   "mentor": "Q102454",
+   "property": "P185"
+  },
+  {
+   "student": "Q108602",
+   "mentor": "Q109553",
+   "property": "P185"
+  },
+  {
+   "student": "Q109582",
+   "mentor": "Q109721",
+   "property": "P185"
+  },
+  {
+   "student": "Q3169751",
+   "mentor": "Q107690",
+   "property": "P185"
+  },
+  {
+   "student": "Q56068",
+   "mentor": "Q104600",
+   "property": "P185"
+  },
+  {
+   "student": "Q61045",
+   "mentor": "Q107419",
+   "property": "P185"
+  },
+  {
+   "student": "Q106494",
+   "mentor": "Q104104",
+   "property": "P185"
+  },
+  {
+   "student": "Q107422",
+   "mentor": "Q106733",
+   "property": "P185"
+  },
+  {
+   "student": "Q210960",
+   "mentor": "Q105962",
+   "property": "P185"
+  },
+  {
+   "student": "Q192715",
+   "mentor": "Q107416",
+   "property": "P185"
+  },
+  {
+   "student": "Q509262",
+   "mentor": "Q107264",
+   "property": "P185"
+  },
+  {
+   "student": "Q109559",
+   "mentor": "Q110935",
+   "property": "P185"
+  },
+  {
+   "student": "Q1386049",
+   "mentor": "Q109737",
+   "property": "P185"
+  },
+  {
+   "student": "Q105927",
+   "mentor": "Q102406",
+   "property": "P802"
+  },
+  {
+   "student": "Q105949",
+   "mentor": "Q102406",
+   "property": "P802"
+  },
+  {
+   "student": "Q107405",
+   "mentor": "Q103835",
+   "property": "P802"
+  },
+  {
+   "student": "Q106494",
+   "mentor": "Q104104",
+   "property": "P802"
+  },
+  {
+   "student": "Q287542",
+   "mentor": "Q102454",
+   "property": "P802"
+  },
+  {
+   "student": "Q109582",
+   "mentor": "Q109721",
+   "property": "P802"
+  },
+  {
+   "student": "Q243536",
+   "mentor": "Q109553",
+   "property": "P802"
+  },
+  {
+   "student": "Q273279",
+   "mentor": "Q110935",
+   "property": "P802"
+  },
+  {
+   "student": "Q130975",
+   "mentor": "Q127234",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q40262",
+   "student": "Q107450",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q40904",
+   "student": "Q123022",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q44061",
+   "student": "Q102454",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q102291",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q48983",
+   "student": "Q110935",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q48956",
+   "student": "Q115490",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q48956",
+   "student": "Q122996",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q65989",
+   "student": "Q123029",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q78480",
+   "student": "Q123280",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q83501",
+   "student": "Q107462",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q103835",
+   "student": "Q107405",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q104104",
+   "student": "Q106494",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q103835",
+   "student": "Q123022",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q106733",
+   "student": "Q107422",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q109553",
+   "student": "Q108602",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q109721",
+   "student": "Q109582",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q110935",
+   "student": "Q109559",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q123975",
+   "student": "Q124013",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q133267",
+   "student": "Q104668",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155759",
+   "student": "Q104668",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q157268",
+   "student": "Q109570",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q165969",
+   "student": "Q107419",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q165969",
+   "student": "Q107416",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q169330",
+   "student": "Q127944",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q177681",
+   "student": "Q106399",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q183181",
+   "student": "Q110968",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q107423",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q107420",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q190486",
+   "student": "Q111190",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q190697",
+   "student": "Q109588",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q190770",
+   "student": "Q1002250",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q191020",
+   "student": "Q1097475",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q235834",
+   "student": "Q106762",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q237821",
+   "student": "Q1097475",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155773",
+   "student": "Q11538917",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q740638",
+   "student": "Q1174906",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q1673706",
+   "student": "Q11443689",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q7085",
+   "student": "Q103854",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q102830",
+   "property": "P184"
+  },
+  {
+   "student": "Q76687",
+   "mentor": "Q122298",
+   "property": "P185"
+  },
+  {
+   "student": "Q124013",
+   "mentor": "Q123975",
+   "property": "P185"
+  },
+  {
+   "student": "Q130975",
+   "mentor": "Q127234",
+   "property": "P185"
+  },
+  {
+   "student": "Q178344",
+   "mentor": "Q127944",
+   "property": "P185"
+  },
+  {
+   "student": "Q921499",
+   "mentor": "Q1173928",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q40262",
+   "student": "Q107450",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q44061",
+   "student": "Q102454",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q102291",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q48983",
+   "student": "Q110935",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q48956",
+   "student": "Q122996",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q78480",
+   "student": "Q123280",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q102406",
+   "student": "Q105927",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q102406",
+   "student": "Q105949",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q104104",
+   "student": "Q106494",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q155759",
+   "student": "Q104668",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q169330",
+   "student": "Q127944",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q107423",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q107420",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q1673706",
+   "student": "Q11443689",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q7085",
+   "student": "Q103854",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q102830",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q107419",
+   "property": "P1066"
+  },
+  {
+   "student": "Q7186",
+   "mentor": "Q133232",
+   "property": "P185"
+  },
+  {
+   "student": "Q37463",
+   "mentor": "Q133232",
+   "property": "P185"
+  },
+  {
+   "student": "Q78480",
+   "mentor": "Q131729",
+   "property": "P185"
+  },
+  {
+   "student": "Q169366",
+   "mentor": "Q130975",
+   "property": "P185"
+  },
+  {
+   "student": "Q131729",
+   "mentor": "Q133747",
+   "property": "P185"
+  },
+  {
+   "student": "Q188128",
+   "mentor": "Q133267",
+   "property": "P185"
+  },
+  {
+   "student": "Q26321",
+   "mentor": "Q151564",
+   "property": "P185"
+  },
+  {
+   "student": "Q4517",
+   "mentor": "Q155375",
+   "property": "P185"
+  },
+  {
+   "student": "Q997",
+   "mentor": "Q155759",
+   "property": "P185"
+  },
+  {
+   "student": "Q949",
+   "mentor": "Q155790",
+   "property": "P185"
+  },
+  {
+   "student": "Q77160",
+   "mentor": "Q155525",
+   "property": "P185"
+  },
+  {
+   "student": "Q104668",
+   "mentor": "Q155759",
+   "property": "P185"
+  },
+  {
+   "student": "Q189741",
+   "mentor": "Q153210",
+   "property": "P185"
+  },
+  {
+   "student": "Q271766",
+   "mentor": "Q151564",
+   "property": "P185"
+  },
+  {
+   "student": "Q726394",
+   "mentor": "Q155794",
+   "property": "P185"
+  },
+  {
+   "student": "Q11538917",
+   "mentor": "Q155773",
+   "property": "P185"
+  },
+  {
+   "student": "Q18430",
+   "mentor": "Q157268",
+   "property": "P185"
+  },
+  {
+   "student": "Q109570",
+   "mentor": "Q157268",
+   "property": "P185"
+  },
+  {
+   "student": "Q222541",
+   "mentor": "Q157268",
+   "property": "P185"
+  },
+  {
+   "student": "Q295647",
+   "mentor": "Q157255",
+   "property": "P185"
+  },
+  {
+   "student": "Q312560",
+   "mentor": "Q157262",
+   "property": "P185"
+  },
+  {
+   "student": "Q359317",
+   "mentor": "Q157255",
+   "property": "P185"
+  },
+  {
+   "student": "Q562481",
+   "mentor": "Q157268",
+   "property": "P185"
+  },
+  {
+   "student": "Q2156948",
+   "mentor": "Q157268",
+   "property": "P185"
+  },
+  {
+   "student": "Q11443689",
+   "mentor": "Q1673706",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q131729",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q133747",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q160522",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q162900",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q49351",
+   "student": "Q135154",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q83297",
+   "student": "Q133846",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q169330",
+   "student": "Q133222",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q949",
+   "student": "Q153201",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q7085",
+   "student": "Q133267",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q172840",
+   "property": "P1066"
+  },
+  {
+   "student": "Q83598",
+   "mentor": "Q177681",
+   "property": "P185"
+  },
+  {
+   "student": "Q106399",
+   "mentor": "Q177681",
+   "property": "P185"
+  },
+  {
+   "student": "Q26321",
+   "mentor": "Q151564",
+   "property": "P802"
+  },
+  {
+   "student": "Q4517",
+   "mentor": "Q155375",
+   "property": "P802"
+  },
+  {
+   "student": "Q997",
+   "mentor": "Q155759",
+   "property": "P802"
+  },
+  {
+   "student": "Q188128",
+   "mentor": "Q133267",
+   "property": "P802"
+  },
+  {
+   "student": "Q104668",
+   "mentor": "Q155759",
+   "property": "P802"
+  },
+  {
+   "student": "Q295700",
+   "mentor": "Q151564",
+   "property": "P802"
+  },
+  {
+   "student": "Q80905",
+   "mentor": "Q169366",
+   "property": "P802"
+  },
+  {
+   "student": "Q193503",
+   "mentor": "Q172840",
+   "property": "P802"
+  },
+  {
+   "student": "Q83598",
+   "mentor": "Q177681",
+   "property": "P802"
+  },
+  {
+   "student": "Q5341373",
+   "mentor": "Q1701279",
+   "property": "P802"
+  },
+  {
+   "student": "Q6796222",
+   "mentor": "Q1701279",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q153194",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q173028",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q172844",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q178103",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q44061",
+   "student": "Q157268",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q131729",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q133846",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q153194",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q162900",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q169330",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q49351",
+   "student": "Q135154",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q49351",
+   "student": "Q157242",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q83297",
+   "student": "Q133846",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q127234",
+   "student": "Q130975",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q127944",
+   "student": "Q178344",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q130975",
+   "student": "Q169366",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q133747",
+   "student": "Q131729",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q109737",
+   "student": "Q1386049",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q162900",
+   "student": "Q178103",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q169330",
+   "student": "Q133222",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q184563",
+   "student": "Q155773",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q184566",
+   "student": "Q172877",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192592",
+   "student": "Q157245",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192685",
+   "student": "Q156286",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q206460",
+   "student": "Q157245",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q219733",
+   "student": "Q176643",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q233051",
+   "student": "Q173994",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q233051",
+   "student": "Q1635006",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q377265",
+   "student": "Q1359990",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q726394",
+   "student": "Q1700920",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q949",
+   "student": "Q153201",
+   "property": "P184"
+  },
+  {
+   "student": "Q54945",
+   "mentor": "Q170741",
+   "property": "P185"
+  },
+  {
+   "student": "Q178103",
+   "mentor": "Q162900",
+   "property": "P185"
+  },
+  {
+   "student": "Q107419",
+   "mentor": "Q165969",
+   "property": "P185"
+  },
+  {
+   "student": "Q107416",
+   "mentor": "Q165969",
+   "property": "P185"
+  },
+  {
+   "student": "Q80905",
+   "mentor": "Q169366",
+   "property": "P185"
+  },
+  {
+   "student": "Q186465",
+   "mentor": "Q165969",
+   "property": "P185"
+  },
+  {
+   "student": "Q211787",
+   "mentor": "Q172254",
+   "property": "P185"
+  },
+  {
+   "student": "Q193503",
+   "mentor": "Q172840",
+   "property": "P185"
+  },
+  {
+   "student": "Q110968",
+   "mentor": "Q183181",
+   "property": "P185"
+  },
+  {
+   "student": "Q189987",
+   "mentor": "Q183270",
+   "property": "P185"
+  },
+  {
+   "student": "Q172877",
+   "mentor": "Q184566",
+   "property": "P185"
+  },
+  {
+   "student": "Q64188",
+   "mentor": "Q186465",
+   "property": "P185"
+  },
+  {
+   "student": "Q107423",
+   "mentor": "Q186465",
+   "property": "P185"
+  },
+  {
+   "student": "Q107420",
+   "mentor": "Q186465",
+   "property": "P185"
+  },
+  {
+   "student": "Q233026",
+   "mentor": "Q186391",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q47480",
+   "student": "Q193803",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q133267",
+   "student": "Q188128",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q172840",
+   "student": "Q193503",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q181369",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q187822",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q184499",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q78510",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q107423",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q186391",
+   "student": "Q233026",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q190745",
+   "student": "Q206499",
+   "property": "P802"
+  },
+  {
+   "student": "Q111190",
+   "mentor": "Q190486",
+   "property": "P185"
+  },
+  {
+   "student": "Q109588",
+   "mentor": "Q190697",
+   "property": "P185"
+  },
+  {
+   "student": "Q206499",
+   "mentor": "Q190745",
+   "property": "P185"
+  },
+  {
+   "student": "Q1002250",
+   "mentor": "Q190770",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q183655",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q183679",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q8753",
+   "student": "Q187822",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q183631",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q184499",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q57125",
+   "student": "Q184286",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q57127",
+   "student": "Q204600",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q157268",
+   "student": "Q18430",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q71023",
+   "student": "Q190697",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q71013",
+   "student": "Q206379",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q107416",
+   "student": "Q192715",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q133267",
+   "student": "Q188128",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q153210",
+   "student": "Q189741",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q165969",
+   "student": "Q186465",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q172840",
+   "student": "Q193503",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q183270",
+   "student": "Q189987",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q193655",
+   "student": "Q190770",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q202149",
+   "student": "Q184592",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q211776",
+   "student": "Q192566",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q219733",
+   "student": "Q204078",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q312977",
+   "student": "Q202152",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192577",
+   "student": "Q47426",
+   "property": "P185"
+  },
+  {
+   "student": "Q184592",
+   "mentor": "Q202149",
+   "property": "P185"
+  },
+  {
+   "student": "Q83333",
+   "mentor": "Q205667",
+   "property": "P185"
+  },
+  {
+   "student": "Q206405",
+   "mentor": "Q201853",
+   "property": "P185"
+  },
+  {
+   "student": "Q338151",
+   "mentor": "Q205850",
+   "property": "P185"
+  },
+  {
+   "student": "Q157245",
+   "mentor": "Q192592",
+   "property": "P185"
+  },
+  {
+   "student": "Q156286",
+   "mentor": "Q192685",
+   "property": "P185"
+  },
+  {
+   "student": "Q190770",
+   "mentor": "Q193655",
+   "property": "P185"
+  },
+  {
+   "student": "Q232949",
+   "mentor": "Q192592",
+   "property": "P185"
+  },
+  {
+   "student": "Q233051",
+   "mentor": "Q192592",
+   "property": "P185"
+  },
+  {
+   "student": "Q237821",
+   "mentor": "Q192577",
+   "property": "P185"
+  },
+  {
+   "student": "Q272510",
+   "mentor": "Q192592",
+   "property": "P185"
+  },
+  {
+   "student": "Q60108",
+   "mentor": "Q219718",
+   "property": "P185"
+  },
+  {
+   "student": "Q26322",
+   "mentor": "Q26321",
+   "property": "P185"
+  },
+  {
+   "student": "Q157245",
+   "mentor": "Q206460",
+   "property": "P185"
+  },
+  {
+   "student": "Q192566",
+   "mentor": "Q211776",
+   "property": "P185"
+  },
+  {
+   "student": "Q273223",
+   "mentor": "Q213504",
+   "property": "P185"
+  },
+  {
+   "student": "Q176643",
+   "mentor": "Q219733",
+   "property": "P185"
+  },
+  {
+   "student": "Q204078",
+   "mentor": "Q219733",
+   "property": "P185"
+  },
+  {
+   "student": "Q338151",
+   "mentor": "Q222541",
+   "property": "P185"
+  },
+  {
+   "student": "Q173994",
+   "mentor": "Q233051",
+   "property": "P185"
+  },
+  {
+   "student": "Q320578",
+   "mentor": "Q233051",
+   "property": "P185"
+  },
+  {
+   "student": "Q376364",
+   "mentor": "Q233051",
+   "property": "P185"
+  },
+  {
+   "student": "Q1635006",
+   "mentor": "Q233051",
+   "property": "P185"
+  },
+  {
+   "student": "Q106762",
+   "mentor": "Q235834",
+   "property": "P185"
+  },
+  {
+   "student": "Q295678",
+   "mentor": "Q233957",
+   "property": "P185"
+  },
+  {
+   "student": "Q233985",
+   "mentor": "Q237160",
+   "property": "P185"
+  },
+  {
+   "student": "Q504021",
+   "mentor": "Q234949",
+   "property": "P185"
+  },
+  {
+   "student": "Q983858",
+   "mentor": "Q234949",
+   "property": "P185"
+  },
+  {
+   "student": "Q1097475",
+   "mentor": "Q237821",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q28189",
+   "student": "Q217486",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q37193",
+   "student": "Q216324",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q151564",
+   "student": "Q26321",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q26321",
+   "student": "Q26322",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q76425",
+   "student": "Q216324",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q78480",
+   "student": "Q232295",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q83333",
+   "student": "Q215574",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q109553",
+   "student": "Q243536",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q186391",
+   "student": "Q233026",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q232302",
+   "student": "Q233205",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q233976",
+   "student": "Q233985",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q237160",
+   "student": "Q233985",
+   "property": "P1066"
+  },
+  {
+   "student": "Q58054",
+   "mentor": "Q233976",
+   "property": "P802"
+  },
+  {
+   "student": "Q26322",
+   "mentor": "Q26321",
+   "property": "P802"
+  },
+  {
+   "student": "Q233985",
+   "mentor": "Q233976",
+   "property": "P802"
+  },
+  {
+   "student": "Q233985",
+   "mentor": "Q237160",
+   "property": "P802"
+  },
+  {
+   "student": "Q273201",
+   "mentor": "Q243532",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q28189",
+   "student": "Q217486",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q37193",
+   "student": "Q216324",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q44061",
+   "student": "Q206460",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47426",
+   "student": "Q272508",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q48986",
+   "student": "Q234463",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q57132",
+   "student": "Q233957",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q151564",
+   "student": "Q26321",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q26321",
+   "student": "Q26322",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q76425",
+   "student": "Q216324",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q78480",
+   "student": "Q232295",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q83333",
+   "student": "Q215574",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q105962",
+   "student": "Q210960",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q151564",
+   "student": "Q271766",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q156480",
+   "student": "Q234590",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q157268",
+   "student": "Q222541",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q172254",
+   "student": "Q211787",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q186391",
+   "student": "Q233026",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q190745",
+   "student": "Q206499",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192592",
+   "student": "Q232949",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192592",
+   "student": "Q233051",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192577",
+   "student": "Q237821",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192592",
+   "student": "Q272510",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q201853",
+   "student": "Q206405",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q157268",
+   "student": "Q2156948",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q231402",
+   "student": "Q207719",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q233943",
+   "student": "Q234590",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q237160",
+   "student": "Q233985",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q312585",
+   "student": "Q211097",
+   "property": "P184"
+  },
+  {
+   "student": "Q217486",
+   "mentor": "Q28189",
+   "property": "P185"
+  },
+  {
+   "student": "Q76425",
+   "mentor": "Q37193",
+   "property": "P185"
+  },
+  {
+   "student": "Q123022",
+   "mentor": "Q40904",
+   "property": "P185"
+  },
+  {
+   "student": "Q504021",
+   "mentor": "Q295659",
+   "property": "P185"
+  },
+  {
+   "student": "Q983858",
+   "mentor": "Q295659",
+   "property": "P185"
+  },
+  {
+   "student": "Q35703",
+   "mentor": "Q310487",
+   "property": "P185"
+  },
+  {
+   "student": "Q295768",
+   "mentor": "Q295696",
+   "property": "P185"
+  },
+  {
+   "student": "Q740638",
+   "mentor": "Q295678",
+   "property": "P185"
+  },
+  {
+   "student": "Q295691",
+   "mentor": "Q311358",
+   "property": "P185"
+  },
+  {
+   "student": "Q211097",
+   "mentor": "Q312585",
+   "property": "P185"
+  },
+  {
+   "student": "Q202152",
+   "mentor": "Q312977",
+   "property": "P185"
+  },
+  {
+   "student": "Q434509",
+   "mentor": "Q320578",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q83333",
+   "student": "Q309816",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q83333",
+   "student": "Q312977",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q102454",
+   "student": "Q287542",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q102454",
+   "student": "Q295761",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q110935",
+   "student": "Q273279",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q151564",
+   "student": "Q295700",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q40262",
+   "student": "Q107450",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q37193",
+   "student": "Q216324",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q41269",
+   "student": "Q7186",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q312977",
+   "student": "Q202152",
+   "property": "P802"
+  },
+  {
+   "student": "Q28542",
+   "mentor": "Q377265",
+   "property": "P185"
+  },
+  {
+   "student": "Q354897",
+   "mentor": "Q377265",
+   "property": "P185"
+  },
+  {
+   "student": "Q1359990",
+   "mentor": "Q377265",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q311358",
+   "student": "Q295691",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q320578",
+   "student": "Q434509",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q377265",
+   "student": "Q354897",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q740638",
+   "student": "Q3814528",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q921499",
+   "student": "Q434509",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q555849",
+   "student": "Q28976188",
+   "property": "P184"
+  },
+  {
+   "student": "Q295717",
+   "mentor": "Q44061",
+   "property": "P184"
+  },
+  {
+   "student": "Q37463",
+   "mentor": "Q133232",
+   "property": "P184"
+  },
+  {
+   "student": "Q35703",
+   "mentor": "Q310487",
+   "property": "P184"
+  },
+  {
+   "student": "Q28542",
+   "mentor": "Q377265",
+   "property": "P184"
+  },
+  {
+   "student": "Q295999",
+   "mentor": "Q68118",
+   "property": "P184"
+  },
+  {
+   "student": "Q295678",
+   "mentor": "Q78501",
+   "property": "P184"
+  },
+  {
+   "student": "Q295659",
+   "mentor": "Q83333",
+   "property": "P184"
+  },
+  {
+   "student": "Q287542",
+   "mentor": "Q102454",
+   "property": "P184"
+  },
+  {
+   "student": "Q295761",
+   "mentor": "Q102454",
+   "property": "P184"
+  },
+  {
+   "student": "Q273279",
+   "mentor": "Q110935",
+   "property": "P184"
+  },
+  {
+   "student": "Q295700",
+   "mentor": "Q151564",
+   "property": "P184"
+  },
+  {
+   "student": "Q295647",
+   "mentor": "Q157255",
+   "property": "P184"
+  },
+  {
+   "student": "Q312560",
+   "mentor": "Q157262",
+   "property": "P184"
+  },
+  {
+   "student": "Q359317",
+   "mentor": "Q157255",
+   "property": "P184"
+  },
+  {
+   "student": "Q3169751",
+   "mentor": "Q107690",
+   "property": "P184"
+  },
+  {
+   "student": "Q338151",
+   "mentor": "Q205850",
+   "property": "P184"
+  },
+  {
+   "student": "Q273223",
+   "mentor": "Q213504",
+   "property": "P184"
+  },
+  {
+   "student": "Q295659",
+   "mentor": "Q217486",
+   "property": "P184"
+  },
+  {
+   "student": "Q338151",
+   "mentor": "Q222541",
+   "property": "P184"
+  },
+  {
+   "student": "Q320578",
+   "mentor": "Q233051",
+   "property": "P184"
+  },
+  {
+   "student": "Q295678",
+   "mentor": "Q233957",
+   "property": "P184"
+  },
+  {
+   "student": "Q295659",
+   "mentor": "Q234463",
+   "property": "P184"
+  },
+  {
+   "student": "Q376364",
+   "mentor": "Q233051",
+   "property": "P184"
+  },
+  {
+   "student": "Q295768",
+   "mentor": "Q295696",
+   "property": "P184"
+  },
+  {
+   "student": "Q135154",
+   "mentor": "Q49351",
+   "property": "P185"
+  },
+  {
+   "student": "Q157242",
+   "mentor": "Q49351",
+   "property": "P185"
+  },
+  {
+   "student": "Q234463",
+   "mentor": "Q48986",
+   "property": "P185"
+  },
+  {
+   "student": "Q70554",
+   "mentor": "Q57078",
+   "property": "P185"
+  },
+  {
+   "student": "Q77072",
+   "mentor": "Q57078",
+   "property": "P185"
+  },
+  {
+   "student": "Q184286",
+   "mentor": "Q57125",
+   "property": "P185"
+  },
+  {
+   "student": "Q204600",
+   "mentor": "Q57127",
+   "property": "P185"
+  },
+  {
+   "student": "Q233957",
+   "mentor": "Q57132",
+   "property": "P185"
+  },
+  {
+   "student": "Q79000",
+   "mentor": "Q62891",
+   "property": "P185"
+  },
+  {
+   "student": "Q57100",
+   "mentor": "Q58978",
+   "property": "P185"
+  },
+  {
+   "student": "Q76464",
+   "mentor": "Q70554",
+   "property": "P185"
+  },
+  {
+   "student": "Q76604",
+   "mentor": "Q70554",
+   "property": "P185"
+  },
+  {
+   "student": "Q76613",
+   "mentor": "Q70554",
+   "property": "P185"
+  },
+  {
+   "student": "Q76616",
+   "mentor": "Q70554",
+   "property": "P185"
+  },
+  {
+   "student": "Q295999",
+   "mentor": "Q68118",
+   "property": "P185"
+  },
+  {
+   "student": "Q102454",
+   "mentor": "Q44061",
+   "property": "P185"
+  },
+  {
+   "student": "Q157268",
+   "mentor": "Q44061",
+   "property": "P185"
+  },
+  {
+   "student": "Q102291",
+   "mentor": "Q47285",
+   "property": "P185"
+  },
+  {
+   "student": "Q206460",
+   "mentor": "Q44061",
+   "property": "P185"
+  },
+  {
+   "student": "Q131729",
+   "mentor": "Q47285",
+   "property": "P185"
+  },
+  {
+   "student": "Q153194",
+   "mentor": "Q47285",
+   "property": "P185"
+  },
+  {
+   "student": "Q110935",
+   "mentor": "Q48983",
+   "property": "P185"
+  },
+  {
+   "student": "Q115490",
+   "mentor": "Q48956",
+   "property": "P185"
+  },
+  {
+   "student": "Q169330",
+   "mentor": "Q47285",
+   "property": "P185"
+  },
+  {
+   "student": "Q122996",
+   "mentor": "Q48956",
+   "property": "P185"
+  },
+  {
+   "student": "Q295717",
+   "mentor": "Q44061",
+   "property": "P185"
+  },
+  {
+   "student": "Q272508",
+   "mentor": "Q47426",
+   "property": "P185"
+  },
+  {
+   "student": "Q710597",
+   "mentor": "Q46120",
+   "property": "P185"
+  },
+  {
+   "student": "Q903471",
+   "mentor": "Q48983",
+   "property": "P185"
+  },
+  {
+   "student": "Q7085",
+   "mentor": "Q47285",
+   "property": "P185"
+  },
+  {
+   "student": "Q9123",
+   "mentor": "Q47285",
+   "property": "P185"
+  },
+  {
+   "student": "Q103854",
+   "mentor": "Q7085",
+   "property": "P185"
+  },
+  {
+   "student": "Q56855591",
+   "mentor": "Q556543",
+   "property": "P185"
+  },
+  {
+   "student": "Q190697",
+   "mentor": "Q71023",
+   "property": "P185"
+  },
+  {
+   "student": "Q206379",
+   "mentor": "Q71013",
+   "property": "P185"
+  },
+  {
+   "student": "Q28976188",
+   "mentor": "Q555849",
+   "property": "P185"
+  },
+  {
+   "student": "Q1700920",
+   "mentor": "Q726394",
+   "property": "P185"
+  },
+  {
+   "mentor": "Q58978",
+   "student": "Q65989",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q46120",
+   "student": "Q710597",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q77142",
+   "student": "Q5327",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q104600",
+   "student": "Q56068",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q155375",
+   "student": "Q4517",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q556543",
+   "student": "Q56855591",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q64188",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q192577",
+   "student": "Q47426",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q233976",
+   "student": "Q58054",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q7085",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q9021",
+   "student": "Q57067",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q7085",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q58978",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q58978",
+   "student": "Q57100",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q1701279",
+   "student": "Q5341373",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q1701279",
+   "student": "Q6796222",
+   "property": "P1066"
+  },
+  {
+   "student": "Q102454",
+   "mentor": "Q44061",
+   "property": "P802"
+  },
+  {
+   "student": "Q102291",
+   "mentor": "Q47285",
+   "property": "P802"
+  },
+  {
+   "student": "Q133747",
+   "mentor": "Q47285",
+   "property": "P802"
+  },
+  {
+   "student": "Q160522",
+   "mentor": "Q47285",
+   "property": "P802"
+  },
+  {
+   "student": "Q162900",
+   "mentor": "Q47285",
+   "property": "P802"
+  },
+  {
+   "student": "Q122996",
+   "mentor": "Q48956",
+   "property": "P802"
+  },
+  {
+   "student": "Q191020",
+   "mentor": "Q47426",
+   "property": "P802"
+  },
+  {
+   "student": "Q76610",
+   "mentor": "Q57078",
+   "property": "P802"
+  },
+  {
+   "student": "Q65989",
+   "mentor": "Q58978",
+   "property": "P802"
+  },
+  {
+   "student": "Q184286",
+   "mentor": "Q57125",
+   "property": "P802"
+  },
+  {
+   "student": "Q204600",
+   "mentor": "Q57127",
+   "property": "P802"
+  },
+  {
+   "student": "Q79000",
+   "mentor": "Q62891",
+   "property": "P802"
+  },
+  {
+   "student": "Q710597",
+   "mentor": "Q46120",
+   "property": "P802"
+  },
+  {
+   "student": "Q56855591",
+   "mentor": "Q556543",
+   "property": "P802"
+  },
+  {
+   "student": "Q7504",
+   "mentor": "Q7186",
+   "property": "P802"
+  },
+  {
+   "student": "Q58978",
+   "mentor": "Q47285",
+   "property": "P802"
+  },
+  {
+   "student": "Q76464",
+   "mentor": "Q70554",
+   "property": "P802"
+  },
+  {
+   "student": "Q76616",
+   "mentor": "Q70554",
+   "property": "P802"
+  },
+  {
+   "student": "Q77142",
+   "mentor": "Q70554",
+   "property": "P802"
+  },
+  {
+   "student": "Q78482",
+   "mentor": "Q70554",
+   "property": "P802"
+  },
+  {
+   "student": "Q103854",
+   "mentor": "Q7085",
+   "property": "P802"
+  },
+  {
+   "student": "Q133267",
+   "mentor": "Q7085",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q57078",
+   "student": "Q70554",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q46120",
+   "student": "Q710597",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q77142",
+   "student": "Q5327",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q76464",
+   "student": "Q57132",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q83297",
+   "student": "Q47285",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q104600",
+   "student": "Q56068",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q107419",
+   "student": "Q61045",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q133232",
+   "student": "Q7186",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155375",
+   "student": "Q4517",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q556543",
+   "student": "Q56855591",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q170741",
+   "student": "Q54945",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q64188",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q192577",
+   "student": "Q47426",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q219718",
+   "student": "Q60108",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9021",
+   "student": "Q57067",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9021",
+   "student": "Q57070",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q62897",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q37193",
+   "student": "Q57089",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q7085",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q57078",
+   "student": "Q43917",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q58978",
+   "student": "Q57100",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q107264",
+   "student": "Q509262",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q157268",
+   "student": "Q562481",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155794",
+   "student": "Q726394",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q234949",
+   "student": "Q504021",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q295659",
+   "student": "Q504021",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q903471",
+   "student": "Q4790366",
+   "property": "P184"
+  },
+  {
+   "student": "Q5327",
+   "mentor": "Q77142",
+   "property": "P185"
+  },
+  {
+   "student": "Q47285",
+   "mentor": "Q83297",
+   "property": "P185"
+  },
+  {
+   "student": "Q76595",
+   "mentor": "Q76616",
+   "property": "P185"
+  },
+  {
+   "student": "Q76612",
+   "mentor": "Q76623",
+   "property": "P185"
+  },
+  {
+   "student": "Q78483",
+   "mentor": "Q77072",
+   "property": "P185"
+  },
+  {
+   "student": "Q78501",
+   "mentor": "Q77173",
+   "property": "P185"
+  },
+  {
+   "student": "Q123280",
+   "mentor": "Q78480",
+   "property": "P185"
+  },
+  {
+   "student": "Q80907",
+   "mentor": "Q80910",
+   "property": "P185"
+  },
+  {
+   "student": "Q232295",
+   "mentor": "Q78480",
+   "property": "P185"
+  },
+  {
+   "student": "Q83557",
+   "mentor": "Q83552",
+   "property": "P185"
+  },
+  {
+   "student": "Q107462",
+   "mentor": "Q83501",
+   "property": "P185"
+  },
+  {
+   "student": "Q295678",
+   "mentor": "Q78501",
+   "property": "P185"
+  },
+  {
+   "student": "Q215574",
+   "mentor": "Q83333",
+   "property": "P185"
+  },
+  {
+   "student": "Q295659",
+   "mentor": "Q83333",
+   "property": "P185"
+  },
+  {
+   "student": "Q57132",
+   "mentor": "Q76464",
+   "property": "P185"
+  },
+  {
+   "student": "Q57067",
+   "mentor": "Q9021",
+   "property": "P185"
+  },
+  {
+   "student": "Q57070",
+   "mentor": "Q9021",
+   "property": "P185"
+  },
+  {
+   "student": "Q62897",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q153201",
+   "mentor": "Q949",
+   "property": "P185"
+  },
+  {
+   "student": "Q76474",
+   "mentor": "Q9021",
+   "property": "P185"
+  },
+  {
+   "student": "Q80884",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q153194",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q173028",
+   "mentor": "Q8753",
+   "property": "P185"
+  },
+  {
+   "student": "Q183655",
+   "mentor": "Q8753",
+   "property": "P185"
+  },
+  {
+   "student": "Q183679",
+   "mentor": "Q8753",
+   "property": "P185"
+  },
+  {
+   "student": "Q172844",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q178103",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q183631",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q184499",
+   "mentor": "Q9123",
+   "property": "P185"
+  },
+  {
+   "student": "Q5327",
+   "mentor": "Q77142",
+   "property": "P802"
+  },
+  {
+   "student": "Q7085",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q57067",
+   "mentor": "Q9021",
+   "property": "P802"
+  },
+  {
+   "student": "Q57070",
+   "mentor": "Q9021",
+   "property": "P802"
+  },
+  {
+   "student": "Q57065",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q62897",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q123280",
+   "mentor": "Q78480",
+   "property": "P802"
+  },
+  {
+   "student": "Q216324",
+   "mentor": "Q76425",
+   "property": "P802"
+  },
+  {
+   "student": "Q232295",
+   "mentor": "Q78480",
+   "property": "P802"
+  },
+  {
+   "student": "Q83557",
+   "mentor": "Q83552",
+   "property": "P802"
+  },
+  {
+   "student": "Q309816",
+   "mentor": "Q83333",
+   "property": "P802"
+  },
+  {
+   "student": "Q312977",
+   "mentor": "Q83333",
+   "property": "P802"
+  },
+  {
+   "student": "Q76474",
+   "mentor": "Q9021",
+   "property": "P802"
+  },
+  {
+   "student": "Q80884",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q102830",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q153194",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q172840",
+   "mentor": "Q8753",
+   "property": "P802"
+  },
+  {
+   "student": "Q173028",
+   "mentor": "Q8753",
+   "property": "P802"
+  },
+  {
+   "student": "Q181369",
+   "mentor": "Q8753",
+   "property": "P802"
+  },
+  {
+   "student": "Q183655",
+   "mentor": "Q8753",
+   "property": "P802"
+  },
+  {
+   "student": "Q183679",
+   "mentor": "Q8753",
+   "property": "P802"
+  },
+  {
+   "student": "Q172844",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q183631",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "student": "Q184499",
+   "mentor": "Q9123",
+   "property": "P802"
+  },
+  {
+   "mentor": "Q57078",
+   "student": "Q76610",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q57078",
+   "student": "Q77072",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q62891",
+   "student": "Q79000",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q155790",
+   "student": "Q949",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q9123",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q58978",
+   "student": "Q8753",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76464",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76604",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76616",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q77142",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q78482",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q77072",
+   "student": "Q78483",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q83598",
+   "student": "Q83333",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q169366",
+   "student": "Q80905",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q177681",
+   "student": "Q83598",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q78510",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q295678",
+   "student": "Q740638",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q9021",
+   "student": "Q76474",
+   "property": "P1066"
+  },
+  {
+   "mentor": "Q12658",
+   "student": "Q78482",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q37193",
+   "student": "Q76425",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q57078",
+   "student": "Q77072",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q58978",
+   "student": "Q76807",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q62891",
+   "student": "Q79000",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q48983",
+   "student": "Q903471",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155759",
+   "student": "Q997",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155790",
+   "student": "Q949",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q47285",
+   "student": "Q9123",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76464",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76604",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76613",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q70554",
+   "student": "Q76616",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q76616",
+   "student": "Q76595",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q76623",
+   "student": "Q76612",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q77072",
+   "student": "Q78483",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q77173",
+   "student": "Q78501",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q80910",
+   "student": "Q80907",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q83552",
+   "student": "Q83557",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q122298",
+   "student": "Q76687",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q131729",
+   "student": "Q78480",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q155525",
+   "student": "Q77160",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q169366",
+   "student": "Q80905",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q177681",
+   "student": "Q83598",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q186465",
+   "student": "Q78510",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q205667",
+   "student": "Q83333",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q234949",
+   "student": "Q983858",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q295678",
+   "student": "Q740638",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q295659",
+   "student": "Q983858",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q1173928",
+   "student": "Q921499",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9021",
+   "student": "Q76474",
+   "property": "P184"
+  },
+  {
+   "mentor": "Q9123",
+   "student": "Q80884",
+   "property": "P184"
+  },
+  {
+   "student": "Q1174906",
+   "mentor": "Q740638",
+   "property": "P185"
+  },
+  {
+   "student": "Q3814528",
+   "mentor": "Q740638",
+   "property": "P185"
+  },
+  {
+   "student": "Q434509",
+   "mentor": "Q921499",
+   "property": "P185"
+  },
+  {
+   "student": "Q4790366",
+   "mentor": "Q903471",
+   "property": "P185"
+  }
+ ]
+}

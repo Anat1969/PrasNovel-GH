@@ -7,6 +7,7 @@ import { go } from "../lib/route";
 import { useSize } from "../lib/useSize";
 import YearBar from "../lib/YearBar";
 import { FieldChips, Src, Tone, useReducedMotion } from "../lib/ui";
+import FieldList from "../lib/FieldList";
 
 type Pt = { id: string; y: number; age: number; f: FieldCode; sel: boolean; name: string };
 
@@ -29,6 +30,9 @@ export default function Time({ m, params }: { m: Model; params: Record<string, s
   const [year, setYear] = useState(maxY);
   const [playing, setPlaying] = useState(false);
   const [hover, setHover] = useState<Pt | null>(null);
+  const [view, setView] = useState<"list" | "chart">("list");
+  const single = fields.length === 1 ? fields[0] : null;
+  const showList = single && view === "list";
   const pts = useMemo(() => all.filter((p) => !fields.length || fields.includes(p.f)), [all, fields]);
   const trend = useMemo(() => rolling(pts, minY, maxY), [pts, minY, maxY]);
 
@@ -68,11 +72,20 @@ export default function Time({ m, params }: { m: Model; params: Record<string, s
             <Rich as="h1" className="insight-line">{`גיל הזכייה ${scope}: **${Math.round(early)}** עד 1950, **${Math.round(late)}** מאז 2001.`}</Rich>
             <p className="explain">כל נקודה היא פרס לאדם. הקו הוא חציון נע של <bdi className="num">15</bdi> שנה. <mark className="insight">ההכרה מגיעה מאוחר יותר ויותר.</mark></p>
           </div>
-          <FieldChips value={fields} onChange={(f) => { setFields(f); go("time", { f: f.join(",") || undefined }); }} />
+          <div className="stack-sm">
+            <FieldChips value={fields} onChange={(f) => { setFields(f); setView("list"); go("time", { f: f.join(",") || undefined }); }} />
+            {single && (
+              <div className="seg" role="group" aria-label="תצוגה">
+                <button className="seg-btn" aria-pressed={view === "list"} onClick={() => setView("list")}>הזוכים והנימוק</button>
+                <button className="seg-btn" aria-pressed={view === "chart"} onClick={() => setView("chart")}>גרף</button>
+              </div>
+            )}
+          </div>
         </div>
         <YearBar min={minY} max={maxY} value={year} onChange={(y) => { setPlaying(false); setYear(y); }} playing={playing}
           onPlay={() => { if (!playing && year >= maxY) setYear(minY); setPlaying(!playing); }} onReset={() => { setPlaying(false); setYear(maxY); }} />
         <div className="panel fill" ref={box}>
+          {showList ? <FieldList m={m} field={single!} until={year} /> : <>
           <div className="clock num" aria-live="polite">{year}</div>
           <div className="clock-sub label"><bdi className="num">{shown.length}</bdi> פרסים עד השנה הזו</div>
           {w > 0 && (
@@ -109,6 +122,7 @@ export default function Time({ m, params }: { m: Model; params: Record<string, s
             <span><i className="ring" />נבחר, לחיצה פותחת</span>
             <span><i style={{ background: "#1B1A17", borderRadius: 0, height: 2, width: 14 }} />חציון נע</span>
           </div>
+          </>}
         </div>
       </div>
       <aside className="panel panel-pad scroll-in stack">
@@ -116,7 +130,7 @@ export default function Time({ m, params }: { m: Model; params: Record<string, s
         <div className="multiples">
           {multiples.map(({ f, dec, a, b }) => (
             <button key={f.code} className="press mult" aria-pressed={fields.length === 1 && fields[0] === f.code}
-              onClick={() => { const v = fields.length === 1 && fields[0] === f.code ? [] : [f.code]; setFields(v); go("time", { f: v.join(",") || undefined }); }}>
+              onClick={() => { const v = fields.length === 1 && fields[0] === f.code ? [] : [f.code]; setFields(v); setView("list"); go("time", { f: v.join(",") || undefined }); }}>
               <span className="mult-head"><span style={{ color: f.color, fontWeight: 600 }}>{f.he}</span>
                 <span className="num" title="חציון עד 1950 ← מאז 2001">{isNaN(a) ? "" : `${Math.round(a)}→`}{Math.round(b)}</span></span>
               <svg width="140" height="44" viewBox="0 0 140 44" aria-hidden="true">

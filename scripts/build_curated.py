@@ -167,6 +167,35 @@ def build_wikidata(laureate_df):
     return entities, edge_df, source
 
 
+def build_wikidata_extra(laureate_df):
+    """Degrees (P512) of the selected laureates and mentor links where both ends are laureates (all fields)."""
+    try:
+        snapshot = latest_raw_dir("wikidata")
+    except FileNotFoundError:
+        return {}
+    qid_to_nobel = dict(zip(laureate_df["qid"], laureate_df["nobel_id"]))
+    out = {}
+    deg_path, link_path = snapshot / "degrees.json", snapshot / "laureate_links.json"
+    if deg_path.exists():
+        rows = json.loads(deg_path.read_text(encoding="utf-8"))["rows"]
+        out["degree"] = pd.DataFrame([{
+            "nobel_id": qid_to_nobel.get(r["qid"]), "qid": r["qid"], "degree": r["degree"],
+            "degree_he": r.get("degree_he"), "degree_en": r.get("degree_en"),
+            "by_en": r.get("by_en"), "by_he": r.get("by_he"), "year": r.get("year"),
+            "source_url": f"https://www.wikidata.org/wiki/{r['qid']}#P512"} for r in rows]).drop_duplicates()
+    if link_path.exists():
+        rows = json.loads(link_path.read_text(encoding="utf-8"))["rows"]
+        df = pd.DataFrame([{"mentor_qid": r["mentor"], "student_qid": r["student"], "property": r["property"]} for r in rows])
+        if not df.empty:
+            df = (df.sort_values("property").groupby(["mentor_qid", "student_qid"], as_index=False)
+                  .agg(properties=("property", lambda s: "|".join(sorted(set(s))))))
+            df["mentor_nobel_id"] = df.mentor_qid.map(qid_to_nobel)
+            df["student_nobel_id"] = df.student_qid.map(qid_to_nobel)
+            df["source_url"] = "https://www.wikidata.org/wiki/" + df.student_qid
+            out["laureate_link"] = df[df.mentor_qid != df.student_qid].reset_index(drop=True)
+    return out
+
+
 def decide_link(link: dict) -> tuple[str, list[str]]:
     """Decide which OpenAlex author ids belong to a laureate.
 
@@ -193,7 +222,8 @@ def build_openalex():
     except FileNotFoundError:
         return {}
     load = lambda n: json.loads((snap / f"{n}.json").read_text(encoding="utf-8")) if (snap / f"{n}.json").exists() else {}
-    links, authors, works, curves, cross = (load(n) for n in ("links", "authors", "works", "citing_by_year", "cross_citations"))
+    links, authors, works, curves, cross, cfields, evid = (load(n) for n in (
+        "links", "authors", "works", "citing_by_year", "cross_citations", "citing_fields", "edge_evidence"))
     short = lambda s: (s or "").rsplit("/", 1)[-1]
     link_rows, ev_rows = [], []
     fetched = {l["nobel_id"]: set(l["authors"]) for l in links or []}  # ids the raw works/curves were fetched for
@@ -247,7 +277,26 @@ def build_openalex():
                 agg[n] = max(agg.get(n, 0), b["count"])  # split profiles: take max, never sum the same works twice
         for citing, n in agg.items():
             cite_rows.append({"citing_nobel_id": citing, "cited_nobel_id": cited, "works": n})
-    return {"openalex_link": pd.DataFrame(link_rows), "openalex_evidence": pd.DataFrame(ev_rows),
+    field_rows = []
+    for nid, g in (cfields or {}).items():
+        if nid not in linked or keep[nid] != fetched.get(nid):
+            continue
+        for b in g.get("group_by", []):
+            if b.get("key") and b["key"] != "unknown":
+                field_rows.append({"nobel_id": nid, "field_id": short(b["key"]), "field_en": b.get("key_display_name"), "citing_works": b["count"]})
+    title_of = {(nid, short(r["id"])): r.get("title") for nid, w in (works or {}).items() for r in w.get("results", [])}
+    ev_work_rows = []
+    for key, r in (evid or {}).items():
+        citing, cited = key.split(">")
+        if citing not in linked or cited not in linked:
+            continue
+        for w in r.get("results", []):
+            refs = [title_of[(cited, short(x))] for x in w.get("referenced_works", []) if (cited, short(x)) in title_of]
+            ev_work_rows.append({"citing_nobel_id": citing, "cited_nobel_id": cited, "work_id": short(w["id"]), "title": w.get("title"),
+                                 "year": w.get("publication_year"), "doi": w.get("doi"), "cited_by": w.get("cited_by_count"),
+                                 "references": " || ".join(refs)})
+    return {"openalex_citing_field": pd.DataFrame(field_rows), "cite_edge_work": pd.DataFrame(ev_work_rows),
+            "openalex_link": pd.DataFrame(link_rows), "openalex_evidence": pd.DataFrame(ev_rows),
             "openalex_stats": pd.DataFrame(stat_rows), "openalex_work": pd.DataFrame(work_rows),
             "openalex_curve": pd.DataFrame(curve_rows), "cite_edge": pd.DataFrame(cite_rows)}
 
@@ -274,6 +323,7 @@ def main() -> int:
         "edge": edge,
         "wikidata_check": wikidata_check,
         **build_openalex(),
+        **build_wikidata_extra(laureate),
     }
     if DB_PATH.exists():
         DB_PATH.unlink()  # rebuilt from raw every time: idempotent

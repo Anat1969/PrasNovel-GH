@@ -55,6 +55,31 @@ SELECT DISTINCT ?mentor ?student ?from ?property
 }
 """
 
+# Mentor/student links where both ends are Nobel laureates, across all fields.
+LAUREATE_LINKS_Q = """
+SELECT DISTINCT ?mentor ?student ?property WHERE {
+  VALUES ?s { %s }
+  { ?s wdt:P184 ?mentor . BIND(?s AS ?student) BIND("P184" AS ?property) } UNION
+  { ?s wdt:P1066 ?mentor . BIND(?s AS ?student) BIND("P1066" AS ?property) } UNION
+  { ?s wdt:P185 ?student . BIND(?s AS ?mentor) BIND("P185" AS ?property) } UNION
+  { ?s wdt:P802 ?student . BIND(?s AS ?mentor) BIND("P802" AS ?property) }
+}
+"""
+
+# Degrees as recorded on education statements: P69 (educated at) with qualifier P512 (academic degree).
+# P512 on its own mixes honorary degrees and job titles, so it is not used.
+DEGREE_Q = """
+SELECT ?item ?degree ?degree_he ?degree_en ?by_en ?by_he ?year WHERE {
+  VALUES ?item { %s }
+  ?item p:P69 ?st . ?st ps:P69 ?by . ?st pq:P512 ?degree .
+  OPTIONAL { ?degree rdfs:label ?degree_he FILTER(LANG(?degree_he) = "he") }
+  OPTIONAL { ?degree rdfs:label ?degree_en FILTER(LANG(?degree_en) = "en") }
+  OPTIONAL { ?by rdfs:label ?by_en FILTER(LANG(?by_en) = "en") }
+  OPTIONAL { ?by rdfs:label ?by_he FILTER(LANG(?by_he) = "he") }
+  OPTIONAL { ?st pq:P582 ?t . BIND(YEAR(?t) AS ?year) }
+}
+"""
+
 
 def qid(uri: str | None):
     return uri.rsplit("/", 1)[-1] if uri else None
@@ -91,7 +116,18 @@ def main() -> int:
     values = " ".join(f"wd:{q}" for q in selected)
     mentors = run(MENTOR_Q % values)
     save_raw("wikidata", "mentors", {"query": MENTOR_Q, "selected": selected, "rows": mentors}, stamp)
-    print(f"entities: {len(entities)} rows, mentors: {len(mentors)} rows, snapshot {stamp}")
+    links = []
+    laureate_set = set(qids)
+    for i in range(0, len(qids), CHUNK):
+        chunk = " ".join(f"wd:{q}" for q in qids[i:i + CHUNK])
+        links.extend(r for r in run(LAUREATE_LINKS_Q % chunk) if r["mentor"] in laureate_set and r["student"] in laureate_set)
+    save_raw("wikidata", "laureate_links", {"query": LAUREATE_LINKS_Q, "rows": links}, stamp)
+    degrees = run(DEGREE_Q % values)
+    for d in degrees:
+        d["qid"] = d.pop("item")
+        d["degree"] = qid(d["degree"])
+    save_raw("wikidata", "degrees", {"query": DEGREE_Q, "rows": degrees}, stamp)
+    print(f"entities: {len(entities)}, mentors: {len(mentors)}, laureate links: {len(links)}, degrees: {len(degrees)}, snapshot {stamp}")
     return 0
 
 

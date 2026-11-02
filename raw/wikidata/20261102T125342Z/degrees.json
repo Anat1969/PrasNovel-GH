@@ -1,0 +1,134 @@
+{
+ "query": "\nSELECT ?item ?degree ?degree_he ?degree_en ?by_en ?by_he ?year WHERE {\n  VALUES ?item { %s }\n  ?item p:P69 ?st . ?st ps:P69 ?by . ?st pq:P512 ?degree .\n  OPTIONAL { ?degree rdfs:label ?degree_he FILTER(LANG(?degree_he) = \"he\") }\n  OPTIONAL { ?degree rdfs:label ?degree_en FILTER(LANG(?degree_en) = \"en\") }\n  OPTIONAL { ?by rdfs:label ?by_en FILTER(LANG(?by_en) = \"en\") }\n  OPTIONAL { ?by rdfs:label ?by_he FILTER(LANG(?by_he) = \"he\") }\n  OPTIONAL { ?st pq:P582 ?t . BIND(YEAR(?t) AS ?year) }\n}\n",
+ "rows": [
+  {
+   "year": "1974",
+   "by_he": "אוניברסיטת פנסילבניה",
+   "by_en": "University of Pennsylvania",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q106624"
+  },
+  {
+   "year": "1972",
+   "by_he": "אוניברסיטת שיקגו",
+   "by_en": "University of Chicago",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q1097475"
+  },
+  {
+   "year": "1981",
+   "by_he": "אוניברסיטת מקמסטר",
+   "by_en": "McMaster University",
+   "degree": "Q798132",
+   "degree_en": "Bachelor of Engineering",
+   "degree_he": "בוגר הנדסה",
+   "qid": "Q56855591"
+  },
+  {
+   "year": "1989",
+   "by_he": "אוניברסיטת רוצ'סטר",
+   "by_en": "University of Rochester",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q56855591"
+  },
+  {
+   "year": "1893",
+   "by_he": "סורבון",
+   "by_en": "University of Paris",
+   "degree": "Q950900",
+   "degree_en": "Master of Science",
+   "degree_he": "מוסמך במדעים",
+   "qid": "Q7186"
+  },
+  {
+   "year": "1894",
+   "by_he": "סורבון",
+   "by_en": "University of Paris",
+   "degree": "Q950900",
+   "degree_en": "Master of Science",
+   "degree_he": "מוסמך במדעים",
+   "qid": "Q7186"
+  },
+  {
+   "year": "1990",
+   "by_he": "אוניברסיטת אילינוי באורבנה-שמפיין",
+   "by_en": "University of Illinois Urbana-Champaign",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q743252"
+  },
+  {
+   "year": "1982",
+   "by_he": "אוניברסיטת סגד",
+   "by_en": "University of Szeged",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q88608397"
+  },
+  {
+   "year": "1978",
+   "by_he": "אוניברסיטת סגד",
+   "by_en": "University of Szeged",
+   "degree": "Q950900",
+   "degree_en": "Master of Science",
+   "degree_he": "מוסמך במדעים",
+   "qid": "Q88608397"
+  },
+  {
+   "by_he": "אוניברסיטת אלכסנדריה",
+   "by_en": "Alexandria University",
+   "degree": "Q183816",
+   "degree_en": "master's degree",
+   "degree_he": "מוסמך אוניברסיטה",
+   "qid": "Q106624"
+  },
+  {
+   "by_he": "אוניברסיטת אלכסנדריה",
+   "by_en": "Alexandria University",
+   "degree": "Q163727",
+   "degree_en": "bachelor's degree",
+   "degree_he": "בוגר אוניברסיטה",
+   "qid": "Q106624"
+  },
+  {
+   "by_he": "אוניברסיטת קורנל",
+   "by_en": "Cornell University",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q199654"
+  },
+  {
+   "by_he": "אוניברסיטת ציריך",
+   "by_en": "University of Zurich",
+   "degree": "Q752297",
+   "degree_en": "Doctor of Philosophy",
+   "degree_he": "דוקטור לפילוסופיה",
+   "qid": "Q35149"
+  },
+  {
+   "by_he": "אוניברסיטת שטרסבורג",
+   "by_en": "University of Strasbourg",
+   "degree": "Q121594",
+   "degree_en": "professor",
+   "degree_he": "פרופסור",
+   "qid": "Q35149"
+  },
+  {
+   "by_he": "סורבון",
+   "by_en": "University of Paris",
+   "degree": "Q2248352",
+   "degree_en": "Doctor of Science",
+   "degree_he": "דוקטור במדעים",
+   "qid": "Q7186"
+  }
+ ]
+}

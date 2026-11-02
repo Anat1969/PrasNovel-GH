@@ -4,7 +4,7 @@ import { CONT_HE, FIELD, FieldCode, Model, nameHe } from "../lib/data";
 import Rich from "../lib/Rich";
 import { go, href } from "../lib/route";
 import YearBar from "../lib/YearBar";
-import { FieldChips, Icon, Name, Src, Tone, useReducedMotion } from "../lib/ui";
+import { FieldChips, Icon, Name, ShapeToggle, Src, Tone, useReducedMotion } from "../lib/ui";
 
 export default function World({ m, params }: { m: Model; params: Record<string, string> }) {
   const reduced = useReducedMotion();
@@ -14,6 +14,8 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
   const [playing, setPlaying] = useState(false);
   const [fields, setFields] = useState<FieldCode[]>(() => (params.f ? (params.f.split(",") as FieldCode[]) : []));
   const focus = params.id ?? null;
+  const [flat, setFlat] = useState(params.v === "map");
+  const [window10, setWindow10] = useState(false);
 
   useEffect(() => {
     if (!playing) return;
@@ -23,8 +25,9 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
   }, [playing, maxY, reduced]);
 
   const visible = useMemo(() => m.people.filter((p) => p.lat != null && !p.org
-    && (m.firstYear.get(p.id) ?? 0) <= year && (!fields.length || (m.prizesOf.get(p.id) ?? []).some((x) => fields.includes(x.f)))), [m, year, fields]);
-  const points: GlobePoint[] = visible.map((p) => ({ id: p.id, lat: p.lat!, lon: p.lon!, color: FIELD[m.firstField.get(p.id)!].color,
+    && (m.prizesOf.get(p.id) ?? []).some((x) => (window10 ? x.y > year - 10 && x.y <= year : x.y <= year) && (!fields.length || fields.includes(x.f)))), [m, year, fields, window10]);
+  const colorOf = (id: string) => FIELD[fields.length === 1 ? fields[0] : m.firstField.get(id)!].color;
+  const points: GlobePoint[] = visible.map((p) => ({ id: p.id, lat: p.lat!, lon: p.lon!, color: colorOf(p.id),
     big: m.selIds.has(p.id), label: `${nameHe(p)} · ${p.city ?? ""}` }));
   const cont = new Map<string, number>();
   for (const p of visible) if (p.cont) cont.set(p.cont, (cont.get(p.cont) ?? 0) + 1);
@@ -39,7 +42,7 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
       <div className="screen" style={{ gridTemplateRows: "auto auto minmax(0,1fr)" }}>
         <div className="screen-head">
           <div>
-            <Rich as="h1" className="insight-line">{top ? `**${Math.round((top[1] / total) * 100)}%** מהזוכים עד ${year} נולדו ב${CONT_HE[top[0]] ?? top[0]}.` : "אין זוכים בבחירה."}</Rich>
+            <Rich as="h1" className="insight-line">{top ? `**${Math.round((top[1] / total) * 100)}%** מהזוכים ${window10 ? `בעשור ${year - 9}–${year}` : `עד ${year}`} נולדו ב${CONT_HE[top[0]] ?? top[0]}.` : "אין זוכים בבחירה."}</Rich>
             <p className="explain">מקום הלידה לפי גבולות היום. <mark className="insight">הפעלה מראה איך המפה מתרחבת עם השנים.</mark></p>
           </div>
           <FieldChips value={fields} onChange={setF} />
@@ -47,9 +50,16 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
         <YearBar min={minY} max={maxY} value={year} onChange={(y) => { setPlaying(false); setYear(y); }} playing={playing}
           onPlay={() => { if (!playing && year >= maxY) setYear(minY); setPlaying(!playing); }} onReset={() => { setPlaying(false); setYear(maxY); }} />
         <div className="panel fill world-globe">
+          <div className="world-tools">
+            <ShapeToggle flat={flat} onChange={setFlat} />
+            <div className="seg" role="group" aria-label="טווח השנים">
+              <button className="seg-btn" aria-pressed={!window10} onClick={() => setWindow10(false)}>מצטבר</button>
+              <button className="seg-btn" aria-pressed={window10} onClick={() => setWindow10(true)}>עשור בלבד</button>
+            </div>
+          </div>
           <div className="clock num">{year}</div>
-          <div className="clock-sub label"><bdi className="num">{visible.length}</bdi> זוכים על המפה</div>
-          <Globe points={points} focus={focus} spin={!focus} onPick={(id) => go("world", { id, f: fields.join(",") || undefined })} />
+          <div className="clock-sub label">{window10 ? <>עשור <bdi className="num">{year - 9}–{year}</bdi> · </> : null}<bdi className="num">{visible.length}</bdi> זוכים על {flat ? "המפה" : "הגלובוס"}</div>
+          <Globe flat={flat} points={points} focus={focus} spin={!focus} onPick={(id) => go("world", { id, f: fields.join(",") || undefined })} />
           <div className="legend chart-legend">
             {(fields.length ? fields : (["physics", "chemistry", "medicine", "economics", "peace", "literature"] as FieldCode[])).map((f) =>
               <span key={f}><i style={{ background: FIELD[f].color }} />{FIELD[f].he}</span>)}

@@ -8,12 +8,16 @@ import Network from "./pages/Network";
 import World from "./pages/World";
 import Quality from "./pages/Quality";
 import Ideas from "./pages/Ideas";
+import Fields from "./pages/Fields";
+import Cross from "./pages/Cross";
 
 const TABS = [
   { page: "home", label: "בית" },
-  { page: "people", label: "עשרים הזוכים" },
+  { page: "people", label: "הזוכים" },
   { page: "time", label: "ציר זמן" },
+  { page: "fields", label: "התפתחות תחום" },
   { page: "ideas", label: "חיי הרעיון" },
+  { page: "cross", label: "בין התחומים" },
   { page: "net", label: "רשת המנחים" },
   { page: "world", label: "גלובוס" },
   { page: "quality", label: "איכות הנתונים" },
@@ -99,7 +103,9 @@ export default function App() {
           : page === "time" ? <Time m={m} params={route.params} />
           : page === "net" ? <Network m={m} params={route.params} />
           : page === "world" ? <World m={m} params={route.params} />
-          : page === "ideas" ? <Ideas m={m} />
+          : page === "fields" ? <Fields m={m} params={route.params} />
+          : page === "cross" ? <Cross m={m} />
+          : page === "ideas" ? <Ideas m={m} params={route.params} />
           : page === "quality" ? <Quality m={m} />
           : <Home m={m} />}
       </main>

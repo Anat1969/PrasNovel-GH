@@ -1,24 +1,27 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { forceCollide, forceLink, forceManyBody, forceSimulation, forceX, forceY, SimulationNodeDatum } from "d3-force";
-import { Edge, Model } from "../lib/data";
+import { Edge, FIELD, FieldCode, Model } from "../lib/data";
 import Rich from "../lib/Rich";
 import { go } from "../lib/route";
 import { useSize } from "../lib/useSize";
-import { Name, Src, Tone, useReducedMotion } from "../lib/ui";
+import { FieldChips, Name, Src, Tone, useReducedMotion } from "../lib/ui";
 
 type N = SimulationNodeDatum & { id: string; en: string; he: string | null; nobel: string | null; sel: boolean; level: number };
 type L = { source: N | string; target: N | string; e: Edge };
 
 export default function Network({ m, params }: { m: Model; params: Record<string, string> }) {
   const reduced = useReducedMotion();
-  const withEdges = m.selected.filter((s) => m.edges.some((e) => e.s === s.qid || e.t === s.qid));
+  const [fields, setFields] = useState<FieldCode[]>(() => (params.f ? (params.f.split(",") as FieldCode[]) : []));
+  const inField = (nid: string | null) => !!nid && (m.prizesOf.get(nid) ?? []).some((x) => fields.includes(x.f));
+  const withEdges = m.selected.filter((s) => m.edges.some((e) => e.s === s.qid || e.t === s.qid) && (!fields.length || fields.includes(s.field)));
   const view = params.id ?? "laureates";
   const sub = useMemo(() => {
-    if (view === "all") return m.edges;
-    if (view === "laureates") return m.edges.filter((e) => e.sn && e.tn);
+    const ok = (e: Edge) => !fields.length || inField(e.sn) || inField(e.tn);
+    if (view === "all") return m.edges.filter(ok);
+    if (view === "laureates") return m.edges.filter((e) => e.sn && e.tn && ok(e));
     const q = m.selected.find((s) => s.nobel_id === view)?.qid;
     return m.edges.filter((e) => e.s === q || e.t === q);
-  }, [m, view]);
+  }, [m, view, fields]);
 
   const { nodes, links } = useMemo(() => {
     const map = new Map<string, N>();
@@ -72,16 +75,17 @@ export default function Network({ m, params }: { m: Model; params: Record<string
 
   return (
     <div className="focus-aside">
-      <div className="screen" style={{ gridTemplateRows: "auto auto minmax(0,1fr)" }}>
+      <div className="screen" style={{ gridTemplateRows: "auto auto auto minmax(0,1fr)" }}>
         <div className="screen-head">
           <div>
             <Rich as="h1" className="insight-line">{`**${m.edges.length}** קשרי מנחה ותלמיד. **${m.edges.filter((e) => e.sn && e.tn).length}** מהם בין שני זוכים.`}</Rich>
             <p className="explain">מנחים למעלה, תלמידים למטה, כמו כתפיים. <mark className="insight">כל חץ הוא טענה ב-Wikidata, עם מקור.</mark></p>
           </div>
         </div>
+        <FieldChips value={fields} onChange={(f) => { setFields(f); setPick(null); go("net", { id: view === "laureates" ? undefined : view, f: f.join(",") || undefined }); }} />
         <div className="chips" role="group" aria-label="תצוגה">
-          <button className="chip" aria-pressed={view === "laureates"} onClick={() => { setPick(null); go("net"); }}>בין זוכים</button>
-          <button className="chip" aria-pressed={view === "all"} onClick={() => { setPick(null); go("net", { id: "all" }); }}>כל הרשת</button>
+          <button className="chip" aria-pressed={view === "laureates"} onClick={() => { setPick(null); go("net", { f: fields.join(",") || undefined }); }}>בין זוכים</button>
+          <button className="chip" aria-pressed={view === "all"} onClick={() => { setPick(null); go("net", { id: "all", f: fields.join(",") || undefined }); }}>כל הרשת</button>
           <span className="chip-note">|</span>
           {withEdges.map((s) => (
             <button key={s.nobel_id} className="chip" aria-pressed={view === s.nobel_id} onClick={() => { setPick(null); go("net", { id: s.nobel_id }); }}>
@@ -129,7 +133,7 @@ export default function Network({ m, params }: { m: Model; params: Record<string
           <div className="legend chart-legend">
             <span><i style={{ background: "#E2C77A", borderRadius: 0 }} />זוכה נובל</span>
             <span><i style={{ background: "#fff", border: "1px solid #999", borderRadius: 0 }} />לא זוכה</span>
-            <span><i style={{ background: "#fff", border: "2.5px solid #1B1A17", borderRadius: 0 }} />מעשרים הנבחרים</span>
+            <span><i style={{ background: "#fff", border: "2.5px solid #1B1A17", borderRadius: 0 }} />מהנבחרים</span>
             <span>חץ: ממנחה לתלמיד. לחיצה על חץ מציגה את הקשר.</span>
           </div>
         </div>
@@ -139,6 +143,7 @@ export default function Network({ m, params }: { m: Model; params: Record<string
           <div className="relation rise" key={pick.s + pick.t}>
             <div className="label">הקשר שנבחר</div>
             <div className="rel-big"><Name he={pick.sh} en={pick.sl ?? pick.s} /><span className="rel-verb">← הנחה את ←</span><Name he={pick.th} en={pick.tl ?? pick.t} /></div>
+            <RelationWhy m={m} e={pick} />
             <Src href={pick.url}>{`Wikidata ${pick.prop}`}</Src>
             {chain.length > 2 && (
               <ol className="chain">{chain.map((id) => <li key={id}>{nodeName(id) || id}</li>)}</ol>
@@ -157,6 +162,28 @@ export default function Network({ m, params }: { m: Model; params: Record<string
         <Tone kind="problem" title="הטיית כיסוי">{"Wikidata חלקי, במיוחד לפני המאה ה-20 ובשלום ובספרות.\nהיעדר קשר בגרף אינו היעדר מנטור במציאות."}</Tone>
         <Src href="https://doi.org/10.1007/s11192-024-04936-1">Tol, The Nobel family, Scientometrics 2024</Src>
       </aside>
+    </div>
+  );
+}
+
+/** הסבר לקשר: סוג הקשר, מתי כל אחד זכה, האם הוא חוצה תחומים, ולמה הוא חשוב. */
+function RelationWhy({ m, e }: { m: Model; e: Edge }) {
+  const a = e.sn ? (m.prizesOf.get(e.sn) ?? []) : [];
+  const b = e.tn ? (m.prizesOf.get(e.tn) ?? []) : [];
+  const fa = a[0]?.f, fb = b[0]?.f;
+  const lines: string[] = [];
+  lines.push(m.mentor_props?.[e.prop] ?? e.prop);
+  if (a.length && b.length) {
+    const gap = b[0].y - a[0].y;
+    lines.push(`המנחה זכה ב-**${a[0].y}** (${FIELD[fa!].he}), התלמיד ב-**${b[0].y}** (${FIELD[fb!].he}).`);
+    lines.push(gap > 0 ? `התלמיד זכה ${gap} שנים אחרי המנחה.` : gap < 0 ? `**התלמיד זכה לפני המנחה**, ב-${-gap} שנים.` : "שניהם זכו באותה שנה.");
+    if (fa !== fb) lines.push(`**הקשר חוצה תחומים:** שיטה מ${FIELD[fa!].he} הגיעה ל${FIELD[fb!].he}.`);
+  } else if (a.length) lines.push(`המנחה זכה בנובל ב-${a[0].y}. התלמיד לא זכה.`);
+  else if (b.length) lines.push(`התלמיד זכה בנובל ב-${b[0].y}. המנחה לא זכה.`);
+  return (
+    <div className="rel-why">
+      {lines.map((l, i) => <Rich key={i} as="p">{l}</Rich>)}
+      {m.mentor_why && <Tone kind="insight" title="למה זה חשוב [הערכה]">{m.mentor_why}</Tone>}
     </div>
   );
 }
