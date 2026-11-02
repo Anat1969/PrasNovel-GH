@@ -7,11 +7,13 @@ import Time from "./pages/Time";
 import Network from "./pages/Network";
 import World from "./pages/World";
 import Quality from "./pages/Quality";
+import Ideas from "./pages/Ideas";
 
 const TABS = [
   { page: "home", label: "בית" },
   { page: "people", label: "עשרים הזוכים" },
   { page: "time", label: "ציר זמן" },
+  { page: "ideas", label: "חיי הרעיון" },
   { page: "net", label: "רשת המנחים" },
   { page: "world", label: "גלובוס" },
   { page: "quality", label: "איכות הנתונים" },
@@ -97,6 +99,7 @@ export default function App() {
           : page === "time" ? <Time m={m} params={route.params} />
           : page === "net" ? <Network m={m} params={route.params} />
           : page === "world" ? <World m={m} params={route.params} />
+          : page === "ideas" ? <Ideas m={m} />
           : page === "quality" ? <Quality m={m} />
           : <Home m={m} />}
       </main>

@@ -1,0 +1,3268 @@
+{
+ "1": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 54,
+   "db_response_time_ms": 17,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5026985236)'s works, most cited first",
+    "x_new_oql": "get (A5026985236)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5026985236"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5026985236&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2036835433",
+    "doi": "https://doi.org/10.1126/science.3.59.227",
+    "title": "On a New Kind of Rays",
+    "publication_year": 1896,
+    "cited_by_count": 542
+   },
+   {
+    "id": "https://openalex.org/W2046505836",
+    "doi": "https://doi.org/10.1002/andp.18983000102",
+    "title": "Ueber eine neue Art von Strahlen",
+    "publication_year": 1898,
+    "cited_by_count": 318
+   },
+   {
+    "id": "https://openalex.org/W2098027727",
+    "doi": "https://doi.org/10.1002/andp.18922810108",
+    "title": "Ueber die Constitution des flüssigen Wassers",
+    "publication_year": 1892,
+    "cited_by_count": 249
+   },
+   {
+    "id": "https://openalex.org/W2136884003",
+    "doi": "https://doi.org/10.1002/andp.18882711003",
+    "title": "Ueber die durch Bewegung eines im homogenen electrischen Felde befindlichen Dielectricums hervorgerufene electrodynamische Kraft",
+    "publication_year": 1888,
+    "cited_by_count": 125
+   },
+   {
+    "id": "https://openalex.org/W2252470007",
+    "doi": "https://doi.org/10.1080/14786448108627021",
+    "title": "On tones produced by the intermittent irradiation of a gas",
+    "publication_year": 1881,
+    "cited_by_count": 116
+   },
+   {
+    "id": "https://openalex.org/W2121545305",
+    "doi": "https://doi.org/10.1002/andp.18802471304",
+    "title": "Ueber die durch Electricität bewirkten Form‐ und Volumenänderungen von dielectrischen Körpern",
+    "publication_year": 1880,
+    "cited_by_count": 77
+   },
+   {
+    "id": "https://openalex.org/W4255570493",
+    "doi": "https://doi.org/10.1002/andp.18983000103",
+    "title": "Ueber eine neue Art von Strahlen",
+    "publication_year": 1898,
+    "cited_by_count": 69
+   },
+   {
+    "id": "https://openalex.org/W2000032478",
+    "doi": "https://doi.org/10.1126/science.3.72.726",
+    "title": "A New Form of Radiation",
+    "publication_year": 1896,
+    "cited_by_count": 45
+   },
+   {
+    "id": "https://openalex.org/W2136974426",
+    "doi": "https://doi.org/10.14463/kxp:1685714188",
+    "title": "Eine neue Art von Strahlen",
+    "publication_year": 1896,
+    "cited_by_count": 42
+   },
+   {
+    "id": "https://openalex.org/W3209398570",
+    "doi": null,
+    "title": "Über eine neue Art von Strahlen : vorläufige Mitteilung",
+    "publication_year": 1895,
+    "cited_by_count": 42
+   },
+   {
+    "id": "https://openalex.org/W2071365966",
+    "doi": "https://doi.org/10.1002/andp.18812480114",
+    "title": "Ueber Töne, welche durch intermittirende Bestrahlung eines Gases entstehen",
+    "publication_year": 1881,
+    "cited_by_count": 36
+   },
+   {
+    "id": "https://openalex.org/W2021878906",
+    "doi": "https://doi.org/10.1002/andp.18983000104",
+    "title": "Weitere Beobachtungen über die Eigenschaften der X‐Strahlen",
+    "publication_year": 1898,
+    "cited_by_count": 32
+   },
+   {
+    "id": "https://openalex.org/W2145433644",
+    "doi": "https://doi.org/10.1002/andp.18922810109",
+    "title": "Kurze Mittheilung von Versuchen über den Einfluss des Druckes auf einige physikalische Erscheinungen",
+    "publication_year": 1892,
+    "cited_by_count": 26
+   },
+   {
+    "id": "https://openalex.org/W2000472499",
+    "doi": "https://doi.org/10.1002/andp.18912800903",
+    "title": "Ueber den Einfluss des Druckes auf die Brechungsexponenten von Wasser, Schwefelkohlenstoff, Benzol, Aethyläther und einigen Alkoholen",
+    "publication_year": 1891,
+    "cited_by_count": 23
+   },
+   {
+    "id": "https://openalex.org/W2116447709",
+    "doi": "https://doi.org/10.1259/0007-1285-4-37-32",
+    "title": "On a New Kind of Rays",
+    "publication_year": 1931,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W2025801760",
+    "doi": "https://doi.org/10.1002/andp.18842580804",
+    "title": "Ueber den Einfluss des Druckes auf die Viscosität der Flüssigkeiten, speciell des Wassers",
+    "publication_year": 1884,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W1974479134",
+    "doi": "https://doi.org/10.1002/andp.18762351209",
+    "title": "Ueber das Verhältniss der Quercontraction zur Längendilatation bei Kautschuk",
+    "publication_year": 1876,
+    "cited_by_count": 18
+   },
+   {
+    "id": "https://openalex.org/W2037397011",
+    "doi": "https://doi.org/10.1002/andp.18922820511",
+    "title": "Verfahren zur Herstellung reiner Wasser‐ und Quecksilberoberflächen",
+    "publication_year": 1892,
+    "cited_by_count": 16
+   },
+   {
+    "id": "https://openalex.org/W4243615561",
+    "doi": "https://doi.org/10.1002/andp.18832540203",
+    "title": "Ueber die durch electrische Kräfte erzeugte Aenderung der Doppelbrechung des Quarzes",
+    "publication_year": 1883,
+    "cited_by_count": 15
+   },
+   {
+    "id": "https://openalex.org/W2021728663",
+    "doi": "https://doi.org/10.1002/andp.18732240405",
+    "title": "Bestimmung des Verhältnisses der specifischen Wärme bei constantem Druck zu derjenigen bei constantem Volumen für einige Gase",
+    "publication_year": 1873,
+    "cited_by_count": 12
+   },
+   {
+    "id": "https://openalex.org/W2088196348",
+    "doi": "https://doi.org/10.1148/45.5.428",
+    "title": "On a New Kind of Rays",
+    "publication_year": 1945,
+    "cited_by_count": 11
+   },
+   {
+    "id": "https://openalex.org/W2165574470",
+    "doi": "https://doi.org/10.1002/andp.18902771011",
+    "title": "Ueber die Dicke von cohärenten Oelschichten auf der Oberfläche des Wassers",
+    "publication_year": 1890,
+    "cited_by_count": 11
+   },
+   {
+    "id": "https://openalex.org/W2145585987",
+    "doi": "https://doi.org/10.1002/andp.18942880714",
+    "title": "Ueber den Einfluss des Druckes auf die Dielectricitätsconstante des Wassers und des Aethylalkohols",
+    "publication_year": 1894,
+    "cited_by_count": 10
+   },
+   {
+    "id": "https://openalex.org/W2047827517",
+    "doi": "https://doi.org/10.1002/andp.18882690406",
+    "title": "Ueber die Compressibilität des Wassers",
+    "publication_year": 1888,
+    "cited_by_count": 9
+   },
+   {
+    "id": "https://openalex.org/W2080138883",
+    "doi": "https://doi.org/10.1002/andp.18882700707",
+    "title": "Ueber die Compressibilität des Sylvins, des Steinsalzes und der wässerigen Chlorkaliumlösungen",
+    "publication_year": 1888,
+    "cited_by_count": 7
+   }
+  ],
+  "group_by": []
+ },
+ "6": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 8,
+   "db_response_time_ms": 13,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5001432263)'s works, most cited first",
+    "x_new_oql": "get (A5001432263)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5001432263"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5001432263&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2091109017",
+    "doi": "https://doi.org/10.1051/radium:01907004010034900",
+    "title": "Sur le poids atomique du Radium",
+    "publication_year": 1907,
+    "cited_by_count": 25
+   },
+   {
+    "id": "https://openalex.org/W3009055929",
+    "doi": null,
+    "title": "The radiation of radium at the temperature of liquid hydrogen",
+    "publication_year": 1913,
+    "cited_by_count": 2
+   },
+   {
+    "id": "https://openalex.org/W2319154631",
+    "doi": "https://doi.org/10.1259/jrs.1921.0016",
+    "title": "Radio-Activity",
+    "publication_year": 1921,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W3120402445",
+    "doi": "https://doi.org/10.1038/scientificamerican10241908-263bsupp",
+    "title": "Action of Radium Emanation on Copper Salts",
+    "publication_year": 1908,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W2100846986",
+    "doi": "https://doi.org/10.1111/j.1949-8594.1908.tb01099.x",
+    "title": "THE ATOMIC WEIGHT OF RADIUM; A NEW DETERMINATION*",
+    "publication_year": 1908,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W1720048337",
+    "doi": "https://doi.org/10.1259/jrs.1907.0014",
+    "title": "Atomic Weight of Radium",
+    "publication_year": 1907,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W2172678024",
+    "doi": "https://doi.org/10.1259/jrs.1907.0015",
+    "title": "Action of Gravity on the Radio-Active Deposit",
+    "publication_year": 1907,
+    "cited_by_count": 0
+   },
+   {
+    "id": "https://openalex.org/W3120606286",
+    "doi": "https://doi.org/10.1038/scientificamerican03051904-23459asupp",
+    "title": "Conductivity of Dielectric Liquids under the Influence of the Radium Rays and of the Roentgen Rays",
+    "publication_year": 1904,
+    "cited_by_count": 0
+   }
+  ],
+  "group_by": []
+ },
+ "37": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 552,
+   "db_response_time_ms": 94,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5108634248)'s works, most cited first",
+    "x_new_oql": "get (A5108634248)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5108634248"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5108634248&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2072443063",
+    "doi": "https://doi.org/10.1038/121501c0",
+    "title": "A New Type of Secondary Radiation",
+    "publication_year": 1928,
+    "cited_by_count": 2662
+   },
+   {
+    "id": "https://openalex.org/W2080896630",
+    "doi": "https://doi.org/10.1016/s0016-0032(41)90947-x",
+    "title": "The scattering of light in crystals",
+    "publication_year": 1941,
+    "cited_by_count": 485
+   },
+   {
+    "id": "https://openalex.org/W2748637106",
+    "doi": null,
+    "title": "The fundamentals of crystal physics",
+    "publication_year": 1943,
+    "cited_by_count": 473
+   },
+   {
+    "id": "https://openalex.org/W3177123549",
+    "doi": "https://doi.org/10.1007/bf03035840",
+    "title": "The diffraction of light by high frequency sound waves: Part I.",
+    "publication_year": 1935,
+    "cited_by_count": 420
+   },
+   {
+    "id": "https://openalex.org/W2043868875",
+    "doi": "https://doi.org/10.1038/121619b0",
+    "title": "A Change of Wave-length in Light Scattering",
+    "publication_year": 1928,
+    "cited_by_count": 267
+   },
+   {
+    "id": "https://openalex.org/W2281067309",
+    "doi": "https://doi.org/10.1007/bf03035822",
+    "title": "The diffraction of light by high frequency sound waves: Part IV",
+    "publication_year": 1936,
+    "cited_by_count": 253
+   },
+   {
+    "id": "https://openalex.org/W6720972",
+    "doi": "https://doi.org/10.1007/bf03052651",
+    "title": "A new radiation",
+    "publication_year": 1953,
+    "cited_by_count": 235
+   },
+   {
+    "id": "https://openalex.org/W1991394410",
+    "doi": "https://doi.org/10.2113/gsecongeo.88.8.1989",
+    "title": "Active and relict sea-floor hydrothermal mineralization at the TAG hydrothermal field, Mid-Atlantic Ridge",
+    "publication_year": 1993,
+    "cited_by_count": 219
+   },
+   {
+    "id": "https://openalex.org/W2078583618",
+    "doi": "https://doi.org/10.1038/155396a0",
+    "title": "Scattering of Light in Crystals",
+    "publication_year": 1945,
+    "cited_by_count": 205
+   },
+   {
+    "id": "https://openalex.org/W3209996618",
+    "doi": "https://doi.org/10.1007/bf03046238",
+    "title": "The diffraction of light by high frequency sound waves: Part III",
+    "publication_year": 1936,
+    "cited_by_count": 137
+   },
+   {
+    "id": "https://openalex.org/W2279228035",
+    "doi": "https://doi.org/10.1007/bf03035841",
+    "title": "The diffraction of light by sound waves of high frequency: Part II",
+    "publication_year": 1935,
+    "cited_by_count": 127
+   },
+   {
+    "id": "https://openalex.org/W2601038598",
+    "doi": "https://doi.org/10.1038/145147a0",
+    "title": "The α-β Transformation of Quartz",
+    "publication_year": 1940,
+    "cited_by_count": 123
+   },
+   {
+    "id": "https://openalex.org/W1979470288",
+    "doi": "https://doi.org/10.1038/121711a0",
+    "title": "The Optical Analogue of the Compton Effect",
+    "publication_year": 1928,
+    "cited_by_count": 102
+   },
+   {
+    "id": "https://openalex.org/W2004497729",
+    "doi": "https://doi.org/10.1038/111532b0",
+    "title": "A Theory of the Viscosity of Liquids",
+    "publication_year": 1923,
+    "cited_by_count": 97
+   },
+   {
+    "id": "https://openalex.org/W2050193529",
+    "doi": "https://doi.org/10.1103/physrev.15.277",
+    "title": "On Some Applications of Hertz's Theory of Impact",
+    "publication_year": 1920,
+    "cited_by_count": 96
+   },
+   {
+    "id": "https://openalex.org/W2005851512",
+    "doi": "https://doi.org/10.1103/physrev.12.442",
+    "title": "The Photographic Study of Impact at Minimal Velocities",
+    "publication_year": 1918,
+    "cited_by_count": 71
+   },
+   {
+    "id": "https://openalex.org/W2637767500",
+    "doi": "https://doi.org/10.1007/bf03046902",
+    "title": "The diffraction of light by high frequency sound waves: Part V",
+    "publication_year": 1936,
+    "cited_by_count": 64
+   },
+   {
+    "id": "https://openalex.org/W2074031238",
+    "doi": "https://doi.org/10.1038/122012b0",
+    "title": "The Negative Absorption of Radiation",
+    "publication_year": 1928,
+    "cited_by_count": 63
+   },
+   {
+    "id": "https://openalex.org/W2495189060",
+    "doi": "https://doi.org/10.2973/odp.proc.sr.116.110.1990",
+    "title": "Sediment Facies and Processes on the Distal Bengal Fan, Leg 116",
+    "publication_year": 1990,
+    "cited_by_count": 56
+   },
+   {
+    "id": "https://openalex.org/W109283507",
+    "doi": "https://doi.org/10.1007/bf03046531",
+    "title": "The vibration spectrum of a crystal lattice",
+    "publication_year": 1943,
+    "cited_by_count": 56
+   },
+   {
+    "id": "https://openalex.org/W2088920629",
+    "doi": "https://doi.org/10.1098/rspa.1922.0025",
+    "title": "On the molecular scattering of light in water and the colour of the sea",
+    "publication_year": 1922,
+    "cited_by_count": 56
+   },
+   {
+    "id": "https://openalex.org/W2025158636",
+    "doi": "https://doi.org/10.1098/rspa.1929.0002",
+    "title": "The production of new radiations by light scattering. —Part I",
+    "publication_year": 1929,
+    "cited_by_count": 55
+   },
+   {
+    "id": "https://openalex.org/W131994752",
+    "doi": "https://doi.org/10.1007/bf03036872",
+    "title": "The theory of the Christiansen experiment",
+    "publication_year": 1949,
+    "cited_by_count": 52
+   },
+   {
+    "id": "https://openalex.org/W2067355046",
+    "doi": "https://doi.org/10.1038/122169a0",
+    "title": "Polarisation of Scattered Light-quanta",
+    "publication_year": 1928,
+    "cited_by_count": 49
+   },
+   {
+    "id": "https://openalex.org/W2900122492",
+    "doi": "https://doi.org/10.1007/bf03046003",
+    "title": "Reflection of X-rays with change of frequency",
+    "publication_year": 1940,
+    "cited_by_count": 48
+   }
+  ],
+  "group_by": []
+ },
+ "962": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 105,
+   "db_response_time_ms": 24,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5019063503)'s works, most cited first",
+    "x_new_oql": "get (A5019063503)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5019063503"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5019063503&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2028602705",
+    "doi": "https://doi.org/10.1016/0030-4018(85)90120-8",
+    "title": "Compression of amplified chirped optical pulses",
+    "publication_year": 1985,
+    "cited_by_count": 3937
+   },
+   {
+    "id": "https://openalex.org/W3149578424",
+    "doi": "https://doi.org/10.1016/0030-4018(85)90151-8",
+    "title": "Compression of amplified chirped optical pulses",
+    "publication_year": 1985,
+    "cited_by_count": 1242
+   },
+   {
+    "id": "https://openalex.org/W1987206048",
+    "doi": "https://doi.org/10.1109/3.137",
+    "title": "Generation of ultrahigh peak power pulses by chirped pulse amplification",
+    "publication_year": 1988,
+    "cited_by_count": 942
+   },
+   {
+    "id": "https://openalex.org/W2038649400",
+    "doi": "https://doi.org/10.1103/physrevlett.63.2212",
+    "title": "Tunneling ionization of noble gases in a high-intensity laser field",
+    "publication_year": 1989,
+    "cited_by_count": 646
+   },
+   {
+    "id": "https://openalex.org/W2055738441",
+    "doi": "https://doi.org/10.1364/josab.8.000858",
+    "title": "Laser ionization of noble gases by Coulomb-barrier suppression",
+    "publication_year": 1991,
+    "cited_by_count": 520
+   },
+   {
+    "id": "https://openalex.org/W2047370436",
+    "doi": "https://doi.org/10.1364/ol.19.000737",
+    "title": "Femtosecond laser pulse shaping by use of microsecond radio-frequency pulses",
+    "publication_year": 1994,
+    "cited_by_count": 279
+   },
+   {
+    "id": "https://openalex.org/W1995812121",
+    "doi": "https://doi.org/10.1103/physrevlett.68.2755",
+    "title": "Optical studies of inertially confined molecular iodine ions",
+    "publication_year": 1992,
+    "cited_by_count": 160
+   },
+   {
+    "id": "https://openalex.org/W2056524507",
+    "doi": "https://doi.org/10.1103/physreva.47.2305",
+    "title": "Molecular reorientation during dissociative multiphoton ionization",
+    "publication_year": 1993,
+    "cited_by_count": 146
+   },
+   {
+    "id": "https://openalex.org/W2029483302",
+    "doi": "https://doi.org/10.1103/physrevlett.62.760",
+    "title": "Short-Pulse Laser Absorption in Very Steep Plasma Density Gradients",
+    "publication_year": 1989,
+    "cited_by_count": 141
+   },
+   {
+    "id": "https://openalex.org/W2953443502",
+    "doi": "https://doi.org/10.1103/revmodphys.91.030502",
+    "title": "Nobel Lecture: Generating high-intensity ultrashort optical pulses",
+    "publication_year": 2019,
+    "cited_by_count": 84
+   },
+   {
+    "id": "https://openalex.org/W2046393156",
+    "doi": "https://doi.org/10.1364/josab.11.000492",
+    "title": "Resistance of short pulses to self-focusing",
+    "publication_year": 1994,
+    "cited_by_count": 46
+   },
+   {
+    "id": "https://openalex.org/W1970072095",
+    "doi": "https://doi.org/10.1063/1.859934",
+    "title": "Interaction of a 1 psec laser pulse with solid matter",
+    "publication_year": 1991,
+    "cited_by_count": 46
+   },
+   {
+    "id": "https://openalex.org/W2224964899",
+    "doi": "https://doi.org/10.1364/ol.17.000604",
+    "title": "Cr:LiSrAlF_6 regenerative amplifier",
+    "publication_year": 1992,
+    "cited_by_count": 38
+   },
+   {
+    "id": "https://openalex.org/W2003762847",
+    "doi": "https://doi.org/10.1109/3.40652",
+    "title": "Absorption of an ultrashort laser pulse in very steep plasma density gradients",
+    "publication_year": 1989,
+    "cited_by_count": 31
+   },
+   {
+    "id": "https://openalex.org/W2057358381",
+    "doi": "https://doi.org/10.1364/ol.27.002100",
+    "title": "Multifrequency parametric infrared Raman generation in KGd(WO_4)_2 crystal with biharmonic ultrashort-pulse pumping",
+    "publication_year": 2002,
+    "cited_by_count": 29
+   },
+   {
+    "id": "https://openalex.org/W2034978251",
+    "doi": "https://doi.org/10.1063/1.115923",
+    "title": "Intense second harmonic generation and long-range structural ordering in thin films of an organic salt grown by organic vapor phase deposition",
+    "publication_year": 1996,
+    "cited_by_count": 25
+   },
+   {
+    "id": "https://openalex.org/W2046565768",
+    "doi": "https://doi.org/10.1016/s0030-4018(02)01301-9",
+    "title": "Development of a dual-wavelength Ti:sapphire multi-pass amplifier and its application to intense mid-infrared generation",
+    "publication_year": 2002,
+    "cited_by_count": 23
+   },
+   {
+    "id": "https://openalex.org/W2031233457",
+    "doi": "https://doi.org/10.1088/0953-4075/26/15/018",
+    "title": "Multiphoton ionization of inertially confined molecular ions",
+    "publication_year": 1993,
+    "cited_by_count": 23
+   },
+   {
+    "id": "https://openalex.org/W2916178233",
+    "doi": "https://doi.org/10.1063/1.5063897",
+    "title": "The role of laser fluence and ambient environments on femtosecond laser induced breakdown spectroscopy and on surface morphology of Mg and Zr",
+    "publication_year": 2019,
+    "cited_by_count": 22
+   },
+   {
+    "id": "https://openalex.org/W2048199114",
+    "doi": "https://doi.org/10.1364/ol.33.001065",
+    "title": "Two-color fiber amplifier for short-pulse, mid-infrared generation",
+    "publication_year": 2008,
+    "cited_by_count": 21
+   },
+   {
+    "id": "https://openalex.org/W2115983867",
+    "doi": "https://doi.org/10.1364/ol.37.003570",
+    "title": "Tunable mid-infrared source from an ultrafast two-color Yb:fiber chirped-pulse amplifier",
+    "publication_year": 2012,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W2045861437",
+    "doi": "https://doi.org/10.1364/ol.25.000581",
+    "title": "Dual-wavelength chirped-pulse amplification system",
+    "publication_year": 2000,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W1980339504",
+    "doi": "https://doi.org/10.1016/j.optcom.2006.09.021",
+    "title": "Transient multi-frequency Raman generation in SF6",
+    "publication_year": 2006,
+    "cited_by_count": 16
+   },
+   {
+    "id": "https://openalex.org/W1971116542",
+    "doi": "https://doi.org/10.1364/ol.27.000200",
+    "title": "Mid-infrared pulses generated from the mixing output of an amplified, dual-wavelength Ti:sapphire system",
+    "publication_year": 2002,
+    "cited_by_count": 13
+   },
+   {
+    "id": "https://openalex.org/W4285010665",
+    "doi": "https://doi.org/10.3390/photonics9070476",
+    "title": "Laser Beat-Wave Acceleration near Critical Density",
+    "publication_year": 2022,
+    "cited_by_count": 12
+   }
+  ],
+  "group_by": []
+ },
+ "160": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 55,
+   "db_response_time_ms": 16,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5103732149)'s works, most cited first",
+    "x_new_oql": "get (A5103732149)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5103732149"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5103732149&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2581845315",
+    "doi": "https://doi.org/10.1515/zpch-1887-0151",
+    "title": "Die Rolle des osmotischen Druckes in der Analogie zwischen Lösungen und Gasen",
+    "publication_year": 1887,
+    "cited_by_count": 265
+   },
+   {
+    "id": "https://openalex.org/W1989059350",
+    "doi": "https://doi.org/10.1002/zaac.19050470116",
+    "title": "Zur Bildung der ozeanischen Salzablagerungen",
+    "publication_year": 1905,
+    "cited_by_count": 106
+   },
+   {
+    "id": "https://openalex.org/W1541452967",
+    "doi": null,
+    "title": "Die Lagerung der Atome im Raume",
+    "publication_year": 2009,
+    "cited_by_count": 49
+   },
+   {
+    "id": "https://openalex.org/W622244830",
+    "doi": null,
+    "title": "La chimie dans l'espace",
+    "publication_year": 1875,
+    "cited_by_count": 48
+   },
+   {
+    "id": "https://openalex.org/W2721106904",
+    "doi": "https://doi.org/10.1515/zpch-1890-0531",
+    "title": "Über feste Lösungen und Molekulargewichtsbestimmung an festen Körpern",
+    "publication_year": 1890,
+    "cited_by_count": 19
+   },
+   {
+    "id": "https://openalex.org/W613223443",
+    "doi": null,
+    "title": "The Foundations of Stereo Chemistry; Memoirs by Pasteur, Van't Hoff, Lebel and Wislicenus",
+    "publication_year": 2010,
+    "cited_by_count": 17
+   },
+   {
+    "id": "https://openalex.org/W2094070576",
+    "doi": "https://doi.org/10.1002/cber.189803101110",
+    "title": "Die racemische Umwandlung des Ammoniumbimalats",
+    "publication_year": 1898,
+    "cited_by_count": 16
+   },
+   {
+    "id": "https://openalex.org/W2581177722",
+    "doi": "https://doi.org/10.1515/zpch-1887-0123",
+    "title": "Mitteilungen aus dem Universitätslaboratorium von Amsterdam",
+    "publication_year": 1887,
+    "cited_by_count": 15
+   },
+   {
+    "id": "https://openalex.org/W1981309840",
+    "doi": "https://doi.org/10.1002/cber.18940270104",
+    "title": "Wie die Theorie der Lösungen entstand",
+    "publication_year": 1894,
+    "cited_by_count": 13
+   },
+   {
+    "id": "https://openalex.org/W568101975",
+    "doi": null,
+    "title": "Physical Chemistry in the Service of the Sciences",
+    "publication_year": 2010,
+    "cited_by_count": 8
+   },
+   {
+    "id": "https://openalex.org/W620836129",
+    "doi": null,
+    "title": "Van't Hoff - Le Bel centennial : a symposium sponsored by the Division of the History of Chemistry at the 168th meeting of the American Chemical Society, Atlantic City, N.J., Sept. 11-12, 1974",
+    "publication_year": 1975,
+    "cited_by_count": 8
+   },
+   {
+    "id": "https://openalex.org/W2098143567",
+    "doi": "https://doi.org/10.1002/cber.189803102175",
+    "title": "Ueber die racemische Umwandlung des Rubidiumracemats",
+    "publication_year": 1898,
+    "cited_by_count": 8
+   },
+   {
+    "id": "https://openalex.org/W2078239662",
+    "doi": "https://doi.org/10.1039/ct9028100969",
+    "title": "Raoult Memorial Lecture",
+    "publication_year": 1902,
+    "cited_by_count": 7
+   },
+   {
+    "id": "https://openalex.org/W4239803923",
+    "doi": "https://doi.org/10.1002/jlac.19073510110",
+    "title": "Krystallisirte Calciumborate",
+    "publication_year": 1907,
+    "cited_by_count": 6
+   },
+   {
+    "id": "https://openalex.org/W2316299730",
+    "doi": "https://doi.org/10.1021/j150065a001",
+    "title": "The Relation of Physical Chemistry to Physics and Chemistry",
+    "publication_year": 1905,
+    "cited_by_count": 6
+   },
+   {
+    "id": "https://openalex.org/W2610789660",
+    "doi": "https://doi.org/10.1515/zpch-1895-1630",
+    "title": "Über die Menge und die Natur des sogen. Ozons, das sich bei langsamer Oxydation des Phosphors bildet",
+    "publication_year": 1895,
+    "cited_by_count": 6
+   },
+   {
+    "id": "https://openalex.org/W1966207165",
+    "doi": "https://doi.org/10.1002/cber.18770100282",
+    "title": "Ueber den Zusammenhang zwischen optischer Activität und Constitution",
+    "publication_year": 1877,
+    "cited_by_count": 6
+   },
+   {
+    "id": "https://openalex.org/W565281577",
+    "doi": null,
+    "title": "Van't Hoff and the emergence of chemical thermodynamics : centennial of the first Nobel Prize for Chemistry, 1901-2001",
+    "publication_year": 2001,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W606200707",
+    "doi": null,
+    "title": "Recherches sur la dissymétrie moléculaire (1860-1883) . suivi de, La chimie dans l'espace (1887) . et, Sur les composés métalliques à dissymétrie moléculaire (1912)",
+    "publication_year": 1986,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W2582740178",
+    "doi": "https://doi.org/10.1515/zpch-1898-0104",
+    "title": "Ueber Anwendungen der Gleichgewichtslehre auf die Bildung oceanischer Salzablagerungen, mit besonderer Berücksichtigung des Stassfurter Salzlagers",
+    "publication_year": 1898,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W632333244",
+    "doi": null,
+    "title": "Studien zur chemischen Dynamik : nach J. H. van't Hoff's Etudes de dynamique chimique",
+    "publication_year": 1896,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W2023514241",
+    "doi": "https://doi.org/10.1002/cber.187701001186",
+    "title": "Chlorbromkohlenstoff aus Trichloressigsäure",
+    "publication_year": 1877,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W1969004970",
+    "doi": "https://doi.org/10.1002/cber.18730060270",
+    "title": "Ueber eine neue Synthese der Propionsäure",
+    "publication_year": 1873,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W2050695582",
+    "doi": "https://doi.org/10.1126/science.22.569.649",
+    "title": "The Relation of Physical Chemistry to Physics and Chemistry",
+    "publication_year": 1905,
+    "cited_by_count": 4
+   },
+   {
+    "id": "https://openalex.org/W4213035218",
+    "doi": "https://doi.org/10.1515/zpch-1895-1822",
+    "title": "Ueber das Verdünnungsgesetz bei Salzen",
+    "publication_year": 1895,
+    "cited_by_count": 4
+   }
+  ],
+  "group_by": []
+ },
+ "230": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 101,
+   "db_response_time_ms": 28,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5109169384)'s works, most cited first",
+    "x_new_oql": "get (A5109169384)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5109169384"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5109169384&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W964503500",
+    "doi": "https://doi.org/10.1016/s0065-3233(08)60143-6",
+    "title": "Insulin: The Structure in the Crystal and its Reflection in Chemistry and Biology by",
+    "publication_year": 1972,
+    "cited_by_count": 836
+   },
+   {
+    "id": "https://openalex.org/W2058691613",
+    "doi": "https://doi.org/10.1038/192937a0",
+    "title": "Structure of the 5,6-Dimethylbenzimidazolylcobamide Coenzyme",
+    "publication_year": 1961,
+    "cited_by_count": 312
+   },
+   {
+    "id": "https://openalex.org/W1986091806",
+    "doi": "https://doi.org/10.1038/178064a0",
+    "title": "Structure of Vitamin B12",
+    "publication_year": 1956,
+    "cited_by_count": 270
+   },
+   {
+    "id": "https://openalex.org/W2138090458",
+    "doi": "https://doi.org/10.1038/261166a0",
+    "title": "Structure of insulin in 4-zinc insulin",
+    "publication_year": 1976,
+    "cited_by_count": 256
+   },
+   {
+    "id": "https://openalex.org/W2085646026",
+    "doi": "https://doi.org/10.1038/176325a0",
+    "title": "Structure of Vitamin B12 : The Crystal Structure of the Hexacarboxylic Acid derived from B12 and the Molecular Structure of the Vitamin",
+    "publication_year": 1955,
+    "cited_by_count": 230
+   },
+   {
+    "id": "https://openalex.org/W2056838602",
+    "doi": "https://doi.org/10.1038/302500a0",
+    "title": "Transmission of conformational change in insulin",
+    "publication_year": 1983,
+    "cited_by_count": 182
+   },
+   {
+    "id": "https://openalex.org/W2088330573",
+    "doi": "https://doi.org/10.1038/225233a0",
+    "title": "The Structure of Thiostrepton",
+    "publication_year": 1970,
+    "cited_by_count": 179
+   },
+   {
+    "id": "https://openalex.org/W2414293732",
+    "doi": "https://doi.org/10.1042/bj0650752",
+    "title": "Appendix 2—Possible molecular models for gramicidin S and their relationship to present ideas of protein structure",
+    "publication_year": 1957,
+    "cited_by_count": 142
+   },
+   {
+    "id": "https://openalex.org/W1764629353",
+    "doi": "https://doi.org/10.1042/bj0790393",
+    "title": "The X-ray analysis of the structure of cephalosporin C",
+    "publication_year": 1961,
+    "cited_by_count": 118
+   },
+   {
+    "id": "https://openalex.org/W190932957",
+    "doi": "https://doi.org/10.1016/s0022-2836(66)80274-7",
+    "title": "The crystal structure of insulin",
+    "publication_year": 1966,
+    "cited_by_count": 98
+   },
+   {
+    "id": "https://openalex.org/W2046315748",
+    "doi": "https://doi.org/10.1126/science.150.3699.979",
+    "title": "The X-ray Analysis of Complicated Molecules",
+    "publication_year": 1965,
+    "cited_by_count": 88
+   },
+   {
+    "id": "https://openalex.org/W1771909345",
+    "doi": "https://doi.org/10.1098/rspa.1957.0174",
+    "title": "The structure of vitamin B12. I. An outline of the crystallographic investigation of vitamin B12",
+    "publication_year": 1957,
+    "cited_by_count": 85
+   },
+   {
+    "id": "https://openalex.org/W2053038090",
+    "doi": "https://doi.org/10.1038/1741169a0",
+    "title": "Structure of Vitamin B12: X-ray Crystallographic Evidence on the Structure of Vitamin B12",
+    "publication_year": 1954,
+    "cited_by_count": 78
+   },
+   {
+    "id": "https://openalex.org/W2404364250",
+    "doi": "https://doi.org/10.1042/bj0650744",
+    "title": "A crystallographic study of some derivatives of gramicidin S",
+    "publication_year": 1957,
+    "cited_by_count": 77
+   },
+   {
+    "id": "https://openalex.org/W1973584628",
+    "doi": "https://doi.org/10.1039/jr9550003261",
+    "title": "A crystallographic examination of the structure of morphine",
+    "publication_year": 1955,
+    "cited_by_count": 69
+   },
+   {
+    "id": "https://openalex.org/W1621751143",
+    "doi": "https://doi.org/10.1098/rspa.1964.0042",
+    "title": "The structure of Vitamin B12 VI. The structure of crystals of vitamin B12 grown from and immersed in water",
+    "publication_year": 1964,
+    "cited_by_count": 55
+   },
+   {
+    "id": "https://openalex.org/W1547629141",
+    "doi": "https://doi.org/10.1016/s0022-2836(66)80275-9",
+    "title": "The crystal structure of insulin",
+    "publication_year": 1966,
+    "cited_by_count": 54
+   },
+   {
+    "id": "https://openalex.org/W2413259412",
+    "doi": null,
+    "title": "The X-ray analysis of the structure of penicillin.",
+    "publication_year": 1949,
+    "cited_by_count": 45
+   },
+   {
+    "id": "https://openalex.org/W2327959646",
+    "doi": "https://doi.org/10.1515/bchm2.1981.362.1.755",
+    "title": "Evidence Concerning Insulin Activity from the Structure of a Cross-Linked Derivative",
+    "publication_year": 1981,
+    "cited_by_count": 44
+   },
+   {
+    "id": "https://openalex.org/W2031793674",
+    "doi": "https://doi.org/10.1038/224589a0",
+    "title": "Structure of Ferroverdin",
+    "publication_year": 1969,
+    "cited_by_count": 42
+   },
+   {
+    "id": "https://openalex.org/W2095787660",
+    "doi": "https://doi.org/10.1039/jr9630004945",
+    "title": "947. The crystal structure of a calciferol derivative",
+    "publication_year": 1963,
+    "cited_by_count": 41
+   },
+   {
+    "id": "https://openalex.org/W2124633725",
+    "doi": "https://doi.org/10.2337/diab.21.12.1131",
+    "title": "The Structure of Insulin",
+    "publication_year": 1972,
+    "cited_by_count": 40
+   },
+   {
+    "id": "https://openalex.org/W1986847107",
+    "doi": "https://doi.org/10.1098/rspa.1971.0116",
+    "title": "The structure of vitamin B12. IX. The crystal structure of cobyric acid, factor V 1 a",
+    "publication_year": 1971,
+    "cited_by_count": 37
+   },
+   {
+    "id": "https://openalex.org/W2063267354",
+    "doi": "https://doi.org/10.1039/c29690000069",
+    "title": "The structure of the red nitrosylpenta-amminecobalt(III) cation",
+    "publication_year": 1969,
+    "cited_by_count": 37
+   },
+   {
+    "id": "https://openalex.org/W1990535180",
+    "doi": "https://doi.org/10.1039/j29710000640",
+    "title": "Crystal and molecular structure of 8,12-diethyl-2,3,7,13,17,18-hexamethylcorrole",
+    "publication_year": 1971,
+    "cited_by_count": 35
+   }
+  ],
+  "group_by": []
+ },
+ "292": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 771,
+   "db_response_time_ms": 18,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5077807260)'s works, most cited first",
+    "x_new_oql": "get (A5077807260)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5077807260"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5077807260&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2007203783",
+    "doi": "https://doi.org/10.1021/jp001460h",
+    "title": "Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond",
+    "publication_year": 2000,
+    "cited_by_count": 1788
+   },
+   {
+    "id": "https://openalex.org/W2070951363",
+    "doi": "https://doi.org/10.1126/science.1166135",
+    "title": "Four-Dimensional Electron Microscopy",
+    "publication_year": 2010,
+    "cited_by_count": 807
+   },
+   {
+    "id": "https://openalex.org/W2020006133",
+    "doi": "https://doi.org/10.1038/nature08662",
+    "title": "Photon-induced near-field electron microscopy",
+    "publication_year": 2009,
+    "cited_by_count": 772
+   },
+   {
+    "id": "https://openalex.org/W2071062622",
+    "doi": "https://doi.org/10.1021/cr020689l",
+    "title": "Dynamics of Water in Biological Recognition",
+    "publication_year": 2004,
+    "cited_by_count": 763
+   },
+   {
+    "id": "https://openalex.org/W4237059594",
+    "doi": "https://doi.org/10.1126/science.242.4886.1645",
+    "title": "Laser Femtochemistry",
+    "publication_year": 1988,
+    "cited_by_count": 720
+   },
+   {
+    "id": "https://openalex.org/W2130578590",
+    "doi": "https://doi.org/10.1002/1521-3773(20000804)39:15<2586::aid-anie2586>3.0.co;2-o",
+    "title": "Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond Using Ultrafast Lasers (Nobel Lecture)",
+    "publication_year": 2000,
+    "cited_by_count": 592
+   },
+   {
+    "id": "https://openalex.org/W2009442202",
+    "doi": "https://doi.org/10.1016/0301-0104(96)00067-5",
+    "title": "Proton-transfer reaction dynamics",
+    "publication_year": 1996,
+    "cited_by_count": 575
+   },
+   {
+    "id": "https://openalex.org/W2102100267",
+    "doi": "https://doi.org/10.1126/science.1147724",
+    "title": "4D Visualization of Transitional Structures in Phase Transformations by Electron Diffraction",
+    "publication_year": 2007,
+    "cited_by_count": 571
+   },
+   {
+    "id": "https://openalex.org/W2146330827",
+    "doi": "https://doi.org/10.1146/annurev.physchem.57.032905.104748",
+    "title": "4D ULTRAFAST ELECTRON DIFFRACTION, CRYSTALLOGRAPHY, AND MICROSCOPY",
+    "publication_year": 2006,
+    "cited_by_count": 549
+   },
+   {
+    "id": "https://openalex.org/W2162832464",
+    "doi": "https://doi.org/10.1073/pnas.042697899",
+    "title": "Biological water at the protein surface: Dynamical solvation probed directly with femtosecond resolution",
+    "publication_year": 2002,
+    "cited_by_count": 549
+   },
+   {
+    "id": "https://openalex.org/W1992145745",
+    "doi": "https://doi.org/10.1126/science.291.5503.458",
+    "title": "Direct Imaging of Transient Molecular Structures with Ultrafast Diffraction",
+    "publication_year": 2001,
+    "cited_by_count": 538
+   },
+   {
+    "id": "https://openalex.org/W2057742133",
+    "doi": "https://doi.org/10.1021/jp0213506",
+    "title": "Biological Water: Femtosecond Dynamics of Macromolecular Hydration",
+    "publication_year": 2002,
+    "cited_by_count": 493
+   },
+   {
+    "id": "https://openalex.org/W1964069776",
+    "doi": "https://doi.org/10.1021/ar00051a005",
+    "title": "Direct Observation of the Transition State",
+    "publication_year": 1995,
+    "cited_by_count": 480
+   },
+   {
+    "id": "https://openalex.org/W2093458139",
+    "doi": "https://doi.org/10.1063/1.453122",
+    "title": "Real-time femtosecond probing of ‘‘transition states’’ in chemical reactions",
+    "publication_year": 1987,
+    "cited_by_count": 440
+   },
+   {
+    "id": "https://openalex.org/W2003771289",
+    "doi": "https://doi.org/10.1063/1.454408",
+    "title": "Femtosecond real-time observation of wave packet oscillations (resonance) in dissociation reactions",
+    "publication_year": 1988,
+    "cited_by_count": 408
+   },
+   {
+    "id": "https://openalex.org/W654242132",
+    "doi": "https://doi.org/10.1142/9789814287616",
+    "title": "Femtochemistry: Ultrafast Dynamics of the Chemical Bond",
+    "publication_year": 1994,
+    "cited_by_count": 380
+   },
+   {
+    "id": "https://openalex.org/W1978316999",
+    "doi": "https://doi.org/10.1088/1367-2630/12/12/123028",
+    "title": "Photon-induced near-field electron microscopy (PINEM): theoretical and experimental",
+    "publication_year": 2010,
+    "cited_by_count": 351
+   },
+   {
+    "id": "https://openalex.org/W2025906452",
+    "doi": "https://doi.org/10.1073/pnas.0502607102",
+    "title": "Four-dimensional ultrafast electron microscopy",
+    "publication_year": 2005,
+    "cited_by_count": 339
+   },
+   {
+    "id": "https://openalex.org/W2026128357",
+    "doi": "https://doi.org/10.1073/pnas.250483297",
+    "title": "Femtosecond direct observation of charge transfer between bases in DNA",
+    "publication_year": 2000,
+    "cited_by_count": 339
+   },
+   {
+    "id": "https://openalex.org/W2023693337",
+    "doi": "https://doi.org/10.1073/pnas.96.11.6014",
+    "title": "Femtosecond dynamics of DNA-mediated electron transfer",
+    "publication_year": 1999,
+    "cited_by_count": 338
+   },
+   {
+    "id": "https://openalex.org/W2145926643",
+    "doi": "https://doi.org/10.1146/annurev.pc.41.100190.000311",
+    "title": "Ultrafast Molecular Reaction Dynamics in Real-Time: Progress Over a Decade",
+    "publication_year": 1990,
+    "cited_by_count": 322
+   },
+   {
+    "id": "https://openalex.org/W2122617659",
+    "doi": "https://doi.org/10.1007/978-3-642-84269-6",
+    "title": "Ultrafast Phenomena VII",
+    "publication_year": 1990,
+    "cited_by_count": 310
+   },
+   {
+    "id": "https://openalex.org/W2078601969",
+    "doi": "https://doi.org/10.1038/355066a0",
+    "title": "Femtosecond laser control of a chemical reaction",
+    "publication_year": 1992,
+    "cited_by_count": 305
+   },
+   {
+    "id": "https://openalex.org/W2025940074",
+    "doi": "https://doi.org/10.1021/jp960658s",
+    "title": "Femtochemistry: Recent Progress in Studies of Dynamics and Control of Reactions and Their Transition States",
+    "publication_year": 1996,
+    "cited_by_count": 299
+   },
+   {
+    "id": "https://openalex.org/W2015447123",
+    "doi": "https://doi.org/10.1063/1.457266",
+    "title": "Femtosecond real-time probing of reactions. IV. The reactions of alkali halides",
+    "publication_year": 1989,
+    "cited_by_count": 294
+   }
+  ],
+  "group_by": []
+ },
+ "1055": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 948,
+   "db_response_time_ms": 25,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5044268160)'s works, most cited first",
+    "x_new_oql": "get (A5044268160)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5044268160"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5044268160&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2141939342",
+    "doi": "https://doi.org/10.1126/science.1230444",
+    "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+    "publication_year": 2013,
+    "cited_by_count": 17036
+   },
+   {
+    "id": "https://openalex.org/W1999908724",
+    "doi": "https://doi.org/10.1038/nature01650",
+    "title": "Reticular synthesis and the design of new materials",
+    "publication_year": 2003,
+    "cited_by_count": 9136
+   },
+   {
+    "id": "https://openalex.org/W1677747913",
+    "doi": "https://doi.org/10.1038/46248",
+    "title": "Design and synthesis of an exceptionally stable and highly porous metal-organic framework",
+    "publication_year": 1999,
+    "cited_by_count": 8588
+   },
+   {
+    "id": "https://openalex.org/W2049145344",
+    "doi": "https://doi.org/10.1126/science.1120411",
+    "title": "Porous, Crystalline, Covalent Organic Frameworks",
+    "publication_year": 2005,
+    "cited_by_count": 8414
+   },
+   {
+    "id": "https://openalex.org/W2022085591",
+    "doi": "https://doi.org/10.1126/science.1067208",
+    "title": "Systematic Design of Pore Size and Functionality in Isoreticular MOFs and Their Application in Methane Storage",
+    "publication_year": 2002,
+    "cited_by_count": 8144
+   },
+   {
+    "id": "https://openalex.org/W2062269633",
+    "doi": "https://doi.org/10.1021/cr300014x",
+    "title": "Introduction to Metal–Organic Frameworks",
+    "publication_year": 2012,
+    "cited_by_count": 7747
+   },
+   {
+    "id": "https://openalex.org/W2163535530",
+    "doi": "https://doi.org/10.1073/pnas.0602439103",
+    "title": "Exceptional chemical and thermal stability of zeolitic imidazolate frameworks",
+    "publication_year": 2006,
+    "cited_by_count": 7599
+   },
+   {
+    "id": "https://openalex.org/W2164043498",
+    "doi": "https://doi.org/10.1021/ar000034b",
+    "title": "Modular Chemistry: Secondary Building Units as a Basis for the Design of Highly Porous and Robust Metal−Organic Carboxylate Frameworks",
+    "publication_year": 2001,
+    "cited_by_count": 5184
+   },
+   {
+    "id": "https://openalex.org/W1975501285",
+    "doi": "https://doi.org/10.1126/science.1083440",
+    "title": "Hydrogen Storage in Microporous Metal-Organic Frameworks",
+    "publication_year": 2003,
+    "cited_by_count": 4854
+   },
+   {
+    "id": "https://openalex.org/W2001037711",
+    "doi": "https://doi.org/10.1126/science.1152516",
+    "title": "High-Throughput Synthesis of Zeolitic Imidazolate Frameworks and Application to CO 2 Capture",
+    "publication_year": 2008,
+    "cited_by_count": 4214
+   },
+   {
+    "id": "https://openalex.org/W2053700726",
+    "doi": "https://doi.org/10.1126/science.1192160",
+    "title": "Ultrahigh Porosity in Metal-Organic Frameworks",
+    "publication_year": 2010,
+    "cited_by_count": 3914
+   },
+   {
+    "id": "https://openalex.org/W2594238106",
+    "doi": "https://doi.org/10.1126/science.aal1585",
+    "title": "The atom, the molecule, and the covalent organic framework",
+    "publication_year": 2017,
+    "cited_by_count": 3520
+   },
+   {
+    "id": "https://openalex.org/W1990918587",
+    "doi": "https://doi.org/10.1038/378703a0",
+    "title": "Selective binding and removal of guests in a microporous metal–organic framework",
+    "publication_year": 1995,
+    "cited_by_count": 3095
+   },
+   {
+    "id": "https://openalex.org/W2056127514",
+    "doi": "https://doi.org/10.1016/j.micromeso.2004.03.034",
+    "title": "Metal–organic frameworks: a new class of porous materials",
+    "publication_year": 2004,
+    "cited_by_count": 2967
+   },
+   {
+    "id": "https://openalex.org/W2021523927",
+    "doi": "https://doi.org/10.1021/ja500330a",
+    "title": "Water Adsorption in Porous Metal–Organic Frameworks and Related Materials",
+    "publication_year": 2014,
+    "cited_by_count": 2898
+   },
+   {
+    "id": "https://openalex.org/W4239958190",
+    "doi": "https://doi.org/10.1021/ja0570032",
+    "title": "Metal−Organic Frameworks with Exceptionally High Capacity for Storage of Carbon Dioxide at Room Temperature",
+    "publication_year": 2005,
+    "cited_by_count": 2876
+   },
+   {
+    "id": "https://openalex.org/W2034984769",
+    "doi": "https://doi.org/10.1038/nature02311",
+    "title": "A route to high surface area, porosity and inclusion of large molecules in crystals",
+    "publication_year": 2004,
+    "cited_by_count": 2817
+   },
+   {
+    "id": "https://openalex.org/W2137818170",
+    "doi": "https://doi.org/10.1126/science.aac8343",
+    "title": "Covalent organic frameworks comprising cobalt porphyrins for catalytic CO 2 reduction in water",
+    "publication_year": 2015,
+    "cited_by_count": 2651
+   },
+   {
+    "id": "https://openalex.org/W2942998504",
+    "doi": "https://doi.org/10.1039/c8cs00829a",
+    "title": "Carbon capture and conversion using metal–organic frameworks and MOF-based materials",
+    "publication_year": 2019,
+    "cited_by_count": 2632
+   },
+   {
+    "id": "https://openalex.org/W2028182782",
+    "doi": "https://doi.org/10.1021/ar900116g",
+    "title": "Synthesis, Structure, and Carbon Dioxide Capture Properties of Zeolitic Imidazolate Frameworks",
+    "publication_year": 2009,
+    "cited_by_count": 2625
+   },
+   {
+    "id": "https://openalex.org/W2049541689",
+    "doi": "https://doi.org/10.1021/ja9015765",
+    "title": "Storage of Hydrogen, Methane, and Carbon Dioxide in Highly Porous Covalent Organic Frameworks for Clean Energy Applications",
+    "publication_year": 2009,
+    "cited_by_count": 2613
+   },
+   {
+    "id": "https://openalex.org/W1989896216",
+    "doi": "https://doi.org/10.1126/science.1139915",
+    "title": "Designed Synthesis of 3D Covalent Organic Frameworks",
+    "publication_year": 2007,
+    "cited_by_count": 2583
+   },
+   {
+    "id": "https://openalex.org/W2090264019",
+    "doi": "https://doi.org/10.1021/ja045123o",
+    "title": "Rod Packings and Metal−Organic Frameworks Constructed from Rod-Shaped Secondary Building Units",
+    "publication_year": 2005,
+    "cited_by_count": 2502
+   },
+   {
+    "id": "https://openalex.org/W1987632972",
+    "doi": "https://doi.org/10.1039/b817735j",
+    "title": "Secondary building units, nets and bonding in the chemistry of metal–organic frameworks",
+    "publication_year": 2009,
+    "cited_by_count": 2479
+   },
+   {
+    "id": "https://openalex.org/W1997531531",
+    "doi": "https://doi.org/10.1002/anie.200462786",
+    "title": "Strategies for Hydrogen Storage in Metal–Organic Frameworks",
+    "publication_year": 2005,
+    "cited_by_count": 2462
+   }
+  ],
+  "group_by": []
+ },
+ "299": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 572,
+   "db_response_time_ms": 38,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5088341849)'s works, most cited first",
+    "x_new_oql": "get (A5088341849)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5088341849"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5088341849&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2768799378",
+    "doi": "https://doi.org/10.1126/science.aal5240",
+    "title": "Analysis of Fusobacterium persistence and antibiotic response in colorectal cancer",
+    "publication_year": 2017,
+    "cited_by_count": 1575
+   },
+   {
+    "id": "https://openalex.org/W2172265576",
+    "doi": "https://doi.org/10.1093/jnci/djk134",
+    "title": "Expression of p95HER2, a Truncated Form of the HER2 Receptor, and Response to Anti-HER2 Therapies in Breast Cancer",
+    "publication_year": 2007,
+    "cited_by_count": 895
+   },
+   {
+    "id": "https://openalex.org/W2271392525",
+    "doi": "https://doi.org/10.1038/ncomms9839",
+    "title": "Cerebrospinal fluid-derived circulating tumour DNA better represents the genomic alterations of brain tumours than plasma",
+    "publication_year": 2015,
+    "cited_by_count": 869
+   },
+   {
+    "id": "https://openalex.org/W2149218373",
+    "doi": "https://doi.org/10.1200/jco.2007.14.5482",
+    "title": "Dose- and Schedule-Dependent Inhibition of the Mammalian Target of Rapamycin Pathway With Everolimus: A Phase I Tumor Pharmacodynamic Study in Patients With Advanced Solid Tumors",
+    "publication_year": 2008,
+    "cited_by_count": 538
+   },
+   {
+    "id": "https://openalex.org/W3002685488",
+    "doi": "https://doi.org/10.1007/s00109-020-01874-2",
+    "title": "Clinical implications of intratumor heterogeneity: challenges and opportunities",
+    "publication_year": 2020,
+    "cited_by_count": 519
+   },
+   {
+    "id": "https://openalex.org/W2066503677",
+    "doi": "https://doi.org/10.1038/onc.2010.614",
+    "title": "p16Ink4a overexpression in cancer: a tumor suppressor gene associated with senescence and high-grade tumors",
+    "publication_year": 2011,
+    "cited_by_count": 509
+   },
+   {
+    "id": "https://openalex.org/W2806597619",
+    "doi": "https://doi.org/10.1038/s41591-018-0044-4",
+    "title": "STAT3 labels a subpopulation of reactive astrocytes required for brain metastasis",
+    "publication_year": 2018,
+    "cited_by_count": 452
+   },
+   {
+    "id": "https://openalex.org/W2089288294",
+    "doi": "https://doi.org/10.1038/onc.2008.432",
+    "title": "Lapatinib, a HER2 tyrosine kinase inhibitor, induces stabilization and accumulation of HER2 and potentiates trastuzumab-dependent cell cytotoxicity",
+    "publication_year": 2008,
+    "cited_by_count": 439
+   },
+   {
+    "id": "https://openalex.org/W2163845213",
+    "doi": null,
+    "title": "Inhibition of glioma growth in vivo by selective activation of the CB(2) cannabinoid receptor.",
+    "publication_year": 2001,
+    "cited_by_count": 424
+   },
+   {
+    "id": "https://openalex.org/W2101096891",
+    "doi": "https://doi.org/10.1038/nm.2772",
+    "title": "β-catenin confers resistance to PI3K and AKT inhibitors and subverts FOXO3a to promote metastasis in colon cancer",
+    "publication_year": 2012,
+    "cited_by_count": 387
+   },
+   {
+    "id": "https://openalex.org/W2154305555",
+    "doi": "https://doi.org/10.1158/0008-5472.can-07-0881",
+    "title": "4E-Binding Protein 1: A Key Molecular “Funnel Factor” in Human Cancer with Clinical Implications",
+    "publication_year": 2007,
+    "cited_by_count": 271
+   },
+   {
+    "id": "https://openalex.org/W2161180058",
+    "doi": "https://doi.org/10.1074/jbc.m410344200",
+    "title": "Full Activation of PKB/Akt in Response to Insulin or Ionizing Radiation Is Mediated through ATM",
+    "publication_year": 2004,
+    "cited_by_count": 270
+   },
+   {
+    "id": "https://openalex.org/W2014357416",
+    "doi": "https://doi.org/10.1016/j.jsbmb.2007.09.020",
+    "title": "Novel molecular profiles of endometrial cancer—new light through old windows",
+    "publication_year": 2007,
+    "cited_by_count": 212
+   },
+   {
+    "id": "https://openalex.org/W2114901348",
+    "doi": "https://doi.org/10.1158/1078-0432.ccr-06-1560",
+    "title": "4E-Binding Protein 1, A Cell Signaling Hallmark in Breast Cancer that Correlates with Pathologic Grade and Prognosis",
+    "publication_year": 2007,
+    "cited_by_count": 207
+   },
+   {
+    "id": "https://openalex.org/W2795384975",
+    "doi": "https://doi.org/10.1158/1078-0432.ccr-17-3800",
+    "title": "Molecular Diagnosis of Diffuse Gliomas through Sequencing of Cell-Free Circulating Tumor DNA from Cerebrospinal Fluid",
+    "publication_year": 2018,
+    "cited_by_count": 195
+   },
+   {
+    "id": "https://openalex.org/W2104728809",
+    "doi": "https://doi.org/10.1128/mcb.01803-08",
+    "title": "A Naturally Occurring HER2 Carboxy-Terminal Fragment Promotes Mammary Tumor Growth and Metastasis",
+    "publication_year": 2009,
+    "cited_by_count": 186
+   },
+   {
+    "id": "https://openalex.org/W1971133173",
+    "doi": "https://doi.org/10.1002/cncr.22195",
+    "title": "Phosphorylated 4E binding protein 1: A hallmark of cell signaling that correlates with survival in ovarian cancer",
+    "publication_year": 2006,
+    "cited_by_count": 178
+   },
+   {
+    "id": "https://openalex.org/W3080227974",
+    "doi": "https://doi.org/10.1038/s41467-020-18081-9",
+    "title": "ITGB3-mediated uptake of small extracellular vesicles facilitates intercellular communication in breast cancer cells",
+    "publication_year": 2020,
+    "cited_by_count": 169
+   },
+   {
+    "id": "https://openalex.org/W2055489321",
+    "doi": "https://doi.org/10.1038/sj.onc.1206608",
+    "title": "Role of the p38 MAPK pathway in cisplatin-based therapy",
+    "publication_year": 2003,
+    "cited_by_count": 165
+   },
+   {
+    "id": "https://openalex.org/W3160076672",
+    "doi": "https://doi.org/10.1038/s41467-021-23333-3",
+    "title": "Peripheral and lung resident memory T cell responses against SARS-CoV-2",
+    "publication_year": 2021,
+    "cited_by_count": 162
+   },
+   {
+    "id": "https://openalex.org/W1945540290",
+    "doi": "https://doi.org/10.1093/brain/119.4.1327",
+    "title": "Inhibitory neurons in the human epileptogenic temporal neocortex: An immunocytochemical study",
+    "publication_year": 1996,
+    "cited_by_count": 149
+   },
+   {
+    "id": "https://openalex.org/W1997421768",
+    "doi": "https://doi.org/10.1371/journal.pone.0076247",
+    "title": "miR-125b Acts as a Tumor Suppressor in Breast Tumorigenesis via Its Novel Direct Targets ENPEP, CK2-α, CCNJ, and MEGF9",
+    "publication_year": 2013,
+    "cited_by_count": 148
+   },
+   {
+    "id": "https://openalex.org/W2056626408",
+    "doi": "https://doi.org/10.1097/01.pgp.0000130108.03231.89",
+    "title": "Immunohistochemical Staining for p16 and p53 in Premalignant and Malignant Epithelial Lesions of the Vulva",
+    "publication_year": 2004,
+    "cited_by_count": 143
+   },
+   {
+    "id": "https://openalex.org/W2165159301",
+    "doi": "https://doi.org/10.1016/j.bbamem.2014.12.008",
+    "title": "Involvement of potassium channels in the progression of cancer to a more malignant phenotype",
+    "publication_year": 2014,
+    "cited_by_count": 141
+   },
+   {
+    "id": "https://openalex.org/W2019206423",
+    "doi": "https://doi.org/10.3389/fphys.2013.00283",
+    "title": "The voltage-dependent K+ channels Kv1.3 and Kv1.5 in human cancer",
+    "publication_year": 2013,
+    "cited_by_count": 140
+   }
+  ],
+  "group_by": []
+ },
+ "428": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 150,
+   "db_response_time_ms": 207,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5029209905)'s works, most cited first",
+    "x_new_oql": "get (A5029209905)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5029209905"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5029209905&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1965368044",
+    "doi": "https://doi.org/10.1126/science.15739260",
+    "title": "The Significance of Responses of the Genome to Challenge",
+    "publication_year": 1984,
+    "cited_by_count": 2619
+   },
+   {
+    "id": "https://openalex.org/W2026519705",
+    "doi": "https://doi.org/10.1073/pnas.36.6.344",
+    "title": "The origin and behavior of mutable loci in maize",
+    "publication_year": 1950,
+    "cited_by_count": 1755
+   },
+   {
+    "id": "https://openalex.org/W1829553711",
+    "doi": "https://doi.org/10.1093/genetics/26.2.234",
+    "title": "THE STABILITY OF BROKEN ENDS OF CHROMOSOMES IN ZEA MAYS",
+    "publication_year": 1941,
+    "cited_by_count": 1597
+   },
+   {
+    "id": "https://openalex.org/W2130578722",
+    "doi": "https://doi.org/10.1101/sqb.1951.016.01.004",
+    "title": "CHROMOSOME ORGANIZATION AND GENIC EXPRESSION",
+    "publication_year": 1951,
+    "cited_by_count": 1205
+   },
+   {
+    "id": "https://openalex.org/W2094913043",
+    "doi": "https://doi.org/10.1101/sqb.1956.021.01.017",
+    "title": "Controlling Elements and the Gene",
+    "publication_year": 1956,
+    "cited_by_count": 849
+   },
+   {
+    "id": "https://openalex.org/W2066886585",
+    "doi": "https://doi.org/10.1007/bf00374060",
+    "title": "The relation of a particular chromosomal element to the development of the nucleoli in Zea mays",
+    "publication_year": 1934,
+    "cited_by_count": 662
+   },
+   {
+    "id": "https://openalex.org/W1977172248",
+    "doi": "https://doi.org/10.1073/pnas.25.8.405",
+    "title": "The Behavior in Successive Nuclear Divisions of a Chromosome Broken at Meiosis",
+    "publication_year": 1939,
+    "cited_by_count": 559
+   },
+   {
+    "id": "https://openalex.org/W2133438304",
+    "doi": "https://doi.org/10.1093/genetics/23.4.315",
+    "title": "THE PRODUCTION OF HOMOZYGOUS DEFICIENT TISSUES WITH MUTANT CHARACTERISTICS BY MEANS OF THE ABERRANT MITOTIC BEHAVIOR OF RING-SHAPED CHROMOSOMES",
+    "publication_year": 1938,
+    "cited_by_count": 477
+   },
+   {
+    "id": "https://openalex.org/W2221571340",
+    "doi": null,
+    "title": "Mutable Loci in Maize",
+    "publication_year": 1948,
+    "cited_by_count": 451
+   },
+   {
+    "id": "https://openalex.org/W2005386793",
+    "doi": "https://doi.org/10.1007/bf02462870",
+    "title": "The association of non-homologous parts of chromosomes in the mid-prophase of meiosis in zea mays",
+    "publication_year": 1933,
+    "cited_by_count": 367
+   },
+   {
+    "id": "https://openalex.org/W2027884659",
+    "doi": "https://doi.org/10.1073/pnas.28.11.458",
+    "title": "The Fusion of Broken Ends of Chromosomes Following Nuclear Fusion",
+    "publication_year": 1942,
+    "cited_by_count": 326
+   },
+   {
+    "id": "https://openalex.org/W1996129056",
+    "doi": "https://doi.org/10.1073/pnas.17.8.492",
+    "title": "A Correlation of Cytological and Genetical Crossing-Over in Zea Mays",
+    "publication_year": 1931,
+    "cited_by_count": 271
+   },
+   {
+    "id": "https://openalex.org/W2624179881",
+    "doi": null,
+    "title": "The control of gene action in maize",
+    "publication_year": 1965,
+    "cited_by_count": 263
+   },
+   {
+    "id": "https://openalex.org/W1705376011",
+    "doi": "https://doi.org/10.1093/genetics/38.6.579",
+    "title": "INDUCTION OF INSTABILITY AT SELECTED LOCI IN MAIZE",
+    "publication_year": 1953,
+    "cited_by_count": 262
+   },
+   {
+    "id": "https://openalex.org/W1895714488",
+    "doi": "https://doi.org/10.1093/genetics/14.2.180",
+    "title": "A CYTOLOGICAL AND GENETICAL STUDY OF TRIPLOID MAIZE",
+    "publication_year": 1929,
+    "cited_by_count": 226
+   },
+   {
+    "id": "https://openalex.org/W2052142603",
+    "doi": "https://doi.org/10.1002/j.1537-2197.1945.tb05175.x",
+    "title": "NEUROSPORA. I. PRELIMINARY OBSERVATIONS OF THE CHROMOSOMES OF NEUROSPORA CRASSA",
+    "publication_year": 1945,
+    "cited_by_count": 218
+   },
+   {
+    "id": "https://openalex.org/W2595624821",
+    "doi": null,
+    "title": "Mechanisms that rapidly reorganize the genome",
+    "publication_year": 1978,
+    "cited_by_count": 200
+   },
+   {
+    "id": "https://openalex.org/W2594049814",
+    "doi": null,
+    "title": "Cytological observations of deficiencies involving known genes, translocations and an inversion in Zea mays",
+    "publication_year": 1931,
+    "cited_by_count": 168
+   },
+   {
+    "id": "https://openalex.org/W1988498700",
+    "doi": "https://doi.org/10.1086/282188",
+    "title": "Some Parallels Between Gene Control Systems in Maize and in Bacteria",
+    "publication_year": 1961,
+    "cited_by_count": 166
+   },
+   {
+    "id": "https://openalex.org/W2019771705",
+    "doi": "https://doi.org/10.1073/pnas.18.12.677",
+    "title": "A Correlation of Ring-Shaped Chromosomes with Variegation in Zea Mays",
+    "publication_year": 1932,
+    "cited_by_count": 166
+   },
+   {
+    "id": "https://openalex.org/W2083513542",
+    "doi": "https://doi.org/10.1126/science.69.1798.629",
+    "title": "Chromosome Morphology in Zea mays",
+    "publication_year": 1929,
+    "cited_by_count": 165
+   },
+   {
+    "id": "https://openalex.org/W2036185668",
+    "doi": "https://doi.org/10.1073/pnas.16.12.791",
+    "title": "A CYTOLOGICAL DEMONSTRATION OF THE LOCATION OF AN INTERCHANGE BETWEEN TWO NON-HOMOLOGOUS CHROMOSOMES OF ZEA MAYS",
+    "publication_year": 1930,
+    "cited_by_count": 163
+   },
+   {
+    "id": "https://openalex.org/W2212128169",
+    "doi": null,
+    "title": "Cytogenetic Studies of Maize and Neurospora",
+    "publication_year": 1945,
+    "cited_by_count": 159
+   },
+   {
+    "id": "https://openalex.org/W2600702341",
+    "doi": null,
+    "title": "The fusion of broken ends of sister half-chromatids following chromatid breakage at meiotic anaphases",
+    "publication_year": 1938,
+    "cited_by_count": 152
+   },
+   {
+    "id": "https://openalex.org/W1973349890",
+    "doi": "https://doi.org/10.1007/bf02869757",
+    "title": "The cytogenetics of maize",
+    "publication_year": 1935,
+    "cited_by_count": 146
+   }
+  ],
+  "group_by": []
+ },
+ "918": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 91,
+   "db_response_time_ms": 43,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5010459426)'s works, most cited first",
+    "x_new_oql": "get (A5010459426)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5010459426"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5010459426&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1965003536",
+    "doi": "https://doi.org/10.1038/nm.2471",
+    "title": "The discovery of artemisinin (qinghaosu) and gifts from Chinese medicine",
+    "publication_year": 2011,
+    "cited_by_count": 1404
+   },
+   {
+    "id": "https://openalex.org/W2500727927",
+    "doi": "https://doi.org/10.1002/anie.201601967",
+    "title": "Artemisinin—A Gift from Traditional Chinese Medicine to the World (Nobel Lecture)",
+    "publication_year": 2016,
+    "cited_by_count": 815
+   },
+   {
+    "id": "https://openalex.org/W3048041047",
+    "doi": "https://doi.org/10.1016/j.pharmthera.2020.107658",
+    "title": "The birth of artemisinin",
+    "publication_year": 2020,
+    "cited_by_count": 315
+   },
+   {
+    "id": "https://openalex.org/W2903916649",
+    "doi": "https://doi.org/10.1016/j.eng.2018.11.011",
+    "title": "Artemisinin, the Magic Drug Discovered from Traditional Chinese Medicine",
+    "publication_year": 2018,
+    "cited_by_count": 217
+   },
+   {
+    "id": "https://openalex.org/W2052435822",
+    "doi": "https://doi.org/10.1016/j.intimp.2006.03.004",
+    "title": "Dihydroarteannuin ameliorates lupus symptom of BXSB mice by inhibiting production of TNF-alpha and blocking the signaling pathway NF-kappa B translocation",
+    "publication_year": 2006,
+    "cited_by_count": 130
+   },
+   {
+    "id": "https://openalex.org/W2941030960",
+    "doi": "https://doi.org/10.1056/nejmp1901233",
+    "title": "A Temporizing Solution to “Artemisinin Resistance”",
+    "publication_year": 2019,
+    "cited_by_count": 89
+   },
+   {
+    "id": "https://openalex.org/W3011284286",
+    "doi": "https://doi.org/10.1016/s0140-6736(20)30561-4",
+    "title": "Preparedness is essential for malaria-endemic regions during the COVID-19 pandemic",
+    "publication_year": 2020,
+    "cited_by_count": 75
+   },
+   {
+    "id": "https://openalex.org/W4411331275",
+    "doi": "https://doi.org/10.1038/s41392-025-02246-3",
+    "title": "Malaria: past, present, and future",
+    "publication_year": 2025,
+    "cited_by_count": 73
+   },
+   {
+    "id": "https://openalex.org/W3144511851",
+    "doi": "https://doi.org/10.1039/d0np00079e",
+    "title": "Study towards improving artemisinin-based combination therapies",
+    "publication_year": 2021,
+    "cited_by_count": 45
+   },
+   {
+    "id": "https://openalex.org/W2484834618",
+    "doi": "https://doi.org/10.1002/ange.201601967",
+    "title": "Artemisinin: Ein Geschenk der traditionellen chinesischen Medizin an die Welt (Nobel‐Aufsatz)",
+    "publication_year": 2016,
+    "cited_by_count": 26
+   },
+   {
+    "id": "https://openalex.org/W2415857352",
+    "doi": null,
+    "title": "The development of the antimalarial drugs with new type of chemical structure--qinghaosu and dihydroqinghaosu.",
+    "publication_year": 2004,
+    "cited_by_count": 25
+   },
+   {
+    "id": "https://openalex.org/W2357835379",
+    "doi": null,
+    "title": "[Effect of dihydro-qinghaosu on auto-antibody production, TNF alpha secretion and pathologic change of lupus nephritis in BXSB mice].",
+    "publication_year": 2003,
+    "cited_by_count": 24
+   },
+   {
+    "id": "https://openalex.org/W3111997701",
+    "doi": "https://doi.org/10.1016/s0140-6736(20)32400-4",
+    "title": "Triple artemisinin-based combination therapies for malaria: proceed with caution",
+    "publication_year": 2020,
+    "cited_by_count": 18
+   },
+   {
+    "id": "https://openalex.org/W2913263498",
+    "doi": "https://doi.org/10.1016/b978-0-12-811655-5.00023-4",
+    "title": "Artemisinins",
+    "publication_year": 2017,
+    "cited_by_count": 16
+   },
+   {
+    "id": "https://openalex.org/W2375578461",
+    "doi": null,
+    "title": "[Determination of artemisinin, arteannuin B and artemisinic acid in Herba Artemisiae Annuae by HPLC-UV-ELSD].",
+    "publication_year": 2007,
+    "cited_by_count": 16
+   },
+   {
+    "id": "https://openalex.org/W4233197293",
+    "doi": "https://doi.org/10.1016/s0140-6736(20)30223-3",
+    "title": "Malaria eradication",
+    "publication_year": 2020,
+    "cited_by_count": 14
+   },
+   {
+    "id": "https://openalex.org/W2981835717",
+    "doi": "https://doi.org/10.1016/s1473-3099(19)30535-3",
+    "title": "Suboptimal dosing triggers artemisinin partner drug resistance",
+    "publication_year": 2019,
+    "cited_by_count": 12
+   },
+   {
+    "id": "https://openalex.org/W2361047833",
+    "doi": null,
+    "title": "[Phenylethanoid glycosides from stem of Chirita longgangensis var. hongyao].",
+    "publication_year": 2005,
+    "cited_by_count": 11
+   },
+   {
+    "id": "https://openalex.org/W4281724880",
+    "doi": "https://doi.org/10.1038/s41591-022-01824-0",
+    "title": "The role of research in China’s successful elimination of malaria",
+    "publication_year": 2022,
+    "cited_by_count": 9
+   },
+   {
+    "id": "https://openalex.org/W2949609896",
+    "doi": "https://doi.org/10.1002/chin.201641275",
+    "title": "ChemInform Abstract: Artemisinin — A Gift from Traditional Chinese Medicine to the World (Nobel Lecture)",
+    "publication_year": 2016,
+    "cited_by_count": 9
+   },
+   {
+    "id": "https://openalex.org/W4226162648",
+    "doi": "https://doi.org/10.1016/s1473-3099(22)00208-0",
+    "title": "Is triple artemisinin-based combination therapy necessary for uncomplicated malaria?",
+    "publication_year": 2022,
+    "cited_by_count": 7
+   },
+   {
+    "id": "https://openalex.org/W2352403150",
+    "doi": null,
+    "title": "[Studies on chemical constituents in rhizome of Matteuccia struthiopteris].",
+    "publication_year": 2004,
+    "cited_by_count": 7
+   },
+   {
+    "id": "https://openalex.org/W2410872996",
+    "doi": null,
+    "title": "[Studies on the chemical constituents from stem of Chirita longgangensis var. Hongyao].",
+    "publication_year": 2006,
+    "cited_by_count": 6
+   },
+   {
+    "id": "https://openalex.org/W4413421127",
+    "doi": "https://doi.org/10.1016/j.xinn.2025.101080",
+    "title": "Single-cell profiling reveals immunoregulation of artemisinin on CD8+GZMB+ T cells via JAK2-STAT3 in malaria-infected mice",
+    "publication_year": 2025,
+    "cited_by_count": 5
+   },
+   {
+    "id": "https://openalex.org/W2735155945",
+    "doi": "https://doi.org/10.1016/b978-0-12-811655-5.00008-8",
+    "title": "Metabolic Engineering of Artemisia annua L.",
+    "publication_year": 2017,
+    "cited_by_count": 5
+   }
+  ],
+  "group_by": []
+ },
+ "1024": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 141,
+   "db_response_time_ms": 30,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5030598859)'s works, most cited first",
+    "x_new_oql": "get (A5030598859)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5030598859"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5030598859&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2025980739",
+    "doi": "https://doi.org/10.1016/j.immuni.2005.06.008",
+    "title": "Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA",
+    "publication_year": 2005,
+    "cited_by_count": 2728
+   },
+   {
+    "id": "https://openalex.org/W1963706689",
+    "doi": "https://doi.org/10.1038/nrd4278",
+    "title": "mRNA-based therapeutics — developing a new class of drugs",
+    "publication_year": 2014,
+    "cited_by_count": 2476
+   },
+   {
+    "id": "https://openalex.org/W3090844627",
+    "doi": "https://doi.org/10.1038/s41586-020-2814-7",
+    "title": "COVID-19 vaccine BNT162b1 elicits human antibody and TH1 T cell responses",
+    "publication_year": 2020,
+    "cited_by_count": 1977
+   },
+   {
+    "id": "https://openalex.org/W2058647478",
+    "doi": "https://doi.org/10.1038/mt.2008.200",
+    "title": "Incorporation of Pseudouridine Into mRNA Yields Superior Nonimmunogenic Vector With Increased Translational Capacity and Biological Stability",
+    "publication_year": 2008,
+    "cited_by_count": 1930
+   },
+   {
+    "id": "https://openalex.org/W1986178107",
+    "doi": "https://doi.org/10.1074/jbc.m310175200",
+    "title": "mRNA Is an Endogenous Ligand for Toll-like Receptor 3",
+    "publication_year": 2004,
+    "cited_by_count": 1062
+   },
+   {
+    "id": "https://openalex.org/W1420726270",
+    "doi": "https://doi.org/10.1016/j.jconrel.2015.08.007",
+    "title": "Expression kinetics of nucleoside-modified mRNA delivered in lipid nanoparticles to mice by various routes",
+    "publication_year": 2015,
+    "cited_by_count": 1029
+   },
+   {
+    "id": "https://openalex.org/W2114208662",
+    "doi": "https://doi.org/10.1038/nature06765",
+    "title": "Sequence- and target-independent angiogenesis suppression by siRNA via TLR3",
+    "publication_year": 2008,
+    "cited_by_count": 931
+   },
+   {
+    "id": "https://openalex.org/W3164002264",
+    "doi": "https://doi.org/10.1038/s41586-021-03653-6",
+    "title": "BNT162b2 vaccine induces neutralizing antibodies and poly-specific T cells in humans",
+    "publication_year": 2021,
+    "cited_by_count": 915
+   },
+   {
+    "id": "https://openalex.org/W2162970812",
+    "doi": "https://doi.org/10.1093/nar/gkr695",
+    "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA",
+    "publication_year": 2011,
+    "cited_by_count": 898
+   },
+   {
+    "id": "https://openalex.org/W2584249987",
+    "doi": "https://doi.org/10.1038/nature21428",
+    "title": "Zika virus protection by a single low-dose nucleoside-modified mRNA vaccination",
+    "publication_year": 2017,
+    "cited_by_count": 884
+   },
+   {
+    "id": "https://openalex.org/W3209735640",
+    "doi": "https://doi.org/10.1016/j.immuni.2021.11.001",
+    "title": "Lipid nanoparticles enhance the efficacy of mRNA and protein subunit vaccines by inducing robust T follicular helper cell and humoral responses",
+    "publication_year": 2021,
+    "cited_by_count": 776
+   },
+   {
+    "id": "https://openalex.org/W2156788486",
+    "doi": "https://doi.org/10.1093/nar/gkq347",
+    "title": "Incorporation of pseudouridine into mRNA enhances translation by diminishing PKR activation",
+    "publication_year": 2010,
+    "cited_by_count": 681
+   },
+   {
+    "id": "https://openalex.org/W2085350682",
+    "doi": "https://doi.org/10.1038/nature09830",
+    "title": "DICER1 deficit induces Alu RNA toxicity in age-related macular degeneration",
+    "publication_year": 2011,
+    "cited_by_count": 601
+   },
+   {
+    "id": "https://openalex.org/W2915388137",
+    "doi": "https://doi.org/10.1016/j.omtn.2019.02.018",
+    "title": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA",
+    "publication_year": 2019,
+    "cited_by_count": 569
+   },
+   {
+    "id": "https://openalex.org/W2802953285",
+    "doi": "https://doi.org/10.1084/jem.20171450",
+    "title": "Nucleoside-modified mRNA vaccines induce potent T follicular helper and germinal center B cell responses",
+    "publication_year": 2018,
+    "cited_by_count": 529
+   },
+   {
+    "id": "https://openalex.org/W3120567430",
+    "doi": "https://doi.org/10.1126/science.aay3638",
+    "title": "A noninflammatory mRNA vaccine for treatment of experimental autoimmune encephalomyelitis",
+    "publication_year": 2021,
+    "cited_by_count": 519
+   },
+   {
+    "id": "https://openalex.org/W1515466910",
+    "doi": "https://doi.org/10.4049/jimmunol.172.11.6545",
+    "title": "Small Interfering RNAs Mediate Sequence-Independent Gene Suppression and Induce Immune Activation by Signaling through Toll-Like Receptor 3",
+    "publication_year": 2004,
+    "cited_by_count": 449
+   },
+   {
+    "id": "https://openalex.org/W3045596302",
+    "doi": "https://doi.org/10.1016/j.immuni.2020.07.019",
+    "title": "A Single Immunization with Nucleoside-Modified mRNA Vaccines Elicits Strong Cellular and Humoral Immune Responses against SARS-CoV-2 in Mice",
+    "publication_year": 2020,
+    "cited_by_count": 366
+   },
+   {
+    "id": "https://openalex.org/W2071136305",
+    "doi": "https://doi.org/10.1093/nar/gkr586",
+    "title": "Nucleoside modifications in RNA limit activation of 2'-5'-oligoadenylate synthetase and increase resistance to cleavage by RNase L",
+    "publication_year": 2011,
+    "cited_by_count": 356
+   },
+   {
+    "id": "https://openalex.org/W2593990758",
+    "doi": "https://doi.org/10.1038/ncomms14630",
+    "title": "Administration of nucleoside-modified mRNA encoding broadly neutralizing antibody protects humanized mice from HIV-1 challenge",
+    "publication_year": 2017,
+    "cited_by_count": 352
+   },
+   {
+    "id": "https://openalex.org/W4210741764",
+    "doi": "https://doi.org/10.1016/j.ymthe.2022.02.001",
+    "title": "Lyophilization provides long-term stability for a lipid nanoparticle-formulated, nucleoside-modified mRNA vaccine",
+    "publication_year": 2022,
+    "cited_by_count": 331
+   },
+   {
+    "id": "https://openalex.org/W2171790482",
+    "doi": "https://doi.org/10.4049/jimmunol.169.9.5196",
+    "title": "Inhibition of HIV-1 Infection by Small Interfering RNA-Mediated RNA Interference",
+    "publication_year": 2002,
+    "cited_by_count": 302
+   },
+   {
+    "id": "https://openalex.org/W2626337750",
+    "doi": "https://doi.org/10.1038/nm.4356",
+    "title": "Elimination of large tumors in mice by mRNA-encoded bispecific antibodies",
+    "publication_year": 2017,
+    "cited_by_count": 290
+   },
+   {
+    "id": "https://openalex.org/W2054412308",
+    "doi": "https://doi.org/10.1038/mt.2012.7",
+    "title": "Increased Erythropoiesis in Mice Injected With Submicrogram Quantities of Pseudouridine-containing mRNA Encoding Erythropoietin",
+    "publication_year": 2012,
+    "cited_by_count": 282
+   },
+   {
+    "id": "https://openalex.org/W2885263529",
+    "doi": "https://doi.org/10.1038/s41467-018-05482-0",
+    "title": "Nucleoside-modified mRNA immunization elicits influenza virus hemagglutinin stalk-specific antibodies",
+    "publication_year": 2018,
+    "cited_by_count": 280
+   }
+  ],
+  "group_by": []
+ },
+ "678": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 576,
+   "db_response_time_ms": 16,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works where author is (A5060846014 or A5091241744), most cited first",
+    "x_new_oql": "get works where author is (A5060846014 or A5091241744), most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        }
+       ]
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5060846014|A5091241744&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2057222804",
+    "doi": "https://doi.org/10.2307/2550637",
+    "title": "Shaping the World Economy: Suggestions for an International Economic Policy.",
+    "publication_year": 1964,
+    "cited_by_count": 2002
+   },
+   {
+    "id": "https://openalex.org/W2262759381",
+    "doi": "https://doi.org/10.2307/1236502",
+    "title": "Shaping the World Economy: Suggestions for an International Economic Policy",
+    "publication_year": 1964,
+    "cited_by_count": 1398
+   },
+   {
+    "id": "https://openalex.org/W2075588625",
+    "doi": null,
+    "title": "On the Theory of Economic Policy",
+    "publication_year": 1952,
+    "cited_by_count": 1076
+   },
+   {
+    "id": "https://openalex.org/W1496738896",
+    "doi": "https://doi.org/10.1016/0147-5967(78)90015-x",
+    "title": "Politics and markets—The world's political—Economic systems",
+    "publication_year": 1978,
+    "cited_by_count": 1050
+   },
+   {
+    "id": "https://openalex.org/W2029512968",
+    "doi": "https://doi.org/10.1002/tie.5060050113",
+    "title": "Shaping the world economy",
+    "publication_year": 1963,
+    "cited_by_count": 714
+   },
+   {
+    "id": "https://openalex.org/W2063474468",
+    "doi": "https://doi.org/10.2307/3498334",
+    "title": "Economic Policy: Principles and Design",
+    "publication_year": 1959,
+    "cited_by_count": 635
+   },
+   {
+    "id": "https://openalex.org/W4253997510",
+    "doi": "https://doi.org/10.2307/1925613",
+    "title": "On the Theory of Economic Policy",
+    "publication_year": 1954,
+    "cited_by_count": 360
+   },
+   {
+    "id": "https://openalex.org/W1593224091",
+    "doi": null,
+    "title": "Income Distribution: Analysis and Policies",
+    "publication_year": 1975,
+    "cited_by_count": 304
+   },
+   {
+    "id": "https://openalex.org/W2031335572",
+    "doi": "https://doi.org/10.1111/j.1467-6435.1974.tb01903.x",
+    "title": "SUBSTITUTION OF GRADUATE BY OTHER LABOUR",
+    "publication_year": 1974,
+    "cited_by_count": 209
+   },
+   {
+    "id": "https://openalex.org/W1538724066",
+    "doi": null,
+    "title": "Statistical testing of business-cycle theories",
+    "publication_year": 1968,
+    "cited_by_count": 188
+   },
+   {
+    "id": "https://openalex.org/W4254341212",
+    "doi": "https://doi.org/10.2307/3497941",
+    "title": "On the Theory of Economic Policy",
+    "publication_year": 1954,
+    "cited_by_count": 178
+   },
+   {
+    "id": "https://openalex.org/W4236997086",
+    "doi": "https://doi.org/10.2307/1909839",
+    "title": "A Textbook of Econometrics",
+    "publication_year": 1954,
+    "cited_by_count": 171
+   },
+   {
+    "id": "https://openalex.org/W1555246701",
+    "doi": "https://doi.org/10.1016/0161-8938(80)90008-3",
+    "title": "Macro models for developing countries",
+    "publication_year": 1980,
+    "cited_by_count": 146
+   },
+   {
+    "id": "https://openalex.org/W2313415804",
+    "doi": "https://doi.org/10.2307/1905323",
+    "title": "Annual Survey: Suggestions on Quantitative Business Cycle Theory",
+    "publication_year": 1935,
+    "cited_by_count": 135
+   },
+   {
+    "id": "https://openalex.org/W2032002370",
+    "doi": "https://doi.org/10.1111/j.1475-4991.1970.tb00699.x",
+    "title": "A POSITIVE AND A NORMATIVE THEORY OF INCOME DISTRIBUTION",
+    "publication_year": 1970,
+    "cited_by_count": 134
+   },
+   {
+    "id": "https://openalex.org/W2111000264",
+    "doi": "https://doi.org/10.2307/3438533",
+    "title": "Centralization and Decentralization in Economic Policy",
+    "publication_year": 1954,
+    "cited_by_count": 121
+   },
+   {
+    "id": "https://openalex.org/W2329265700",
+    "doi": "https://doi.org/10.2307/2282598",
+    "title": "Economic Policy: Principles and Design.",
+    "publication_year": 1958,
+    "cited_by_count": 118
+   },
+   {
+    "id": "https://openalex.org/W2014106608",
+    "doi": "https://doi.org/10.1007/bf01318500",
+    "title": "Bestimmung und Deutung von Angebotskurven Ein Beispiel",
+    "publication_year": 1930,
+    "cited_by_count": 116
+   },
+   {
+    "id": "https://openalex.org/W1509150474",
+    "doi": "https://doi.org/10.2307/2225763",
+    "title": "On a Method of Statistical Business-Cycle Research. A Reply",
+    "publication_year": 1940,
+    "cited_by_count": 113
+   },
+   {
+    "id": "https://openalex.org/W2072719110",
+    "doi": null,
+    "title": "Reshaping the international order : a report to the Club of Rome",
+    "publication_year": 1976,
+    "cited_by_count": 110
+   },
+   {
+    "id": "https://openalex.org/W4300938696",
+    "doi": "https://doi.org/10.2307/3498941",
+    "title": "International Economic Integration",
+    "publication_year": 1966,
+    "cited_by_count": 108
+   },
+   {
+    "id": "https://openalex.org/W2151528256",
+    "doi": "https://doi.org/10.2307/2224937",
+    "title": "An Econometric Approach to Business Cycle Problems.",
+    "publication_year": 1938,
+    "cited_by_count": 105
+   },
+   {
+    "id": "https://openalex.org/W4298869251",
+    "doi": "https://doi.org/10.2307/3498790",
+    "title": "Shaping the World Economy. Suggestions for an International Economic Policy",
+    "publication_year": 1965,
+    "cited_by_count": 95
+   },
+   {
+    "id": "https://openalex.org/W4300943499",
+    "doi": "https://doi.org/10.2307/2550961",
+    "title": "International Economic Integration.",
+    "publication_year": 1956,
+    "cited_by_count": 93
+   },
+   {
+    "id": "https://openalex.org/W2051578472",
+    "doi": "https://doi.org/10.2307/2226262",
+    "title": "Statistical Testing of Business-Cycle Theories: II; Business Cycles in the United States of America, 1919-32.",
+    "publication_year": 1941,
+    "cited_by_count": 89
+   }
+  ],
+  "group_by": []
+ },
+ "719": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 681,
+   "db_response_time_ms": 15,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5101501222)'s works, most cited first",
+    "x_new_oql": "get (A5101501222)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5101501222"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5101501222&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W1535803599",
+    "doi": "https://doi.org/10.1007/978-1-137-28787-8_94",
+    "title": "Development as Freedom",
+    "publication_year": 2009,
+    "cited_by_count": 15841
+   },
+   {
+    "id": "https://openalex.org/W4254363066",
+    "doi": "https://doi.org/10.2307/40203469",
+    "title": "Development as Freedom",
+    "publication_year": 1999,
+    "cited_by_count": 13412
+   },
+   {
+    "id": "https://openalex.org/W3021907865",
+    "doi": "https://doi.org/10.2307/135247",
+    "title": "Commodities and Capabilities",
+    "publication_year": 1987,
+    "cited_by_count": 3734
+   },
+   {
+    "id": "https://openalex.org/W1883239598",
+    "doi": "https://doi.org/10.1093/0198281935.001.0001",
+    "title": "On Economic Inequality",
+    "publication_year": 1973,
+    "cited_by_count": 3433
+   },
+   {
+    "id": "https://openalex.org/W4255228022",
+    "doi": "https://doi.org/10.2307/2234727",
+    "title": "Inequality Reexamined.",
+    "publication_year": 1993,
+    "cited_by_count": 3217
+   },
+   {
+    "id": "https://openalex.org/W1512416168",
+    "doi": null,
+    "title": "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+    "publication_year": 1977,
+    "cited_by_count": 3156
+   },
+   {
+    "id": "https://openalex.org/W2025258580",
+    "doi": "https://doi.org/10.2307/1912718",
+    "title": "Poverty: An Ordinal Approach to Measurement",
+    "publication_year": 1976,
+    "cited_by_count": 3019
+   },
+   {
+    "id": "https://openalex.org/W66379224",
+    "doi": "https://doi.org/10.2307/2026184",
+    "title": "Well-Being, Agency and Freedom: The Dewey Lectures 1984",
+    "publication_year": 1985,
+    "cited_by_count": 2717
+   },
+   {
+    "id": "https://openalex.org/W1975833254",
+    "doi": "https://doi.org/10.2307/1913866",
+    "title": "Collective Choice and Social Welfare",
+    "publication_year": 1972,
+    "cited_by_count": 2565
+   },
+   {
+    "id": "https://openalex.org/W2057454132",
+    "doi": "https://doi.org/10.1017/cbo9780511611964",
+    "title": "Utilitarianism and Beyond",
+    "publication_year": 1982,
+    "cited_by_count": 2220
+   },
+   {
+    "id": "https://openalex.org/W2096196718",
+    "doi": "https://doi.org/10.1080/14649880500120491",
+    "title": "Human Rights and Capabilities",
+    "publication_year": 2005,
+    "cited_by_count": 1967
+   },
+   {
+    "id": "https://openalex.org/W1497460133",
+    "doi": "https://doi.org/10.1017/cbo9780511819025.019",
+    "title": "Capability and Well-Being",
+    "publication_year": 2007,
+    "cited_by_count": 1862
+   },
+   {
+    "id": "https://openalex.org/W2123880300",
+    "doi": "https://doi.org/10.1093/oxfordjournals.oep.a041587",
+    "title": "POOR, RELATIVELY SPEAKING *",
+    "publication_year": 1983,
+    "cited_by_count": 1831
+   },
+   {
+    "id": "https://openalex.org/W1974780733",
+    "doi": "https://doi.org/10.5860/choice.28-3975",
+    "title": "Hunger and public action",
+    "publication_year": 1991,
+    "cited_by_count": 1590
+   },
+   {
+    "id": "https://openalex.org/W2164686699",
+    "doi": "https://doi.org/10.1353/jod.1999.0055",
+    "title": "Democracy as a Universal Value",
+    "publication_year": 1999,
+    "cited_by_count": 1435
+   },
+   {
+    "id": "https://openalex.org/W1539053875",
+    "doi": "https://doi.org/10.1093/oso/9780198290124.001.0001",
+    "title": "India Economic Development and Social Opportunity",
+    "publication_year": 1996,
+    "cited_by_count": 1390
+   },
+   {
+    "id": "https://openalex.org/W1993313925",
+    "doi": "https://doi.org/10.1086/259614",
+    "title": "The Impossibility of a Paretian Liberal",
+    "publication_year": 1970,
+    "cited_by_count": 1385
+   },
+   {
+    "id": "https://openalex.org/W197432415",
+    "doi": "https://doi.org/10.1007/978-1-349-21136-4_3",
+    "title": "Development as Capability Expansion",
+    "publication_year": 1990,
+    "cited_by_count": 1336
+   },
+   {
+    "id": "https://openalex.org/W1589800138",
+    "doi": "https://doi.org/10.2307/20031978",
+    "title": "Identity and Violence: The Illusion of Destiny",
+    "publication_year": 2006,
+    "cited_by_count": 1323
+   },
+   {
+    "id": "https://openalex.org/W2321036786",
+    "doi": "https://doi.org/10.1093/0198284632.001.0001",
+    "title": "Poverty and Famines",
+    "publication_year": 1983,
+    "cited_by_count": 1216
+   },
+   {
+    "id": "https://openalex.org/W2009526958",
+    "doi": "https://doi.org/10.2307/2232367",
+    "title": "Choice, Welfare and Measurement.",
+    "publication_year": 1984,
+    "cited_by_count": 1209
+   },
+   {
+    "id": "https://openalex.org/W28889416",
+    "doi": null,
+    "title": "Social exclusion : concept, application, and scrutiny",
+    "publication_year": 2000,
+    "cited_by_count": 1119
+   },
+   {
+    "id": "https://openalex.org/W2050497363",
+    "doi": "https://doi.org/10.1111/j.1088-4963.2004.00017.x",
+    "title": "Elements of a Theory of Human Rights",
+    "publication_year": 2004,
+    "cited_by_count": 1106
+   },
+   {
+    "id": "https://openalex.org/W2569732857",
+    "doi": "https://doi.org/10.2307/3323790",
+    "title": "Resources, Values and Development",
+    "publication_year": 1985,
+    "cited_by_count": 1093
+   },
+   {
+    "id": "https://openalex.org/W2086535470",
+    "doi": null,
+    "title": "Resources, values, and development",
+    "publication_year": 1984,
+    "cited_by_count": 1032
+   }
+  ],
+  "group_by": []
+ },
+ "846": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 613,
+   "db_response_time_ms": 15,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5003087402)'s works, most cited first",
+    "x_new_oql": "get (A5003087402)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5003087402"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5003087402&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W4233654598",
+    "doi": "https://doi.org/10.1017/cbo9780511807763",
+    "title": "Governing the Commons",
+    "publication_year": 1990,
+    "cited_by_count": 20657
+   },
+   {
+    "id": "https://openalex.org/W2175723801",
+    "doi": "https://doi.org/10.2307/3146384",
+    "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+    "publication_year": 1992,
+    "cited_by_count": 19100
+   },
+   {
+    "id": "https://openalex.org/W2034994370",
+    "doi": "https://doi.org/10.1126/science.1172133",
+    "title": "A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+    "publication_year": 2009,
+    "cited_by_count": 8662
+   },
+   {
+    "id": "https://openalex.org/W4299610040",
+    "doi": "https://doi.org/10.1515/9781400831739",
+    "title": "Understanding Institutional Diversity",
+    "publication_year": 2006,
+    "cited_by_count": 5287
+   },
+   {
+    "id": "https://openalex.org/W1968869144",
+    "doi": "https://doi.org/10.1080/19186444.2010.11658229",
+    "title": "Beyond Markets and States: Polycentric Governance of Complex Economic Systems",
+    "publication_year": 2010,
+    "cited_by_count": 4409
+   },
+   {
+    "id": "https://openalex.org/W1573084417",
+    "doi": "https://doi.org/10.2307/j.ctt7s7wm",
+    "title": "Understanding Institutional Diversity",
+    "publication_year": 2009,
+    "cited_by_count": 4230
+   },
+   {
+    "id": "https://openalex.org/W2165702945",
+    "doi": "https://doi.org/10.1126/science.1091015",
+    "title": "The Struggle to Govern the Commons",
+    "publication_year": 2003,
+    "cited_by_count": 4209
+   },
+   {
+    "id": "https://openalex.org/W2170689222",
+    "doi": "https://doi.org/10.1257/jep.14.3.137",
+    "title": "Collective Action and the Evolution of Social Norms",
+    "publication_year": 2000,
+    "cited_by_count": 4195
+   },
+   {
+    "id": "https://openalex.org/W1974491836",
+    "doi": "https://doi.org/10.3998/mpub.9739",
+    "title": "Rules, Games, and Common-Pool Resources",
+    "publication_year": 1994,
+    "cited_by_count": 3840
+   },
+   {
+    "id": "https://openalex.org/W2010365184",
+    "doi": "https://doi.org/10.1126/science.1144004",
+    "title": "Complexity of Coupled Human and Natural Systems",
+    "publication_year": 2007,
+    "cited_by_count": 3625
+   },
+   {
+    "id": "https://openalex.org/W4414064306",
+    "doi": "https://doi.org/10.17323/1999-5431-2010-0-1-5-52",
+    "title": "A Behavioral Approach to the Rational Choice Theory of Collective Action Presidential Address, American political Science Association, 1997",
+    "publication_year": 2010,
+    "cited_by_count": 2850
+   },
+   {
+    "id": "https://openalex.org/W2031839214",
+    "doi": "https://doi.org/10.1126/science.284.5412.278",
+    "title": "Revisiting the Commons: Local Lessons, Global Challenges",
+    "publication_year": 1999,
+    "cited_by_count": 2798
+   },
+   {
+    "id": "https://openalex.org/W2071962320",
+    "doi": "https://doi.org/10.1073/pnas.0702288104",
+    "title": "A diagnostic approach for going beyond panaceas",
+    "publication_year": 2007,
+    "cited_by_count": 2727
+   },
+   {
+    "id": "https://openalex.org/W1600429647",
+    "doi": "https://doi.org/10.2307/3146375",
+    "title": "Property-Rights Regimes and Natural Resources: A Conceptual Analysis",
+    "publication_year": 1992,
+    "cited_by_count": 2676
+   },
+   {
+    "id": "https://openalex.org/W1996760592",
+    "doi": "https://doi.org/10.1016/0305-750x(96)00023-x",
+    "title": "Crossing the great divide: Coproduction, synergy, and development",
+    "publication_year": 1996,
+    "cited_by_count": 2660
+   },
+   {
+    "id": "https://openalex.org/W2130387153",
+    "doi": "https://doi.org/10.1016/j.gloenvcha.2010.07.004",
+    "title": "Polycentric systems for coping with collective action and global environmental change",
+    "publication_year": 2010,
+    "cited_by_count": 2466
+   },
+   {
+    "id": "https://openalex.org/W2133417759",
+    "doi": "https://doi.org/10.2307/1964229",
+    "title": "Covenants with and without a Sword: Self-Governance Is Possible",
+    "publication_year": 1992,
+    "cited_by_count": 2066
+   },
+   {
+    "id": "https://openalex.org/W1957796155",
+    "doi": "https://doi.org/10.1111/j.1541-0072.2010.00394.x",
+    "title": "Background on the Institutional Analysis and Development Framework",
+    "publication_year": 2011,
+    "cited_by_count": 1720
+   },
+   {
+    "id": "https://openalex.org/W1557200796",
+    "doi": "https://doi.org/10.5751/es-00610-090118",
+    "title": "A Framework to Analyze the Robustness of Social-ecological Systems from an Institutional Perspective",
+    "publication_year": 2004,
+    "cited_by_count": 1599
+   },
+   {
+    "id": "https://openalex.org/W2049813215",
+    "doi": "https://doi.org/10.5751/es-06387-190230",
+    "title": "Social-ecological system framework: initial changes and continuing challenges",
+    "publication_year": 2014,
+    "cited_by_count": 1519
+   },
+   {
+    "id": "https://openalex.org/W2125342289",
+    "doi": "https://doi.org/10.1146/annurev.polisci.2.1.493",
+    "title": "COPING WITH TRAGEDIES OF THE COMMONS",
+    "publication_year": 1999,
+    "cited_by_count": 1401
+   },
+   {
+    "id": "https://openalex.org/W2037627831",
+    "doi": "https://doi.org/10.2307/2082975",
+    "title": "A Grammar of Institutions",
+    "publication_year": 1995,
+    "cited_by_count": 1367
+   },
+   {
+    "id": "https://openalex.org/W2085500839",
+    "doi": "https://doi.org/10.1007/bf00239556",
+    "title": "An agenda for the study of institutions",
+    "publication_year": 1986,
+    "cited_by_count": 1176
+   },
+   {
+    "id": "https://openalex.org/W2081155979",
+    "doi": "https://doi.org/10.1016/s0921-8009(99)00092-0",
+    "title": "The concept of scale and the human dimensions of global change: a survey",
+    "publication_year": 2000,
+    "cited_by_count": 1116
+   },
+   {
+    "id": "https://openalex.org/W1578030309",
+    "doi": null,
+    "title": "Crafting Institutions for Self-Governing Irrigation Systems",
+    "publication_year": 1992,
+    "cited_by_count": 1073
+   }
+  ],
+  "group_by": []
+ },
+ "1034": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 328,
+   "db_response_time_ms": 14,
+   "page": 1,
+   "per_page": 25,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get (A5000387389)'s works, most cited first",
+    "x_new_oql": "get (A5000387389)'s works, most cited first",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "authorships.author.id",
+       "value": "A5000387389"
+      }
+     ],
+     "sort_by": [
+      {
+       "column_id": "cited_by_count",
+       "direction": "desc"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389&sort=cited_by_count:desc&per_page=25",
+    "order": "most cited first",
+    "order_default": false
+   },
+   "cost_usd": 0.0001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W2159549133",
+    "doi": "https://doi.org/10.1257/aer.104.4.1091",
+    "title": "A Grand Gender Convergence: Its Last Chapter",
+    "publication_year": 2014,
+    "cited_by_count": 2659
+   },
+   {
+    "id": "https://openalex.org/W2149648772",
+    "doi": "https://doi.org/10.1257/000282806777212350",
+    "title": "The Quiet Revolution That Transformed Women's Employment, Education, and Family",
+    "publication_year": 2006,
+    "cited_by_count": 1830
+   },
+   {
+    "id": "https://openalex.org/W1991418004",
+    "doi": "https://doi.org/10.1257/aer.90.4.715",
+    "title": "Orchestrating Impartiality: The Impact of “Blind” Auditions on Female Musicians",
+    "publication_year": 2000,
+    "cited_by_count": 1759
+   },
+   {
+    "id": "https://openalex.org/W4297897894",
+    "doi": "https://doi.org/10.2307/j.ctvjf9x5x",
+    "title": "The Race between Education and Technology",
+    "publication_year": 2010,
+    "cited_by_count": 1520
+   },
+   {
+    "id": "https://openalex.org/W3123306174",
+    "doi": "https://doi.org/10.1086/340778",
+    "title": "The Power of the Pill: Oral Contraceptives and Women’s Career and Marriage Decisions",
+    "publication_year": 2002,
+    "cited_by_count": 1389
+   },
+   {
+    "id": "https://openalex.org/W2107338156",
+    "doi": "https://doi.org/10.1257/app.2.3.228",
+    "title": "Dynamics of the Gender Gap for Young Professionals in the Financial and Corporate Sectors",
+    "publication_year": 2010,
+    "cited_by_count": 1271
+   },
+   {
+    "id": "https://openalex.org/W2103419131",
+    "doi": "https://doi.org/10.1162/003355398555720",
+    "title": "The Origins of Technology-Skill Complementarity",
+    "publication_year": 1998,
+    "cited_by_count": 1080
+   },
+   {
+    "id": "https://openalex.org/W3121587588",
+    "doi": "https://doi.org/10.1257/jep.20.4.133",
+    "title": "The Homecoming of American College Women: The Reversal of the College Gender Gap",
+    "publication_year": 2006,
+    "cited_by_count": 1010
+   },
+   {
+    "id": "https://openalex.org/W3023004739",
+    "doi": "https://doi.org/10.2307/2233578",
+    "title": "Understanding the Gender Gap: An Economic History of American Women.",
+    "publication_year": 1991,
+    "cited_by_count": 839
+   },
+   {
+    "id": "https://openalex.org/W1565154825",
+    "doi": "https://doi.org/10.3386/w4707",
+    "title": "The U-Shaped Female Labor Force Function in Economic Development and Economic History",
+    "publication_year": 1994,
+    "cited_by_count": 782
+   },
+   {
+    "id": "https://openalex.org/W2135293663",
+    "doi": "https://doi.org/10.2307/2118322",
+    "title": "The Great Compression: The Wage Structure in the United States at Mid-Century",
+    "publication_year": 1992,
+    "cited_by_count": 766
+   },
+   {
+    "id": "https://openalex.org/W2978592984",
+    "doi": "https://doi.org/10.2307/2165176",
+    "title": "Understanding the Gender Gap: An Economic History of American Women.",
+    "publication_year": 1991,
+    "cited_by_count": 612
+   },
+   {
+    "id": "https://openalex.org/W2912466436",
+    "doi": "https://doi.org/10.2307/27694819",
+    "title": "The Race between Education and Technology",
+    "publication_year": 2009,
+    "cited_by_count": 479
+   },
+   {
+    "id": "https://openalex.org/W2145725926",
+    "doi": "https://doi.org/10.1017/s0022050700020544",
+    "title": "America's Graduation from High School: The Evolution and Spread of Secondary Schooling in the Twentieth Century",
+    "publication_year": 1998,
+    "cited_by_count": 452
+   },
+   {
+    "id": "https://openalex.org/W2168876999",
+    "doi": "https://doi.org/10.1257/jep.26.1.139",
+    "title": "The For-Profit Postsecondary School Sector: Nimble Critters or Agile Predators?",
+    "publication_year": 2011,
+    "cited_by_count": 408
+   },
+   {
+    "id": "https://openalex.org/W1507130158",
+    "doi": "https://doi.org/10.3386/w12984",
+    "title": "The Race between Education and Technology: The Evolution of U.S. Educational Wage Differentials, 1890 to 2005",
+    "publication_year": 2007,
+    "cited_by_count": 363
+   },
+   {
+    "id": "https://openalex.org/W3124231248",
+    "doi": null,
+    "title": "The Defining Moment: The Great Depression and the American Economy in the Twentieth Century",
+    "publication_year": 1998,
+    "cited_by_count": 353
+   },
+   {
+    "id": "https://openalex.org/W2056988891",
+    "doi": "https://doi.org/10.1257/jep.13.1.37",
+    "title": "The Shaping of Higher Education: The Formative Years in the United States, 1890 to 1940",
+    "publication_year": 1998,
+    "cited_by_count": 348
+   },
+   {
+    "id": "https://openalex.org/W1972107010",
+    "doi": null,
+    "title": "Understanding the gender gap",
+    "publication_year": 1990,
+    "cited_by_count": 343
+   },
+   {
+    "id": "https://openalex.org/W3125396900",
+    "doi": "https://doi.org/10.1086/298091",
+    "title": "Monitoring Costs and Occupational Segregation by Sex: A Historical Analysis",
+    "publication_year": 1986,
+    "cited_by_count": 326
+   },
+   {
+    "id": "https://openalex.org/W2295196858",
+    "doi": "https://doi.org/10.1086/685505",
+    "title": "A Most Egalitarian Profession: Pharmacy and the Evolution of a Family-Friendly Occupation",
+    "publication_year": 2016,
+    "cited_by_count": 320
+   },
+   {
+    "id": "https://openalex.org/W2138796663",
+    "doi": "https://doi.org/10.3386/w12139",
+    "title": "The Homecoming of American College Women: The Reversal of the College Gender Gap",
+    "publication_year": 2006,
+    "cited_by_count": 306
+   },
+   {
+    "id": "https://openalex.org/W3021811409",
+    "doi": "https://doi.org/10.1162/002219599551868",
+    "title": "Human Capital and Social Capital: The Rise of Secondary Schooling in America, 1910–1940",
+    "publication_year": 1999,
+    "cited_by_count": 291
+   },
+   {
+    "id": "https://openalex.org/W2120837254",
+    "doi": "https://doi.org/10.1017/s0022050701028017",
+    "title": "THE HUMAN-CAPITAL CENTURY AND AMERICAN LEADERSHIP: VIRTUES OF THE PAST",
+    "publication_year": 2001,
+    "cited_by_count": 285
+   },
+   {
+    "id": "https://openalex.org/W1653984643",
+    "doi": "https://doi.org/10.1257/aer.20141757",
+    "title": "The Value of Postsecondary Credentials in the Labor Market: An Experimental Study",
+    "publication_year": 2016,
+    "cited_by_count": 280
+   }
+  ],
+  "group_by": []
+ }
+}

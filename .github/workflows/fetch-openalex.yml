@@ -1,0 +1,37 @@
+# Fetches OpenAlex into raw/openalex/<stamp>/ from a GitHub runner and commits it to the same branch.
+# Runs when the anchors or the fetch script change, and on demand. No API key is required;
+# if the repository later gets an OPENALEX_API_KEY secret, it is used.
+name: fetch-openalex
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore: [main]
+    paths:
+      - config/openalex_anchors.json
+      - scripts/fetch_openalex.py
+      - .github/workflows/fetch-openalex.yml
+permissions:
+  contents: write
+concurrency:
+  group: fetch-openalex-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch OpenAlex
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: cd scripts && python fetch_openalex.py
+      - name: Commit raw/openalex
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add raw/openalex
+          git diff --cached --quiet || (git commit -m "OpenAlex raw snapshot" && git push)

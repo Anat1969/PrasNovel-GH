@@ -167,6 +167,91 @@ def build_wikidata(laureate_df):
     return entities, edge_df, source
 
 
+def decide_link(link: dict) -> tuple[str, list[str]]:
+    """Decide which OpenAlex author ids belong to a laureate.
+
+    DOI anchors are papers checked against Crossref. An ORCID (from Wikidata) is trusted only when at
+    least one DOI anchor points to the same author; otherwise it is a contradiction and is dropped.
+    """
+    from collections import Counter
+    doi_ids = [e["author"] for e in link["evidence"] if e["kind"] == "doi" and e.get("author")]
+    orcid_ids = [e["author"] for e in link["evidence"] if e["kind"] == "orcid" and e.get("author")]
+    agreed_orcid = [a for a in orcid_ids if a in doi_ids]
+    if orcid_ids and not agreed_orcid:
+        return ("סתירה", sorted(set(doi_ids)))
+    ids = sorted(set(doi_ids))
+    if not ids:
+        return ("לא קושר", [])
+    strong = bool(agreed_orcid) or max(Counter(doi_ids).values()) >= 2
+    return ("אומת" if strong else "הערכה", ids)
+
+
+def build_openalex():
+    """OpenAlex tables from the latest raw/openalex snapshot. Empty frames when no snapshot exists."""
+    try:
+        snap = latest_raw_dir("openalex")
+    except FileNotFoundError:
+        return {}
+    load = lambda n: json.loads((snap / f"{n}.json").read_text(encoding="utf-8")) if (snap / f"{n}.json").exists() else {}
+    links, authors, works, curves, cross = (load(n) for n in ("links", "authors", "works", "citing_by_year", "cross_citations"))
+    short = lambda s: (s or "").rsplit("/", 1)[-1]
+    link_rows, ev_rows = [], []
+    fetched = {l["nobel_id"]: set(l["authors"]) for l in links or []}  # ids the raw works/curves were fetched for
+    for l in links or []:
+        status, ids = decide_link(l)
+        l["authors"] = ids  # downstream tables use only the decided ids
+        link_rows.append({"nobel_id": l["nobel_id"], "openalex_ids": "|".join(ids), "status": status,
+                          "split_profiles": len(ids) > 1, "retrieved_at": snap.name})
+        for e in l["evidence"]:
+            ev_rows.append({"nobel_id": l["nobel_id"], "kind": e["kind"], "ref": e["ref"], "author": e.get("author"),
+                            "work": e.get("work"), "error": e.get("error")})
+    linked = {l["nobel_id"] for l in links or [] if l["authors"]}
+    keep = {l["nobel_id"]: set(l["authors"]) for l in links or []}
+    stat_rows = []
+    for nid, recs in (authors or {}).items():
+        recs = [r for r in recs if r.get("id") and short(r["id"]) in keep.get(nid, set())]
+        if nid not in linked:
+            continue
+        years = {}
+        for r in recs:
+            for c in r.get("counts_by_year", []):
+                years[c["year"]] = years.get(c["year"], 0) + c.get("cited_by_count", 0)
+        stat_rows.append({"nobel_id": nid, "works_count": sum(r.get("works_count", 0) for r in recs),
+                          "cited_by_count": sum(r.get("cited_by_count", 0) for r in recs),
+                          "h_index_max": max([r.get("summary_stats", {}).get("h_index") or 0 for r in recs] or [0]),
+                          "topic": next((t["display_name"] for r in recs for t in r.get("topics", [])[:1]), None),
+                          "cites_by_year": json.dumps(dict(sorted(years.items())))})
+    work_rows = []
+    for nid, w in (works or {}).items():
+        if nid not in linked or keep[nid] != fetched.get(nid):
+            continue  # fetched for a different author set: refetch instead of mixing
+        for rank, r in enumerate(w.get("results", []), 1):
+            work_rows.append({"nobel_id": nid, "rank": rank, "work_id": short(r["id"]), "doi": r.get("doi"),
+                              "title": r.get("title"), "year": r.get("publication_year"), "cited_by": r.get("cited_by_count")})
+    curve_rows = []
+    for nid, g in (curves or {}).items():
+        if nid not in linked or keep[nid] != fetched.get(nid):
+            continue
+        for b in g.get("group_by", []):
+            if str(b.get("key", "")).isdigit():
+                curve_rows.append({"nobel_id": nid, "year": int(b["key"]), "citing_works": b["count"]})
+    owner = {a: l["nobel_id"] for l in links or [] for a in l["authors"]}
+    cite_rows = []
+    for cited, g in (cross or {}).items():
+        if cited not in linked:
+            continue
+        agg = {}
+        for b in g.get("group_by", []):
+            n = owner.get(short(b.get("key")))
+            if n and n != cited:
+                agg[n] = max(agg.get(n, 0), b["count"])  # split profiles: take max, never sum the same works twice
+        for citing, n in agg.items():
+            cite_rows.append({"citing_nobel_id": citing, "cited_nobel_id": cited, "works": n})
+    return {"openalex_link": pd.DataFrame(link_rows), "openalex_evidence": pd.DataFrame(ev_rows),
+            "openalex_stats": pd.DataFrame(stat_rows), "openalex_work": pd.DataFrame(work_rows),
+            "openalex_curve": pd.DataFrame(curve_rows), "cite_edge": pd.DataFrame(cite_rows)}
+
+
 def main() -> int:
     snapshot = latest_raw_dir("nobel")
     laureate, prize, affiliation, source = build_nobel(snapshot)
@@ -188,6 +273,7 @@ def main() -> int:
         "source": pd.DataFrame(source + wd_source),
         "edge": edge,
         "wikidata_check": wikidata_check,
+        **build_openalex(),
     }
     if DB_PATH.exists():
         DB_PATH.unlink()  # rebuilt from raw every time: idempotent

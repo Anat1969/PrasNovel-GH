@@ -1,0 +1,359 @@
+nobel_id,rank,work_id,doi,title,year,cited_by
+1,1,W2036835433,https://doi.org/10.1126/science.3.59.227,On a New Kind of Rays,1896,542
+1,2,W2046505836,https://doi.org/10.1002/andp.18983000102,Ueber eine neue Art von Strahlen,1898,318
+1,3,W2098027727,https://doi.org/10.1002/andp.18922810108,Ueber die Constitution des flüssigen Wassers,1892,249
+1,4,W2136884003,https://doi.org/10.1002/andp.18882711003,Ueber die durch Bewegung eines im homogenen electrischen Felde befindlichen Dielectricums hervorgerufene electrodynamische Kraft,1888,125
+1,5,W2252470007,https://doi.org/10.1080/14786448108627021,On tones produced by the intermittent irradiation of a gas,1881,116
+1,6,W2121545305,https://doi.org/10.1002/andp.18802471304,Ueber die durch Electricität bewirkten Form‐ und Volumenänderungen von dielectrischen Körpern,1880,77
+1,7,W4255570493,https://doi.org/10.1002/andp.18983000103,Ueber eine neue Art von Strahlen,1898,69
+1,8,W2000032478,https://doi.org/10.1126/science.3.72.726,A New Form of Radiation,1896,45
+1,9,W2136974426,https://doi.org/10.14463/kxp:1685714188,Eine neue Art von Strahlen,1896,42
+1,10,W3209398570,,Über eine neue Art von Strahlen : vorläufige Mitteilung,1895,42
+1,11,W2071365966,https://doi.org/10.1002/andp.18812480114,"Ueber Töne, welche durch intermittirende Bestrahlung eines Gases entstehen",1881,36
+1,12,W2021878906,https://doi.org/10.1002/andp.18983000104,Weitere Beobachtungen über die Eigenschaften der X‐Strahlen,1898,32
+1,13,W2145433644,https://doi.org/10.1002/andp.18922810109,Kurze Mittheilung von Versuchen über den Einfluss des Druckes auf einige physikalische Erscheinungen,1892,26
+1,14,W2000472499,https://doi.org/10.1002/andp.18912800903,"Ueber den Einfluss des Druckes auf die Brechungsexponenten von Wasser, Schwefelkohlenstoff, Benzol, Aethyläther und einigen Alkoholen",1891,23
+1,15,W2116447709,https://doi.org/10.1259/0007-1285-4-37-32,On a New Kind of Rays,1931,19
+1,16,W2025801760,https://doi.org/10.1002/andp.18842580804,"Ueber den Einfluss des Druckes auf die Viscosität der Flüssigkeiten, speciell des Wassers",1884,19
+1,17,W1974479134,https://doi.org/10.1002/andp.18762351209,Ueber das Verhältniss der Quercontraction zur Längendilatation bei Kautschuk,1876,18
+1,18,W2037397011,https://doi.org/10.1002/andp.18922820511,Verfahren zur Herstellung reiner Wasser‐ und Quecksilberoberflächen,1892,16
+1,19,W4243615561,https://doi.org/10.1002/andp.18832540203,Ueber die durch electrische Kräfte erzeugte Aenderung der Doppelbrechung des Quarzes,1883,15
+1,20,W2021728663,https://doi.org/10.1002/andp.18732240405,Bestimmung des Verhältnisses der specifischen Wärme bei constantem Druck zu derjenigen bei constantem Volumen für einige Gase,1873,12
+1,21,W2088196348,https://doi.org/10.1148/45.5.428,On a New Kind of Rays,1945,11
+1,22,W2165574470,https://doi.org/10.1002/andp.18902771011,Ueber die Dicke von cohärenten Oelschichten auf der Oberfläche des Wassers,1890,11
+1,23,W2145585987,https://doi.org/10.1002/andp.18942880714,Ueber den Einfluss des Druckes auf die Dielectricitätsconstante des Wassers und des Aethylalkohols,1894,10
+1,24,W2047827517,https://doi.org/10.1002/andp.18882690406,Ueber die Compressibilität des Wassers,1888,9
+1,25,W2080138883,https://doi.org/10.1002/andp.18882700707,"Ueber die Compressibilität des Sylvins, des Steinsalzes und der wässerigen Chlorkaliumlösungen",1888,7
+6,1,W2091109017,https://doi.org/10.1051/radium:01907004010034900,Sur le poids atomique du Radium,1907,25
+6,2,W3009055929,,The radiation of radium at the temperature of liquid hydrogen,1913,2
+6,3,W2319154631,https://doi.org/10.1259/jrs.1921.0016,Radio-Activity,1921,0
+6,4,W3120402445,https://doi.org/10.1038/scientificamerican10241908-263bsupp,Action of Radium Emanation on Copper Salts,1908,0
+6,5,W2100846986,https://doi.org/10.1111/j.1949-8594.1908.tb01099.x,THE ATOMIC WEIGHT OF RADIUM; A NEW DETERMINATION*,1908,0
+6,6,W1720048337,https://doi.org/10.1259/jrs.1907.0014,Atomic Weight of Radium,1907,0
+6,7,W2172678024,https://doi.org/10.1259/jrs.1907.0015,Action of Gravity on the Radio-Active Deposit,1907,0
+6,8,W3120606286,https://doi.org/10.1038/scientificamerican03051904-23459asupp,Conductivity of Dielectric Liquids under the Influence of the Radium Rays and of the Roentgen Rays,1904,0
+37,1,W2072443063,https://doi.org/10.1038/121501c0,A New Type of Secondary Radiation,1928,2662
+37,2,W2080896630,https://doi.org/10.1016/s0016-0032(41)90947-x,The scattering of light in crystals,1941,485
+37,3,W2748637106,,The fundamentals of crystal physics,1943,473
+37,4,W3177123549,https://doi.org/10.1007/bf03035840,The diffraction of light by high frequency sound waves: Part I.,1935,420
+37,5,W2043868875,https://doi.org/10.1038/121619b0,A Change of Wave-length in Light Scattering,1928,267
+37,6,W2281067309,https://doi.org/10.1007/bf03035822,The diffraction of light by high frequency sound waves: Part IV,1936,253
+37,7,W6720972,https://doi.org/10.1007/bf03052651,A new radiation,1953,235
+37,8,W1991394410,https://doi.org/10.2113/gsecongeo.88.8.1989,"Active and relict sea-floor hydrothermal mineralization at the TAG hydrothermal field, Mid-Atlantic Ridge",1993,219
+37,9,W2078583618,https://doi.org/10.1038/155396a0,Scattering of Light in Crystals,1945,205
+37,10,W3209996618,https://doi.org/10.1007/bf03046238,The diffraction of light by high frequency sound waves: Part III,1936,137
+37,11,W2279228035,https://doi.org/10.1007/bf03035841,The diffraction of light by sound waves of high frequency: Part II,1935,127
+37,12,W2601038598,https://doi.org/10.1038/145147a0,The α-β Transformation of Quartz,1940,123
+37,13,W1979470288,https://doi.org/10.1038/121711a0,The Optical Analogue of the Compton Effect,1928,102
+37,14,W2004497729,https://doi.org/10.1038/111532b0,A Theory of the Viscosity of Liquids,1923,97
+37,15,W2050193529,https://doi.org/10.1103/physrev.15.277,On Some Applications of Hertz's Theory of Impact,1920,96
+37,16,W2005851512,https://doi.org/10.1103/physrev.12.442,The Photographic Study of Impact at Minimal Velocities,1918,71
+37,17,W2637767500,https://doi.org/10.1007/bf03046902,The diffraction of light by high frequency sound waves: Part V,1936,64
+37,18,W2074031238,https://doi.org/10.1038/122012b0,The Negative Absorption of Radiation,1928,63
+37,19,W2495189060,https://doi.org/10.2973/odp.proc.sr.116.110.1990,"Sediment Facies and Processes on the Distal Bengal Fan, Leg 116",1990,56
+37,20,W109283507,https://doi.org/10.1007/bf03046531,The vibration spectrum of a crystal lattice,1943,56
+37,21,W2088920629,https://doi.org/10.1098/rspa.1922.0025,On the molecular scattering of light in water and the colour of the sea,1922,56
+37,22,W2025158636,https://doi.org/10.1098/rspa.1929.0002,The production of new radiations by light scattering. —Part I,1929,55
+37,23,W131994752,https://doi.org/10.1007/bf03036872,The theory of the Christiansen experiment,1949,52
+37,24,W2067355046,https://doi.org/10.1038/122169a0,Polarisation of Scattered Light-quanta,1928,49
+37,25,W2900122492,https://doi.org/10.1007/bf03046003,Reflection of X-rays with change of frequency,1940,48
+962,1,W2028602705,https://doi.org/10.1016/0030-4018(85)90120-8,Compression of amplified chirped optical pulses,1985,3937
+962,2,W3149578424,https://doi.org/10.1016/0030-4018(85)90151-8,Compression of amplified chirped optical pulses,1985,1242
+962,3,W1987206048,https://doi.org/10.1109/3.137,Generation of ultrahigh peak power pulses by chirped pulse amplification,1988,942
+962,4,W2038649400,https://doi.org/10.1103/physrevlett.63.2212,Tunneling ionization of noble gases in a high-intensity laser field,1989,646
+962,5,W2055738441,https://doi.org/10.1364/josab.8.000858,Laser ionization of noble gases by Coulomb-barrier suppression,1991,520
+962,6,W2047370436,https://doi.org/10.1364/ol.19.000737,Femtosecond laser pulse shaping by use of microsecond radio-frequency pulses,1994,279
+962,7,W1995812121,https://doi.org/10.1103/physrevlett.68.2755,Optical studies of inertially confined molecular iodine ions,1992,160
+962,8,W2056524507,https://doi.org/10.1103/physreva.47.2305,Molecular reorientation during dissociative multiphoton ionization,1993,146
+962,9,W2029483302,https://doi.org/10.1103/physrevlett.62.760,Short-Pulse Laser Absorption in Very Steep Plasma Density Gradients,1989,141
+962,10,W2953443502,https://doi.org/10.1103/revmodphys.91.030502,Nobel Lecture: Generating high-intensity ultrashort optical pulses,2019,84
+962,11,W2046393156,https://doi.org/10.1364/josab.11.000492,Resistance of short pulses to self-focusing,1994,46
+962,12,W1970072095,https://doi.org/10.1063/1.859934,Interaction of a 1 psec laser pulse with solid matter,1991,46
+962,13,W2224964899,https://doi.org/10.1364/ol.17.000604,Cr:LiSrAlF_6 regenerative amplifier,1992,38
+962,14,W2003762847,https://doi.org/10.1109/3.40652,Absorption of an ultrashort laser pulse in very steep plasma density gradients,1989,31
+962,15,W2057358381,https://doi.org/10.1364/ol.27.002100,Multifrequency parametric infrared Raman generation in KGd(WO_4)_2 crystal with biharmonic ultrashort-pulse pumping,2002,29
+962,16,W2034978251,https://doi.org/10.1063/1.115923,Intense second harmonic generation and long-range structural ordering in thin films of an organic salt grown by organic vapor phase deposition,1996,25
+962,17,W2046565768,https://doi.org/10.1016/s0030-4018(02)01301-9,Development of a dual-wavelength Ti:sapphire multi-pass amplifier and its application to intense mid-infrared generation,2002,23
+962,18,W2031233457,https://doi.org/10.1088/0953-4075/26/15/018,Multiphoton ionization of inertially confined molecular ions,1993,23
+962,19,W2916178233,https://doi.org/10.1063/1.5063897,The role of laser fluence and ambient environments on femtosecond laser induced breakdown spectroscopy and on surface morphology of Mg and Zr,2019,22
+962,20,W2048199114,https://doi.org/10.1364/ol.33.001065,"Two-color fiber amplifier for short-pulse, mid-infrared generation",2008,21
+962,21,W2115983867,https://doi.org/10.1364/ol.37.003570,Tunable mid-infrared source from an ultrafast two-color Yb:fiber chirped-pulse amplifier,2012,19
+962,22,W2045861437,https://doi.org/10.1364/ol.25.000581,Dual-wavelength chirped-pulse amplification system,2000,19
+962,23,W1980339504,https://doi.org/10.1016/j.optcom.2006.09.021,Transient multi-frequency Raman generation in SF6,2006,16
+962,24,W1971116542,https://doi.org/10.1364/ol.27.000200,"Mid-infrared pulses generated from the mixing output of an amplified, dual-wavelength Ti:sapphire system",2002,13
+962,25,W4285010665,https://doi.org/10.3390/photonics9070476,Laser Beat-Wave Acceleration near Critical Density,2022,12
+160,1,W2581845315,https://doi.org/10.1515/zpch-1887-0151,Die Rolle des osmotischen Druckes in der Analogie zwischen Lösungen und Gasen,1887,265
+160,2,W1989059350,https://doi.org/10.1002/zaac.19050470116,Zur Bildung der ozeanischen Salzablagerungen,1905,106
+160,3,W1541452967,,Die Lagerung der Atome im Raume,2009,49
+160,4,W622244830,,La chimie dans l'espace,1875,48
+160,5,W2721106904,https://doi.org/10.1515/zpch-1890-0531,Über feste Lösungen und Molekulargewichtsbestimmung an festen Körpern,1890,19
+160,6,W613223443,,"The Foundations of Stereo Chemistry; Memoirs by Pasteur, Van't Hoff, Lebel and Wislicenus",2010,17
+160,7,W2094070576,https://doi.org/10.1002/cber.189803101110,Die racemische Umwandlung des Ammoniumbimalats,1898,16
+160,8,W2581177722,https://doi.org/10.1515/zpch-1887-0123,Mitteilungen aus dem Universitätslaboratorium von Amsterdam,1887,15
+160,9,W1981309840,https://doi.org/10.1002/cber.18940270104,Wie die Theorie der Lösungen entstand,1894,13
+160,10,W568101975,,Physical Chemistry in the Service of the Sciences,2010,8
+160,11,W620836129,,"Van't Hoff - Le Bel centennial : a symposium sponsored by the Division of the History of Chemistry at the 168th meeting of the American Chemical Society, Atlantic City, N.J., Sept. 11-12, 1974",1975,8
+160,12,W2098143567,https://doi.org/10.1002/cber.189803102175,Ueber die racemische Umwandlung des Rubidiumracemats,1898,8
+160,13,W2078239662,https://doi.org/10.1039/ct9028100969,Raoult Memorial Lecture,1902,7
+160,14,W4239803923,https://doi.org/10.1002/jlac.19073510110,Krystallisirte Calciumborate,1907,6
+160,15,W2316299730,https://doi.org/10.1021/j150065a001,The Relation of Physical Chemistry to Physics and Chemistry,1905,6
+160,16,W2610789660,https://doi.org/10.1515/zpch-1895-1630,"Über die Menge und die Natur des sogen. Ozons, das sich bei langsamer Oxydation des Phosphors bildet",1895,6
+160,17,W1966207165,https://doi.org/10.1002/cber.18770100282,Ueber den Zusammenhang zwischen optischer Activität und Constitution,1877,6
+160,18,W565281577,,"Van't Hoff and the emergence of chemical thermodynamics : centennial of the first Nobel Prize for Chemistry, 1901-2001",2001,5
+160,19,W606200707,,"Recherches sur la dissymétrie moléculaire (1860-1883) . suivi de, La chimie dans l'espace (1887) . et, Sur les composés métalliques à dissymétrie moléculaire (1912)",1986,5
+160,20,W2582740178,https://doi.org/10.1515/zpch-1898-0104,"Ueber Anwendungen der Gleichgewichtslehre auf die Bildung oceanischer Salzablagerungen, mit besonderer Berücksichtigung des Stassfurter Salzlagers",1898,5
+160,21,W632333244,,Studien zur chemischen Dynamik : nach J. H. van't Hoff's Etudes de dynamique chimique,1896,5
+160,22,W2023514241,https://doi.org/10.1002/cber.187701001186,Chlorbromkohlenstoff aus Trichloressigsäure,1877,5
+160,23,W1969004970,https://doi.org/10.1002/cber.18730060270,Ueber eine neue Synthese der Propionsäure,1873,5
+160,24,W2050695582,https://doi.org/10.1126/science.22.569.649,The Relation of Physical Chemistry to Physics and Chemistry,1905,4
+160,25,W4213035218,https://doi.org/10.1515/zpch-1895-1822,Ueber das Verdünnungsgesetz bei Salzen,1895,4
+230,1,W964503500,https://doi.org/10.1016/s0065-3233(08)60143-6,Insulin: The Structure in the Crystal and its Reflection in Chemistry and Biology by,1972,836
+230,2,W2058691613,https://doi.org/10.1038/192937a0,"Structure of the 5,6-Dimethylbenzimidazolylcobamide Coenzyme",1961,312
+230,3,W1986091806,https://doi.org/10.1038/178064a0,Structure of Vitamin B12,1956,270
+230,4,W2138090458,https://doi.org/10.1038/261166a0,Structure of insulin in 4-zinc insulin,1976,256
+230,5,W2085646026,https://doi.org/10.1038/176325a0,Structure of Vitamin B12 : The Crystal Structure of the Hexacarboxylic Acid derived from B12 and the Molecular Structure of the Vitamin,1955,230
+230,6,W2056838602,https://doi.org/10.1038/302500a0,Transmission of conformational change in insulin,1983,182
+230,7,W2088330573,https://doi.org/10.1038/225233a0,The Structure of Thiostrepton,1970,179
+230,8,W2414293732,https://doi.org/10.1042/bj0650752,Appendix 2—Possible molecular models for gramicidin S and their relationship to present ideas of protein structure,1957,142
+230,9,W1764629353,https://doi.org/10.1042/bj0790393,The X-ray analysis of the structure of cephalosporin C,1961,118
+230,10,W190932957,https://doi.org/10.1016/s0022-2836(66)80274-7,The crystal structure of insulin,1966,98
+230,11,W2046315748,https://doi.org/10.1126/science.150.3699.979,The X-ray Analysis of Complicated Molecules,1965,88
+230,12,W1771909345,https://doi.org/10.1098/rspa.1957.0174,The structure of vitamin B12. I. An outline of the crystallographic investigation of vitamin B12,1957,85
+230,13,W2053038090,https://doi.org/10.1038/1741169a0,Structure of Vitamin B12: X-ray Crystallographic Evidence on the Structure of Vitamin B12,1954,78
+230,14,W2404364250,https://doi.org/10.1042/bj0650744,A crystallographic study of some derivatives of gramicidin S,1957,77
+230,15,W1973584628,https://doi.org/10.1039/jr9550003261,A crystallographic examination of the structure of morphine,1955,69
+230,16,W1621751143,https://doi.org/10.1098/rspa.1964.0042,The structure of Vitamin B12 VI. The structure of crystals of vitamin B12 grown from and immersed in water,1964,55
+230,17,W1547629141,https://doi.org/10.1016/s0022-2836(66)80275-9,The crystal structure of insulin,1966,54
+230,18,W2413259412,,The X-ray analysis of the structure of penicillin.,1949,45
+230,19,W2327959646,https://doi.org/10.1515/bchm2.1981.362.1.755,Evidence Concerning Insulin Activity from the Structure of a Cross-Linked Derivative,1981,44
+230,20,W2031793674,https://doi.org/10.1038/224589a0,Structure of Ferroverdin,1969,42
+230,21,W2095787660,https://doi.org/10.1039/jr9630004945,947. The crystal structure of a calciferol derivative,1963,41
+230,22,W2124633725,https://doi.org/10.2337/diab.21.12.1131,The Structure of Insulin,1972,40
+230,23,W1986847107,https://doi.org/10.1098/rspa.1971.0116,"The structure of vitamin B12. IX. The crystal structure of cobyric acid, factor V 1 a",1971,37
+230,24,W2063267354,https://doi.org/10.1039/c29690000069,The structure of the red nitrosylpenta-amminecobalt(III) cation,1969,37
+230,25,W1990535180,https://doi.org/10.1039/j29710000640,"Crystal and molecular structure of 8,12-diethyl-2,3,7,13,17,18-hexamethylcorrole",1971,35
+292,1,W2007203783,https://doi.org/10.1021/jp001460h,Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond,2000,1788
+292,2,W2070951363,https://doi.org/10.1126/science.1166135,Four-Dimensional Electron Microscopy,2010,807
+292,3,W2020006133,https://doi.org/10.1038/nature08662,Photon-induced near-field electron microscopy,2009,772
+292,4,W2071062622,https://doi.org/10.1021/cr020689l,Dynamics of Water in Biological Recognition,2004,763
+292,5,W4237059594,https://doi.org/10.1126/science.242.4886.1645,Laser Femtochemistry,1988,720
+292,6,W2130578590,https://doi.org/10.1002/1521-3773(20000804)39:15<2586::aid-anie2586>3.0.co;2-o,Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond Using Ultrafast Lasers (Nobel Lecture),2000,592
+292,7,W2009442202,https://doi.org/10.1016/0301-0104(96)00067-5,Proton-transfer reaction dynamics,1996,575
+292,8,W2102100267,https://doi.org/10.1126/science.1147724,4D Visualization of Transitional Structures in Phase Transformations by Electron Diffraction,2007,571
+292,9,W2146330827,https://doi.org/10.1146/annurev.physchem.57.032905.104748,"4D ULTRAFAST ELECTRON DIFFRACTION, CRYSTALLOGRAPHY, AND MICROSCOPY",2006,549
+292,10,W2162832464,https://doi.org/10.1073/pnas.042697899,Biological water at the protein surface: Dynamical solvation probed directly with femtosecond resolution,2002,549
+292,11,W1992145745,https://doi.org/10.1126/science.291.5503.458,Direct Imaging of Transient Molecular Structures with Ultrafast Diffraction,2001,538
+292,12,W2057742133,https://doi.org/10.1021/jp0213506,Biological Water: Femtosecond Dynamics of Macromolecular Hydration,2002,493
+292,13,W1964069776,https://doi.org/10.1021/ar00051a005,Direct Observation of the Transition State,1995,480
+292,14,W2093458139,https://doi.org/10.1063/1.453122,Real-time femtosecond probing of ‘‘transition states’’ in chemical reactions,1987,440
+292,15,W2003771289,https://doi.org/10.1063/1.454408,Femtosecond real-time observation of wave packet oscillations (resonance) in dissociation reactions,1988,408
+292,16,W654242132,https://doi.org/10.1142/9789814287616,Femtochemistry: Ultrafast Dynamics of the Chemical Bond,1994,380
+292,17,W1978316999,https://doi.org/10.1088/1367-2630/12/12/123028,Photon-induced near-field electron microscopy (PINEM): theoretical and experimental,2010,351
+292,18,W2025906452,https://doi.org/10.1073/pnas.0502607102,Four-dimensional ultrafast electron microscopy,2005,339
+292,19,W2026128357,https://doi.org/10.1073/pnas.250483297,Femtosecond direct observation of charge transfer between bases in DNA,2000,339
+292,20,W2023693337,https://doi.org/10.1073/pnas.96.11.6014,Femtosecond dynamics of DNA-mediated electron transfer,1999,338
+292,21,W2145926643,https://doi.org/10.1146/annurev.pc.41.100190.000311,Ultrafast Molecular Reaction Dynamics in Real-Time: Progress Over a Decade,1990,322
+292,22,W2122617659,https://doi.org/10.1007/978-3-642-84269-6,Ultrafast Phenomena VII,1990,310
+292,23,W2078601969,https://doi.org/10.1038/355066a0,Femtosecond laser control of a chemical reaction,1992,305
+292,24,W2025940074,https://doi.org/10.1021/jp960658s,Femtochemistry: Recent Progress in Studies of Dynamics and Control of Reactions and Their Transition States,1996,299
+292,25,W2015447123,https://doi.org/10.1063/1.457266,Femtosecond real-time probing of reactions. IV. The reactions of alkali halides,1989,294
+1055,1,W2141939342,https://doi.org/10.1126/science.1230444,The Chemistry and Applications of Metal-Organic Frameworks,2013,17036
+1055,2,W1999908724,https://doi.org/10.1038/nature01650,Reticular synthesis and the design of new materials,2003,9136
+1055,3,W1677747913,https://doi.org/10.1038/46248,Design and synthesis of an exceptionally stable and highly porous metal-organic framework,1999,8588
+1055,4,W2049145344,https://doi.org/10.1126/science.1120411,"Porous, Crystalline, Covalent Organic Frameworks",2005,8414
+1055,5,W2022085591,https://doi.org/10.1126/science.1067208,Systematic Design of Pore Size and Functionality in Isoreticular MOFs and Their Application in Methane Storage,2002,8144
+1055,6,W2062269633,https://doi.org/10.1021/cr300014x,Introduction to Metal–Organic Frameworks,2012,7747
+1055,7,W2163535530,https://doi.org/10.1073/pnas.0602439103,Exceptional chemical and thermal stability of zeolitic imidazolate frameworks,2006,7599
+1055,8,W2164043498,https://doi.org/10.1021/ar000034b,Modular Chemistry: Secondary Building Units as a Basis for the Design of Highly Porous and Robust Metal−Organic Carboxylate Frameworks,2001,5184
+1055,9,W1975501285,https://doi.org/10.1126/science.1083440,Hydrogen Storage in Microporous Metal-Organic Frameworks,2003,4854
+1055,10,W2001037711,https://doi.org/10.1126/science.1152516,High-Throughput Synthesis of Zeolitic Imidazolate Frameworks and Application to CO 2 Capture,2008,4214
+1055,11,W2053700726,https://doi.org/10.1126/science.1192160,Ultrahigh Porosity in Metal-Organic Frameworks,2010,3914
+1055,12,W2594238106,https://doi.org/10.1126/science.aal1585,"The atom, the molecule, and the covalent organic framework",2017,3520
+1055,13,W1990918587,https://doi.org/10.1038/378703a0,Selective binding and removal of guests in a microporous metal–organic framework,1995,3095
+1055,14,W2056127514,https://doi.org/10.1016/j.micromeso.2004.03.034,Metal–organic frameworks: a new class of porous materials,2004,2967
+1055,15,W2021523927,https://doi.org/10.1021/ja500330a,Water Adsorption in Porous Metal–Organic Frameworks and Related Materials,2014,2898
+1055,16,W4239958190,https://doi.org/10.1021/ja0570032,Metal−Organic Frameworks with Exceptionally High Capacity for Storage of Carbon Dioxide at Room Temperature,2005,2876
+1055,17,W2034984769,https://doi.org/10.1038/nature02311,"A route to high surface area, porosity and inclusion of large molecules in crystals",2004,2817
+1055,18,W2137818170,https://doi.org/10.1126/science.aac8343,Covalent organic frameworks comprising cobalt porphyrins for catalytic CO 2 reduction in water,2015,2651
+1055,19,W2942998504,https://doi.org/10.1039/c8cs00829a,Carbon capture and conversion using metal–organic frameworks and MOF-based materials,2019,2632
+1055,20,W2028182782,https://doi.org/10.1021/ar900116g,"Synthesis, Structure, and Carbon Dioxide Capture Properties of Zeolitic Imidazolate Frameworks",2009,2625
+1055,21,W2049541689,https://doi.org/10.1021/ja9015765,"Storage of Hydrogen, Methane, and Carbon Dioxide in Highly Porous Covalent Organic Frameworks for Clean Energy Applications",2009,2613
+1055,22,W1989896216,https://doi.org/10.1126/science.1139915,Designed Synthesis of 3D Covalent Organic Frameworks,2007,2583
+1055,23,W2090264019,https://doi.org/10.1021/ja045123o,Rod Packings and Metal−Organic Frameworks Constructed from Rod-Shaped Secondary Building Units,2005,2502
+1055,24,W1987632972,https://doi.org/10.1039/b817735j,"Secondary building units, nets and bonding in the chemistry of metal–organic frameworks",2009,2479
+1055,25,W1997531531,https://doi.org/10.1002/anie.200462786,Strategies for Hydrogen Storage in Metal–Organic Frameworks,2005,2462
+428,1,W1965368044,https://doi.org/10.1126/science.15739260,The Significance of Responses of the Genome to Challenge,1984,2619
+428,2,W2026519705,https://doi.org/10.1073/pnas.36.6.344,The origin and behavior of mutable loci in maize,1950,1755
+428,3,W1829553711,https://doi.org/10.1093/genetics/26.2.234,THE STABILITY OF BROKEN ENDS OF CHROMOSOMES IN ZEA MAYS,1941,1597
+428,4,W2130578722,https://doi.org/10.1101/sqb.1951.016.01.004,CHROMOSOME ORGANIZATION AND GENIC EXPRESSION,1951,1205
+428,5,W2094913043,https://doi.org/10.1101/sqb.1956.021.01.017,Controlling Elements and the Gene,1956,849
+428,6,W2066886585,https://doi.org/10.1007/bf00374060,The relation of a particular chromosomal element to the development of the nucleoli in Zea mays,1934,662
+428,7,W1977172248,https://doi.org/10.1073/pnas.25.8.405,The Behavior in Successive Nuclear Divisions of a Chromosome Broken at Meiosis,1939,559
+428,8,W2133438304,https://doi.org/10.1093/genetics/23.4.315,THE PRODUCTION OF HOMOZYGOUS DEFICIENT TISSUES WITH MUTANT CHARACTERISTICS BY MEANS OF THE ABERRANT MITOTIC BEHAVIOR OF RING-SHAPED CHROMOSOMES,1938,477
+428,9,W2221571340,,Mutable Loci in Maize,1948,451
+428,10,W2005386793,https://doi.org/10.1007/bf02462870,The association of non-homologous parts of chromosomes in the mid-prophase of meiosis in zea mays,1933,367
+428,11,W2027884659,https://doi.org/10.1073/pnas.28.11.458,The Fusion of Broken Ends of Chromosomes Following Nuclear Fusion,1942,326
+428,12,W1996129056,https://doi.org/10.1073/pnas.17.8.492,A Correlation of Cytological and Genetical Crossing-Over in Zea Mays,1931,271
+428,13,W2624179881,,The control of gene action in maize,1965,263
+428,14,W1705376011,https://doi.org/10.1093/genetics/38.6.579,INDUCTION OF INSTABILITY AT SELECTED LOCI IN MAIZE,1953,262
+428,15,W1895714488,https://doi.org/10.1093/genetics/14.2.180,A CYTOLOGICAL AND GENETICAL STUDY OF TRIPLOID MAIZE,1929,226
+428,16,W2052142603,https://doi.org/10.1002/j.1537-2197.1945.tb05175.x,NEUROSPORA. I. PRELIMINARY OBSERVATIONS OF THE CHROMOSOMES OF NEUROSPORA CRASSA,1945,218
+428,17,W2595624821,,Mechanisms that rapidly reorganize the genome,1978,200
+428,18,W2594049814,,"Cytological observations of deficiencies involving known genes, translocations and an inversion in Zea mays",1931,168
+428,19,W1988498700,https://doi.org/10.1086/282188,Some Parallels Between Gene Control Systems in Maize and in Bacteria,1961,166
+428,20,W2019771705,https://doi.org/10.1073/pnas.18.12.677,A Correlation of Ring-Shaped Chromosomes with Variegation in Zea Mays,1932,166
+428,21,W2083513542,https://doi.org/10.1126/science.69.1798.629,Chromosome Morphology in Zea mays,1929,165
+428,22,W2036185668,https://doi.org/10.1073/pnas.16.12.791,A CYTOLOGICAL DEMONSTRATION OF THE LOCATION OF AN INTERCHANGE BETWEEN TWO NON-HOMOLOGOUS CHROMOSOMES OF ZEA MAYS,1930,163
+428,23,W2212128169,,Cytogenetic Studies of Maize and Neurospora,1945,159
+428,24,W2600702341,,The fusion of broken ends of sister half-chromatids following chromatid breakage at meiotic anaphases,1938,152
+428,25,W1973349890,https://doi.org/10.1007/bf02869757,The cytogenetics of maize,1935,146
+918,1,W1965003536,https://doi.org/10.1038/nm.2471,The discovery of artemisinin (qinghaosu) and gifts from Chinese medicine,2011,1404
+918,2,W2500727927,https://doi.org/10.1002/anie.201601967,Artemisinin—A Gift from Traditional Chinese Medicine to the World (Nobel Lecture),2016,815
+918,3,W3048041047,https://doi.org/10.1016/j.pharmthera.2020.107658,The birth of artemisinin,2020,315
+918,4,W2903916649,https://doi.org/10.1016/j.eng.2018.11.011,"Artemisinin, the Magic Drug Discovered from Traditional Chinese Medicine",2018,217
+918,5,W2052435822,https://doi.org/10.1016/j.intimp.2006.03.004,Dihydroarteannuin ameliorates lupus symptom of BXSB mice by inhibiting production of TNF-alpha and blocking the signaling pathway NF-kappa B translocation,2006,130
+918,6,W2941030960,https://doi.org/10.1056/nejmp1901233,A Temporizing Solution to “Artemisinin Resistance”,2019,89
+918,7,W3011284286,https://doi.org/10.1016/s0140-6736(20)30561-4,Preparedness is essential for malaria-endemic regions during the COVID-19 pandemic,2020,75
+918,8,W4411331275,https://doi.org/10.1038/s41392-025-02246-3,"Malaria: past, present, and future",2025,73
+918,9,W3144511851,https://doi.org/10.1039/d0np00079e,Study towards improving artemisinin-based combination therapies,2021,45
+918,10,W2484834618,https://doi.org/10.1002/ange.201601967,Artemisinin: Ein Geschenk der traditionellen chinesischen Medizin an die Welt (Nobel‐Aufsatz),2016,26
+918,11,W2415857352,,The development of the antimalarial drugs with new type of chemical structure--qinghaosu and dihydroqinghaosu.,2004,25
+918,12,W2357835379,,"[Effect of dihydro-qinghaosu on auto-antibody production, TNF alpha secretion and pathologic change of lupus nephritis in BXSB mice].",2003,24
+918,13,W3111997701,https://doi.org/10.1016/s0140-6736(20)32400-4,Triple artemisinin-based combination therapies for malaria: proceed with caution,2020,18
+918,14,W2913263498,https://doi.org/10.1016/b978-0-12-811655-5.00023-4,Artemisinins,2017,16
+918,15,W2375578461,,"[Determination of artemisinin, arteannuin B and artemisinic acid in Herba Artemisiae Annuae by HPLC-UV-ELSD].",2007,16
+918,16,W4233197293,https://doi.org/10.1016/s0140-6736(20)30223-3,Malaria eradication,2020,14
+918,17,W2981835717,https://doi.org/10.1016/s1473-3099(19)30535-3,Suboptimal dosing triggers artemisinin partner drug resistance,2019,12
+918,18,W2361047833,,[Phenylethanoid glycosides from stem of Chirita longgangensis var. hongyao].,2005,11
+918,19,W4281724880,https://doi.org/10.1038/s41591-022-01824-0,The role of research in China’s successful elimination of malaria,2022,9
+918,20,W2949609896,https://doi.org/10.1002/chin.201641275,ChemInform Abstract: Artemisinin — A Gift from Traditional Chinese Medicine to the World (Nobel Lecture),2016,9
+918,21,W4226162648,https://doi.org/10.1016/s1473-3099(22)00208-0,Is triple artemisinin-based combination therapy necessary for uncomplicated malaria?,2022,7
+918,22,W2352403150,,[Studies on chemical constituents in rhizome of Matteuccia struthiopteris].,2004,7
+918,23,W2410872996,,[Studies on the chemical constituents from stem of Chirita longgangensis var. Hongyao].,2006,6
+918,24,W4413421127,https://doi.org/10.1016/j.xinn.2025.101080,Single-cell profiling reveals immunoregulation of artemisinin on CD8+GZMB+ T cells via JAK2-STAT3 in malaria-infected mice,2025,5
+918,25,W2735155945,https://doi.org/10.1016/b978-0-12-811655-5.00008-8,Metabolic Engineering of Artemisia annua L.,2017,5
+1024,1,W2025980739,https://doi.org/10.1016/j.immuni.2005.06.008,Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA,2005,2728
+1024,2,W1963706689,https://doi.org/10.1038/nrd4278,mRNA-based therapeutics — developing a new class of drugs,2014,2476
+1024,3,W3090844627,https://doi.org/10.1038/s41586-020-2814-7,COVID-19 vaccine BNT162b1 elicits human antibody and TH1 T cell responses,2020,1977
+1024,4,W2058647478,https://doi.org/10.1038/mt.2008.200,Incorporation of Pseudouridine Into mRNA Yields Superior Nonimmunogenic Vector With Increased Translational Capacity and Biological Stability,2008,1930
+1024,5,W1986178107,https://doi.org/10.1074/jbc.m310175200,mRNA Is an Endogenous Ligand for Toll-like Receptor 3,2004,1062
+1024,6,W1420726270,https://doi.org/10.1016/j.jconrel.2015.08.007,Expression kinetics of nucleoside-modified mRNA delivered in lipid nanoparticles to mice by various routes,2015,1029
+1024,7,W2114208662,https://doi.org/10.1038/nature06765,Sequence- and target-independent angiogenesis suppression by siRNA via TLR3,2008,931
+1024,8,W3164002264,https://doi.org/10.1038/s41586-021-03653-6,BNT162b2 vaccine induces neutralizing antibodies and poly-specific T cells in humans,2021,915
+1024,9,W2162970812,https://doi.org/10.1093/nar/gkr695,"Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA",2011,898
+1024,10,W2584249987,https://doi.org/10.1038/nature21428,Zika virus protection by a single low-dose nucleoside-modified mRNA vaccination,2017,884
+1024,11,W3209735640,https://doi.org/10.1016/j.immuni.2021.11.001,Lipid nanoparticles enhance the efficacy of mRNA and protein subunit vaccines by inducing robust T follicular helper cell and humoral responses,2021,776
+1024,12,W2156788486,https://doi.org/10.1093/nar/gkq347,Incorporation of pseudouridine into mRNA enhances translation by diminishing PKR activation,2010,681
+1024,13,W2085350682,https://doi.org/10.1038/nature09830,DICER1 deficit induces Alu RNA toxicity in age-related macular degeneration,2011,601
+1024,14,W2915388137,https://doi.org/10.1016/j.omtn.2019.02.018,A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA,2019,569
+1024,15,W2802953285,https://doi.org/10.1084/jem.20171450,Nucleoside-modified mRNA vaccines induce potent T follicular helper and germinal center B cell responses,2018,529
+1024,16,W3120567430,https://doi.org/10.1126/science.aay3638,A noninflammatory mRNA vaccine for treatment of experimental autoimmune encephalomyelitis,2021,519
+1024,17,W1515466910,https://doi.org/10.4049/jimmunol.172.11.6545,Small Interfering RNAs Mediate Sequence-Independent Gene Suppression and Induce Immune Activation by Signaling through Toll-Like Receptor 3,2004,449
+1024,18,W3045596302,https://doi.org/10.1016/j.immuni.2020.07.019,A Single Immunization with Nucleoside-Modified mRNA Vaccines Elicits Strong Cellular and Humoral Immune Responses against SARS-CoV-2 in Mice,2020,366
+1024,19,W2071136305,https://doi.org/10.1093/nar/gkr586,Nucleoside modifications in RNA limit activation of 2'-5'-oligoadenylate synthetase and increase resistance to cleavage by RNase L,2011,356
+1024,20,W2593990758,https://doi.org/10.1038/ncomms14630,Administration of nucleoside-modified mRNA encoding broadly neutralizing antibody protects humanized mice from HIV-1 challenge,2017,352
+1024,21,W4210741764,https://doi.org/10.1016/j.ymthe.2022.02.001,"Lyophilization provides long-term stability for a lipid nanoparticle-formulated, nucleoside-modified mRNA vaccine",2022,331
+1024,22,W2171790482,https://doi.org/10.4049/jimmunol.169.9.5196,Inhibition of HIV-1 Infection by Small Interfering RNA-Mediated RNA Interference,2002,302
+1024,23,W2626337750,https://doi.org/10.1038/nm.4356,Elimination of large tumors in mice by mRNA-encoded bispecific antibodies,2017,290
+1024,24,W2054412308,https://doi.org/10.1038/mt.2012.7,Increased Erythropoiesis in Mice Injected With Submicrogram Quantities of Pseudouridine-containing mRNA Encoding Erythropoietin,2012,282
+1024,25,W2885263529,https://doi.org/10.1038/s41467-018-05482-0,Nucleoside-modified mRNA immunization elicits influenza virus hemagglutinin stalk-specific antibodies,2018,280
+678,1,W2057222804,https://doi.org/10.2307/2550637,Shaping the World Economy: Suggestions for an International Economic Policy.,1964,2002
+678,2,W2262759381,https://doi.org/10.2307/1236502,Shaping the World Economy: Suggestions for an International Economic Policy,1964,1398
+678,3,W2075588625,,On the Theory of Economic Policy,1952,1076
+678,4,W1496738896,https://doi.org/10.1016/0147-5967(78)90015-x,Politics and markets—The world's political—Economic systems,1978,1050
+678,5,W2029512968,https://doi.org/10.1002/tie.5060050113,Shaping the world economy,1963,714
+678,6,W2063474468,https://doi.org/10.2307/3498334,Economic Policy: Principles and Design,1959,635
+678,7,W4253997510,https://doi.org/10.2307/1925613,On the Theory of Economic Policy,1954,360
+678,8,W1593224091,,Income Distribution: Analysis and Policies,1975,304
+678,9,W2031335572,https://doi.org/10.1111/j.1467-6435.1974.tb01903.x,SUBSTITUTION OF GRADUATE BY OTHER LABOUR,1974,209
+678,10,W1538724066,,Statistical testing of business-cycle theories,1968,188
+678,11,W4254341212,https://doi.org/10.2307/3497941,On the Theory of Economic Policy,1954,178
+678,12,W4236997086,https://doi.org/10.2307/1909839,A Textbook of Econometrics,1954,171
+678,13,W1555246701,https://doi.org/10.1016/0161-8938(80)90008-3,Macro models for developing countries,1980,146
+678,14,W2313415804,https://doi.org/10.2307/1905323,Annual Survey: Suggestions on Quantitative Business Cycle Theory,1935,135
+678,15,W2032002370,https://doi.org/10.1111/j.1475-4991.1970.tb00699.x,A POSITIVE AND A NORMATIVE THEORY OF INCOME DISTRIBUTION,1970,134
+678,16,W2111000264,https://doi.org/10.2307/3438533,Centralization and Decentralization in Economic Policy,1954,121
+678,17,W2329265700,https://doi.org/10.2307/2282598,Economic Policy: Principles and Design.,1958,118
+678,18,W2014106608,https://doi.org/10.1007/bf01318500,Bestimmung und Deutung von Angebotskurven Ein Beispiel,1930,116
+678,19,W1509150474,https://doi.org/10.2307/2225763,On a Method of Statistical Business-Cycle Research. A Reply,1940,113
+678,20,W2072719110,,Reshaping the international order : a report to the Club of Rome,1976,110
+678,21,W4300938696,https://doi.org/10.2307/3498941,International Economic Integration,1966,108
+678,22,W2151528256,https://doi.org/10.2307/2224937,An Econometric Approach to Business Cycle Problems.,1938,105
+678,23,W4298869251,https://doi.org/10.2307/3498790,Shaping the World Economy. Suggestions for an International Economic Policy,1965,95
+678,24,W4300943499,https://doi.org/10.2307/2550961,International Economic Integration.,1956,93
+678,25,W2051578472,https://doi.org/10.2307/2226262,"Statistical Testing of Business-Cycle Theories: II; Business Cycles in the United States of America, 1919-32.",1941,89
+719,1,W1535803599,https://doi.org/10.1007/978-1-137-28787-8_94,Development as Freedom,2009,15841
+719,2,W4254363066,https://doi.org/10.2307/40203469,Development as Freedom,1999,13412
+719,3,W3021907865,https://doi.org/10.2307/135247,Commodities and Capabilities,1987,3734
+719,4,W1883239598,https://doi.org/10.1093/0198281935.001.0001,On Economic Inequality,1973,3433
+719,5,W4255228022,https://doi.org/10.2307/2234727,Inequality Reexamined.,1993,3217
+719,6,W1512416168,,Rational Fools: A Critique of the Behavioral Foundations of Economic Theory,1977,3156
+719,7,W2025258580,https://doi.org/10.2307/1912718,Poverty: An Ordinal Approach to Measurement,1976,3019
+719,8,W66379224,https://doi.org/10.2307/2026184,"Well-Being, Agency and Freedom: The Dewey Lectures 1984",1985,2717
+719,9,W1975833254,https://doi.org/10.2307/1913866,Collective Choice and Social Welfare,1972,2565
+719,10,W2057454132,https://doi.org/10.1017/cbo9780511611964,Utilitarianism and Beyond,1982,2220
+719,11,W2096196718,https://doi.org/10.1080/14649880500120491,Human Rights and Capabilities,2005,1967
+719,12,W1497460133,https://doi.org/10.1017/cbo9780511819025.019,Capability and Well-Being,2007,1862
+719,13,W2123880300,https://doi.org/10.1093/oxfordjournals.oep.a041587,"POOR, RELATIVELY SPEAKING *",1983,1831
+719,14,W1974780733,https://doi.org/10.5860/choice.28-3975,Hunger and public action,1991,1590
+719,15,W2164686699,https://doi.org/10.1353/jod.1999.0055,Democracy as a Universal Value,1999,1435
+719,16,W1539053875,https://doi.org/10.1093/oso/9780198290124.001.0001,India Economic Development and Social Opportunity,1996,1390
+719,17,W1993313925,https://doi.org/10.1086/259614,The Impossibility of a Paretian Liberal,1970,1385
+719,18,W197432415,https://doi.org/10.1007/978-1-349-21136-4_3,Development as Capability Expansion,1990,1336
+719,19,W1589800138,https://doi.org/10.2307/20031978,Identity and Violence: The Illusion of Destiny,2006,1323
+719,20,W2321036786,https://doi.org/10.1093/0198284632.001.0001,Poverty and Famines,1983,1216
+719,21,W2009526958,https://doi.org/10.2307/2232367,"Choice, Welfare and Measurement.",1984,1209
+719,22,W28889416,,"Social exclusion : concept, application, and scrutiny",2000,1119
+719,23,W2050497363,https://doi.org/10.1111/j.1088-4963.2004.00017.x,Elements of a Theory of Human Rights,2004,1106
+719,24,W2569732857,https://doi.org/10.2307/3323790,"Resources, Values and Development",1985,1093
+719,25,W2086535470,,"Resources, values, and development",1984,1032
+846,1,W4233654598,https://doi.org/10.1017/cbo9780511807763,Governing the Commons,1990,20657
+846,2,W2175723801,https://doi.org/10.2307/3146384,Governing the Commons: The Evolution of Institutions for Collective Action,1992,19100
+846,3,W2034994370,https://doi.org/10.1126/science.1172133,A General Framework for Analyzing Sustainability of Social-Ecological Systems,2009,8662
+846,4,W4299610040,https://doi.org/10.1515/9781400831739,Understanding Institutional Diversity,2006,5287
+846,5,W1968869144,https://doi.org/10.1080/19186444.2010.11658229,Beyond Markets and States: Polycentric Governance of Complex Economic Systems,2010,4409
+846,6,W1573084417,https://doi.org/10.2307/j.ctt7s7wm,Understanding Institutional Diversity,2009,4230
+846,7,W2165702945,https://doi.org/10.1126/science.1091015,The Struggle to Govern the Commons,2003,4209
+846,8,W2170689222,https://doi.org/10.1257/jep.14.3.137,Collective Action and the Evolution of Social Norms,2000,4195
+846,9,W1974491836,https://doi.org/10.3998/mpub.9739,"Rules, Games, and Common-Pool Resources",1994,3840
+846,10,W2010365184,https://doi.org/10.1126/science.1144004,Complexity of Coupled Human and Natural Systems,2007,3625
+846,11,W4414064306,https://doi.org/10.17323/1999-5431-2010-0-1-5-52,"A Behavioral Approach to the Rational Choice Theory of Collective Action Presidential Address, American political Science Association, 1997",2010,2850
+846,12,W2031839214,https://doi.org/10.1126/science.284.5412.278,"Revisiting the Commons: Local Lessons, Global Challenges",1999,2798
+846,13,W2071962320,https://doi.org/10.1073/pnas.0702288104,A diagnostic approach for going beyond panaceas,2007,2727
+846,14,W1600429647,https://doi.org/10.2307/3146375,Property-Rights Regimes and Natural Resources: A Conceptual Analysis,1992,2676
+846,15,W1996760592,https://doi.org/10.1016/0305-750x(96)00023-x,"Crossing the great divide: Coproduction, synergy, and development",1996,2660
+846,16,W2130387153,https://doi.org/10.1016/j.gloenvcha.2010.07.004,Polycentric systems for coping with collective action and global environmental change,2010,2466
+846,17,W2133417759,https://doi.org/10.2307/1964229,Covenants with and without a Sword: Self-Governance Is Possible,1992,2066
+846,18,W1957796155,https://doi.org/10.1111/j.1541-0072.2010.00394.x,Background on the Institutional Analysis and Development Framework,2011,1720
+846,19,W1557200796,https://doi.org/10.5751/es-00610-090118,A Framework to Analyze the Robustness of Social-ecological Systems from an Institutional Perspective,2004,1599
+846,20,W2049813215,https://doi.org/10.5751/es-06387-190230,Social-ecological system framework: initial changes and continuing challenges,2014,1519
+846,21,W2125342289,https://doi.org/10.1146/annurev.polisci.2.1.493,COPING WITH TRAGEDIES OF THE COMMONS,1999,1401
+846,22,W2037627831,https://doi.org/10.2307/2082975,A Grammar of Institutions,1995,1367
+846,23,W2085500839,https://doi.org/10.1007/bf00239556,An agenda for the study of institutions,1986,1176
+846,24,W2081155979,https://doi.org/10.1016/s0921-8009(99)00092-0,The concept of scale and the human dimensions of global change: a survey,2000,1116
+846,25,W1578030309,,Crafting Institutions for Self-Governing Irrigation Systems,1992,1073
+1034,1,W2159549133,https://doi.org/10.1257/aer.104.4.1091,A Grand Gender Convergence: Its Last Chapter,2014,2659
+1034,2,W2149648772,https://doi.org/10.1257/000282806777212350,"The Quiet Revolution That Transformed Women's Employment, Education, and Family",2006,1830
+1034,3,W1991418004,https://doi.org/10.1257/aer.90.4.715,Orchestrating Impartiality: The Impact of “Blind” Auditions on Female Musicians,2000,1759
+1034,4,W4297897894,https://doi.org/10.2307/j.ctvjf9x5x,The Race between Education and Technology,2010,1520
+1034,5,W3123306174,https://doi.org/10.1086/340778,The Power of the Pill: Oral Contraceptives and Women’s Career and Marriage Decisions,2002,1389
+1034,6,W2107338156,https://doi.org/10.1257/app.2.3.228,Dynamics of the Gender Gap for Young Professionals in the Financial and Corporate Sectors,2010,1271
+1034,7,W2103419131,https://doi.org/10.1162/003355398555720,The Origins of Technology-Skill Complementarity,1998,1080
+1034,8,W3121587588,https://doi.org/10.1257/jep.20.4.133,The Homecoming of American College Women: The Reversal of the College Gender Gap,2006,1010
+1034,9,W3023004739,https://doi.org/10.2307/2233578,Understanding the Gender Gap: An Economic History of American Women.,1991,839
+1034,10,W1565154825,https://doi.org/10.3386/w4707,The U-Shaped Female Labor Force Function in Economic Development and Economic History,1994,782
+1034,11,W2135293663,https://doi.org/10.2307/2118322,The Great Compression: The Wage Structure in the United States at Mid-Century,1992,766
+1034,12,W2978592984,https://doi.org/10.2307/2165176,Understanding the Gender Gap: An Economic History of American Women.,1991,612
+1034,13,W2912466436,https://doi.org/10.2307/27694819,The Race between Education and Technology,2009,479
+1034,14,W2145725926,https://doi.org/10.1017/s0022050700020544,America's Graduation from High School: The Evolution and Spread of Secondary Schooling in the Twentieth Century,1998,452
+1034,15,W2168876999,https://doi.org/10.1257/jep.26.1.139,The For-Profit Postsecondary School Sector: Nimble Critters or Agile Predators?,2011,408
+1034,16,W1507130158,https://doi.org/10.3386/w12984,"The Race between Education and Technology: The Evolution of U.S. Educational Wage Differentials, 1890 to 2005",2007,363
+1034,17,W3124231248,,The Defining Moment: The Great Depression and the American Economy in the Twentieth Century,1998,353
+1034,18,W2056988891,https://doi.org/10.1257/jep.13.1.37,"The Shaping of Higher Education: The Formative Years in the United States, 1890 to 1940",1998,348
+1034,19,W1972107010,,Understanding the gender gap,1990,343
+1034,20,W3125396900,https://doi.org/10.1086/298091,Monitoring Costs and Occupational Segregation by Sex: A Historical Analysis,1986,326
+1034,21,W2295196858,https://doi.org/10.1086/685505,A Most Egalitarian Profession: Pharmacy and the Evolution of a Family-Friendly Occupation,2016,320
+1034,22,W2138796663,https://doi.org/10.3386/w12139,The Homecoming of American College Women: The Reversal of the College Gender Gap,2006,306
+1034,23,W3021811409,https://doi.org/10.1162/002219599551868,"Human Capital and Social Capital: The Rise of Secondary Schooling in America, 1910–1940",1999,291
+1034,24,W2120837254,https://doi.org/10.1017/s0022050701028017,THE HUMAN-CAPITAL CENTURY AND AMERICAN LEADERSHIP: VIRTUES OF THE PAST,2001,285
+1034,25,W1653984643,https://doi.org/10.1257/aer.20141757,The Value of Postsecondary Credentials in the Labor Market: An Experimental Study,2016,280

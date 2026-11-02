@@ -21,7 +21,12 @@
 | `laureate` | nobel_id (מפתח ראשי), qid (Wikidata), openalex_id, name_en, full_name_en, name_he, gender, birth_date, birth_city, birth_country, country_now, continent, birth_lat, birth_lon, death_date, is_org, wikipedia_en, facts_url |
 | `prize` | nobel_id, year, field, category_en, motivation_en, motivation_he (מסומן כ"תרגום"), portion, sort_order, prize_status, date_awarded, age_at_award, age_is_exact |
 | `affiliation` | nobel_id, year, field, institution (שם היסטורי), institution_now, ror_id, city, country, country_now, continent |
-| `work` | work_id (OpenAlex), nobel_id, title, year, doi, citations, is_prize_work (נבדק ידנית) |
+| `openalex_link` | nobel_id, openalex_ids (מופרדים ב-\|, כשהזוכה מפוצל לכמה פרופילים), status (אומת/הערכה/סתירה/לא קושר), split_profiles, retrieved_at |
+| `openalex_evidence` | nobel_id, kind (orcid/doi), ref, author, work, error: כל ראיה לקישור, כולל כישלונות |
+| `openalex_stats` | nobel_id, works_count, cited_by_count, h_index_max, topic, cites_by_year (JSON) |
+| `openalex_work` | nobel_id, rank, work_id, doi, title, year, cited_by: 25 העבודות המצוטטות ביותר |
+| `openalex_curve` | nobel_id, year, citing_works: עבודות שציטטו את 25 העבודות המובילות, לפי שנת פרסום |
+| `cite_edge` | citing_nobel_id, cited_nobel_id, works: עבודות של זוכה אחד שמצטטות את העבודות המובילות של זוכה אחר |
 | `idea` | idea_id, label_he, label_en, origin_field, description_he |
 | `edge` | src, dst (QID), src_nobel_id, dst_nobel_id, src_label, dst_label, src_label_he, dst_label_he, type (mentor_of, coauthor_with, cites, shared_prize_with, developed_idea, applied_idea_in), property (P184/P185/P1066/P802), source_url, confidence |
 | `wikidata_check` | nobel_id, qid, birth_date (API), wd_birth_dates, wd_birth_place, wd_label_he: טבלת עזר לבדיקה הצולבת, לא לתצוגה |
@@ -33,7 +38,7 @@
 ## 4. צינור עיבוד
 1. **איסוף:** סקריפט שמושך `/laureates` ב-v2.1 עם עימוד ושומר JSON גולמי עם חותמת זמן ב-`raw/`.
 2. **Wikidata:** שאילתת SPARQL לפי רשימת QID מה-API, לשדות P184, P185, P19, P20, labels בעברית.
-3. **OpenAlex:** רק עבור 20 הזוכים, ורק מאמרי הפרס שאומתו ידנית.
+3. **OpenAlex:** רק עבור 20 הזוכים. הקישור עובר דרך מאמרי עוגן (`config/openalex_anchors.json`) שנבדקו מול Crossref, ו-ORCID מ-Wikidata נחשב רק כשמאמר עוגן מסכים איתו. האיסוף רץ ב-GitHub Actions (`fetch-openalex.yml`), בלי מפתח.
 4. **ניקוי:** איחוד מוסדות (ROR או OpenAlex), מדינות היסטוריות לפי countryNow, שמירת שם מוסד היסטורי כפי שהוא.
 5. **בנייה:** טבלאות curated ו-edge. כל שינוי מבוצע רק על ידי הסקריפטים.
 
@@ -85,9 +90,10 @@
 ## 11. החלטות שהתקבלו בבנייה (2.11.2026)
 - **תחומים:** חמשת התחומים המוצעים. ספרות נאספת בשלד אך לא בהעמקה.
 - **אחסון:** SQLite מקומי (`curated/prasnovel.db`, נבנה מחדש מ-raw) ו-CSV במאגר. Supabase רק כשיידרש שיתוף.
-- **ממשק:** אפליקציה סטטית ב-`web/`, בנויה ל-`app/`, ונגישה דרך raw.githack. Vercel ממתין להחלטה של ענת.
-- **ארבע העדשות במסכים:** "מנטורים" היא רשת המנחים. "מסלול הכרה" הוא ציר הזמן. "מוסדות וגיאוגרפיה" היא הגלובוס. "מעבר רעיונות" ממתין ל-OpenAlex.
+- **ממשק:** אפליקציה סטטית ב-`web/`, בנויה ל-`app/`, ונגישה דרך raw.githack. Vercel אושר ב-2.11.2026 (שורש: `web/`).
+- **ארבע העדשות במסכים:** "מנטורים" היא רשת המנחים. "מסלול הכרה" הוא ציר הזמן. "מוסדות וגיאוגרפיה" היא הגלובוס. "מעבר רעיונות" הוא המסך "חיי הרעיון" (OpenAlex).
 - **תמונות:** תמונת העבודה, לא דיוקן. רק מ-Wikimedia Commons, עם רישיון, יוצר ומקור (`config/images.json`). כשאין תמונה מתאימה, מוצג איור קו של התחום.
 - **20 הנבחרים:** הצעה ב-`config/selection.json`, נבדקת אוטומטית מול הקריטריונים. ענת מאשרת או מחליפה.
 - **מנטורים:** בנוסף ל-P184/P185 נאספים גם P1066 (תלמיד של) ו-P802 (תלמיד), כי בשלום ובכלכלה אין תמיד הנחיית דוקטורט.
 - **גיל בזכייה:** מחושב מתאריך הלידה ותאריך ההענקה. כשאחד מהם חלקי, לפי שנה בלבד, ומסומן `age_is_exact = 0`.
+- **OpenAlex (2.11.2026):** 16 זוכים במדעים ובכלכלה מקושרים. 4 זוכי שלום מסומנים "לא רלוונטי". ORCID של רמון אי קחאל ב-Wikidata מוביל לחוקר אחר ומסומן "סתירה". עקומות הציטוט מתחילות בשנת העבודה המוקדמת ביותר ונגמרות ב-2025, כי שנה חלקית ותאריכים שגויים ב-OpenAlex יוצרים עקומה מטעה.

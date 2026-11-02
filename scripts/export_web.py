@@ -32,6 +32,47 @@ def main() -> int:
     images_path = CONFIG / "images.json"
     images = json.loads(images_path.read_text(encoding="utf-8")) if images_path.exists() else {}
     cards = {c["nobel_id"]: c for c in load_cards(INSIGHTS)}
+    anchors_path = CONFIG / "openalex_anchors.json"
+    anchors = json.loads(anchors_path.read_text(encoding="utf-8")) if anchors_path.exists() else {}
+    oa = {n: pd.read_csv(CURATED / f"{n}.csv", dtype={"nobel_id": str, "citing_nobel_id": str, "cited_nobel_id": str})
+          for n in ("openalex_link", "openalex_stats", "openalex_work", "openalex_curve", "openalex_evidence", "cite_edge")
+          if (CURATED / f"{n}.csv").exists()}
+
+    def openalex(nid):
+        if nid in (anchors.get("not_relevant") or {}):
+            return {"status": "לא רלוונטי", "why": anchors["not_relevant"][nid]}
+        link = oa.get("openalex_link")
+        row = link[link.nobel_id == nid] if link is not None else pd.DataFrame()
+        if row.empty:
+            return {"status": "לא נאסף", "why": "OpenAlex עוד לא נאסף לזוכה זה."}
+        r = row.iloc[0]
+        out = {"status": r.status, "ids": [] if pd.isna(r.openalex_ids) else str(r.openalex_ids).split("|"),
+               "split": bool(r.split_profiles), "snapshot": r.retrieved_at}
+        if r.status == "סתירה":
+            out["why"] = "ה-ORCID שב-Wikidata מוביל ב-OpenAlex לפרופיל של חוקר אחר, ומאמר העוגן לא אישר אותו. לא מציגים נתונים עד שהסתירה תיפתר."
+        elif r.status == "לא קושר":
+            out["why"] = "אף מאמר עוגן לא הוביל למחבר ב-OpenAlex."
+        ev = oa.get("openalex_evidence")
+        if ev is not None:
+            out["evidence"] = [{"kind": e.kind, "ref": e.ref, "ok": not pd.isna(e.author)} for e in ev[ev.nobel_id == nid].itertuples()]
+        st = oa.get("openalex_stats")
+        if st is not None and not st[st.nobel_id == nid].empty:
+            s = st[st.nobel_id == nid].iloc[0]
+            out.update({"works": int(s.works_count), "cited": int(s.cited_by_count), "h": int(s.h_index_max),
+                        "topic": none(s.topic), "recent": {int(k): v for k, v in json.loads(s.cites_by_year).items()}})
+        w = oa.get("openalex_work")
+        if w is not None:
+            out["top"] = [{"title": x.title, "y": None if pd.isna(x.year) else int(x.year), "c": int(x.cited_by), "doi": none(x.doi)}
+                          for x in w[w.nobel_id == nid].sort_values("rank").head(5).itertuples()]
+        cv = oa.get("openalex_curve")
+        if cv is not None:
+            ys = w[w.nobel_id == nid].year.dropna() if w is not None else pd.Series(dtype=float)
+            first = int(ys.min()) if len(ys) else 0  # earliest of the works whose citations the curve counts
+            # OpenAlex has citing works dated before the cited paper existed; those are data errors, not history.
+            out["curve"] = [[int(x.year), int(x.citing_works)] for x in cv[cv.nobel_id == nid].sort_values("year").itertuples()
+                            if first <= int(x.year) <= 2025]  # 2026 is a partial year in the snapshot
+            out["curve_dropped"] = int(cv[(cv.nobel_id == nid) & (cv.year < first)].citing_works.sum())
+        return out
 
     people = []
     for r in lau.itertuples():
@@ -65,6 +106,7 @@ def main() -> int:
             "museum": museum.get("laureates", {}).get(s["nobel_id"]),
             "image": (images.get("images") or {}).get(s["nobel_id"]),
             "image_gap": (images.get("gaps") or {}).get(s["nobel_id"]),
+            "openalex": openalex(s["nobel_id"]),
         })
 
     edges = [{
@@ -90,12 +132,15 @@ def main() -> int:
             "wikidata_snapshot": latest_raw_dir("wikidata").name,
             "selection_status": sel["status"],
             "images_note": images.get("note"),
+            "openalex_snapshot": next(iter(oa["openalex_link"].retrieved_at), None) if "openalex_link" in oa else None,
         },
         "people": people,
         "prizes": prizes,
         "selected": selected,
         "edges": edges,
         "home": museum.get("home"),
+        "cites": [{"s": r.citing_nobel_id, "t": r.cited_nobel_id, "n": int(r.works)} for r in oa["cite_edge"].itertuples()]
+                 if "cite_edge" in oa else [],
         "quality": {
             "fields": [{"f": f, "api_prizes": awarded.get(f, 0), "spec_prizes": rp,
                         "api_laureates": int((prz.field == f).sum()), "spec_laureates": rl}
