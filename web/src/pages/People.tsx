@@ -8,14 +8,18 @@ import { FieldChips, Icon, Name, Src, Tone } from "../lib/ui";
 const REPO = "https://github.com/Anat1969/PrasNovel-GH/blob/main/";
 
 function WorkImage({ s, large }: { s: Selected; large?: boolean }) {
-  if (s.image) {
+  const [failed, setFailed] = useState(false);
+  useEffect(() => setFailed(false), [s.nobel_id]);
+  if (s.image && !failed) {
     return (
       <img src={s.image.thumb_url} alt={s.image.caption_he} loading="lazy" decoding="async"
-        width={s.image.width} height={s.image.height} className={large ? "work-img large" : "work-img"} />
+        width={s.image.width} height={s.image.height} className={large ? "work-img large" : "work-img"}
+        onError={() => setFailed(true)} />
     );
   }
+  const why = failed ? "התמונה לא נטענה כרגע מ-Wikimedia Commons." : s.image_gap ?? "אין עדיין תמונת עבודה מתאימה";
   return (
-    <div className={large ? "work-gap large" : "work-gap"} title={s.image_gap ?? "אין עדיין תמונת עבודה מתאימה"}>
+    <div className={large ? "work-gap large" : "work-gap"} title={why}>
       <FieldGlyph f={s.field} size={large ? 64 : 40} />
     </div>
   );
