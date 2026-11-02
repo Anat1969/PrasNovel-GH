@@ -122,6 +122,29 @@ def main() -> int:
                            "group_by": "authorships.author.id", "per-page": 200})
         cites[nid] = r
     save_raw("openalex", "cross_citations", cites, stamp)
+
+    # Which scientific fields cite each laureate's top works (OpenAlex topic hierarchy: field level).
+    fields = {}
+    for nid, top in works.items():
+        wids = [short(w["id"]) for w in top.get("results", [])][:CITE_WORKS]
+        if wids:
+            fields[nid] = get("/works", {"filter": "cites:" + "|".join(wids), "group_by": "primary_topic.field.id"})
+    save_raw("openalex", "citing_fields", fields, stamp)
+
+    # Evidence for each laureate-to-laureate citation: the citing works and which top works they reference.
+    evidence = {}
+    for cited, r in cites.items():
+        wids = [short(w["id"]) for w in works[cited].get("results", [])][:CITE_WORKS]
+        for b in r.get("group_by", []):
+            citing = by_author.get(short(b.get("key")))
+            if not citing or citing == cited or f"{citing}>{cited}" in evidence:
+                continue
+            ids = "|".join(a for a, n in by_author.items() if n == citing)
+            evidence[f"{citing}>{cited}"] = get("/works", {
+                "filter": "cites:" + "|".join(wids) + ",authorships.author.id:" + ids,
+                "sort": "cited_by_count:desc", "per-page": 10,
+                "select": "id,doi,title,publication_year,cited_by_count,referenced_works"})
+    save_raw("openalex", "edge_evidence", evidence, stamp)
     ok = sum(1 for l in links if l["authors"])
     print(f"openalex {stamp}: {ok}/{len(links)} laureates linked")
     return 0
