@@ -104,7 +104,7 @@ export default function App() {
           : page === "net" ? <Network m={m} params={route.params} />
           : page === "world" ? <World m={m} params={route.params} />
           : page === "fields" ? <Fields m={m} params={route.params} />
-          : page === "cross" ? <Cross m={m} />
+          : page === "cross" ? <Cross m={m} params={route.params} />
           : page === "ideas" ? <Ideas m={m} params={route.params} />
           : page === "quality" ? <Quality m={m} />
           : <Home m={m} />}

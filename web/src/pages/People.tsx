@@ -93,11 +93,12 @@ export default function People({ m, params }: { m: Model; params: Record<string,
         <div className="screen-head">
           <div>
             <Rich as="h1" className="insight-line">{`**${list.length}** ענקים, **${women}** מהם נשים.`}</Rich>
-            <p className="explain">בכל תחום ארבעה: מוקדם ומאוחר, אישה, ומישהו שנולד מחוץ לאירופה ולארה"ב. <span className="label">{m.meta.selection_status}</span></p>
+            <p className="explain">{m.meta.selection_criteria}{" "}
+              <details className="why-these"><summary>למה דווקא אלה?</summary><p>{m.meta.why_these}</p><p className="label">{m.meta.selection_status}</p></details></p>
           </div>
           <FieldChips value={fields} onChange={(f) => { setFields(f); setSel(undefined, f); }} />
         </div>
-        <div className="people-grid" style={{ ["--rows" as string]: Math.ceil(list.length / 6) }}>
+        <div className="people-grid" style={{ ["--rows" as string]: Math.ceil(list.length / 6), ["--cols" as string]: 6 }}>
           {list.map((s, i) => {
             const p = m.byId.get(s.nobel_id)!; const prize = m.prizesOf.get(s.nobel_id)!.find((x) => x.y === s.year)!;
             return (
@@ -108,7 +109,7 @@ export default function People({ m, params }: { m: Model; params: Record<string,
                 <div className="tile-txt">
                   <span className="label">{FIELD[s.field].he} · <bdi className="num">{s.year}</bdi></span>
                   <strong className="tile-name">{p.he || p.en}</strong>
-                  <span className="lat tile-en" dir="ltr">{p.en}</span>
+                  <span className="tile-disc">{s.discovery ?? ""}</span>
                 </div>
                 <span className="tile-age num" title="גיל בזכייה">{prize.age ?? ""}</span>
               </a>
@@ -135,52 +136,60 @@ function Detail({ m, s, idx, n, prev, next }: { m: Model; s: Selected; idx: numb
   const d = s.degree;
   const color = FIELD[s.field].color;
   const born = [p.city, p.country].filter(Boolean).join(", ");
+  const disc = s.discovery ?? prize.d;
+  const why = s.motivation_he ?? prize.mh;
+  const pyear = (nid: string | null) => (nid ? m.firstYear.get(nid) : undefined);
+  const pdisc = (nid: string | null) => (nid ? m.prizesOf.get(nid)?.[0]?.d : undefined);
   return (
     <aside className="panel detail scroll-in" aria-label="כרטיס זוכה" key={s.nobel_id} style={{ ["--c" as string]: color }}>
       <div className="detail-ops">
-        {s.proposal && <span className="st st-est" title="הזוכה נוסף כהצעה וממתין לאישור">הצעה</span>}
         <button className="press icon-btn" onClick={prev} disabled={idx === 0} title="הקודם" aria-label="הקודם">{Icon.prev}</button>
         <span className="label" dir="ltr"><bdi className="num">{idx + 1}</bdi> / <bdi className="num">{n}</bdi></span>
         <button className="press icon-btn" onClick={next} disabled={idx === n - 1} title="הבא" aria-label="הבא">{Icon.next}</button>
         <a className="press icon-btn" href="#/people" title="איפוס הבחירה" aria-label="איפוס">{Icon.close}</a>
       </div>
 
-      <header className="dc-head rise">
-        <div className="dc-year">
-          <span className="num">{s.year}</span>
-          <span className="dc-field"><FieldGlyph f={s.field} size={13} /> נובל ל{FIELD[s.field].he}</span>
-        </div>
-        <h2 className="dc-name">{p.he || p.en}</h2>
-        <div className="dc-en" dir="ltr">{p.en}</div>
+      <figure className="dc-hero rise">
+        <WorkImage s={s} large />
+        <span className="dc-badge"><span className="num">{s.year}</span> · {FIELD[s.field].he}</span>
+        {s.image && <figcaption>{s.image.caption_he}</figcaption>}
+      </figure>
+
+      <header className="dc-head rise" style={{ animationDelay: ".04s" }}>
+        <h2 className="dc-name">{p.he || p.en} <span className="dc-en" dir="ltr">{p.en}</span></h2>
+        {disc && <div className="dc-disc">{disc}</div>}
+        {why && <p className="dc-why">{why}</p>}
+        <span className="dc-sub">נימוק הוועדה, בתרגום לעברית</span>
       </header>
 
-      <dl className="dc-facts rise" style={{ animationDelay: ".04s" }}>
-        <div><dt>גיל בזכייה</dt><dd className="num">{prize.age ?? "-"}</dd></div>
-        <div><dt>תואר</dt><dd>{d ? <>{d.he ?? d.en}{d.by_he || d.by_en ? <span className="dc-sub">{d.by_he ?? d.by_en}{d.year ? `, ${d.year}` : ""}</span> : null}</> : <span className="dc-sub">לא תועד ב-Wikidata</span>}</dd></div>
+      <div className="dc-two rise" style={{ animationDelay: ".08s" }}>
+        <section className="dc-mind">
+          <h3 className="dc-h">בשכל</h3>
+          {mu?.contribution && <p className="dc-lead">{mu.contribution}</p>}
+          {mu?.takeaway && <p className="dc-take"><mark className="insight">{mu.takeaway}</mark></p>}
+        </section>
+        {mu?.haiku && (
+          <section className="dc-heart">
+            <h3 className="dc-h">ברגש</h3>
+            <div className="haiku">{mu.haiku.map((l) => <span key={l}>{l}</span>)}</div>
+            <div className="dc-sub">{mu.note}</div>
+          </section>
+        )}
+      </div>
+
+      <dl className="dc-facts">
+        <div><dt>גיל</dt><dd className="num">{prize.age ?? "-"}</dd></div>
+        <div><dt>תואר</dt><dd>{d ? <>{d.he ?? d.en}{d.by_he || d.by_en ? <span className="dc-sub">{d.by_he ?? d.by_en}{d.year ? `, ${d.year}` : ""}</span> : null}</> : <span className="dc-sub">לא תועד</span>}</dd></div>
         <div><dt>נולד/ה</dt><dd>{born || "-"}{p.born ? <span className="dc-sub num">{p.born.slice(0, 4)}</span> : null}</dd></div>
         <div><dt>מוסד בזכייה</dt><dd>{s.affiliations.length ? s.affiliations.map((a) => a.name).join("; ") : <span className="dc-sub">ללא שיוך רשמי</span>}</dd></div>
-        {others.length ? <div className="dc-wide"><dt>פרס נוסף</dt><dd>{others.map((x) => `${FIELD[x.f].he} ${x.y}`).join(", ")}</dd></div> : null}
+        {others.length ? <div className="dc-wide"><dt>פרס נוסף</dt><dd>{others.map((x) => `${FIELD[x.f].he} ${x.y}: ${x.d ?? ""}`).join(" · ")}</dd></div> : null}
       </dl>
 
-      {mu?.contribution && (
-        <section className="dc-block rise" style={{ animationDelay: ".08s" }}>
-          <h3 className="dc-h">התרומה</h3>
-          <p className="dc-lead">{mu.contribution}</p>
-          {mu.takeaway && <p className="dc-take"><mark className="insight">{mu.takeaway}</mark></p>}
+      {mu?.works && (
+        <section className="dc-block">
+          <h3 className="dc-h">היצירות</h3>
+          <ul className="dc-works">{mu.works.map((w) => <li key={w.orig}><strong>{w.he ?? w.orig}</strong>{w.he && <span className="dc-sub" dir="auto">{w.orig}</span>}<span className="num dc-sub">{w.year}</span></li>)}</ul>
         </section>
-      )}
-
-      <section className="dc-block">
-        <h3 className="dc-h">בלשון הוועדה</h3>
-        {s.motivation_he && <blockquote className="dc-quote">"{s.motivation_he}"</blockquote>}
-        <p className="lat dc-quote-en" dir="ltr">"{prize.m}"</p>
-      </section>
-
-      {s.image && (
-        <figure className="detail-fig">
-          <WorkImage s={s} large />
-          <figcaption><strong>{s.image.caption_he}</strong></figcaption>
-        </figure>
       )}
 
       <OpenAlexBlock s={s} />
@@ -188,20 +197,15 @@ function Detail({ m, s, idx, n, prev, next }: { m: Model; s: Selected; idx: numb
       {(mentors.length > 0 || students.length > 0) && (
         <section className="dc-block">
           <h3 className="dc-h">על כתפי מי, ומי על כתפיו</h3>
-          {mentors.map((e) => <div key={e.s} className="dense-row"><span className="label">מנחה</span><Name he={e.sh} en={e.sl ?? e.s} />{e.sn ? <span className="medal-tag">נובל</span> : null}</div>)}
-          {students.slice(0, 6).map((e) => <div key={e.t} className="dense-row"><span className="label">תלמיד/ה</span><Name he={e.th} en={e.tl ?? e.t} />{e.tn ? <span className="medal-tag">נובל</span> : null}</div>)}
+          {mentors.map((e) => <div key={e.s} className="dc-rel"><span className="label">מנחה</span><Name he={e.sh} en={e.sl ?? e.s} />{e.sn && <span className="dc-sub">נובל {pyear(e.sn)}: {pdisc(e.sn)}</span>}</div>)}
+          {students.slice(0, 6).map((e) => <div key={e.t} className="dc-rel"><span className="label">תלמיד/ה</span><Name he={e.th} en={e.tl ?? e.t} />{e.tn && <span className="dc-sub">נובל {pyear(e.tn)}: {pdisc(e.tn)}</span>}</div>)}
           {students.length > 6 && <a className="src" href={href("net", { id: s.nobel_id })}>עוד {students.length - 6} ברשת המנחים</a>}
         </section>
       )}
 
-      {mu?.haiku && (
-        <section className="dc-block">
-          <div className="haiku">{mu.haiku.map((l) => <span key={l}>{l}</span>)}</div>
-          <div className="dc-sub">{mu.note}</div>
-        </section>
-      )}
-
       <section className="dc-block">
+        <h3 className="dc-h">למה נבחר/ה</h3>
+        <p className="dc-take">{s.why_he} <span className="label">[הנחה]</span></p>
         {s.card_status === "מאושר" ? (
           <>
             <Tone kind="insight" title="הרעיון">{c.idea_he ?? ""}</Tone>
@@ -209,21 +213,19 @@ function Detail({ m, s, idx, n, prev, next }: { m: Model; s: Selected; idx: numb
             <Tone kind="problem" title="שדה הטיה">{c.bias_note ?? ""}</Tone>
           </>
         ) : (
-          <p className="dc-sub">כרטיס התובנה שלך עוד ריק: הרעיון, השיטה, ציטוט קצר, יישום ושדה הטיה.{" "}
-            {s.card_file && <a href={REPO + s.card_file} target="_blank" rel="noreferrer">לעריכה</a>}</p>
+          <p className="dc-sub">כרטיס התובנה שלך עוד ריק.{" "}{s.card_file && <a href={REPO + s.card_file} target="_blank" rel="noreferrer">לעריכה</a>}</p>
         )}
       </section>
 
       <details className="dc-sources">
         <summary>מקורות והערות</summary>
         <ul>
-          <li><a href={`https://www.nobelprize.org/laureate/${s.nobel_id}`} target="_blank" rel="noreferrer">NobelPrize.org</a>: נימוק רשמי, גיל ומוסד. {s.motivation_he ? "התרגום לעברית של Claude." : ""}</li>
-          {mu?.contribution && <li>התרומה, מה שהיא נתנה וההייקו: טיוטת Claude לעריכה.</li>}
+          <li><a href={`https://www.nobelprize.org/laureate/${s.nobel_id}`} target="_blank" rel="noreferrer">NobelPrize.org</a>: הנימוק הרשמי: <span dir="ltr">"{prize.m}"</span></li>
+          <li>התרגום, תווית הגילוי, התרומה, מה שהיא נתנה וההייקו: טיוטת Claude.</li>
           {d && <li><a href={d.url} target="_blank" rel="noreferrer">Wikidata</a>: תואר מתוך רשומת ההשכלה.</li>}
           {s.image && <li>{s.image.artist}{s.image.year ? `, ${s.image.year}` : ""} · {s.image.license} · <a href={s.image.page_url} target="_blank" rel="noreferrer">Wikimedia Commons</a></li>}
           {!s.image && <li>{s.image_gap ?? "אין עדיין תמונת עבודה עם רישיון מתועד."}</li>}
           {o.ids?.map((id) => <li key={id}><a href={`https://openalex.org/${id}`} target="_blank" rel="noreferrer">OpenAlex {id}</a>{o.split ? " (פרופיל מפוצל)" : ""}</li>)}
-          <li>למה נבחר/ה [הנחה]: {s.why_he}</li>
         </ul>
       </details>
     </aside>

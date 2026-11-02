@@ -175,11 +175,12 @@ function RelationWhy({ m, e }: { m: Model; e: Edge }) {
   lines.push(m.mentor_props?.[e.prop] ?? e.prop);
   if (a.length && b.length) {
     const gap = b[0].y - a[0].y;
-    lines.push(`המנחה זכה ב-**${a[0].y}** (${FIELD[fa!].he}), התלמיד ב-**${b[0].y}** (${FIELD[fb!].he}).`);
+    lines.push(`המנחה זכה ב-**${a[0].y}** (${FIELD[fa!].he}): **${a[0].d ?? ""}**.`);
+    lines.push(`התלמיד זכה ב-**${b[0].y}** (${FIELD[fb!].he}): **${b[0].d ?? ""}**.`);
     lines.push(gap > 0 ? `התלמיד זכה ${gap} שנים אחרי המנחה.` : gap < 0 ? `**התלמיד זכה לפני המנחה**, ב-${-gap} שנים.` : "שניהם זכו באותה שנה.");
     if (fa !== fb) lines.push(`**הקשר חוצה תחומים:** שיטה מ${FIELD[fa!].he} הגיעה ל${FIELD[fb!].he}.`);
-  } else if (a.length) lines.push(`המנחה זכה בנובל ב-${a[0].y}. התלמיד לא זכה.`);
-  else if (b.length) lines.push(`התלמיד זכה בנובל ב-${b[0].y}. המנחה לא זכה.`);
+  } else if (a.length) lines.push(`המנחה זכה בנובל ב-**${a[0].y}**: **${a[0].d ?? ""}**. התלמיד לא זכה.`);
+  else if (b.length) lines.push(`התלמיד זכה בנובל ב-**${b[0].y}**: **${b[0].d ?? ""}**. המנחה לא זכה.`);
   return (
     <div className="rel-why">
       {lines.map((l, i) => <Rich key={i} as="p">{l}</Rich>)}

@@ -72,7 +72,7 @@ def main() -> int:
     anchors = json.loads(anchors_path.read_text(encoding="utf-8")) if anchors_path.exists() else {}
     oa = {n: pd.read_csv(CURATED / f"{n}.csv", dtype={"nobel_id": str, "citing_nobel_id": str, "cited_nobel_id": str})
           for n in ("openalex_link", "openalex_stats", "openalex_work", "openalex_curve", "openalex_evidence", "cite_edge",
-                    "openalex_citing_field", "cite_edge_work")
+                    "openalex_citing_field", "cite_edge_work", "openalex_field_example")
           if (CURATED / f"{n}.csv").exists()}
     conn_path = CONFIG / "connections.json"
     conn = json.loads(conn_path.read_text(encoding="utf-8")) if conn_path.exists() else {}
@@ -133,6 +133,13 @@ def main() -> int:
         if cf is not None:
             rows = cf[cf.nobel_id == nid].sort_values("citing_works", ascending=False)
             out["fields"] = [[x.field_en, int(x.citing_works)] for x in rows.itertuples()]
+        fx = oa.get("openalex_field_example")
+        if fx is not None:
+            ex = {}
+            for x in fx[fx.nobel_id == nid].sort_values("rank").itertuples():
+                ex.setdefault(x.field_en, []).append({"title": x.title, "y": None if pd.isna(x.year) else int(x.year),
+                                                      "doi": none(x.doi), "c": None if pd.isna(x.cited_by) else int(x.cited_by), "topic": none(x.topic)})
+            out["examples"] = ex
         return out
 
     people = []
@@ -144,10 +151,14 @@ def main() -> int:
             "lat": None if pd.isna(r.birth_lat) else round(float(r.birth_lat), 3),
             "lon": None if pd.isna(r.birth_lon) else round(float(r.birth_lon), 3),
         })
+    mh_path = CONFIG / "motivations_he.json"
+    mh = json.loads(mh_path.read_text(encoding="utf-8"))["prizes"] if mh_path.exists() else {}
     prizes = [{
         "id": r.nobel_id, "y": int(r.year), "f": r.field,
         "age": None if pd.isna(r.age_at_award) else int(r.age_at_award),
         "p": r.portion, "m": r.motivation_en,
+        "mh": (mh.get(f"{r.nobel_id}-{r.year}-{r.field}") or {}).get("he"),
+        "d": (mh.get(f"{r.nobel_id}-{r.year}-{r.field}") or {}).get("discovery"),
     } for r in prz.itertuples()]
 
     selected = []
@@ -157,7 +168,8 @@ def main() -> int:
         problems = validate_card(c) if c else ["אין קובץ כרטיס"]
         selected.append({
             **s,
-            "motivation_he": c.get("motivation_he"),
+            "motivation_he": (mh.get(f"{s['nobel_id']}-{s['year']}-{s['field']}") or {}).get("he") or c.get("motivation_he"),
+            "discovery": (mh.get(f"{s['nobel_id']}-{s['year']}-{s['field']}") or {}).get("discovery"),
             "card": {k: c.get(k) for k in ("idea_he", "method_he", "method_source", "quote", "quote_source",
                                           "takeaway_he", "label", "bias_note", "urban_example_he")},
             "card_status": "מאושר" if not problems else "טיוטה",
@@ -194,6 +206,8 @@ def main() -> int:
             "nobel_snapshot": latest_raw_dir("nobel").name,
             "wikidata_snapshot": latest_raw_dir("wikidata").name,
             "selection_status": sel["status"],
+            "selection_criteria": sel.get("criteria"),
+            "why_these": sel.get("why_these"),
             "images_note": images.get("note"),
             "openalex_snapshot": next(iter(oa["openalex_link"].retrieved_at), None) if "openalex_link" in oa else None,
         },
@@ -213,6 +227,7 @@ def main() -> int:
         "mentor_why": conn.get("mentor_why"),
         "mentor_props": conn.get("mentor_props"),
         "terms": era_terms(prz),
+        "evolution": json.loads((CONFIG / "evolution.json").read_text(encoding="utf-8"))["eras"] if (CONFIG / "evolution.json").exists() else {},
         "quality": {
             "fields": [{"f": f, "api_prizes": awarded.get(f, 0), "spec_prizes": rp,
                         "api_laureates": int((prz.field == f).sum()), "spec_laureates": rl}

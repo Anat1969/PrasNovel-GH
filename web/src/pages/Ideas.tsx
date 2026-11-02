@@ -7,6 +7,8 @@ import { go } from "../lib/route";
 import { useSize } from "../lib/useSize";
 import YearBar from "../lib/YearBar";
 import { FieldChips, Src, Tone, useReducedMotion } from "../lib/ui";
+import IdeaPanel from "../lib/IdeaPanel";
+import { SortHead, useSort } from "../lib/sort";
 
 const FROM = 1875, TO = 2025;
 const STATUS_TONE: Record<string, string> = { "אומת": "st-ok", "הערכה": "st-est", "סתירה": "st-bad", "לא קושר": "st-bad", "לא רלוונטי": "st-na", "לא נאסף": "st-na" };
@@ -17,6 +19,7 @@ export default function Ideas({ m, params }: { m: Model; params: Record<string, 
   const reduced = useReducedMotion();
   const [fields, setFields] = useState<FieldCode[]>(() => (params.f ? (params.f.split(",") as FieldCode[]) : []));
   const [openCite, setOpenCite] = useState<string | null>(null);
+  const [pick, setPick] = useState<string | null>(params.id ?? null);
   const rows: Row[] = useMemo(() => m.selected
     .filter((s) => s.openalex.curve && s.openalex.curve.length && s.openalex.top?.length)
     .filter((s) => !fields.length || fields.includes(s.field))
@@ -43,6 +46,9 @@ export default function Ideas({ m, params }: { m: Model; params: Record<string, 
   const { w, h } = useSize(box);
   const rowH = Math.max(30, Math.floor((h - 70) / Math.max(1, rows.length)));
   const curveW = Math.max(80, w - (window.innerWidth <= 760 ? 96 + 52 + 12 : 172 + 76 + 24) - 24);
+  const { sorted: srows, s: srt, toggle } = useSort(rows, {
+    name: (r: Row) => r.name, year: (r: Row) => r.s.year, top: (r: Row) => r.top.y, total: (r: Row) => r.total, after: (r: Row) => r.after,
+  }, { key: "top", dir: "asc" });
   const sofar = rows.reduce((a, r) => a + r.curve.filter((d) => d[0] <= year).reduce((b, d) => b + d[1], 0), 0);
 
   const gaps = rows.map((r) => r.gap).filter((g): g is number => g != null);
@@ -72,22 +78,26 @@ export default function Ideas({ m, params }: { m: Model; params: Record<string, 
         <div className="panel fill ideas" ref={box}>
           {w > 0 && (
             <div className="idea-rows" style={{ ["--row" as string]: `${rowH}px`, ["--cw" as string]: `${curveW}px` }}>
-              <div className="idea-axis" aria-hidden="true">
-                <span />
-                <svg width={curveW} height={16} style={{ direction: "ltr" }}>
+              <div className="idea-axis">
+                <span className="idea-sorts"><SortHead k="name" s={srt} toggle={toggle}>זוכה</SortHead><SortHead k="year" s={srt} toggle={toggle}>פרס</SortHead><SortHead k="after" s={srt} toggle={toggle}>אחרי</SortHead></span>
+                <svg aria-hidden="true" width={curveW} height={16} style={{ direction: "ltr" }}>
                   {ticks.filter((t, i) => curveW > 360 || i % 2 === 0).map((t) => <text key={t} x={xOf(t)} y={12} textAnchor="middle" fontSize="10.5" fill="#77756F" fontFamily="var(--mono)">{t}</text>)}
                 </svg>
-                <span className="label">סה"כ</span>
+                <SortHead k="total" s={srt} toggle={toggle}>סה"כ</SortHead>
               </div>
-              {rows.map((r) => (
-                <button key={r.s.nobel_id} className="idea-row" data-dim={hover && hover !== r.s.nobel_id ? "1" : undefined}
+              {srows.map((r) => (
+                <div key={r.s.nobel_id} role="button" tabIndex={0} className={`idea-row${pick === r.s.nobel_id ? " on" : ""}`} data-dim={hover && hover !== r.s.nobel_id ? "1" : undefined}
+                  onKeyDown={(e) => { if (e.key === "Enter") setPick(r.s.nobel_id); }}
                   onMouseEnter={() => setHover(r.s.nobel_id)} onMouseLeave={() => setHover(null)} onFocus={() => setHover(r.s.nobel_id)} onBlur={() => setHover(null)}
-                  onClick={() => go("people", { id: r.s.nobel_id })}
-                  title={`${r.name} · העבודה המצוטטת ביותר: ${r.top.title} (${r.top.y ?? "?"}) · פרס ${r.s.year}`}>
-                  <span className="idea-name"><FieldGlyph f={r.s.field} size={12} /><span className="idea-n">{r.name}</span><span className={`st ${STATUS_TONE[r.s.openalex.status]}`}>{r.s.openalex.status}</span></span>
+                  onClick={() => setPick(r.s.nobel_id)}
+                  title={`${r.name} · ${r.s.discovery ?? ""} · פרס ${r.s.year}. לחיצה: פירוט בצד`}>
+                  <span className="idea-name"><FieldGlyph f={r.s.field} size={12} />
+                    <span className="idea-n"><button className="lline-name" onClick={(e) => { e.stopPropagation(); go("people", { id: r.s.nobel_id }); }} title="לכרטיס הזוכה">{r.name}</button>
+                      <span className="idea-disc">{r.s.discovery}</span></span>
+                    <span className={`st ${STATUS_TONE[r.s.openalex.status]}`}>{r.s.openalex.status}</span></span>
                   <IdeaCurve curve={r.curve} prize={r.s.year} until={year} color={FIELD[r.s.field].color} w={curveW} h={rowH - 4} from={FROM} to={TO} />
                   <span className="num idea-total">{r.total.toLocaleString("en-US")}</span>
-                </button>
+                </div>
               ))}
             </div>
           )}
@@ -101,13 +111,15 @@ export default function Ideas({ m, params }: { m: Model; params: Record<string, 
         </div>
       </div>
       <aside className="panel panel-pad scroll-in stack">
+        {pick && <IdeaPanel m={m} id={pick} onClose={() => setPick(null)} />}
+        {!pick && <>
         <div className="label">מי בונה על מי, בתוך הזוכים הנבחרים</div>
         {cites.length ? cites.map((c) => {
           const key = `${c.s}>${c.t}`; const open = openCite === key || cites.length <= 2;
           const refs = [...new Set(c.ev.flatMap((w) => (w.refs ?? "").split(" || ").filter(Boolean)))];
           return (
             <div key={key} className="cite-card" data-open={open ? "1" : undefined}>
-              <button className="cite-row" onClick={() => setOpenCite(open ? null : key)} aria-expanded={open}>
+              <button className="cite-row" onClick={() => setOpenCite(open ? null : key)} aria-expanded={open} title="לחיצה מציגה את ההסבר">
                 <span><strong>{nameHe(m.byId.get(c.s))}</strong> מצטט/ת את <strong>{nameHe(m.byId.get(c.t))}</strong></span>
                 <span className="cite-bar"><i style={{ width: `${(c.n / cites[0].n) * 100}%`, background: FIELD[fieldOf(c.t)!].color }} /></span>
                 <span className="num">{c.n}</span>
@@ -140,6 +152,7 @@ export default function Ideas({ m, params }: { m: Model; params: Record<string, 
         <p className="src">הקישור עובר דרך מאמרי עוגן שנבדקו מול Crossref, לא דרך שם. ל-<bdi>ORCID</bdi> של רמון אי קחאל ב-Wikidata יש פרופיל של חוקר אחר, ולכן הוא מסומן כסתירה ולא מוצג. זוכי השלום פעלו דרך מוסדות ותנועות, וספירת ציטוטים לא מודדת אותם.</p>
         <Src href="https://github.com/Anat1969/PrasNovel-GH/blob/main/config/openalex_anchors.json">מאמרי העוגן</Src>
         <Src href="https://openalex.org">{`OpenAlex, CC0 · נאסף ${m.meta.openalex_snapshot ?? "-"}`}</Src>
+        </>}
       </aside>
     </div>
   );

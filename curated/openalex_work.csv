@@ -357,3 +357,190 @@ nobel_id,rank,work_id,doi,title,year,cited_by
 1034,23,W3021811409,https://doi.org/10.1162/002219599551868,"Human Capital and Social Capital: The Rise of Secondary Schooling in America, 1910–1940",1999,291
 1034,24,W2120837254,https://doi.org/10.1017/s0022050701028017,THE HUMAN-CAPITAL CENTURY AND AMERICAN LEADERSHIP: VIRTUES OF THE PAST,2001,285
 1034,25,W1653984643,https://doi.org/10.1257/aer.20141757,The Value of Postsecondary Credentials in the Labor Market: An Experimental Study,2016,280
+26,1,W1986407511,https://doi.org/10.1103/physrev.47.777,Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?,1935,16642
+26,2,W2030765885,https://doi.org/10.1002/andp.19053220806,Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen,1905,8305
+26,3,W2051687132,https://doi.org/10.1002/andp.19063240204,Eine neue Bestimmung der Moleküldimensionen,1906,4569
+26,4,W2048251016,https://doi.org/10.1002/andp.19053221004,Zur Elektrodynamik bewegter Körper,1905,4383
+26,5,W2154432883,https://doi.org/10.1002/andp.19163540702,Die Grundlage der allgemeinen Relativitätstheorie,1916,3467
+26,6,W2005886497,https://doi.org/10.1002/andp.19053220607,Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt,1905,3090
+26,7,W1976962685,,Investigations on the theory of the Brownian movement,1926,1846
+26,8,W2297596203,https://doi.org/10.1103/physrev.48.73,The Particle Problem in the General Theory of Relativity,1935,1705
+26,9,W2105674459,https://doi.org/10.1002/andp.19113390313,Berichtigung zu meiner Arbeit: „Eine neue Bestimmung der Moleküldimensionen”,1911,1611
+26,10,W3107393958,https://doi.org/10.2307/j.ctv1h9dh0m.9,A New Determination of Molecular Dimensions,2021,1291
+26,11,W2038874864,https://doi.org/10.1002/andp.19063240208,Zur Theorie der Brownschen Bewegung,1906,1290
+26,12,W2056636645,https://doi.org/10.1007/978-94-011-6022-3,The Meaning of Relativity,1922,1187
+26,13,W2062332993,https://doi.org/10.1002/andp.19053231314,Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?,1905,1015
+26,14,W1978525979,https://doi.org/10.2307/1968714,The Gravitational Equations and the Problem of Motion,1938,968
+26,15,W2093400419,https://doi.org/10.1126/science.84.2188.506,Lens-Like Action of a Star by the Deviation of Light in the Gravitational Field,1936,950
+26,16,W2086435517,https://doi.org/10.1002/andp.19103381612,Theorie der Opaleszenz von homogenen Flüssigkeiten und Flüssigkeitsgemischen in der Nähe des kritischen Zustandes,1910,919
+26,17,W1620849112,https://doi.org/10.1515/9783112596609-016,7. Zur Quantentheorie der Strahlung,1969,914
+26,18,W1964922973,https://doi.org/10.1002/andp.19063270110,Die Plancksche Theorie der Strahlung und die Theorie der spezifischen Wärme,1907,848
+26,19,W1519442512,,The Principle of Relativity,1920,845
+26,20,W2082392106,https://doi.org/10.1007/978-1-349-00381-5_2,Physics and Philosophy,1968,819
+26,21,W2113065370,https://doi.org/10.1002/andp.19113401005,Über den Einfluß der Schwerkraft auf die Ausbreitung des Lichtes,1911,755
+26,22,W417731266,,The Evolution of Physics,1938,744
+26,23,W4301810058,https://doi.org/10.2307/2179316,Relativity. The Special and General Theory.,1921,733
+26,24,W2057993157,https://doi.org/10.1086/286316,On the Method of Theoretical Physics,1934,712
+26,25,W1537230236,,Ideas and Opinions,1954,674
+27,1,W1997020598,https://doi.org/10.1103/physrev.56.426,The Mechanism of Nuclear Fission,1939,1993
+27,2,W2741582595,https://doi.org/10.1103/physrev.48.696,Can Quantum-Mechanical Description of Physical Reality be Considered Complete?,1935,1941
+27,3,W1991985130,https://doi.org/10.1038/121580a0,The Quantum Postulate and the Recent Development of Atomic Theory1,1928,1679
+27,4,W1703910647,https://doi.org/10.1080/14786441308634955,I. On the constitution of atoms and molecules,1913,1471
+27,5,W2023097252,https://doi.org/10.1038/137344a0,Neutron Capture and Nuclear Constitution,1936,884
+27,6,W2263196060,https://doi.org/10.1080/14786440108634305,II. On the theory of the decrease of velocity of moving electrified particles on passing through matter,1913,831
+27,7,W2319294690,https://doi.org/10.2307/2302467,International Encyclopedia of Unified Science.,1939,766
+27,8,W2079820736,https://doi.org/10.1119/1.1934707,Atomic Physics and Human Knowledge,1958,758
+27,9,W2063900882,https://doi.org/10.1119/1.1942160,Atomic Theory and the Description of Nature,1962,675
+27,10,W103251751,https://doi.org/10.1016/s1876-0503(08)70379-7,Discussion with Einstein on Epistemological Problems in Atomic Physics,1996,628
+27,11,W2253425693,https://doi.org/10.1080/14786441008635432,LX. On the decrease of velocity of swiftly moving electrified particles in passing through matter,1915,601
+27,12,W1805515744,https://doi.org/10.1080/14786441308634993,XXXVII. On the constitution of atoms and molecules,1913,576
+27,13,W2058931701,https://doi.org/10.1007/978-3-319-14316-3_2,On the Constitution of Atoms and Molecules,2016,553
+27,14,W1983932571,https://doi.org/10.1038/131421a0,Light and Life*,1933,548
+27,15,W3029329779,https://doi.org/10.1016/s1876-0503(08)70375-x,Can Quantum-Mechanical Description of Physical Reality be Considered Complete?,1996,475
+27,16,W2170842367,https://doi.org/10.1111/j.1746-8361.1948.tb00703.x,On the Notions of Causality and Complementarity,1948,340
+27,17,W1602384486,,The penetration of atomic particles through matter,1948,304
+27,18,W1979721696,https://doi.org/10.1086/286465,Causality and Complementarity,1937,277
+27,19,W2060222759,https://doi.org/10.1080/14786441308635031,LXXIII. On the constitution of atoms and molecules,1913,269
+27,20,W4236895041,https://doi.org/10.1007/bf01504968,Das Quantenpostulat und die neuere Entwicklung der Atomistik,1928,252
+27,21,W2023677861,https://doi.org/10.1103/physrev.59.270,Velocity-Range Relation for Fission Fragments,1941,243
+27,22,W2087095771,https://doi.org/10.1080/14786442408565262,LXXVI. The quantum theory of radiation,1924,242
+27,23,W2026917131,https://doi.org/10.1126/science.111.2873.51,On the Notions of Causality and Complementarity,1950,214
+27,24,W2080348810,https://doi.org/10.1103/physrev.58.654,Scattering and Stopping of Fission Fragments,1940,208
+27,25,W1977329839,https://doi.org/10.1103/physrev.78.794,Field and Charge Measurements in Quantum Electrodynamics,1950,202
+217,1,W1607286065,https://doi.org/10.1021/ed069p519,The nature of the chemical bond—1992,1992,13220
+217,2,W1534406401,https://doi.org/10.1016/b978-1-4832-2734-4.50017-6,Evolutionary Divergence and Convergence in Proteins,1965,3020
+217,3,W2140992384,https://doi.org/10.1073/pnas.37.4.205,The structure of proteins: Two hydrogen-bonded helical configurations of the polypeptide chain,1951,2920
+217,4,W2027816595,https://doi.org/10.1126/science.110.2865.543,"Sickle Cell Anemia, a Molecular Disease",1949,2319
+217,5,W2312201898,https://doi.org/10.1021/ja01379a006,THE PRINCIPLES DETERMINING THE STRUCTURE OF COMPLEX IONIC CRYSTALS,1929,1993
+217,6,W2328340213,https://doi.org/10.1021/ja01195a024,Atomic Radii and Interatomic Distances in Metals,1947,1929
+217,7,W2322354531,https://doi.org/10.1021/ja01348a011,THE NATURE OF THE CHEMICAL BOND. IV. THE ENERGY OF SINGLE BONDS AND THE RELATIVE ELECTRONEGATIVITY OF ATOMS,1932,1878
+217,8,W2328807407,https://doi.org/10.1021/ja01315a102,The Structure and Entropy of Ice and of Other Crystals with Some Randomness of Atomic Arrangement,1935,1876
+217,9,W591049712,,Structural chemistry and molecular biology,1968,1692
+217,10,W1512943765,https://doi.org/10.1016/0022-5193(65)90083-4,Molecules as documents of evolutionary history,1965,1349
+217,11,W2328988371,https://doi.org/10.1021/ja01355a027,THE NATURE OF THE CHEMICAL BOND. APPLICATION OF RESULTS OBTAINED FROM THE QUANTUM MECHANICS AND FROM A THEORY OF PARAMAGNETIC SUSCEPTIBILITY TO THE STRUCTURE OF MOLECULES,1931,1282
+217,12,W2016734507,https://doi.org/10.1073/pnas.22.4.210,"The Magnetic Properties and Structure of Hemoglobin, Oxyhemoglobin and Carbonmonoxyhemoglobin",1936,1157
+217,13,W2023002358,https://doi.org/10.1073/pnas.68.10.2374,Quantitative Analysis of Urine Vapor and Breath by Gas-Liquid Partition Chromatography,1971,1033
+217,14,W2334047574,,Molecular Architecture and \nBiological Reactions,1946,856
+217,15,W1786216877,https://doi.org/10.1021/ja01867a018,A Theory of the Structure and Process of Formation of Antibodies*,1940,838
+217,16,W1581103620,,The nature of the chemical bond and the structure of molecules and crystals : an introduction to modern structural chemistry,1940,808
+217,17,W2061663059,https://doi.org/10.1073/pnas.37.11.729,Configurations of Polypeptide Chains With Favored Orientations Around Single Bonds,1951,805
+217,18,W1978992106,https://doi.org/10.1103/physrev.54.899,The Nature of the Interatomic Forces in Metals,1938,744
+217,19,W2028737713,https://doi.org/10.1063/1.1749766,The Diamagnetic Anisotropy of Aromatic Molecules,1936,730
+217,20,W2006817353,https://doi.org/10.1016/0006-3002(55)90178-5,An investigation of the structure of silk fibroin,1955,721
+217,21,W2000112260,https://doi.org/10.1073/pnas.73.10.3685,Supplemental ascorbate in the supportive treatment of cancer: Prolongation of survival times in terminal human cancer.,1976,710
+217,22,W2101298197,https://doi.org/10.1073/pnas.37.5.251,"The Pleated Sheet, A New Layer Configuration of Polypeptide Chains",1951,601
+217,23,W2065064919,https://doi.org/10.1107/s0365110x57000808,"The crystal structure of the metallic phase Mg32(Al, Zn)49",1957,568
+217,24,W2005420533,https://doi.org/10.1021/ja01659a020,THE CRYSTAL STRUCTURE OF MOLYBDENITE,1923,568
+217,25,W1960910882,https://doi.org/10.1038/161707a0,Nature of Forces between Large Molecules of Biological Interest*,1948,549
+222,1,W2138270253,https://doi.org/10.1073/pnas.74.12.5463,DNA sequencing with chain-terminating inhibitors,1977,68572
+222,2,W2109291482,https://doi.org/10.1038/290457a0,Sequence and organization of the human mitochondrial genome,1981,9640
+222,3,W2054468433,https://doi.org/10.1016/0022-2836(80)90196-5,Cloning in single-stranded bacteriophage as an aid to rapid DNA sequencing,1980,3407
+222,4,W2092784580,https://doi.org/10.1016/0022-2836(75)90213-2,A rapid method for determining sequences in DNA by primed synthesis with DNA polymerase,1975,2721
+222,5,W1918431092,https://doi.org/10.1042/bj0390507,The free amino groups of insulin,1945,1827
+222,6,W4293088719,https://doi.org/10.1038/265687a0,Nucleotide sequence of bacteriophage φX174 DNA,1977,1619
+222,7,W2020208382,https://doi.org/10.1016/0022-2836(82)90137-1,Complete sequence of bovine mitochondrial DNA conserved features of the mammalian mitochondrial genome,1982,1472
+222,8,W2086733743,https://doi.org/10.1016/0014-5793(78)80145-8,The use of thin acrylamide gels for DNA sequencing,1978,1433
+222,9,W2032379826,https://doi.org/10.1016/0022-2836(82)90546-0,Nucleotide sequence of bacteriophage λ DNA,1982,1174
+222,10,W2083149513,https://doi.org/10.1016/s0022-2836(65)80104-8,A two-dimensional fractionation procedure for radioactive nucleotides,1965,1152
+222,11,W2414829511,https://doi.org/10.1042/bj0600541,The disulphide bonds of insulin,1955,927
+222,12,W1756039870,https://doi.org/10.1042/bj0490463,The amino-acid sequence in the phenylalanyl chain of insulin. 1. The identification of lower peptides from partial hydrolysates,1951,784
+222,13,W1969094530,https://doi.org/10.1016/0022-2836(78)90346-7,The nucleotide sequence of bacteriophage φX174,1978,694
+222,14,W2084459566,https://doi.org/10.1126/science.7302589,Determination of Nucleotide Sequences in DNA,1981,592
+222,15,W4256252393,https://doi.org/10.1042/bj0530353,The amino-acid sequence in the glycyl chain of insulin. 1. The identification of lower peptides from partial hydrolysates,1953,578
+222,16,W2012972361,https://doi.org/10.1111/j.1432-1033.1969.tb00786.x,Chromatography of 32P‐Labelled Oligonucleotides on Thin Layers of DEAE‐Cellulose,1969,510
+222,17,W1508177894,https://doi.org/10.1042/bj0490481,The amino-acid sequence in the phenylalanyl chain of insulin. 2. The investigation of peptides from enzymic hydrolysates,1951,505
+222,18,W1995119514,https://doi.org/10.1016/0022-2836(68)90168-x,The sequence of 5 s ribosomal ribonucleic acid,1968,418
+222,19,W150919610,https://doi.org/10.1042/bj0420287,The free amino groups of haemoglobins,1948,382
+222,20,W1770535494,https://doi.org/10.1042/bj0450563,The terminal peptides of insulin,1949,377
+222,21,W2074714476,https://doi.org/10.1016/s0022-2836(64)80164-9,N-Formyl-methionyl-S-RNA,1964,352
+222,22,W2048087071,https://doi.org/10.1038/2231009a0,Nucleotide Sequence from the Coat Protein Cistron of R17 Bacteriophage RNA,1969,322
+222,23,W207768927,https://doi.org/10.1042/bj0440126,Fractionation of oxidized insulin,1949,318
+222,24,W1979345372,https://doi.org/10.1016/s0022-2836(67)80109-8,Nucleotide sequences from the low molecular weight ribosomal RNA of Escherichia coli,1967,310
+222,25,W79627341,https://doi.org/10.1016/s0065-3233(08)60017-0,The Arrangement of Amino Acids in Proteins,1952,277
+339,1,W190540197,https://doi.org/10.1093/clinids/2.1.129,"On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae",1980,612
+339,2,W2116464526,,"On the antibacterial action of cultures of a penicillium, with special reference to their use in the isolation of B. influenzae. 1929.",2001,242
+339,3,W1971183096,https://doi.org/10.1136/bmj.1.4706.543,Syringe Needles and Mass Inoculation Technique,1951,37
+339,4,W1971499555,https://doi.org/10.1136/bmj.1.4505.627,Problems in Titration of Streptomycin,1947,34
+339,5,W2124934746,https://doi.org/10.1099/00221287-91-1-1,The Properties and Large-scale Production of L-Asparaginase from Citrobacter,1975,33
+339,6,W2024790929,https://doi.org/10.1016/s0140-6736(00)45986-6,PENICILLIN CONTENT OF BLOOD SERUM AFTER VARIOUS DOSES OF PENICILLIN BY VARIOUS ROUTES,1944,26
+339,7,W2028329848,https://doi.org/10.1016/s0140-6736(01)52126-1,THE PHYSIOLOGICAL AND ANTISEPTIC ACTION OF FLAVINE (WITH SOME OBSERVATIONS ON THE TESTING OF ANTISEPTICS),1917,21
+339,8,W2018764022,https://doi.org/10.1136/bmj.2.4097.99,Advances in Vaccine Therapy,1939,8
+339,9,W2037635549,https://doi.org/10.1136/sti.20.4.133,PENICILLIN IN VENEREAL DISEASES--1,1944,3
+339,10,W7160415933,https://doi.org/10.3847/2515-5172/ae67fe,Characterizing a Super-fast Rotating Asteroid in Rubin Observatory First Alerts,2026,1
+339,11,W2412155006,,"Antiseptics, old and new.",1946,1
+339,12,W1997118611,https://doi.org/10.1016/s0140-6736(01)52052-8,THE PHYSIOLOGICAL AND ANTISEPTIC PROPERTIES OF FLAVINE.,1917,0
+372,1,W2126466006,https://doi.org/10.1038/171737a0,Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid,1953,13587
+372,2,W2055214702,https://doi.org/10.1038/227561a0,Central Dogma of Molecular Biology,1970,3445
+372,3,W1995143868,https://doi.org/10.1016/0022-2836(68)90392-6,The origin of the genetic code,1968,2320
+372,4,W4292078711,https://doi.org/10.1038/171964b0,Genetical Implications of the Structure of Deoxyribonucleic Acid,1953,2196
+372,5,W2085154635,https://doi.org/10.1038/284604a0,Selfish DNA: the ultimate parasite,1980,2158
+372,6,W2068694787,https://doi.org/10.1016/s0022-2836(66)80022-0,Codon—anticodon pairing: The wobble hypothesis,1966,2029
+372,7,W2116441099,https://doi.org/10.1107/s0365110x53001964,The packing of α-helices: simple coiled-coils,1953,1578
+372,8,W2008365039,https://doi.org/10.1038/1921227a0,General Nature of the Genetic Code for Proteins,1961,1392
+372,9,W2741340870,https://doi.org/10.1007/978-3-662-47150-0_4,A Structure for Deoxyribose Nucleic Acid,2017,1387
+372,10,W2077423161,https://doi.org/10.1007/978-3-662-47150-0_5,Genetical Implications of the Structure of Deoxyribonucleic Acid,2017,1297
+372,11,W2127674396,https://doi.org/10.1101/sqb.1953.018.01.020,THE STRUCTURE OF DNA,1953,1122
+372,12,W2086441427,https://doi.org/10.1038/225420a0,Diffusion in Embryogenesis,1970,907
+372,13,W2044707217,https://doi.org/10.1038/304111a0,The function of dream sleep,1983,865
+372,14,W2275037286,https://doi.org/10.1097/00005053-199606000-00013,The Astonishing Hypothesis,1996,789
+372,15,W2003896402,https://doi.org/10.1038/177473a0,Structure of Small Viruses,1956,723
+372,16,W2995121509,https://doi.org/10.1007/bf02834980,Molecular structure of nucleic acids,2004,656
+372,17,W2135259735,https://doi.org/10.1107/s0365110x52001635,The structure of synthetic polypeptides. I. The transform of atoms on a helix,1952,599
+372,18,W2145165079,https://doi.org/10.1038/176915a0,The Structure of Collagen,1955,524
+372,19,W2055898626,https://doi.org/10.1107/s0365110x59002274,The treatment of errors in the isomorphous replacement method,1959,492
+372,20,W2055829158,https://doi.org/10.1126/science.373120,Split Genes and RNA Splicing,1979,470
+372,21,W2055162070,https://doi.org/10.1016/s0022-2836(61)80009-0,The molecular structure of polyadenylic acid,1961,459
+372,22,W2116109971,https://doi.org/10.1107/s0365110x58000517,Diffraction by helical structures,1958,432
+372,23,W1989945586,https://doi.org/10.1038/234025a0,General Model for the Chromosomes of Higher Organisms,1971,418
+372,24,W1985534367,https://doi.org/10.1038/312101a0,Neurobiology: Memory and molecular turnover,1984,392
+372,25,W2041963202,https://doi.org/10.1098/rspa.1954.0101,The complementary structure of deoxyribonucleic acid,1954,389
+679,1,W1998819003,https://doi.org/10.2307/1925895,The Pure Theory of Public Expenditure,1954,7504
+679,2,W2053347727,https://doi.org/10.2307/2280713,Foundations of Economic Analysis.,1948,4129
+679,3,W2003180600,https://doi.org/10.1086/258100,An Exact Consumption-Loan Model of Interest with or without the Social Contrivance of Money,1958,3537
+679,4,W2797056189,https://doi.org/10.2307/3438190,Foundations of Economic Analysis,1948,2966
+679,5,W1981183884,https://doi.org/10.2307/1928178,Theoretical Notes on Trade Problems,1964,2451
+679,6,W2029167274,https://doi.org/10.2307/2967638,Protection and Real Wages,1941,2430
+679,7,W2323086467,https://doi.org/10.2307/2548836,A Note on the Pure Theory of Consumer's Behaviour,1938,2292
+679,8,W1998503232,https://doi.org/10.2307/2967612,A Note on Measurement of Utility,1937,2177
+679,9,W66483636,https://doi.org/10.1142/9789814566926_0002,Proof that Properly Anticipated Prices Fluctuate Randomly,2015,2078
+679,10,W2068745433,https://doi.org/10.1016/b978-0-12-780850-5.50044-7,LIFETIME PORTFOLIO SELECTION BY DYNAMIC STOCHASTIC PROGRAMMING,1975,1939
+679,11,W4241627017,https://doi.org/10.2307/1926559,Lifetime Portfolio Selection By Dynamic Stochastic Programming,1969,1692
+679,12,W2091732022,https://doi.org/10.2307/2225933,International Trade and the Equalisation of Factor Prices,1948,1051
+679,13,W2328848660,https://doi.org/10.2307/2549561,Consumption Theory in Terms of Revealed Preference,1948,985
+679,14,W2316326196,https://doi.org/10.2307/1927758,Interactions between the Multiplier Analysis and the Principle of Acceleration,1939,966
+679,15,W2005930083,https://doi.org/10.2307/1884510,Social Indifference Curves,1956,864
+679,16,W4236188658,https://doi.org/10.2307/1925849,Diagrammatic Exposition of a Theory of Public Expenditure,1955,819
+679,17,W1597641588,,"Comparative Advantage, Trade, and Payments in a Ricardian Model with a Continuum of Goods",1976,757
+679,18,W2068689926,https://doi.org/10.2307/2296483,"The Fundamental Approximation Theorem of Portfolio Analysis in terms of Means, Variances and Higher Moments",1970,731
+679,19,W2167042016,https://doi.org/10.1257/0895330042162403,Where Ricardo and Mill Rebut and Confirm Arguments of Mainstream Economists Supporting Globalization,2004,723
+679,20,W2312876242,https://doi.org/10.1007/978-1-349-15486-9_4,Diagrammatic Exposition of a Theory of Public Expenditure,1972,721
+679,21,W4300790488,https://doi.org/10.2307/1925474,Linear Programming and Economic Analysis,1959,703
+679,22,W2316893086,https://doi.org/10.2307/2226834,"The Transfer Problem and Transport Costs, II: Analysis of Effects of Trade Impediments",1954,680
+679,23,W3126489641,,Risk and uncertainty: a fallacy of large numbers,1963,615
+679,24,W2018826977,https://doi.org/10.2307/2296256,Prices of Factors and Good in General Equilibrium,1953,611
+679,25,W1971369425,https://doi.org/10.2307/2226683,International Factor-Price Equalisation Once Again,1949,604
+759,1,W3011865677,https://doi.org/10.2307/1914185,Prospect Theory: An Analysis of Decision under Risk,1979,48524
+759,2,W2133469585,https://doi.org/10.1017/cbo9780511609220.014,Prospect theory: An analysis of decision under risk,1988,32477
+759,3,W4292157289,https://doi.org/10.1126/science.185.4157.1124,Judgment under Uncertainty: Heuristics and Biases,1974,28810
+759,4,W158727920,https://doi.org/10.1007/978-94-010-1834-0_8,Judgment under Uncertainty: Heuristics and Biases,1975,22649
+759,5,W2096452841,https://doi.org/10.1126/science.7455683,The Framing of Decisions and the Psychology of Choice,1981,17842
+759,6,W2041946752,https://doi.org/10.1007/bf00122574,Advances in prospect theory: Cumulative representation of uncertainty,1992,15470
+759,7,W2752099845,,"Thinking, Fast and Slow",2011,14316
+759,8,W2035782089,https://doi.org/10.1016/0010-0285(73)90033-9,Availability: A heuristic for judging frequency and probability,1973,9984
+759,9,W2088155659,,Well-being : the foundations of hedonic psychology,1999,7446
+759,10,W2094136133,https://doi.org/10.2307/1421603,Attention and Effort,1975,6976
+759,11,W3123340585,https://doi.org/10.1037/0003-066x.39.4.341,"Choices, values, and frames.",1984,6508
+759,12,W2030874315,https://doi.org/10.2307/2937956,Loss Aversion in Riskless Choice: A Reference-Dependent Model,1991,6430
+759,13,W1980054641,https://doi.org/10.1037/h0034747,On the psychology of prediction.,1973,6203
+759,14,W2046411892,https://doi.org/10.1037/0003-066x.58.9.697,A perspective on judgment and choice: Mapping bounded rationality.,2003,5539
+759,15,W2043787485,https://doi.org/10.1257/000282803322655392,Maps of Bounded Rationality: Psychology for Behavioral Economics,2003,5379
+759,16,W2061592058,https://doi.org/10.1142/9789814417358_0016,"Choices, Values, and Frames",2013,5322
+759,17,W2165893637,https://doi.org/10.1257/jep.5.1.193,"Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias",1991,5019
+759,18,W2016377072,https://doi.org/10.1016/0010-0285(72)90016-3,Subjective probability: A judgment of representativeness,1972,4881
+759,19,W284513564,,Judgment under uncertainty: List of contributors,1982,4616
+759,20,W942274081,,Judgment under uncertainty: Causality and attribution,1982,4616
+759,21,W2162829624,https://doi.org/10.1037/0033-295x.90.4.293,Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment.,1983,3991
+759,22,W3162099472,https://doi.org/10.2307/3151689,Judgement under Uncertainty: Heuristics and Biases,1983,3813
+759,23,W1986646649,https://doi.org/10.1017/cbo9780511598951.011,RATIONAL CHOICE AND THE FRAMING OF DECISIONS,1988,3714
+759,24,W1604801388,https://doi.org/10.1017/cbo9780511809477.002,Judgment under uncertainty: Heuristics and biases,1982,3643
+759,25,W4245409838,https://doi.org/10.1086/296365,Rational Choice and the Framing of Decisions,1986,3623

@@ -1,4 +1,6 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import LaureateLine from "../lib/Laureate";
+import { SortHead, useSort } from "../lib/sort";
 import Globe, { GlobePoint } from "../lib/Globe";
 import { CONT_HE, FIELD, FieldCode, Model, nameHe } from "../lib/data";
 import Rich from "../lib/Rich";
@@ -35,6 +37,7 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
   const total = visible.length || 1;
   const top = shares[0];
   const fp = focus ? m.byId.get(focus) : undefined;
+  const { sorted: inst, s: si, toggle: ti } = useSort(m.quality.top_institutions, { name: (r: { name: string; n: number }) => r.name, n: (r: { name: string; n: number }) => r.n }, { key: "n", dir: "desc" });
   const setF = (f: FieldCode[]) => { setFields(f); go("world", { id: focus ?? undefined, f: f.join(",") || undefined }); };
 
   return (
@@ -76,10 +79,9 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
             <h2 className="detail-name"><Name he={fp.he} en={fp.en} /></h2>
             <dl className="facts">
               <dt>נולד/ה</dt><dd>{[fp.city, fp.country].filter(Boolean).join(", ")}{fp.born ? <> · <bdi className="num">{fp.born.slice(0, 4)}</bdi></> : null}</dd>
-              {(m.prizesOf.get(fp.id) ?? []).map((x) => (
-                <Fragment key={x.y}><dt>{FIELD[x.f].he} <bdi className="num">{x.y}</bdi></dt><dd className="lat" dir="ltr" style={{ margin: 0 }}>"{x.m}"</dd></Fragment>
-              ))}
+
             </dl>
+            {(m.prizesOf.get(fp.id) ?? []).map((x) => <LaureateLine key={x.y} m={m} p={x} onName={m.selIds.has(fp.id) ? () => go("people", { id: fp.id }) : undefined} />)}
             <Src href={`https://www.nobelprize.org/laureate/${fp.id}`}>NobelPrize.org</Src>
             {m.selIds.has(fp.id) && <a className="press btn" href={href("people", { id: fp.id })}>לכרטיס המלא</a>}
           </div>
@@ -95,7 +97,8 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
           ))}
         </div>
         <div className="label">עשרת המוסדות עם הכי הרבה זוכים, ביום הזכייה</div>
-        <div>{m.quality.top_institutions.map((t) => (
+        <div className="sort-row"><SortHead k="name" s={si} toggle={ti}>מוסד</SortHead><SortHead k="n" s={si} toggle={ti}>זוכים</SortHead></div>
+        <div>{inst.map((t) => (
           <div key={t.name} className="dense-row"><span style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }} dir="ltr">{t.name}</span><span className="num" style={{ marginInlineStart: "auto" }}>{t.n}</span></div>
         ))}</div>
         <Tone kind="problem" title="הטיה">{"מקום לידה אינו מקום העבודה.\nהמוסד הוא השיוך ביום הזכייה, לא המקום שבו נעשתה התגלית."}</Tone>

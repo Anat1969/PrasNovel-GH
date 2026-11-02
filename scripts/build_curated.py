@@ -222,8 +222,8 @@ def build_openalex():
     except FileNotFoundError:
         return {}
     load = lambda n: json.loads((snap / f"{n}.json").read_text(encoding="utf-8")) if (snap / f"{n}.json").exists() else {}
-    links, authors, works, curves, cross, cfields, evid = (load(n) for n in (
-        "links", "authors", "works", "citing_by_year", "cross_citations", "citing_fields", "edge_evidence"))
+    links, authors, works, curves, cross, cfields, evid, fex = (load(n) for n in (
+        "links", "authors", "works", "citing_by_year", "cross_citations", "citing_fields", "edge_evidence", "field_examples"))
     short = lambda s: (s or "").rsplit("/", 1)[-1]
     link_rows, ev_rows = [], []
     fetched = {l["nobel_id"]: set(l["authors"]) for l in links or []}  # ids the raw works/curves were fetched for
@@ -295,7 +295,17 @@ def build_openalex():
             ev_work_rows.append({"citing_nobel_id": citing, "cited_nobel_id": cited, "work_id": short(w["id"]), "title": w.get("title"),
                                  "year": w.get("publication_year"), "doi": w.get("doi"), "cited_by": w.get("cited_by_count"),
                                  "references": " || ".join(refs)})
-    return {"openalex_citing_field": pd.DataFrame(field_rows), "cite_edge_work": pd.DataFrame(ev_work_rows),
+    fname = {short(b["key"]): b.get("key_display_name") for g in (cfields or {}).values() for b in g.get("group_by", []) if b.get("key")}
+    ex_rows = []
+    for nid, by_field in (fex or {}).items():
+        if nid not in linked or keep[nid] != fetched.get(nid):
+            continue
+        for fid, r in by_field.items():
+            for rank, w in enumerate(r.get("results", []), 1):
+                ex_rows.append({"nobel_id": nid, "field_id": fid, "field_en": fname.get(fid), "rank": rank, "work_id": short(w["id"]),
+                                "title": w.get("title"), "year": w.get("publication_year"), "doi": w.get("doi"), "cited_by": w.get("cited_by_count"),
+                                "topic": (w.get("primary_topic") or {}).get("display_name")})
+    return {"openalex_citing_field": pd.DataFrame(field_rows), "openalex_field_example": pd.DataFrame(ex_rows), "cite_edge_work": pd.DataFrame(ev_work_rows),
             "openalex_link": pd.DataFrame(link_rows), "openalex_evidence": pd.DataFrame(ev_rows),
             "openalex_stats": pd.DataFrame(stat_rows), "openalex_work": pd.DataFrame(work_rows),
             "openalex_curve": pd.DataFrame(curve_rows), "cite_edge": pd.DataFrame(cite_rows)}

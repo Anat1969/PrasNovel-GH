@@ -1,3 +1,4 @@
+import { SortHead, useSort } from "../lib/sort";
 import { FIELD, Model } from "../lib/data";
 import Rich from "../lib/Rich";
 import { Src, Tone } from "../lib/ui";
@@ -6,6 +7,9 @@ const STATUS: Record<string, string> = { match: "תואם", match_year: "תוא�
 
 export default function Quality({ m }: { m: Model }) {
   const q = m.quality;
+  type QF = (typeof q.fields)[number]; type MM = (typeof q.mismatches)[number];
+  const { sorted: qf, s: sf, toggle: tf } = useSort(q.fields, { f: (r: QF) => FIELD[r.f].he, p: (r: QF) => r.api_prizes, l: (r: QF) => r.api_laureates }, { key: "p", dir: "desc" });
+  const { sorted: mism, s: sm, toggle: tm } = useSort(q.mismatches, { en: (r: MM) => r.en, api: (r: MM) => r.api }, { key: "en", dir: "asc" });
   const ok = q.fields.every((f) => f.api_prizes === f.spec_prizes && f.api_laureates === f.spec_laureates);
   const total = Object.values(q.birth).reduce((a, b) => a + b, 0);
   return (
@@ -21,8 +25,8 @@ export default function Quality({ m }: { m: Model }) {
           <div className="panel panel-pad scroll-in">
             <div className="label">ספירות לפי תחום</div>
             <table className="qt">
-              <thead><tr><th>תחום</th><th>פרסים</th><th>SPEC</th><th>זוכים</th><th>SPEC</th><th>מצב</th></tr></thead>
-              <tbody>{q.fields.map((f) => {
+              <thead><tr><th><SortHead k="f" s={sf} toggle={tf}>תחום</SortHead></th><th><SortHead k="p" s={sf} toggle={tf}>פרסים</SortHead></th><th>SPEC</th><th><SortHead k="l" s={sf} toggle={tf}>זוכים</SortHead></th><th>SPEC</th><th>מצב</th></tr></thead>
+              <tbody>{qf.map((f) => {
                 const good = f.api_prizes === f.spec_prizes && f.api_laureates === f.spec_laureates;
                 return (<tr key={f.f}><td style={{ color: FIELD[f.f].color, fontWeight: 600 }}>{FIELD[f.f].he}</td>
                   <td className="num">{f.api_prizes}</td><td className="num muted">{f.spec_prizes}</td>
@@ -44,8 +48,8 @@ export default function Quality({ m }: { m: Model }) {
           <div className="panel panel-pad scroll-in">
             <div className="label">פערי תאריך לידה: <bdi className="num">{q.mismatches.length}</bdi></div>
             <table className="qt">
-              <thead><tr><th>זוכה</th><th>API</th><th>Wikidata</th></tr></thead>
-              <tbody>{q.mismatches.map((x) => (
+              <thead><tr><th><SortHead k="en" s={sm} toggle={tm}>זוכה</SortHead></th><th><SortHead k="api" s={sm} toggle={tm}>API</SortHead></th><th>Wikidata</th></tr></thead>
+              <tbody>{mism.map((x) => (
                 <tr key={x.id}><td dir="ltr" style={{ textAlign: "right" }}>{x.en}</td><td className="num">{x.api}</td><td className="num">{x.wd.split("|").map((d) => d.slice(0, 10)).join(", ")}</td></tr>
               ))}</tbody>
             </table>

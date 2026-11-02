@@ -30,6 +30,7 @@
 | `cite_edge_work` | citing_nobel_id, cited_nobel_id, work_id, title, year, doi, cited_by, references: הראיה לכל קשר ציטוט בין זוכים |
 | `degree` | nobel_id, qid, degree, degree_he, degree_en, by_en, by_he, year, source_url: תואר מתוך רשומת השכלה (P69 עם P512) |
 | `laureate_link` | mentor_qid, student_qid, properties, mentor_nobel_id, student_nobel_id, source_url: קשר מנחה ותלמיד ששני צדדיו זוכים, בכל התחומים |
+| `openalex_field_example` | nobel_id, field_id, field_en, rank, work_id, title, year, doi, cited_by, topic: העבודות המצוטטות ביותר בכל תחום מצטט |
 | `cite_edge` | citing_nobel_id, cited_nobel_id, works: עבודות של זוכה אחד שמצטטות את העבודות המובילות של זוכה אחר |
 | `idea` | idea_id, label_he, label_en, origin_field, description_he |
 | `edge` | src, dst (QID), src_nobel_id, dst_nobel_id, src_label, dst_label, src_label_he, dst_label_he, type (mentor_of, coauthor_with, cites, shared_prize_with, developed_idea, applied_idea_in), property (P184/P185/P1066/P802), source_url, confidence |
@@ -102,3 +103,4 @@
 - **גיל בזכייה:** מחושב מתאריך הלידה ותאריך ההענקה. כשאחד מהם חלקי, לפי שנה בלבד, ומסומן `age_is_exact = 0`.
 - **OpenAlex (2.11.2026):** 16 זוכים במדעים ובכלכלה מקושרים. 4 זוכי שלום מסומנים "לא רלוונטי". ORCID של רמון אי קחאל ב-Wikidata מוביל לחוקר אחר ומסומן "סתירה". עקומות הציטוט מתחילות בשנת העבודה המוקדמת ביותר ונגמרות ב-2025, כי שנה חלקית ותאריכים שגויים ב-OpenAlex יוצרים עקומה מטעה.
 - **הרחבה (2.11.2026):** 4 זוכי ספרות נוספו כהצעה (לגרלף, טאגור, עגנון, האן קאנג), עם אותם קריטריונים. תואר נלקח רק מרשומת השכלה (P69 עם P512), כי P512 לבדו כולל תארי כבוד ותפקידים. קשרי מנחה בין כל 1,028 הזוכים משמשים את "התפתחות תחום" ואת "בין התחומים". התרומה ומה שהיא נתנה (`config/museum.json`) והסברי הקשרים (`config/connections.json`) הם טיוטת Claude, ומסומנים כך.
+- **סבב 3 (2.11.2026):** 36 נבחרים, שישה בכל תחום: ארבעה לפי גיוון ושניים לפי השפעה על התפתחות התחום (`criterion: evolution`). לכל פרס: תרגום עברי לנימוק ותווית גילוי קצרה שנגזרה מהנימוק בלבד (`config/motivations_he.json`, תרגום Claude). סיכום לכל תחום ותקופה (`config/evolution.json`, טיוטה [הערכה]). OpenAlex מוסיף דוגמאות לעבודות מצטטות מכל תחום (`openalex_field_example`).
