@@ -1,0 +1,3267 @@
+{
+ "1": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 1,
+   "db_response_time_ms": 278,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 2,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1974479134 or W2000032478 or W2000472499 or W2021728663 or W2021878906 or W2025801760 or W2036835433 or W2037397011 or W2046505836 or W2047827517 or W2071365966 or W2080138883 or W2088196348 or W2098027727 or W2116447709 or W2121545305 or W2136884003 or W2136974426 or W2145433644 or W2145585987 or W2165574470 or W2252470007 or W3209398570 or W4243615561 or W4255570493) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1974479134 or W2000032478 or W2000472499 or W2021728663 or W2021878906 or W2025801760 or W2036835433 or W2037397011 or W2046505836 or W2047827517 or W2071365966 or W2080138883 or W2088196348 or W2098027727 or W2116447709 or W2121545305 or W2136884003 or W2136974426 or W2145433644 or W2145585987 or W2165574470 or W2252470007 or W3209398570 or W4243615561 or W4255570493) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1974479134"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2000032478"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2000472499"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2021728663"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2021878906"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2025801760"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2036835433"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2037397011"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2046505836"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2047827517"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2071365966"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2080138883"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2088196348"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2098027727"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2116447709"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2121545305"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2136884003"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2136974426"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2145433644"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2145585987"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2165574470"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2252470007"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3209398570"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4243615561"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4255570493"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1974479134|W2000032478|W2000472499|W2021728663|W2021878906|W2025801760|W2036835433|W2037397011|W2046505836|W2047827517|W2071365966|W2080138883|W2088196348|W2098027727|W2116447709|W2121545305|W2136884003|W2136974426|W2145433644|W2145585987|W2165574470|W2252470007|W3209398570|W4243615561|W4255570493&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": [
+   {
+    "key": "https://openalex.org/A5108634248",
+    "key_display_name": "Chandrasekhara Venkata Raman",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5111368473",
+    "key_display_name": "K. S. Venkataraman",
+    "count": 1
+   }
+  ]
+ },
+ "6": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 153,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1720048337 or W2091109017 or W2100846986 or W2172678024 or W2319154631 or W3009055929 or W3120402445 or W3120606286) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1720048337 or W2091109017 or W2100846986 or W2172678024 or W2319154631 or W3009055929 or W3120402445 or W3120606286) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1720048337"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2091109017"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2100846986"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2172678024"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2319154631"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3009055929"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3120402445"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3120606286"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1720048337|W2091109017|W2100846986|W2172678024|W2319154631|W3009055929|W3120402445|W3120606286&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "37": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 212,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5109169384) and it cites (W109283507 or W131994752 or W1979470288 or W1991394410 or W2004497729 or W2005851512 or W2025158636 or W2043868875 or W2050193529 or W2067355046 or W2072443063 or W2074031238 or W2078583618 or W2080896630 or W2088920629 or W2279228035 or W2281067309 or W2495189060 or W2601038598 or W2637767500 or W2748637106 or W2900122492 or W3177123549 or W3209996618 or W6720972) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5109169384) and it cites (W109283507 or W131994752 or W1979470288 or W1991394410 or W2004497729 or W2005851512 or W2025158636 or W2043868875 or W2050193529 or W2067355046 or W2072443063 or W2074031238 or W2078583618 or W2080896630 or W2088920629 or W2279228035 or W2281067309 or W2495189060 or W2601038598 or W2637767500 or W2748637106 or W2900122492 or W3177123549 or W3209996618 or W6720972) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W109283507"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W131994752"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1979470288"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1991394410"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2004497729"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2005851512"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2025158636"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2043868875"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2050193529"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2067355046"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2072443063"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2074031238"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2078583618"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2080896630"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2088920629"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2279228035"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2281067309"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2495189060"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2601038598"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2637767500"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2748637106"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2900122492"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3177123549"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3209996618"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W6720972"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5109169384,referenced_works:W109283507|W131994752|W1979470288|W1991394410|W2004497729|W2005851512|W2025158636|W2043868875|W2050193529|W2067355046|W2072443063|W2074031238|W2078583618|W2080896630|W2088920629|W2279228035|W2281067309|W2495189060|W2601038598|W2637767500|W2748637106|W2900122492|W3177123549|W3209996618|W6720972&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "962": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 305,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1970072095 or W1971116542 or W1980339504 or W1987206048 or W1995812121 or W2003762847 or W2028602705 or W2029483302 or W2031233457 or W2034978251 or W2038649400 or W2045861437 or W2046393156 or W2046565768 or W2047370436 or W2048199114 or W2055738441 or W2056524507 or W2057358381 or W2115983867 or W2224964899 or W2916178233 or W2953443502 or W3149578424 or W4285010665) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1970072095 or W1971116542 or W1980339504 or W1987206048 or W1995812121 or W2003762847 or W2028602705 or W2029483302 or W2031233457 or W2034978251 or W2038649400 or W2045861437 or W2046393156 or W2046565768 or W2047370436 or W2048199114 or W2055738441 or W2056524507 or W2057358381 or W2115983867 or W2224964899 or W2916178233 or W2953443502 or W3149578424 or W4285010665) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1970072095"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1971116542"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1980339504"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1987206048"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1995812121"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2003762847"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2028602705"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2029483302"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2031233457"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2034978251"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2038649400"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2045861437"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2046393156"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2046565768"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2047370436"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2048199114"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2055738441"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2056524507"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2057358381"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2115983867"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2224964899"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2916178233"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2953443502"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3149578424"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4285010665"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1970072095|W1971116542|W1980339504|W1987206048|W1995812121|W2003762847|W2028602705|W2029483302|W2031233457|W2034978251|W2038649400|W2045861437|W2046393156|W2046565768|W2047370436|W2048199114|W2055738441|W2056524507|W2057358381|W2115983867|W2224964899|W2916178233|W2953443502|W3149578424|W4285010665&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "160": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 203,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5108634248 or A5109169384) and it cites (W1541452967 or W1966207165 or W1969004970 or W1981309840 or W1989059350 or W2023514241 or W2050695582 or W2078239662 or W2094070576 or W2098143567 or W2316299730 or W2581177722 or W2581845315 or W2582740178 or W2610789660 or W2721106904 or W4213035218 or W4239803923 or W565281577 or W568101975 or W606200707 or W613223443 or W620836129 or W622244830 or W632333244) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5108634248 or A5109169384) and it cites (W1541452967 or W1966207165 or W1969004970 or W1981309840 or W1989059350 or W2023514241 or W2050695582 or W2078239662 or W2094070576 or W2098143567 or W2316299730 or W2581177722 or W2581845315 or W2582740178 or W2610789660 or W2721106904 or W4213035218 or W4239803923 or W565281577 or W568101975 or W606200707 or W613223443 or W620836129 or W622244830 or W632333244) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1541452967"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1966207165"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1969004970"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1981309840"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1989059350"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2023514241"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2050695582"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2078239662"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2094070576"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2098143567"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2316299730"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2581177722"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2581845315"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2582740178"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2610789660"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2721106904"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4213035218"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4239803923"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W565281577"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W568101975"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W606200707"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W613223443"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W620836129"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W622244830"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W632333244"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5108634248|A5109169384,referenced_works:W1541452967|W1966207165|W1969004970|W1981309840|W1989059350|W2023514241|W2050695582|W2078239662|W2094070576|W2098143567|W2316299730|W2581177722|W2581845315|W2582740178|W2610789660|W2721106904|W4213035218|W4239803923|W565281577|W568101975|W606200707|W613223443|W620836129|W622244830|W632333244&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "230": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 300,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248) and it cites (W1547629141 or W1621751143 or W1764629353 or W1771909345 or W190932957 or W1973584628 or W1986091806 or W1986847107 or W1990535180 or W2031793674 or W2046315748 or W2053038090 or W2056838602 or W2058691613 or W2063267354 or W2085646026 or W2088330573 or W2095787660 or W2124633725 or W2138090458 or W2327959646 or W2404364250 or W2413259412 or W2414293732 or W964503500) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248) and it cites (W1547629141 or W1621751143 or W1764629353 or W1771909345 or W190932957 or W1973584628 or W1986091806 or W1986847107 or W1990535180 or W2031793674 or W2046315748 or W2053038090 or W2056838602 or W2058691613 or W2063267354 or W2085646026 or W2088330573 or W2095787660 or W2124633725 or W2138090458 or W2327959646 or W2404364250 or W2413259412 or W2414293732 or W964503500) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1547629141"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1621751143"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1764629353"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1771909345"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W190932957"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1973584628"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1986091806"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1986847107"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1990535180"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2031793674"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2046315748"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2053038090"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2056838602"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2058691613"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2063267354"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2085646026"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2088330573"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2095787660"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2124633725"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2138090458"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2327959646"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2404364250"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2413259412"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2414293732"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W964503500"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248,referenced_works:W1547629141|W1621751143|W1764629353|W1771909345|W190932957|W1973584628|W1986091806|W1986847107|W1990535180|W2031793674|W2046315748|W2053038090|W2056838602|W2058691613|W2063267354|W2085646026|W2088330573|W2095787660|W2124633725|W2138090458|W2327959646|W2404364250|W2413259412|W2414293732|W964503500&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "292": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 271,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1964069776 or W1978316999 or W1992145745 or W2003771289 or W2007203783 or W2009442202 or W2015447123 or W2020006133 or W2023693337 or W2025906452 or W2025940074 or W2026128357 or W2057742133 or W2070951363 or W2071062622 or W2078601969 or W2093458139 or W2102100267 or W2122617659 or W2130578590 or W2145926643 or W2146330827 or W2162832464 or W4237059594 or W654242132) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1964069776 or W1978316999 or W1992145745 or W2003771289 or W2007203783 or W2009442202 or W2015447123 or W2020006133 or W2023693337 or W2025906452 or W2025940074 or W2026128357 or W2057742133 or W2070951363 or W2071062622 or W2078601969 or W2093458139 or W2102100267 or W2122617659 or W2130578590 or W2145926643 or W2146330827 or W2162832464 or W4237059594 or W654242132) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1964069776"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1978316999"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1992145745"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2003771289"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2007203783"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2009442202"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2015447123"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2020006133"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2023693337"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2025906452"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2025940074"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2026128357"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2057742133"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2070951363"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2071062622"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2078601969"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2093458139"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2102100267"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2122617659"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2130578590"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2145926643"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2146330827"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2162832464"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4237059594"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W654242132"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1964069776|W1978316999|W1992145745|W2003771289|W2007203783|W2009442202|W2015447123|W2020006133|W2023693337|W2025906452|W2025940074|W2026128357|W2057742133|W2070951363|W2071062622|W2078601969|W2093458139|W2102100267|W2122617659|W2130578590|W2145926643|W2146330827|W2162832464|W4237059594|W654242132&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "1055": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 158,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1677747913 or W1975501285 or W1987632972 or W1989896216 or W1990918587 or W1997531531 or W1999908724 or W2001037711 or W2021523927 or W2022085591 or W2028182782 or W2034984769 or W2049145344 or W2049541689 or W2053700726 or W2056127514 or W2062269633 or W2090264019 or W2137818170 or W2141939342 or W2163535530 or W2164043498 or W2594238106 or W2942998504 or W4239958190) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1677747913 or W1975501285 or W1987632972 or W1989896216 or W1990918587 or W1997531531 or W1999908724 or W2001037711 or W2021523927 or W2022085591 or W2028182782 or W2034984769 or W2049145344 or W2049541689 or W2053700726 or W2056127514 or W2062269633 or W2090264019 or W2137818170 or W2141939342 or W2163535530 or W2164043498 or W2594238106 or W2942998504 or W4239958190) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1677747913"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1975501285"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1987632972"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1989896216"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1990918587"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1997531531"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1999908724"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2001037711"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2021523927"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2022085591"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2028182782"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2034984769"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2049145344"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2049541689"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2053700726"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2056127514"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2062269633"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2090264019"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2137818170"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2141939342"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2163535530"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2164043498"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2594238106"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2942998504"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4239958190"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1677747913|W1975501285|W1987632972|W1989896216|W1990918587|W1997531531|W1999908724|W2001037711|W2021523927|W2022085591|W2028182782|W2034984769|W2049145344|W2049541689|W2053700726|W2056127514|W2062269633|W2090264019|W2137818170|W2141939342|W2163535530|W2164043498|W2594238106|W2942998504|W4239958190&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "299": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 206,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1945540290 or W1971133173 or W1997421768 or W2014357416 or W2019206423 or W2055489321 or W2056626408 or W2066503677 or W2089288294 or W2101096891 or W2104728809 or W2114901348 or W2149218373 or W2154305555 or W2161180058 or W2163845213 or W2165159301 or W2172265576 or W2271392525 or W2768799378 or W2795384975 or W2806597619 or W3002685488 or W3080227974 or W3160076672) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1945540290 or W1971133173 or W1997421768 or W2014357416 or W2019206423 or W2055489321 or W2056626408 or W2066503677 or W2089288294 or W2101096891 or W2104728809 or W2114901348 or W2149218373 or W2154305555 or W2161180058 or W2163845213 or W2165159301 or W2172265576 or W2271392525 or W2768799378 or W2795384975 or W2806597619 or W3002685488 or W3080227974 or W3160076672) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1945540290"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1971133173"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1997421768"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2014357416"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2019206423"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2055489321"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2056626408"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2066503677"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2089288294"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2101096891"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2104728809"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2114901348"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2149218373"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2154305555"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2161180058"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2163845213"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2165159301"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2172265576"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2271392525"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2768799378"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2795384975"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2806597619"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3002685488"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3080227974"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3160076672"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1945540290|W1971133173|W1997421768|W2014357416|W2019206423|W2055489321|W2056626408|W2066503677|W2089288294|W2101096891|W2104728809|W2114901348|W2149218373|W2154305555|W2161180058|W2163845213|W2165159301|W2172265576|W2271392525|W2768799378|W2795384975|W2806597619|W3002685488|W3080227974|W3160076672&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "428": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 253,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1705376011 or W1829553711 or W1895714488 or W1965368044 or W1973349890 or W1977172248 or W1988498700 or W1996129056 or W2005386793 or W2019771705 or W2026519705 or W2027884659 or W2036185668 or W2052142603 or W2066886585 or W2083513542 or W2094913043 or W2130578722 or W2133438304 or W2212128169 or W2221571340 or W2594049814 or W2595624821 or W2600702341 or W2624179881) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1705376011 or W1829553711 or W1895714488 or W1965368044 or W1973349890 or W1977172248 or W1988498700 or W1996129056 or W2005386793 or W2019771705 or W2026519705 or W2027884659 or W2036185668 or W2052142603 or W2066886585 or W2083513542 or W2094913043 or W2130578722 or W2133438304 or W2212128169 or W2221571340 or W2594049814 or W2595624821 or W2600702341 or W2624179881) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1705376011"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1829553711"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1895714488"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1965368044"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1973349890"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1977172248"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1988498700"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1996129056"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2005386793"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2019771705"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2026519705"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2027884659"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2036185668"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2052142603"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2066886585"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2083513542"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2094913043"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2130578722"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2133438304"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2212128169"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2221571340"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2594049814"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2595624821"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2600702341"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2624179881"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1705376011|W1829553711|W1895714488|W1965368044|W1973349890|W1977172248|W1988498700|W1996129056|W2005386793|W2019771705|W2026519705|W2027884659|W2036185668|W2052142603|W2066886585|W2083513542|W2094913043|W2130578722|W2133438304|W2212128169|W2221571340|W2594049814|W2595624821|W2600702341|W2624179881&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "918": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 177,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1965003536 or W2052435822 or W2352403150 or W2357835379 or W2361047833 or W2375578461 or W2410872996 or W2415857352 or W2484834618 or W2500727927 or W2735155945 or W2903916649 or W2913263498 or W2941030960 or W2949609896 or W2981835717 or W3011284286 or W3048041047 or W3111997701 or W3144511851 or W4226162648 or W4233197293 or W4281724880 or W4411331275 or W4413421127) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1965003536 or W2052435822 or W2352403150 or W2357835379 or W2361047833 or W2375578461 or W2410872996 or W2415857352 or W2484834618 or W2500727927 or W2735155945 or W2903916649 or W2913263498 or W2941030960 or W2949609896 or W2981835717 or W3011284286 or W3048041047 or W3111997701 or W3144511851 or W4226162648 or W4233197293 or W4281724880 or W4411331275 or W4413421127) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1965003536"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2052435822"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2352403150"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2357835379"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2361047833"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2375578461"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2410872996"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2415857352"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2484834618"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2500727927"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2735155945"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2903916649"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2913263498"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2941030960"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2949609896"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2981835717"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3011284286"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3048041047"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3111997701"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3144511851"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4226162648"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4233197293"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4281724880"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4411331275"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4413421127"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1965003536|W2052435822|W2352403150|W2357835379|W2361047833|W2375578461|W2410872996|W2415857352|W2484834618|W2500727927|W2735155945|W2903916649|W2913263498|W2941030960|W2949609896|W2981835717|W3011284286|W3048041047|W3111997701|W3144511851|W4226162648|W4233197293|W4281724880|W4411331275|W4413421127&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "1024": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 161,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1420726270 or W1515466910 or W1963706689 or W1986178107 or W2025980739 or W2054412308 or W2058647478 or W2071136305 or W2085350682 or W2114208662 or W2156788486 or W2162970812 or W2171790482 or W2584249987 or W2593990758 or W2626337750 or W2802953285 or W2885263529 or W2915388137 or W3045596302 or W3090844627 or W3120567430 or W3164002264 or W3209735640 or W4210741764) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1420726270 or W1515466910 or W1963706689 or W1986178107 or W2025980739 or W2054412308 or W2058647478 or W2071136305 or W2085350682 or W2114208662 or W2156788486 or W2162970812 or W2171790482 or W2584249987 or W2593990758 or W2626337750 or W2802953285 or W2885263529 or W2915388137 or W3045596302 or W3090844627 or W3120567430 or W3164002264 or W3209735640 or W4210741764) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1420726270"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1515466910"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1963706689"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1986178107"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2025980739"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2054412308"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2058647478"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2071136305"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2085350682"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2114208662"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2156788486"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2162970812"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2171790482"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2584249987"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2593990758"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2626337750"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2802953285"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2885263529"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2915388137"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3045596302"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3090844627"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3120567430"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3164002264"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3209735640"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4210741764"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1420726270|W1515466910|W1963706689|W1986178107|W2025980739|W2054412308|W2058647478|W2071136305|W2085350682|W2114208662|W2156788486|W2162970812|W2171790482|W2584249987|W2593990758|W2626337750|W2802953285|W2885263529|W2915388137|W3045596302|W3090844627|W3120567430|W3164002264|W3209735640|W4210741764&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ },
+ "678": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 24,
+   "db_response_time_ms": 140,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 6,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5077807260 or A5088341849 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1496738896 or W1509150474 or W1538724066 or W1555246701 or W1593224091 or W2014106608 or W2029512968 or W2031335572 or W2032002370 or W2051578472 or W2057222804 or W2063474468 or W2072719110 or W2075588625 or W2111000264 or W2151528256 or W2262759381 or W2313415804 or W2329265700 or W4236997086 or W4253997510 or W4254341212 or W4298869251 or W4300938696 or W4300943499) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5077807260 or A5088341849 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1496738896 or W1509150474 or W1538724066 or W1555246701 or W1593224091 or W2014106608 or W2029512968 or W2031335572 or W2032002370 or W2051578472 or W2057222804 or W2063474468 or W2072719110 or W2075588625 or W2111000264 or W2151528256 or W2262759381 or W2313415804 or W2329265700 or W4236997086 or W4253997510 or W4254341212 or W4298869251 or W4300938696 or W4300943499) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1496738896"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1509150474"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1538724066"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1555246701"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1593224091"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2014106608"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2029512968"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2031335572"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2032002370"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2051578472"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2057222804"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2063474468"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2072719110"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2075588625"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2111000264"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2151528256"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2262759381"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2313415804"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2329265700"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4236997086"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4253997510"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4254341212"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4298869251"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4300938696"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4300943499"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5077807260|A5088341849|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1496738896|W1509150474|W1538724066|W1555246701|W1593224091|W2014106608|W2029512968|W2031335572|W2032002370|W2051578472|W2057222804|W2063474468|W2072719110|W2075588625|W2111000264|W2151528256|W2262759381|W2313415804|W2329265700|W4236997086|W4253997510|W4254341212|W4298869251|W4300938696|W4300943499&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": [
+   {
+    "key": "https://openalex.org/A5101501222",
+    "key_display_name": "Amartya Kumar Sen",
+    "count": 22
+   },
+   {
+    "key": "https://openalex.org/A5060498974",
+    "key_display_name": "James Foster",
+    "count": 6
+   },
+   {
+    "key": "https://openalex.org/A5000387389",
+    "key_display_name": "Claudia Dale Goldin",
+    "count": 2
+   },
+   {
+    "key": "https://openalex.org/A5111429542",
+    "key_display_name": "Lawrence F. Katz",
+    "count": 2
+   },
+   {
+    "key": "https://openalex.org/A5029839974",
+    "key_display_name": "David Autor",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5109150561",
+    "key_display_name": "James E. Foster",
+    "count": 1
+   }
+  ]
+ },
+ "719": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 17,
+   "db_response_time_ms": 139,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 6,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5103732149 or A5108634248 or A5109169384) and it cites (W1497460133 or W1512416168 or W1535803599 or W1539053875 or W1589800138 or W1883239598 or W197432415 or W1974780733 or W1975833254 or W1993313925 or W2009526958 or W2025258580 or W2050497363 or W2057454132 or W2086535470 or W2096196718 or W2123880300 or W2164686699 or W2321036786 or W2569732857 or W28889416 or W3021907865 or W4254363066 or W4255228022 or W66379224) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5103732149 or A5108634248 or A5109169384) and it cites (W1497460133 or W1512416168 or W1535803599 or W1539053875 or W1589800138 or W1883239598 or W197432415 or W1974780733 or W1975833254 or W1993313925 or W2009526958 or W2025258580 or W2050497363 or W2057454132 or W2086535470 or W2096196718 or W2123880300 or W2164686699 or W2321036786 or W2569732857 or W28889416 or W3021907865 or W4254363066 or W4255228022 or W66379224) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1497460133"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1512416168"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1535803599"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1539053875"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1589800138"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1883239598"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W197432415"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1974780733"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1975833254"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1993313925"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2009526958"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2025258580"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2050497363"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2057454132"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2086535470"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2096196718"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2123880300"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2164686699"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2321036786"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2569732857"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W28889416"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3021907865"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4254363066"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4255228022"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W66379224"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5103732149|A5108634248|A5109169384,referenced_works:W1497460133|W1512416168|W1535803599|W1539053875|W1589800138|W1883239598|W197432415|W1974780733|W1975833254|W1993313925|W2009526958|W2025258580|W2050497363|W2057454132|W2086535470|W2096196718|W2123880300|W2164686699|W2321036786|W2569732857|W28889416|W3021907865|W4254363066|W4255228022|W66379224&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": [
+   {
+    "key": "https://openalex.org/A5003087402",
+    "key_display_name": "Elinor Ostrom B",
+    "count": 17
+   },
+   {
+    "key": "https://openalex.org/A5023448865",
+    "key_display_name": "Éloi Laurent",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5042502300",
+    "key_display_name": "Juan-Camilo Cárdenas",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5065106026",
+    "key_display_name": "Margaret Levi",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5101759686",
+    "key_display_name": "James M. Walker",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5109547921",
+    "key_display_name": "James Ε. Alt",
+    "count": 1
+   }
+  ]
+ },
+ "846": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 2,
+   "db_response_time_ms": 138,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 3,
+   "x_query": {
+    "oql": "get the count of works where author is (A5000387389 or A5001432263 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1557200796 or W1573084417 or W1578030309 or W1600429647 or W1957796155 or W1968869144 or W1974491836 or W1996760592 or W2010365184 or W2031839214 or W2034994370 or W2037627831 or W2049813215 or W2071962320 or W2081155979 or W2085500839 or W2125342289 or W2130387153 or W2133417759 or W2165702945 or W2170689222 or W2175723801 or W4233654598 or W4299610040 or W4414064306) by author",
+    "x_new_oql": "get the count of works where author is (A5000387389 or A5001432263 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1557200796 or W1573084417 or W1578030309 or W1600429647 or W1957796155 or W1968869144 or W1974491836 or W1996760592 or W2010365184 or W2031839214 or W2034994370 or W2037627831 or W2049813215 or W2071962320 or W2081155979 or W2085500839 or W2125342289 or W2130387153 or W2133417759 or W2165702945 or W2170689222 or W2175723801 or W4233654598 or W4299610040 or W4414064306) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5000387389"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1557200796"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1573084417"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1578030309"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1600429647"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1957796155"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1968869144"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1974491836"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1996760592"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2010365184"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2031839214"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2034994370"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2037627831"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2049813215"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2071962320"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2081155979"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2085500839"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2125342289"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2130387153"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2133417759"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2165702945"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2170689222"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2175723801"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4233654598"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4299610040"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4414064306"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5000387389|A5001432263|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1557200796|W1573084417|W1578030309|W1600429647|W1957796155|W1968869144|W1974491836|W1996760592|W2010365184|W2031839214|W2034994370|W2037627831|W2049813215|W2071962320|W2081155979|W2085500839|W2125342289|W2130387153|W2133417759|W2165702945|W2170689222|W2175723801|W4233654598|W4299610040|W4414064306&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": [
+   {
+    "key": "https://openalex.org/A5101501222",
+    "key_display_name": "Amartya Kumar Sen",
+    "count": 2
+   },
+   {
+    "key": "https://openalex.org/A5086404327",
+    "key_display_name": "Ethan Barnaby Kapstein",
+    "count": 1
+   },
+   {
+    "key": "https://openalex.org/A5112602605",
+    "key_display_name": "Jyoti Rao",
+    "count": 1
+   }
+  ]
+ },
+ "1034": {
+  "meta": {
+   "notice": "No API key, so this request shares one free daily budget ($0.10) with everyone on your network's IP address. Get a free key with its own $1/day at https://openalex.org/settings/api and add api_key=YOUR_KEY to your requests. An AI agent can get one for its user in one call: POST https://api.openalex.org/api-keys with {\"email\": \"<your user's email>\"}; we email them a link, and the key works once they click it. Docs for agents: https://help.openalex.org/llms.txt",
+   "count": 0,
+   "db_response_time_ms": 138,
+   "page": 1,
+   "per_page": 200,
+   "groups_count": 0,
+   "x_query": {
+    "oql": "get the count of works where author is (A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1507130158 or W1565154825 or W1653984643 or W1972107010 or W1991418004 or W2056988891 or W2103419131 or W2107338156 or W2120837254 or W2135293663 or W2138796663 or W2145725926 or W2149648772 or W2159549133 or W2168876999 or W2295196858 or W2912466436 or W2978592984 or W3021811409 or W3023004739 or W3121587588 or W3123306174 or W3124231248 or W3125396900 or W4297897894) by author",
+    "x_new_oql": "get the count of works where author is (A5001432263 or A5003087402 or A5010459426 or A5019063503 or A5026985236 or A5029209905 or A5030598859 or A5044268160 or A5060846014 or A5077807260 or A5088341849 or A5091241744 or A5101501222 or A5103732149 or A5108634248 or A5109169384) and it cites (W1507130158 or W1565154825 or W1653984643 or W1972107010 or W1991418004 or W2056988891 or W2103419131 or W2107338156 or W2120837254 or W2135293663 or W2138796663 or W2145725926 or W2149648772 or W2159549133 or W2168876999 or W2295196858 or W2912466436 or W2978592984 or W3021811409 or W3023004739 or W3121587588 or W3123306174 or W3124231248 or W3125396900 or W4297897894) by author",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5001432263"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5003087402"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5010459426"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5019063503"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5026985236"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5029209905"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5030598859"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5044268160"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5060846014"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5077807260"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5088341849"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5091241744"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5101501222"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5103732149"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5108634248"
+        },
+        {
+         "column_id": "authorships.author.id",
+         "value": "A5109169384"
+        }
+       ]
+      },
+      {
+       "join": "or",
+       "filters": [
+        {
+         "column_id": "referenced_works",
+         "value": "W1507130158"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1565154825"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1653984643"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1972107010"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W1991418004"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2056988891"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2103419131"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2107338156"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2120837254"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2135293663"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2138796663"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2145725926"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2149648772"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2159549133"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2168876999"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2295196858"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2912466436"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W2978592984"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3021811409"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3023004739"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3121587588"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3123306174"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3124231248"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W3125396900"
+        },
+        {
+         "column_id": "referenced_works",
+         "value": "W4297897894"
+        }
+       ]
+      }
+     ],
+     "group_by": [
+      {
+       "column_id": "authorships.author.id"
+      }
+     ]
+    },
+    "url": "/works?filter=authorships.author.id:A5001432263|A5003087402|A5010459426|A5019063503|A5026985236|A5029209905|A5030598859|A5044268160|A5060846014|A5077807260|A5088341849|A5091241744|A5101501222|A5103732149|A5108634248|A5109169384,referenced_works:W1507130158|W1565154825|W1653984643|W1972107010|W1991418004|W2056988891|W2103419131|W2107338156|W2120837254|W2135293663|W2138796663|W2145725926|W2149648772|W2159549133|W2168876999|W2295196858|W2912466436|W2978592984|W3021811409|W3023004739|W3121587588|W3123306174|W3124231248|W3125396900|W4297897894&group_by=authorships.author.id&per_page=200",
+    "order": "most works first",
+    "order_default": true
+   },
+   "cost_usd": 0.0001
+  },
+  "group_by": []
+ }
+}
