@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { FIELD, FieldCode, median, Model, nameHe, Prize } from "../lib/data";
+import { FIELD, FieldCode, median, Model, nameHe, Prize, Transition } from "../lib/data";
 import LaureateLine from "../lib/Laureate";
 import Rich from "../lib/Rich";
 import { go, href } from "../lib/route";
@@ -29,6 +29,9 @@ function chains(m: Model, field: FieldCode, k = 2) {
 export default function Fields({ m, params }: { m: Model; params: Record<string, string> }) {
   const [field, setField] = useState<FieldCode>(() => ((params.f && FIELD[params.f as FieldCode]) ? params.f as FieldCode : "physics"));
   const [pick, setPick] = useState<Prize | null>(null);
+  const [tr, setTr] = useState<Transition | null>(null);
+  const prizeOf = (x: { id: string; y: number }) => m.prizesOf.get(x.id)?.find((p) => p.y === x.y) ?? m.prizesOf.get(x.id)?.[0];
+  const trans = m.transitions?.[field] ?? [];
   const F = FIELD[field];
   const prizes = useMemo(() => m.prizes.filter((p) => p.f === field).sort((a, b) => a.y - b.y), [m, field]);
   const first = prizes[0], last = prizes[prizes.length - 1];
@@ -44,12 +47,13 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
   });
   const { pick: ch, edges } = useMemo(() => chains(m, field), [m, field]);
   const selOf = (id: string) => m.selected.find((s) => s.nobel_id === id);
-  const setF = (f: FieldCode[]) => { const v = f[f.length - 1] ?? field; setField(v); setPick(null); go("fields", { f: v }); };
+  const setF = (f: FieldCode[]) => { const v = f[f.length - 1] ?? field; setField(v); setPick(null); setTr(null); go("fields", { f: v }); };
+  const inTr = (p: Prize) => !!tr && ((tr.from.id === p.id && tr.from.y === p.y) || (tr.to.id === p.id && tr.to.y === p.y));
 
   const Card = ({ p, big }: { p: Prize; big?: boolean }) => {
     const s = selOf(p.id);
     return (
-      <button className={`evo-card${s ? " sel" : ""}${big ? " big" : ""}${pick === p ? " on" : ""}`} onClick={() => setPick(p)} title="לחיצה: פירוט בצד">
+      <button className={`evo-card${s ? " sel" : ""}${big ? " big" : ""}${pick === p || inTr(p) ? " on" : ""}`} onClick={() => { setTr(null); setPick(p); }} title="לחיצה: פירוט בצד">
         {s?.image && <img src={s.image.thumb_url} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.display = "none"; }} />}
         <span className="evo-card-txt">
           <span className="num evo-y">{p.y}</span>
@@ -106,23 +110,46 @@ export default function Fields({ m, params }: { m: Model; params: Record<string,
         </details>
       </div>
       <aside className="panel panel-pad scroll-in stack">
-        {pick ? (
+        {tr ? (
+          <div className="stack rise" key={tr.title}>
+            <div className="aside-ops"><span className="label">מעבר מרעיון לרעיון</span><button className="press icon-btn" onClick={() => setTr(null)} aria-label="סגירה">×</button></div>
+            <h3 className="tr-title">{tr.title}</h3>
+            {prizeOf(tr.from) && <LaureateLine m={m} p={prizeOf(tr.from)!} onName={m.selIds.has(tr.from.id) ? () => go("people", { id: tr.from.id }) : undefined} compact />}
+            <div className="tr-arrow" aria-hidden="true">↓</div>
+            {prizeOf(tr.to) && <LaureateLine m={m} p={prizeOf(tr.to)!} onName={m.selIds.has(tr.to.id) ? () => go("people", { id: tr.to.id }) : undefined} compact />}
+            <Rich as="p" className="tr-how">{tr.how}</Rich>
+            <TrEvidence ev={tr.evidence} />
+          </div>
+        ) : pick ? (
           <div className="stack rise" key={pick.id + pick.y}>
             <div className="aside-ops"><span className="label">הגילוי שנבחר</span><button className="press icon-btn" onClick={() => setPick(null)} aria-label="סגירה">×</button></div>
             {selOf(pick.id)?.image && <img className="aside-img" src={selOf(pick.id)!.image!.thumb_url} alt={selOf(pick.id)!.image!.caption_he} onError={(e) => { e.currentTarget.style.display = "none"; }} />}
             <LaureateLine m={m} p={pick} onName={m.selIds.has(pick.id) ? () => go("people", { id: pick.id }) : undefined} />
             {selOf(pick.id)?.museum?.contribution && <p className="dc-lead">{selOf(pick.id)!.museum!.contribution}</p>}
             {selOf(pick.id)?.museum?.takeaway && <p><mark className="insight">{selOf(pick.id)!.museum!.takeaway}</mark></p>}
+            {trans.filter((x) => x.from.id === pick.id || x.to.id === pick.id).map((x) => (
+              <button key={x.title} className="tr-mini" onClick={() => setTr(x)}><strong>{x.title}</strong> <span className="dc-sub">{x.from.id === pick.id ? "הוביל אל" : "נשען על"} {nameHe(m.byId.get(x.from.id === pick.id ? x.to.id : x.from.id))}</span></button>
+            ))}
             <Influence m={m} id={pick.id} onPick={setPick} />
           </div>
         ) : (
           <>
-            <div className="label">איך רעיון פותח את הבא</div>
-            {eras.filter((e) => e.story).map((e) => (
-              <div key={e.id} className="evo-story-aside"><span className="num">{e.he}</span><Rich as="p">{e.story.replace(/^([^:]+):/, "**$1:**")}</Rich></div>
-            ))}
-            <Tone kind="problem" title="איך לקרוא">{"הסיכום לכל תקופה הוא **פרשנות** [הערכה], טיוטת Claude לעריכה.\nהגילויים מנוסחים מתוך נימוק הוועדה."}</Tone>
-            <Src href="https://www.nobelprize.org/prizes/lists/all-nobel-prizes/">NobelPrize.org</Src>
+            <div className="label">מרעיון לרעיון ב{F.he}</div>
+            <ol className="tr-list">
+              {trans.map((x) => (
+                <li key={x.title}>
+                  <button className="tr-item" onClick={() => { setPick(null); setTr(x); }}>
+                    <span className="tr-years num">{x.from.y} → {x.to.y}</span>
+                    <strong className="tr-t">{x.title}</strong>
+                    <span className="tr-names">{nameHe(m.byId.get(x.from.id))} ← {nameHe(m.byId.get(x.to.id))}</span>
+                    <Rich as="p" className="tr-how">{x.how}</Rich>
+                    <TrEvidence ev={x.evidence} />
+                  </button>
+                </li>
+              ))}
+            </ol>
+            <Tone kind="problem" title="איך לקרוא">{"**מתועד**: יש ראיה בנתונים, ציטוט או קשר מנחה ותלמיד.\n**הערכה**: פרשנות על בסיס היסטוריה מקובלת, טיוטת Claude לעריכה."}</Tone>
+            <Src href="https://github.com/Anat1969/PrasNovel-GH/blob/main/config/transitions.json">קובץ המעברים לעריכה</Src>
           </>
         )}
       </aside>
@@ -145,4 +172,10 @@ function Influence({ m, id, onPick }: { m: Model; id: string; onPick: (p: Prize)
       <a className="src" href={href("cross")}>מעברים בין תחומים</a>
     </div>
   );
+}
+
+function TrEvidence({ ev }: { ev: string[] }) {
+  return ev.length
+    ? <span className="tr-ev doc">מתועד: {ev.join(" · ")}</span>
+    : <span className="tr-ev est">הערכה</span>;
 }

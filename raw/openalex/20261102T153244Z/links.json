@@ -1,0 +1,731 @@
+[
+ {
+  "nobel_id": "1",
+  "family": "Röntgen",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1002/andp.18983000102",
+    "work": "W2046505836",
+    "title": "Ueber eine neue Art von Strahlen",
+    "year": 1898,
+    "cited_by": 318,
+    "author": "A5026985236",
+    "name": "W. C. Röntgen",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5026985236"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "6",
+  "family": "Curie",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1051/radium:01907004010034900",
+    "work": "W2091109017",
+    "title": "Sur le poids atomique du Radium",
+    "year": 1907,
+    "cited_by": 25,
+    "author": "A5001432263",
+    "name": "Mme. Curie",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5001432263"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "37",
+  "family": "Raman",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1038/121501c0",
+    "work": "W2072443063",
+    "title": "A New Type of Secondary Radiation",
+    "year": 1928,
+    "cited_by": 2662,
+    "author": "A5108634248",
+    "name": "Chandrasekhara Venkata Raman",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1098/rspa.1929.0002",
+    "work": "W2025158636",
+    "title": "The production of new radiations by light scattering. —Part I",
+    "year": 1929,
+    "cited_by": 55,
+    "author": "A5108634248",
+    "name": "Chandrasekhara Venkata Raman",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5108634248"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "962",
+  "family": "Strickland",
+  "orcid": "0000-0003-2925-5413",
+  "evidence": [
+   {
+    "kind": "orcid",
+    "ref": "0000-0003-2925-5413",
+    "author": "A5019063503",
+    "name": "Donna T. Strickland"
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1016/0030-4018(85)90120-8",
+    "work": "W2028602705",
+    "title": "Compression of amplified chirped optical pulses",
+    "year": 1985,
+    "cited_by": 3937,
+    "author": "A5019063503",
+    "name": "Donna T. Strickland",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5019063503"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "160",
+  "family": "Hoff",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1515/zpch-1887-0151",
+    "work": "W2581845315",
+    "title": "Die Rolle des osmotischen Druckes in der Analogie zwischen Lösungen und Gasen",
+    "year": 1887,
+    "cited_by": 265,
+    "author": "A5103732149",
+    "name": "J. H. van‘t Hoff",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1002/cber.18940270104",
+    "work": "W1981309840",
+    "title": "Wie die Theorie der Lösungen entstand",
+    "year": 1894,
+    "cited_by": 13,
+    "author": "A5103732149",
+    "name": "J. H. van‘t Hoff",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5103732149"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "230",
+  "family": "Hodgkin",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1038/178064a0",
+    "work": "W1986091806",
+    "title": "Structure of Vitamin B12",
+    "year": 1956,
+    "cited_by": 270,
+    "author": "A5109169384",
+    "name": "Dorothy Crowfoot Hodgkin",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5109169384"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "292",
+  "family": "Zewail",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1063/1.453122",
+    "work": "W2093458139",
+    "title": "Real-time femtosecond probing of ‘‘transition states’’ in chemical reactions",
+    "year": 1987,
+    "cited_by": 440,
+    "author": "A5077807260",
+    "name": "Ahmed H. Zewail",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1146/annurev.pc.41.100190.000311",
+    "work": "W2145926643",
+    "title": "Ultrafast Molecular Reaction Dynamics in Real-Time: Progress Over a Decade",
+    "year": 1990,
+    "cited_by": 322,
+    "author": "A5077807260",
+    "name": "Ahmed H. Zewail",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5077807260"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "1055",
+  "family": "Yaghi",
+  "orcid": "0000-0002-5611-3325",
+  "evidence": [
+   {
+    "kind": "orcid",
+    "ref": "0000-0002-5611-3325",
+    "author": "A5044268160",
+    "name": "Omar M. Yaghi"
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1038/46248",
+    "work": "W1677747913",
+    "title": "Design and synthesis of an exceptionally stable and highly porous metal-organic framework",
+    "year": 1999,
+    "cited_by": 8588,
+    "author": "A5044268160",
+    "name": "Omar M. Yaghi",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1126/science.1230444",
+    "work": "W2141939342",
+    "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+    "year": 2013,
+    "cited_by": 17036,
+    "author": "A5044268160",
+    "name": "Omar M. Yaghi",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5044268160"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "299",
+  "family": "Cajal",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1098/rspl.1894.0063",
+    "work": "W2159993152",
+    "title": "The Croonian lecture.—La fine structure des centres nerveux",
+    "year": 1894,
+    "cited_by": 503,
+    "author": null,
+    "name": null,
+    "error": "0 matching authors in list"
+   },
+   {
+    "kind": "doi",
+    "ref": "10.5962/bhl.title.48637",
+    "work": "W1604444942",
+    "title": "Histologie du système nerveux de l'homme & des vertébrés",
+    "year": 1909,
+    "cited_by": 2357,
+    "author": null,
+    "name": null,
+    "error": "0 matching authors in list"
+   }
+  ],
+  "authors": [],
+  "status": "לא קושר",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "428",
+  "family": "McClintock",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1073/pnas.36.6.344",
+    "work": "W2026519705",
+    "title": "The origin and behavior of mutable loci in maize",
+    "year": 1950,
+    "cited_by": 1755,
+    "author": "A5029209905",
+    "name": "Barbara McClintock",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1073/pnas.25.8.405",
+    "work": "W1977172248",
+    "title": "The Behavior in Successive Nuclear Divisions of a Chromosome Broken at Meiosis",
+    "year": 1939,
+    "cited_by": 559,
+    "author": "A5029209905",
+    "name": "Barbara McClintock",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5029209905"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "918",
+  "family": "Tu",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1038/nm.2471",
+    "work": "W1965003536",
+    "title": "The discovery of artemisinin (qinghaosu) and gifts from Chinese medicine",
+    "year": 2011,
+    "cited_by": 1404,
+    "author": "A5010459426",
+    "name": "Youyou Tu",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5010459426"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "1024",
+  "family": "Karikó",
+  "orcid": "0000-0002-1864-3851",
+  "evidence": [
+   {
+    "kind": "orcid",
+    "ref": "0000-0002-1864-3851",
+    "author": "A5030598859",
+    "name": "Katalin Karikó"
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1016/j.immuni.2005.06.008",
+    "work": "W2025980739",
+    "title": "Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA",
+    "year": 2005,
+    "cited_by": 2728,
+    "author": "A5030598859",
+    "name": "Katalin Karikó",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5030598859"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "678",
+  "family": "Tinbergen",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.2307/1905323",
+    "work": "W2313415804",
+    "title": "Annual Survey: Suggestions on Quantitative Business Cycle Theory",
+    "year": 1935,
+    "cited_by": 135,
+    "author": "A5091241744",
+    "name": "Jan Tinbergen",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.2307/2967472",
+    "work": "W2127033833",
+    "title": "Econometric Business Cycle Research",
+    "year": 1940,
+    "cited_by": 75,
+    "author": "A5060846014",
+    "name": "J. Tinbergen",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5060846014",
+   "A5091241744"
+  ],
+  "status": "הערכה",
+  "split_profiles": true
+ },
+ {
+  "nobel_id": "719",
+  "family": "Sen",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1086/259614",
+    "work": "W1993313925",
+    "title": "The Impossibility of a Paretian Liberal",
+    "year": 1970,
+    "cited_by": 1385,
+    "author": "A5101501222",
+    "name": "Amartya Kumar Sen",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5101501222"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "846",
+  "family": "Ostrom",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1017/cbo9780511807763",
+    "work": "W4233654598",
+    "title": "Governing the Commons",
+    "year": 1990,
+    "cited_by": 20657,
+    "author": "A5003087402",
+    "name": "Elinor Ostrom B",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1257/jep.14.3.137",
+    "work": "W2170689222",
+    "title": "Collective Action and the Evolution of Social Norms",
+    "year": 2000,
+    "cited_by": 4195,
+    "author": "A5003087402",
+    "name": "Elinor Ostrom B",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5003087402"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "1034",
+  "family": "Goldin",
+  "orcid": "0000-0003-3842-1604",
+  "evidence": [
+   {
+    "kind": "orcid",
+    "ref": "0000-0003-3842-1604",
+    "author": "A5000387389",
+    "name": "Claudia Dale Goldin"
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1257/000282806777212350",
+    "work": "W2149648772",
+    "title": "The Quiet Revolution That Transformed Women's Employment, Education, and Family",
+    "year": 2006,
+    "cited_by": 1830,
+    "author": "A5000387389",
+    "name": "Claudia Dale Goldin",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1257/jep.20.4.133",
+    "work": "W3121587588",
+    "title": "The Homecoming of American College Women: The Reversal of the College Gender Gap",
+    "year": 2006,
+    "cited_by": 1010,
+    "author": "A5000387389",
+    "name": "Claudia Dale Goldin",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5000387389"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "26",
+  "family": "Einstein",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1002/andp.19053220607",
+    "work": "W2005886497",
+    "title": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+    "year": 1905,
+    "cited_by": 3090,
+    "author": "A5109805546",
+    "name": "Albert Einstein",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1002/andp.19053221004",
+    "work": "W2048251016",
+    "title": "Zur Elektrodynamik bewegter Körper",
+    "year": 1905,
+    "cited_by": 4383,
+    "author": "A5109805546",
+    "name": "Albert Einstein",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5109805546"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "27",
+  "family": "Bohr",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1080/14786441308634955",
+    "work": "W1703910647",
+    "title": "I. On the constitution of atoms and molecules",
+    "year": 1913,
+    "cited_by": 1471,
+    "author": "A5110436352",
+    "name": "Niels Henrik David Bohr",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5110436352"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "217",
+  "family": "Pauling",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1021/ja01355a027",
+    "work": "W2328988371",
+    "title": "THE NATURE OF THE CHEMICAL BOND. APPLICATION OF RESULTS OBTAINED FROM THE QUANTUM MECHANICS AND FROM A THEORY OF PARAMAGNETIC SUSCEPTIBILITY TO THE STRUCTURE OF MOLECULES",
+    "year": 1931,
+    "cited_by": 1282,
+    "author": "A5018806471",
+    "name": "Linus Carl Pauling",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1073/pnas.37.4.205",
+    "work": "W2140992384",
+    "title": "The structure of proteins: Two hydrogen-bonded helical configurations of the polypeptide chain",
+    "year": 1951,
+    "cited_by": 2920,
+    "author": "A5018806471",
+    "name": "Linus Carl Pauling",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5018806471"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "222",
+  "family": "Sanger",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1042/bj0530353",
+    "work": "W4256252393",
+    "title": "The amino-acid sequence in the glycyl chain of insulin. 1. The identification of lower peptides from partial hydrolysates",
+    "year": 1953,
+    "cited_by": 578,
+    "author": "A5114007683",
+    "name": "Frederick Sanger",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1073/pnas.74.12.5463",
+    "work": "W2138270253",
+    "title": "DNA sequencing with chain-terminating inhibitors",
+    "year": 1977,
+    "cited_by": 68572,
+    "author": "A5114007683",
+    "name": "Frederick Sanger",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5114007683"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "339",
+  "family": "Fleming",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1093/clinids/2.1.129",
+    "work": "W190540197",
+    "title": "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae",
+    "year": 1980,
+    "cited_by": 612,
+    "author": "A5108805108",
+    "name": "A. Fleming",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5108805108"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "372",
+  "family": "Crick",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.1038/171737a0",
+    "work": "W2126466006",
+    "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+    "year": 1953,
+    "cited_by": 13587,
+    "author": "A5109884453",
+    "name": "Francis Harry Compton Crick",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1038/1921227a0",
+    "work": "W2008365039",
+    "title": "General Nature of the Genetic Code for Proteins",
+    "year": 1961,
+    "cited_by": 1392,
+    "author": "A5109884453",
+    "name": "Francis Harry Compton Crick",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5109884453"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "679",
+  "family": "Samuelson",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.2307/1925895",
+    "work": "W1998819003",
+    "title": "The Pure Theory of Public Expenditure",
+    "year": 1954,
+    "cited_by": 7504,
+    "author": "A5064999142",
+    "name": "Paul Anthony Samuelson",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5064999142"
+  ],
+  "status": "הערכה",
+  "split_profiles": false
+ },
+ {
+  "nobel_id": "759",
+  "family": "Kahneman",
+  "orcid": null,
+  "evidence": [
+   {
+    "kind": "doi",
+    "ref": "10.2307/1914185",
+    "work": "W3011865677",
+    "title": "Prospect Theory: An Analysis of Decision under Risk",
+    "year": 1979,
+    "cited_by": 48524,
+    "author": "A5111995000",
+    "name": "Daniel J. Kahneman",
+    "error": null
+   },
+   {
+    "kind": "doi",
+    "ref": "10.1126/science.185.4157.1124",
+    "work": "W4292157289",
+    "title": "Judgment under Uncertainty: Heuristics and Biases",
+    "year": 1974,
+    "cited_by": 28810,
+    "author": "A5111995000",
+    "name": "Daniel J. Kahneman",
+    "error": null
+   }
+  ],
+  "authors": [
+   "A5111995000"
+  ],
+  "status": "אומת",
+  "split_profiles": false
+ }
+]

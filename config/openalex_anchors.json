@@ -64,9 +64,10 @@
     "299": {
       "family": "Cajal",
       "doi": [
-        "10.1098/rspl.1894.0063"
+        "10.1098/rspl.1894.0063",
+        "10.5962/bhl.title.48637"
       ],
-      "orcid": "0000-0002-3867-1390"
+      "note": "ה-ORCID שב-Wikidata (0000-0002-3867-1390) מוביל ב-OpenAlex לחוקר סרטן מודרני, ולכן הוסר. העוגנים: ההרצאה ב-Royal Society (1894) והספר Histologie (1909, BHL), שניהם נבדקו ב-Crossref."
     },
     "428": {
       "family": "McClintock",
