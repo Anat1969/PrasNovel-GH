@@ -50,3 +50,12 @@ def test_museum_haiku_are_three_lines(data):
     for s in data["selected"]:
         if s.get("museum"):
             assert len(s["museum"]["haiku"]) == 3
+
+
+def test_every_prize_has_hebrew_reason_and_discovery(data):
+    """Every prize carries a Hebrew motivation and a short discovery label; the English original is never replaced."""
+    d = data[0] if isinstance(data, tuple) else data
+    prizes = d["prizes"]
+    assert all(p["mh"] and p["d"] for p in prizes)
+    assert all(2 <= len(p["d"].split()) <= 8 for p in prizes)
+    assert all(p["m"] for p in prizes)

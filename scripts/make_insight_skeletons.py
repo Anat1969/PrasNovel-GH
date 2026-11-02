@@ -42,6 +42,10 @@ MOTIVATION_HE = {
 }
 
 
+MH_PATH = CONFIG / "motivations_he.json"
+MH = json.loads(MH_PATH.read_text(encoding="utf-8"))["prizes"] if MH_PATH.exists() else {}
+
+
 def main() -> int:
     sel = json.loads((CONFIG / "selection.json").read_text(encoding="utf-8"))["laureates"]
     lau = pd.read_csv(CURATED / "laureate.csv", dtype=str).set_index("nobel_id")
@@ -64,7 +68,7 @@ def main() -> int:
             "year": s["year"],
             "status": "טיוטה",
             "motivation_en": p.motivation_en,
-            "motivation_he": MOTIVATION_HE.get(s["nobel_id"]),
+            "motivation_he": MOTIVATION_HE.get(s["nobel_id"]) or MH.get(f"{s['nobel_id']}-{s['year']}-{s['field']}", {}).get("he"),
             "motivation_he_note": "תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.",
             "facts_url": l["facts_url"],
             "idea_he": "",

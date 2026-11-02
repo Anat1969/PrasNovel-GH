@@ -48,10 +48,10 @@ def test_selection_follows_spec(data):
     lau, _, sel, _ = data
     lau = lau.set_index("nobel_id")
     df = pd.DataFrame(sel)
-    assert len(df) == 24 and df.nobel_id.is_unique
+    assert len(df) == 36 and df.nobel_id.is_unique
     assert sorted(df.field.unique()) == ["chemistry", "economics", "literature", "medicine", "peace", "physics"]
     for field, g in df.groupby("field"):
-        assert len(g) == 4, field
+        assert len(g) == 6, field
         rows = lau.loc[g.nobel_id]
         assert (rows.gender == "female").any(), f"{field}: no woman"
         assert any(NON_EU_US(r) for _, r in rows.iterrows()), f"{field}: no one outside Europe/USA"

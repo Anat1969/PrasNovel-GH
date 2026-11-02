@@ -1,0 +1,545 @@
+nobel_id,field_id,field_en,rank,work_id,title,year,doi,cited_by,topic
+1,31,Physics and Astronomy,1,W1963483517,Simultaneous phase and amplitude extraction from a single defocused image of a homogeneous object,2002,https://doi.org/10.1046/j.1365-2818.2002.01010.x,2070,Advanced X-ray Imaging Techniques
+1,31,Physics and Astronomy,2,W2888052177,All-inorganic perovskite nanocrystal scintillators,2018,https://doi.org/10.1038/s41586-018-0451-1,2062,Radiation Detection and Scintillator Technologies
+1,31,Physics and Astronomy,3,W1985248660,Effect of Ions on the Structure of Water: Structure Making and Breaking,2009,https://doi.org/10.1021/cr8003828,1955,Spectroscopy and Quantum Chemical Studies
+1,31,Physics and Astronomy,4,W4295199760,Water: From Clusters to the Bulk,2001,https://doi.org/10.1002/1521-3773(20010518)40:10<1808::aid-anie1808>3.0.co;2-1,1172,Spectroscopy and Quantum Chemical Studies
+1,27,Medicine,1,W1977871291,Imaging in the era of molecular oncology,2008,https://doi.org/10.1038/nature06917,2372,Optical Imaging and Spectroscopy Techniques
+1,27,Medicine,2,W2900960361,Evolution of Cancer Pharmacological Treatments at the Turn of the Third Millennium,2018,https://doi.org/10.3389/fphar.2018.01300,913,Historical Medical Research and Treatments
+1,27,Medicine,3,W2126209705,Lung ultrasound in the critically ill,2014,https://doi.org/10.1186/2110-5820-4-1,717,Ultrasound in Clinical Applications
+1,27,Medicine,4,W2104775919,Computer-aided diagnosis in chest radiography: a survey,2001,https://doi.org/10.1109/42.974918,517,Radiomics and Machine Learning in Medical Imaging
+1,22,Engineering,1,W2047639910,Theory of the photoacoustic effect with solids,1976,https://doi.org/10.1063/1.322296,2493,Thermography and Photoacoustic Techniques
+1,22,Engineering,2,W2071198648,Theory of the photoacoustic effect with solids,1975,https://doi.org/10.1121/1.2002181,2015,Thermography and Photoacoustic Techniques
+1,22,Engineering,3,W2912435447,Tuning the Luminescence of Layered Halide Perovskites,2019,https://doi.org/10.1021/acs.chemrev.8b00477,813,Perovskite Materials and Applications
+1,22,Engineering,4,W2166445683,Multi-functional dielectric elastomer artificial muscles for soft and smart machines,2012,https://doi.org/10.1063/1.4740023,622,Dielectric materials and actuators
+1,25,Materials Science,1,W2048518241,Revival of the magnetoelectric effect,2005,https://doi.org/10.1088/0022-3727/38/8/r01,5066,Multiferroics and related materials
+1,25,Materials Science,2,W2139511716,"The relationship between liquid, supercooled and glassy water",1998,https://doi.org/10.1038/24540,1848,Material Dynamics and Properties
+1,25,Materials Science,3,W1674890710,Multiferroicity: the coupling between magnetic and polarization orders,2009,https://doi.org/10.1080/00018730902920554,1500,Multiferroics and related materials
+1,25,Materials Science,4,W2591892377,Lanthanide-Activated Phosphors Based on 4f-5d Optical Transitions: Theoretical and Experimental Aspects,2017,https://doi.org/10.1021/acs.chemrev.6b00691,1033,Luminescence Properties of Advanced Materials
+1,12,Arts and Humanities,1,W130518710,An Introduction to X-Ray Fluorescence (XRF) Analysis in Archaeology,2010,https://doi.org/10.1007/978-1-4419-6886-9_2,214,Cultural Heritage Materials Analysis
+1,12,Arts and Humanities,2,W2096783408,The Edwin Smith papyrus: a clinical reappraisal of the oldest known document on spinal injuries,2010,https://doi.org/10.1007/s00586-010-1523-6,161,History of Medicine Studies
+1,12,Arts and Humanities,3,W2010743167,The Cognitive Structure of Scientific Revolutions,2006,https://doi.org/10.1017/cbo9780511498404,149,Philosophy and History of Science
+1,12,Arts and Humanities,4,W2013271030,Looking through pots: recent advances in ceramics X-radiography,2007,https://doi.org/10.1016/j.jas.2007.08.006,141,Cultural Heritage Materials Analysis
+1,16,Chemistry,1,W2016222110,Ultralow Gas Concentration Infrared Absorption Spectroscopy,1971,https://doi.org/10.1063/1.1660651,639,Spectroscopy and Laser Applications
+1,16,Chemistry,2,W2135378461,Review on Ion Mobility Spectrometry. Part 1: current instrumentation,2014,https://doi.org/10.1039/c4an01100g,459,Mass Spectrometry Techniques and Applications
+1,16,Chemistry,3,W1986585160,What can x-ray scattering tell us about the radial distribution functions of water?,2000,https://doi.org/10.1063/1.1319615,405,Advanced Physical and Chemical Molecular Interactions
+1,16,Chemistry,4,W2020833381,Ion mobility spectrometry‐mass spectrometry (IMS‐MS) of small molecules: Separating and assigning structures to ions,2012,https://doi.org/10.1002/mas.21349,398,Mass Spectrometry Techniques and Applications
+6,12,Arts and Humanities,1,W1973717091,The curie laboratory: Radioactivity and metrology,1997,https://doi.org/10.1080/07341519708581910,47,History of Science and Medicine
+6,12,Arts and Humanities,2,W2016589552,The centenary of discovery of radium,1998,https://doi.org/10.1016/s0167-8140(98)00143-1,22,History of Science and Medicine
+6,12,Arts and Humanities,3,W1981519314,Marie Curie's contribution to Medical Physics,2013,https://doi.org/10.1016/j.ejmp.2013.08.001,15,History of Science and Medicine
+6,12,Arts and Humanities,4,W2149832642,The contribution of Maria Sklodowska-Curie and Pierre Curie to Nuclear and Medical Physics. A hundred and ten years after the discovery of radium.,2008,,12,History of Science and Medicine
+6,31,Physics and Astronomy,1,W2081838988,The Race For Megavoltage X-Rays Versus Telegamma,1995,https://doi.org/10.3109/02841869509127233,13,Advanced Radiotherapy Techniques
+6,31,Physics and Astronomy,2,W2023914235,Low Energy Alpha-Particles from Radium,1946,https://doi.org/10.1103/physrev.70.632,8,Nuclear physics research studies
+6,31,Physics and Astronomy,3,W2200243390,Experimental setup and commissioning baseline study in search of time-variations in beta-decay half-lives,2015,https://doi.org/10.1016/j.nima.2015.12.026,5,Radioactive Decay and Measurement Techniques
+6,31,Physics and Astronomy,4,W4211259979,Über Radioelemente,1916,https://doi.org/10.1002/cber.19160490240,5,Radioactive Decay and Measurement Techniques
+6,22,Engineering,1,W4397026484,Recent Advances in Graphene-Based Humidity Sensors With the Focus on Structural Design: A Review,2024,https://doi.org/10.1109/jsen.2024.3398003,36,Gas Sensing Nanomaterials and Sensors
+6,22,Engineering,2,W4211133274,The Potential of Graphene Oxide and Reduced Graphene Oxide in Diagnosis and Treatment of Cancer,2022,https://doi.org/10.2174/0929867329666220208092157,16,Nanoplatforms for cancer theranostics
+6,22,Engineering,3,W4393855719,EngMedicine: A community of engineering and medicine,2024,https://doi.org/10.1016/j.engmed.2024.100002,2,Biomedical and Engineering Education
+6,25,Materials Science,1,W2132236117,Electronic and defect processes in oxides. The polaron in action,1997,https://doi.org/10.1109/94.625647,30,High voltage insulation and dielectric phenomena
+6,25,Materials Science,2,W3046897018,Graphene/Reduced Graphene Oxide as Electrode Materials for Supercapacitors,2020,https://doi.org/10.1007/978-3-030-52359-6_11,24,Supercapacitor Materials and Fabrication
+6,25,Materials Science,3,W2132288260,Thermal analysis of the radiation induced conductivity in GeO2 glasses,1990,https://doi.org/10.1080/10420159008213032,2,Glass properties and applications
+6,13,"Biochemistry, Genetics and Molecular Biology",1,W4298087662,"Physics Essentials Enable Deeper Understanding in Signaling and Crosstalk of the Carcinogenesis Paradigm ""Epistemology of the Origin of Cancer""",2022,https://doi.org/10.33594/000000575,1,Carcinogens and Genotoxicity Assessment
+6,16,Chemistry,1,W2497951355,Radioaktive Elemente: Actinoide,2021,https://doi.org/10.1007/978-3-662-55939-0_19,1,Radioactive element chemistry and processing
+37,25,Materials Science,1,W2074880343,Raman spectroscopy as a versatile tool for studying the properties of graphene,2013,https://doi.org/10.1038/nnano.2013.46,7407,Graphene research and applications
+37,25,Materials Science,2,W1964564038,Gold Nanorods: From Synthesis and Properties to Biological and Biomedical Applications,2009,https://doi.org/10.1002/adma.200802789,1926,Gold and Silver Nanoparticles Synthesis and Applications
+37,25,Materials Science,3,W2238193673,Gold Nanomaterials at Work in Biomedicine,2015,https://doi.org/10.1021/acs.chemrev.5b00193,1169,Gold and Silver Nanoparticles Synthesis and Applications
+37,25,Materials Science,4,W2591877025,Core–Shell Nanoparticle-Enhanced Raman Spectroscopy,2017,https://doi.org/10.1021/acs.chemrev.6b00596,1142,Gold and Silver Nanoparticles Synthesis and Applications
+37,31,Physics and Astronomy,1,W2104757784,ABINIT: First-principles approach to material and nanosystem properties,2009,https://doi.org/10.1016/j.cpc.2009.07.007,2698,Advanced Chemical Physics Studies
+37,31,Physics and Astronomy,2,W1563040068,Optics and interferometry with atoms and molecules,2009,https://doi.org/10.1103/revmodphys.81.1051,1427,Cold Atom Physics and Bose-Einstein Condensates
+37,31,Physics and Astronomy,3,W2010974419,The spin-½ Heisenberg antiferromagnet on a square lattice and its application to the cuprous oxides,1991,https://doi.org/10.1103/revmodphys.63.1,1266,Physics of Superconductivity and Magnetism
+37,31,Physics and Astronomy,4,W2171379820,Quantum Brownian motion: The functional integral approach,1988,https://doi.org/10.1016/0370-1573(88)90023-3,1090,Advanced Thermodynamics and Statistical Mechanics
+37,13,"Biochemistry, Genetics and Molecular Biology",1,W2115318086,Label-Free Biomedical Imaging with High Sensitivity by Stimulated Raman Scattering Microscopy,2008,https://doi.org/10.1126/science.1165758,2263,Spectroscopy Techniques in Biomedical and Chemical Research
+37,13,"Biochemistry, Genetics and Molecular Biology",2,W2959236235,Raman Techniques: Fundamentals and Frontiers,2019,https://doi.org/10.1186/s11671-019-3039-2,812,Spectroscopy Techniques in Biomedical and Chemical Research
+37,13,"Biochemistry, Genetics and Molecular Biology",3,W1994607919,"Raman spectroscopy: Recent advancements, techniques and applications",2011,https://doi.org/10.1016/j.vibspec.2011.08.003,778,Spectroscopy Techniques in Biomedical and Chemical Research
+37,13,"Biochemistry, Genetics and Molecular Biology",4,W2039897852,Diagnosing breast cancer by using Raman spectroscopy,2005,https://doi.org/10.1073/pnas.0501390102,633,Spectroscopy Techniques in Biomedical and Chemical Research
+37,22,Engineering,1,W2024979489,Terahertz spectroscopy and imaging – Modern techniques and applications,2010,https://doi.org/10.1002/lpor.201000011,2090,Terahertz technology and applications
+37,22,Engineering,2,W2155731760,Rapid Granular Flows,1990,https://doi.org/10.1146/annurev.fl.22.010190.000421,1129,Granular flow and fluidized beds
+37,22,Engineering,3,W2979700798,Distributed optical fiber sensing: Review and perspective,2019,https://doi.org/10.1063/1.5113955,863,Advanced Fiber Optic Sensors
+37,22,Engineering,4,W2739579980,Nanoparticle-Based Immunochemical Biosensors and Assays: Recent Advances and Challenges,2017,https://doi.org/10.1021/acs.chemrev.7b00037,697,Electrochemical sensors and biosensors
+37,19,Earth and Planetary Sciences,1,W1974467019,"Mantle dynamics, uplift of the Tibetan Plateau, and the Indian Monsoon",1993,https://doi.org/10.1029/93rg02030,2020,Geological and Geophysical Studies
+37,19,Earth and Planetary Sciences,2,W2004845239,Raman spectroscopy for fluid inclusion analysis,2011,https://doi.org/10.1016/j.gexplo.2011.09.009,731,Mineralogy and Gemology Studies
+37,19,Earth and Planetary Sciences,3,W2153068522,"Volcanoes, Fluids, and Life at Mid-Ocean Ridge Spreading Centers",2002,https://doi.org/10.1146/annurev.earth.30.091201.141331,463,Geochemistry and Elemental Analysis
+37,19,Earth and Planetary Sciences,4,W2039184285,Neogene Himalayan weathering history and river87Sr86Sr: impact on the marine Sr record,1996,https://doi.org/10.1016/0012-821x(96)00091-x,378,Geochemistry and Elemental Analysis
+37,16,Chemistry,1,W1611721426,Molecular Light Scattering and Optical Activity,2004,https://doi.org/10.1017/cbo9780511535468,2335,Molecular spectroscopy and chirality
+37,16,Chemistry,2,W2083259132,Near infrared and Raman spectroscopy for the in-process monitoring of pharmaceutical production processes,2010,https://doi.org/10.1016/j.ijpharm.2010.12.012,559,Spectroscopy and Chemometric Analyses
+37,16,Chemistry,3,W2117185957,A brief user's guide to single-chain nanoparticles,2014,https://doi.org/10.1039/c4py01217h,295,Advanced Polymer Synthesis and Characterization
+37,16,Chemistry,4,W2743466873,Non-destructive prediction of internal and external quality attributes of fruit with thick rind: A review,2017,https://doi.org/10.1016/j.jfoodeng.2017.08.009,243,Spectroscopy and Chemometric Analyses
+962,31,Physics and Astronomy,1,W2035188058,Plasma perspective on strong field multiphoton ionization,1993,https://doi.org/10.1103/physrevlett.71.1994,7218,Laser-Matter Interactions and Applications
+962,31,Physics and Astronomy,2,W4211101250,Attosecond physics,2009,https://doi.org/10.1103/revmodphys.81.163,5473,Laser-Matter Interactions and Applications
+962,31,Physics and Astronomy,3,W2016818233,Ignition and high gain with ultrapowerful lasers*,1994,https://doi.org/10.1063/1.870664,3048,Laser-Plasma Interactions and Diagnostics
+962,31,Physics and Astronomy,4,W1983883719,Intense few-cycle laser fields: Frontiers of nonlinear optics,2000,https://doi.org/10.1103/revmodphys.72.545,3006,Laser-Matter Interactions and Applications
+962,22,Engineering,1,W2010301198,"Femtosecond, picosecond and nanosecond laser ablation of solids",1996,https://doi.org/10.1007/bf01567637,3067,Laser Material Processing Techniques
+962,22,Engineering,2,W2062981827,High power fiber lasers: current status and future perspectives [Invited],2010,https://doi.org/10.1364/josab.27.000b63,1983,Photonic Crystal and Fiber Optics
+962,22,Engineering,3,W2078920062,Optical coherence tomography - principles and applications,2003,https://doi.org/10.1088/0034-4885/66/2/204,1873,Optical Coherence Tomography Applications
+962,22,Engineering,4,W2089731119,Ultrathin Organic Films Grown by Organic Molecular Beam Deposition and Related Techniques,1997,https://doi.org/10.1021/cr941014o,1867,Organic Electronics and Photovoltaics
+962,25,Materials Science,1,W3035837979,Flat optics with dispersion-engineered metasurfaces,2020,https://doi.org/10.1038/s41578-020-0203-3,810,Metamaterials and Metasurfaces Applications
+962,25,Materials Science,2,W2326079941,Diffraction gratings: from principles to applications in high-intensity lasers,2016,https://doi.org/10.1364/aop.8.000156,290,Optical Coatings and Gratings
+962,25,Materials Science,3,W2018581635,Femtosecond laser excitation of the semiconductor-metal phase transition in VO2,1994,https://doi.org/10.1063/1.112974,267,Transition Metal Oxide Nanomaterials
+962,25,Materials Science,4,W2943711931,Ultrafast optical pulse shaping using dielectric metasurfaces,2019,https://doi.org/10.1126/science.aav9632,218,Metamaterials and Metasurfaces Applications
+962,27,Medicine,1,W1992386117,Practicability of protontherapy using compact laser systems,2004,https://doi.org/10.1118/1.1747751,293,Radiation Therapy and Dosimetry
+962,27,Medicine,2,W53623300,Photodisruption in the Human Cornea as a Function of Laser Pulse Width,1997,https://doi.org/10.3928/1081-597x-19971101-12,101,Corneal surgery and disorders
+962,27,Medicine,3,W2019945209,Laser‐based microfocused x‐ray source for mammography: Feasibility study,1997,https://doi.org/10.1118/1.597993,77,Digital Radiography and Breast Imaging
+962,27,Medicine,4,W2093937156,Ultrashort pulse laser surgery of the cornea and the sclera,2010,https://doi.org/10.1088/2040-8978/12/8/084002,76,Corneal surgery and disorders
+962,16,Chemistry,1,W1981637441,Direct analysis of solid samples by fs-LA-ICP-MS,2007,https://doi.org/10.1016/j.trac.2007.08.008,239,Analytical chemistry methods development
+962,16,Chemistry,2,W2018813201,Role of Pulse Phase and Direction in Two-Dimensional Optical Spectroscopy,1999,https://doi.org/10.1021/jp992325b,126,Advanced NMR Techniques and Applications
+962,16,Chemistry,3,W3162003880,Femtosecond pulses from a mid-infrared quantum cascade laser,2021,https://doi.org/10.1038/s41566-021-00894-9,89,Spectroscopy and Laser Applications
+962,16,Chemistry,4,W2072131283,Transient absorption experimental set-up with femtosecond time resolution. Femto- and picosecond study of DCM molecule in cyclohexane and methanol solution,2000,https://doi.org/10.1016/s0022-2860(00)00582-2,72,Photochemistry and Electron Transfer Studies
+962,13,"Biochemistry, Genetics and Molecular Biology",1,W2300869065,Invited Review Article: Pump-probe microscopy,2016,https://doi.org/10.1063/1.4943211,253,Advanced Fluorescence Microscopy Techniques
+962,13,"Biochemistry, Genetics and Molecular Biology",2,W2032301170,High resolution nonlinear microscopy: A review of sources and methods for achieving optimal imaging,2001,https://doi.org/10.1063/1.1379598,224,Advanced Fluorescence Microscopy Techniques
+962,13,"Biochemistry, Genetics and Molecular Biology",3,W2036149324,FAST CARS: Engineering a laser spectroscopic technique for rapid identification of bacterial spores,2002,https://doi.org/10.1073/pnas.172290899,223,Spectroscopy Techniques in Biomedical and Chemical Research
+962,13,"Biochemistry, Genetics and Molecular Biology",4,W2026461867,All-Optical Histology Using Ultrashort Laser Pulses,2003,https://doi.org/10.1016/s0896-6273(03)00370-2,205,Advanced Fluorescence Microscopy Techniques
+160,16,Chemistry,1,W2005223011,On the Theory of Optical Rotatory Power,1937,https://doi.org/10.1063/1.1750060,534,Molecular spectroscopy and chirality
+160,16,Chemistry,2,W2058746072,How Important is Parity Violation for Molecular and Biomolecular Chirality?,2002,https://doi.org/10.1002/anie.200290005,441,Molecular spectroscopy and chirality
+160,16,Chemistry,3,W2118312292,Structure and Dynamics of Chiral Molecules,1989,https://doi.org/10.1002/anie.198905711,310,Molecular spectroscopy and chirality
+160,16,Chemistry,4,W2166026468,High-Resolution Spectroscopic Studies and Theory of Parity Violation in Chiral Molecules,2008,https://doi.org/10.1146/annurev.physchem.58.032806.104511,243,Molecular Spectroscopy and Structure
+160,19,Earth and Planetary Sciences,1,W1499812257,Minerals: their constitution and origin,2004,https://doi.org/10.5860/choice.42-2243,234,Mineralogy and Gemology Studies
+160,19,Earth and Planetary Sciences,2,W1989219206,On the Artificial Culture of Marine Plankton Organisms,1910,https://doi.org/10.1017/s0025315400073690,207,Marine and coastal ecosystems
+160,19,Earth and Planetary Sciences,3,W192097735,Minerals,2004,https://doi.org/10.1017/cbo9780511811296,200,Mineralogy and Gemology Studies
+160,19,Earth and Planetary Sciences,4,W2074078282,Evaporation of Seawater: Calculated Mineral Sequences,1980,https://doi.org/10.1126/science.208.4443.498,183,Geochemistry and Elemental Analysis
+160,23,Environmental Science,1,W1994162536,The growth of membrane technology,1982,https://doi.org/10.1016/s0376-7388(00)81408-8,613,Membrane Separation Technologies
+160,23,Environmental Science,2,W607881521,Introduction to Membrane Science and Technology,2017,https://doi.org/10.1002/9781118932551.ch1,377,Membrane Separation Technologies
+160,23,Environmental Science,3,W2963458409,"Osmosis, from molecular insights to large-scale applications",2019,https://doi.org/10.1039/c8cs00420j,326,Membrane Separation Technologies
+160,23,Environmental Science,4,W1963705626,A review of draw solutes in forward osmosis process and their use in modern applications,2012,https://doi.org/10.1080/19443994.2012.672168,299,Membrane Separation Technologies
+160,25,Materials Science,1,W2800569240,Engineering Crystal Properties through Solid Solutions,2018,https://doi.org/10.1021/acs.cgd.7b01643,178,Crystallization and Solubility Studies
+160,25,Materials Science,2,W2789595320,Chiral Light Design and Detection Inspired by Optical Antenna Theory,2018,https://doi.org/10.1021/acs.nanolett.8b00083,96,Metamaterials and Metasurfaces Applications
+160,25,Materials Science,3,W2113682796,Bernauer′s Bands,2011,https://doi.org/10.1002/cphc.201000963,69,Crystallization and Solubility Studies
+160,25,Materials Science,4,W2971649975,Optical Helicity and Optical Chirality in Free Space and in the Presence of Matter,2019,https://doi.org/10.3390/sym11091113,62,Metamaterials and Metasurfaces Applications
+160,13,"Biochemistry, Genetics and Molecular Biology",1,W2551579452,A Biophysical Model for Cytotoxic Cell Swelling,2016,https://doi.org/10.1523/jneurosci.1934-16.2016,75,Ion Transport and Channel Regulation
+160,13,"Biochemistry, Genetics and Molecular Biology",2,W2052575378,The Energetics of Ion Distribution: The Origin of the Resting Electric Potential of Cells,2002,https://doi.org/10.1080/15216540215678,71,Ion Transport and Channel Regulation
+160,13,"Biochemistry, Genetics and Molecular Biology",3,W1988751367,Foundations of Vectorial Metabolism and Osmochemistry,2004,https://doi.org/10.1007/s10540-005-2739-2,55,Ion Transport and Channel Regulation
+160,13,"Biochemistry, Genetics and Molecular Biology",4,W2048119948,Ueber den Einfluss der Temperatur auf die Entwicklung von Rana fusca und Rana esculenta,1897,https://doi.org/10.1007/bf02977499,53,Developmental Biology and Gene Regulation
+160,22,Engineering,1,W1989583476,Thermophoresis: moving particles with thermal gradients,2008,https://doi.org/10.1039/b805888c,268,Field-Flow Fractionation Techniques
+160,22,Engineering,2,W2520565308,Origins and Evolution of Inorganic-Based and MOF-Based Mixed-Matrix Membranes for Gas Separations,2016,https://doi.org/10.3390/pr4030032,73,Membrane Separation and Gas Transport
+160,22,Engineering,3,W2056492307,Remarks on the notion of “pressure”,2014,https://doi.org/10.1016/j.ijnonlinmec.2014.11.031,66,Elasticity and Wave Propagation
+160,22,Engineering,4,W2053530509,Radiation Pressure Theory of Thermal Diffusion in Liquids,1969,https://doi.org/10.1103/physrev.182.289,62,Field-Flow Fractionation Techniques
+230,13,"Biochemistry, Genetics and Molecular Biology",1,W2108638835,Origins and Evolution of Antibiotic Resistance,2010,https://doi.org/10.1128/mmbr.00016-10,5781,Antibiotic Resistance in Bacteria
+230,13,"Biochemistry, Genetics and Molecular Biology",2,W2113403117,The Anatomy and Taxonomy of Protein Structure,1981,https://doi.org/10.1016/s0065-3233(08)60520-3,3379,Protein Structure and Dynamics
+230,13,"Biochemistry, Genetics and Molecular Biology",3,W2049695588,Prediction of protein conformation,1974,https://doi.org/10.1021/bi00699a002,3332,Protein Structure and Dynamics
+230,13,"Biochemistry, Genetics and Molecular Biology",4,W1542067597,Prediction of the Secondary Structure of Proteins from their Amino Acid Sequence,1979,https://doi.org/10.1002/9780470122921.ch2,2917,Protein Structure and Dynamics
+230,27,Medicine,1,W2162854463,Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature,2012,https://doi.org/10.1039/c2np20085f,2087,Microbial Natural Products and Biosynthesis
+230,27,Medicine,2,W1488424161,The amino acid sequence of human insulin-like growth factor I and its structural homology with proinsulin.,1978,https://doi.org/10.1016/s0021-9258(17)40889-1,1545,Growth Hormone and Insulin-like Growth Factors
+230,27,Medicine,3,W2074696981,Structure-Function Relationships in the Vitamin D Endocrine System*,1995,https://doi.org/10.1210/edrv-16-2-200,1237,Vitamin D Research Studies
+230,27,Medicine,4,W2090383712,Binding activities of a repertoire of single immunoglobulin variable domains secreted from Escherichia coli,1989,https://doi.org/10.1038/341544a0,1003,Monoclonal and Polyclonal Antibodies Research
+230,16,Chemistry,1,W1988841674,"Principles of structure, bonding, and reactivity for metal nitrosyl complexes",1974,https://doi.org/10.1016/s0010-8545(00)80259-3,1651,Organometallic Complex Synthesis and Catalysis
+230,16,Chemistry,2,W1986894327,Recent Advances in Zinc Enzymology,1996,https://doi.org/10.1021/cr950042j,1368,Metal-Catalyzed Oxygenation Mechanisms
+230,16,Chemistry,3,W1975098194,Structural implications derived from the analysis of electron paramagnetic resonance spectra of natural and artificial copper proteins,1974,https://doi.org/10.1016/0003-9861(74)90298-7,1360,Metal-Catalyzed Oxygenation Mechanisms
+230,16,Chemistry,4,W2039593231,Structural chemistry of transition metal complexes of oximes,1974,https://doi.org/10.1016/s0010-8545(00)80250-7,526,Crystal structures of chemical compounds
+230,25,Materials Science,1,W2014694459,Solvent content of protein crystals,1968,https://doi.org/10.1016/0022-2836(68)90205-2,7962,Enzyme Structure and Function
+230,25,Materials Science,2,W1937983574,The structure of 2Zn pig insulin crystals at 1.5 Å resolution,1988,https://doi.org/10.1098/rstb.1988.0058,666,Enzyme Structure and Function
+230,25,Materials Science,3,W2068583404,Structure of Rhombohedral 2 Zinc Insulin Crystals,1969,https://doi.org/10.1038/224491a0,505,Enzyme Structure and Function
+230,25,Materials Science,4,W2047891873,Structure of a complex of catabolite gene activator protein and cyclic AMP refined at 2.5 Å resolution,1987,https://doi.org/10.1016/0022-2836(87)90315-9,477,Enzyme Structure and Function
+230,12,Arts and Humanities,1,W2097110510,The development of mechanistic enzymology in the 20th century,2001,https://doi.org/10.1039/b009205n,33,History of Science and Medicine
+230,12,Arts and Humanities,2,W1982043449,X-ray Crystallography: One Century of Nobel Prizes,2014,https://doi.org/10.1021/ed500343x,29,History of Science and Medicine
+230,12,Arts and Humanities,3,W2147104622,Dorothy crowfoot hodgkin (1910–1994),1994,https://doi.org/10.1002/pro.5560031233,28,Biographical and Historical Analysis
+230,12,Arts and Humanities,4,W1505212918,Dorothy Hodgkin and her contributions to biochemistry,2003,https://doi.org/10.1038/nrm1243,24,History of Science and Medicine
+230,24,Immunology and Microbiology,1,W4388699274,"Origin of Antibiotics and Antibiotic Resistance, and Their Impacts on Drug Development: A Narrative Review",2023,https://doi.org/10.3390/ph16111615,1238,Antibiotic Use and Resistance
+230,24,Immunology and Microbiology,2,W2090810855,Determinant Selection and Macrophage Function in Genetic Control of the Immune Response,1978,https://doi.org/10.1111/j.1600-065x.1978.tb00404.x,381,T-cell and B-cell Immunology
+230,24,Immunology and Microbiology,3,W2126055537,Modulation of Structure and Antibacterial and Hemolytic Activity by Ring Size in Cyclic Gramicidin S Analogs,1996,https://doi.org/10.1074/jbc.271.41.25261,186,Antimicrobial Peptides and Activities
+230,24,Immunology and Microbiology,4,W2022284622,The amino acid sequence of thymopoietin II,1975,https://doi.org/10.1016/0092-8674(75)90054-9,154,T-cell and B-cell Immunology
+292,31,Physics and Astronomy,1,W4211101250,Attosecond physics,2009,https://doi.org/10.1103/revmodphys.81.163,5473,Laser-Matter Interactions and Applications
+292,31,Physics and Astronomy,2,W2053499780,Electronic excitations: density-functional versus many-body Green’s-function approaches,2002,https://doi.org/10.1103/revmodphys.74.601,4154,Advanced Chemical Physics Studies
+292,31,Physics and Astronomy,3,W4245770866,Attosecond metrology,2001,https://doi.org/10.1038/35107000,2884,Laser-Matter Interactions and Applications
+292,31,Physics and Astronomy,4,W2005653290,Recent developments in compact ultrafast lasers,2003,https://doi.org/10.1038/nature01938,2307,Advanced Fiber Laser Technologies
+292,16,Chemistry,1,W2167014804,“On Water”: Unique Reactivity of Organic Compounds in Aqueous Suspension,2005,https://doi.org/10.1002/anie.200462883,1691,Chemical Synthesis and Reactions
+292,16,Chemistry,2,W2053242843,Ultrafast Excited-State Dynamics in Nucleic Acids,2004,https://doi.org/10.1021/cr0206770,1279,Photochemistry and Electron Transfer Studies
+292,16,Chemistry,3,W2113018874,Advanced Organic Optoelectronic Materials: Harnessing Excited‐State Intramolecular Proton Transfer (ESIPT) Process,2011,https://doi.org/10.1002/adma.201102046,1228,Photochemistry and Electron Transfer Studies
+292,16,Chemistry,4,W1886421786,Excited-state intramolecular proton-transfer (ESIPT)-inspired solid state emitters,2015,https://doi.org/10.1039/c5cs00543d,1088,Photochemistry and Electron Transfer Studies
+292,13,"Biochemistry, Genetics and Molecular Biology",1,W2132262459,CHARMM: The biomolecular simulation program,2009,https://doi.org/10.1002/jcc.21287,8994,Protein Structure and Dynamics
+292,13,"Biochemistry, Genetics and Molecular Biology",2,W3035579699,Encyclopedia of Analytical Chemistry,2006,https://doi.org/10.1002/9780470027318,7402,Advanced Electron Microscopy Techniques and Applications
+292,13,"Biochemistry, Genetics and Molecular Biology",3,W2093221728,Molecular dynamics simulations of biomolecules,2002,https://doi.org/10.1038/nsb0902-646,3435,Protein Structure and Dynamics
+292,13,"Biochemistry, Genetics and Molecular Biology",4,W2048822589,Dynamic personalities of proteins,2007,https://doi.org/10.1038/nature06522,2545,Protein Structure and Dynamics
+292,22,Engineering,1,W2116267801,Direct measurement of electrical transport through DNA molecules,2000,https://doi.org/10.1038/35001029,1692,Molecular Junctions and Nanostructures
+292,22,Engineering,2,W2052044194,Plasmonic Nanoantennas: Fundamentals and Their Use in Controlling the Radiative Properties of Nanoemitters,2011,https://doi.org/10.1021/cr1002672,1473,Plasmonic and Surface Plasmon Research
+292,22,Engineering,3,W2026826007,Inducing and probing non-thermal transitions in semiconductors using femtosecond laser pulses,2002,https://doi.org/10.1038/nmat767,1030,Laser Material Processing Techniques
+292,22,Engineering,4,W2502992426,Electrochemical Methods for the Analysis of Clinically Relevant Biomolecules,2016,https://doi.org/10.1021/acs.chemrev.6b00220,981,Electrochemical sensors and biosensors
+292,25,Materials Science,1,W2177603935,"Aggregation-Induced Emission: Together We Shine, United We Soar!",2015,https://doi.org/10.1021/acs.chemrev.5b00263,8270,Luminescence and Fluorescent Materials
+292,25,Materials Science,2,W1994724903,Aggregation‐Induced Emission: The Whole Is More Brilliant than the Parts,2014,https://doi.org/10.1002/adma.201401356,3383,Luminescence and Fluorescent Materials
+292,25,Materials Science,3,W2087260555,Nanocarbons for the Development of Advanced Catalysts,2013,https://doi.org/10.1021/cr300367d,1325,Mesoporous Materials and Catalysis
+292,25,Materials Science,4,W2126176903,Oxide Electronics Utilizing Ultrafast Metal-Insulator Transitions,2011,https://doi.org/10.1146/annurev-matsci-062910-100347,1026,Transition Metal Oxide Nanomaterials
+292,17,Computer Science,1,W2597208492,Experimental quantum Hamiltonian learning,2017,https://doi.org/10.1038/nphys4074,248,Quantum Information and Cryptography
+292,17,Computer Science,2,W4226296514,Cavity-mediated electron-photon pairs,2022,https://doi.org/10.1126/science.abo5037,142,Quantum Information and Cryptography
+292,17,Computer Science,3,W2765237585,Direct Characterization of Ultrafast Energy-Time Entangled Photon Pairs,2018,https://doi.org/10.1103/physrevlett.120.053601,135,Quantum Information and Cryptography
+292,17,Computer Science,4,W2038965771,Quantum-nondemolition measurement of the photon number of an optical soliton,1992,https://doi.org/10.1103/physrevlett.69.3165,126,Quantum Information and Cryptography
+1055,16,Chemistry,1,W2141939342,The Chemistry and Applications of Metal-Organic Frameworks,2013,https://doi.org/10.1126/science.1230444,17036,Metal-Organic Frameworks: Synthesis and Applications
+1055,16,Chemistry,2,W1999937609,Functional Porous Coordination Polymers,2004,https://doi.org/10.1002/anie.200300610,11110,Metal-Organic Frameworks: Synthesis and Applications
+1055,16,Chemistry,3,W1999908724,Reticular synthesis and the design of new materials,2003,https://doi.org/10.1038/nature01650,9136,Metal-Organic Frameworks: Synthesis and Applications
+1055,16,Chemistry,4,W2099486431,Selective gas adsorption and separation in metal–organic frameworks,2009,https://doi.org/10.1039/b802426j,8959,Metal-Organic Frameworks: Synthesis and Applications
+1055,25,Materials Science,1,W2135479172,The chemistry of graphene oxide,2009,https://doi.org/10.1039/b917103g,11659,Graphene research and applications
+1055,25,Materials Science,2,W2022167379,"Hybrid porous solids: past, present, future",2007,https://doi.org/10.1039/b618320b,5833,Mesoporous Materials and Catalysis
+1055,25,Materials Science,3,W1969555886,Ordered porous materials for emerging applications,2002,https://doi.org/10.1038/nature00785,5309,Mesoporous Materials and Catalysis
+1055,25,Materials Science,4,W2597054437,Recent Advances in Ultrathin Two-Dimensional Nanomaterials,2017,https://doi.org/10.1021/acs.chemrev.6b00558,5109,Graphene research and applications
+1055,22,Engineering,1,W2125053394,Carbon Dioxide Capture: Prospects for New Materials,2010,https://doi.org/10.1002/anie.201000431,4045,Carbon Dioxide Capture Technologies
+1055,22,Engineering,2,W2625153997,Maximizing the right stuff: The trade-off between membrane permeability and selectivity,2017,https://doi.org/10.1126/science.aab0530,3377,Membrane Separation and Gas Transport
+1055,22,Engineering,3,W2327721819,Organic–Inorganic Perovskites: Structural Versatility for Functional Materials Design,2016,https://doi.org/10.1021/acs.chemrev.5b00715,2933,Perovskite Materials and Applications
+1055,22,Engineering,4,W2104943417,Adsorbent Materials for Carbon Dioxide Capture from Large Anthropogenic Point Sources,2009,https://doi.org/10.1002/cssc.200900036,2599,Carbon Dioxide Capture Technologies
+1055,21,Energy,1,W2324576880,Understanding TiO 2 Photocatalysis: Mechanisms and Materials,2014,https://doi.org/10.1021/cr5001892,6032,TiO2 Photocatalysis and Solar Cells
+1055,21,Energy,2,W2564178799,The path towards sustainable energy,2016,https://doi.org/10.1038/nmat4834,4805,Power Systems and Renewable Energy
+1055,21,Energy,3,W2274258295,Recent Advances in Electrocatalysts for Oxygen Reduction Reaction,2016,https://doi.org/10.1021/acs.chemrev.5b00462,3904,Electrocatalysts for Energy Conversion
+1055,21,Energy,4,W1992591486,A review of catalysts for the electroreduction of carbon dioxide to produce low-carbon fuels,2013,https://doi.org/10.1039/c3cs60323g,2990,CO2 Reduction Techniques and Catalysts
+1055,23,Environmental Science,1,W1138025054,Cobalt-catalyzed sulfate radical-based advanced oxidation: A review on heterogeneous catalysts and applications,2015,https://doi.org/10.1016/j.apcatb.2015.07.024,2190,Advanced oxidation water treatment
+1055,23,Environmental Science,2,W1992507749,"Adsorptive removal of methyl orange and methylene blue from aqueous solution with a metal-organic framework material, iron terephthalate (MOF-235)",2010,https://doi.org/10.1016/j.jhazmat.2010.09.035,1161,Adsorption and biosorption for pollutant removal
+1055,23,Environmental Science,3,W2981353654,Iron-mediated activation of persulfate and peroxymonosulfate in both homogeneous and heterogeneous ways: A review,2019,https://doi.org/10.1016/j.cej.2019.123265,961,Advanced oxidation water treatment
+1055,23,Environmental Science,4,W2410849299,Highly Water-Stable Zirconium Metal–Organic Framework UiO-66 Membranes Supported on Alumina Hollow Fibers for Desalination,2015,https://doi.org/10.1021/jacs.5b02276,806,Membrane Separation Technologies
+1055,15,Chemical Engineering,1,W2113086422,"Chemical Recycling of Carbon Dioxide to Methanol and Dimethyl Ether: From Greenhouse Gas to Renewable, Environmentally Carbon Neutral Fuels and Synthetic Hydrocarbons",2008,https://doi.org/10.1021/jo801260f,1609,Catalysts for Methane Reforming
+1055,15,Chemical Engineering,2,W3005711490,Recent Advances in Carbon Dioxide Hydrogenation to Methanol via Heterogeneous Catalysis,2020,https://doi.org/10.1021/acs.chemrev.9b00723,1589,Catalysts for Methane Reforming
+1055,15,Chemical Engineering,3,W1974801467,Anthropogenic Chemical Carbon Cycle for a Sustainable Future,2011,https://doi.org/10.1021/ja202642y,1379,Catalysts for Methane Reforming
+1055,15,Chemical Engineering,4,W2803729875,A Review of Electrocatalytic Reduction of Dinitrogen to Ammonia under Ambient Conditions,2018,https://doi.org/10.1002/aenm.201800369,1314,Ammonia Synthesis and Nitrogen Reduction
+428,11,Agricultural and Biological Sciences,1,W2014704298,"The B73 Maize Genome: Complexity, Diversity, and Dynamics",2009,https://doi.org/10.1126/science.1178534,4052,Chromosomal and Genetic Variations
+428,11,Agricultural and Biological Sciences,2,W1965368044,The Significance of Responses of the Genome to Challenge,1984,https://doi.org/10.1126/science.15739260,2619,Chromosomal and Genetic Variations
+428,11,Agricultural and Biological Sciences,3,W1997270596,Transposable elements and the epigenetic regulation of the genome,2007,https://doi.org/10.1038/nrg2072,2043,Chromosomal and Genetic Variations
+428,11,Agricultural and Biological Sciences,4,W2048540261,"Selfish genes, the phenotype paradigm and genome evolution",1980,https://doi.org/10.1038/284601a0,1830,Chromosomal and Genetic Variations
+428,13,"Biochemistry, Genetics and Molecular Biology",1,W2066998178,Somaclonal variation — a novel source of variability from cell cultures for plant improvement,1981,https://doi.org/10.1007/bf02342540,3002,Plant tissue culture and regeneration
+428,13,"Biochemistry, Genetics and Molecular Biology",2,W2463708289,The molecular hallmarks of epigenetic control,2016,https://doi.org/10.1038/nrg.2016.59,2810,Epigenetics and DNA Methylation
+428,13,"Biochemistry, Genetics and Molecular Biology",3,W2109948920,Massive Genomic Rearrangement Acquired in a Single Catastrophic Event during Cancer Development,2011,https://doi.org/10.1016/j.cell.2010.11.055,2415,Cancer Genomics and Diagnostics
+428,13,"Biochemistry, Genetics and Molecular Biology",4,W17439892,The Genetics of Aspergillus nidulans,1953,https://doi.org/10.1016/s0065-2660(08)60408-3,2305,Fungal and yeast genetics research
+428,27,Medicine,1,W1983673827,Telomeres shorten during ageing of human fibroblasts,1990,https://doi.org/10.1038/345458a0,5750,"Telomeres, Telomerase, and Senescence"
+428,27,Medicine,2,W2122740168,Identification of a specific telomere terminal transferase activity in tetrahymena extracts,1985,https://doi.org/10.1016/0092-8674(85)90170-9,3400,"Telomeres, Telomerase, and Senescence"
+428,27,Medicine,3,W2032407757,Mammalian Telomeres End in a Large Duplex Loop,1999,https://doi.org/10.1016/s0092-8674(00)80760-6,2447,"Telomeres, Telomerase, and Senescence"
+428,27,Medicine,4,W2026856852,The RNA Component of Human Telomerase,1995,https://doi.org/10.1126/science.7544491,2227,"Telomeres, Telomerase, and Senescence"
+428,12,Arts and Humanities,1,W2087819910,The Changing Concept of Epigenetics,2002,https://doi.org/10.1111/j.1749-6632.2002.tb04913.x,545,Philosophy and History of Science
+428,12,Arts and Humanities,2,W2151659911,A theory of biological relativity: no privileged level of causation,2011,https://doi.org/10.1098/rsfs.2011.0067,452,Philosophy and History of Science
+428,12,Arts and Humanities,3,W2039039415,The coming Kuhnian revolution in biology,1997,https://doi.org/10.1038/nbt0397-194,283,Philosophy and History of Science
+428,12,Arts and Humanities,4,W2098100163,"Bacteria are small but not stupid: cognition, natural genetic engineering and socio-bacteriology",2007,https://doi.org/10.1016/j.shpsc.2007.09.010,254,Philosophy and History of Science
+428,23,Environmental Science,1,W4211045924,Episomes,1962,https://doi.org/10.1016/s0065-2660(08)60286-2,614,Bacteriophages and microbial interactions
+428,23,Environmental Science,2,W2153758239,Differential gene expression during thermal stress and bleaching in the Caribbean coral Montastraea faveolata,2008,https://doi.org/10.1111/j.1365-294x.2008.03879.x,416,Coral and Marine Ecosystems Studies
+428,23,Environmental Science,3,W2045375338,Inversion of the G DNA segment of phage Mu controls phage infectivity,1978,https://doi.org/10.1038/271577a0,143,Bacteriophages and microbial interactions
+428,23,Environmental Science,4,W2053239993,"Parasitism, the diversity of life, and paleoparasitology",2003,https://doi.org/10.1590/s0074-02762003000900003,131,Parasite Biology and Host Interactions
+428,24,Immunology and Microbiology,1,W2290849670,Regulatory evolution of innate immunity through co-option of endogenous retroviruses,2016,https://doi.org/10.1126/science.aad5497,1005,interferon and immune responses
+428,24,Immunology and Microbiology,2,W1995958102,Cyclophilin A retrotransposition into TRIM5 explains owl monkey resistance to HIV-1,2004,https://doi.org/10.1038/nature02777,662,HIV Research and Treatment
+428,24,Immunology and Microbiology,3,W1989170328,The molecular basis of antibody formation: a paradox.,1965,https://doi.org/10.1073/pnas.54.3.864,390,T-cell and B-cell Immunology
+428,24,Immunology and Microbiology,4,W3208824634,"Cytoplasmic DNA: sources, sensing, and role in aging and disease",2021,https://doi.org/10.1016/j.cell.2021.09.034,288,interferon and immune responses
+918,27,Medicine,1,W2979937337,Recent Progress in Ferroptosis Inducers for Cancer Therapy,2019,https://doi.org/10.1002/adma.201904197,1578,Ferroptosis and cancer prognosis
+918,27,Medicine,2,W1965003536,The discovery of artemisinin (qinghaosu) and gifts from Chinese medicine,2011,https://doi.org/10.1038/nm.2471,1404,Historical Medical Research and Treatments
+918,27,Medicine,3,W2561420332,Nrf2 inhibition reverses the resistance of cisplatin-resistant head and neck cancer cells to artesunate-induced ferroptosis,2016,https://doi.org/10.1016/j.redox.2016.12.010,662,Ferroptosis and cancer prognosis
+918,27,Medicine,4,W2185500533,A New Golden Age of Natural Products Drug Discovery,2015,https://doi.org/10.1016/j.cell.2015.11.031,635,Microbial Natural Products and Biosynthesis
+918,13,"Biochemistry, Genetics and Molecular Biology",1,W2593768764,From ancient herb to modern drug: Artemisia annua and artemisinin for cancer therapy,2017,https://doi.org/10.1016/j.semcancer.2017.02.009,632,Sesquiterpenes and Asteraceae Studies
+918,13,"Biochemistry, Genetics and Molecular Biology",2,W2085827306,What made sesquiterpene lactones reach cancer clinical trials?,2010,https://doi.org/10.1016/j.drudis.2010.06.002,618,Sesquiterpenes and Asteraceae Studies
+918,13,"Biochemistry, Genetics and Molecular Biology",3,W2062051365,Artemisinins: Pharmacological actions beyond anti-malarial,2013,https://doi.org/10.1016/j.pharmthera.2013.12.001,481,Sesquiterpenes and Asteraceae Studies
+918,13,"Biochemistry, Genetics and Molecular Biology",4,W2987822484,"Medically Useful Plant Terpenoids: Biosynthesis, Occurrence, and Mechanism of Action",2019,https://doi.org/10.3390/molecules24213961,410,Plant biochemistry and biosynthesis
+918,11,Agricultural and Biological Sciences,1,W2987783202,A Comprehensive Review on Medicinal Plants as Antimicrobial Therapeutics: Potential Avenues of Biocompatible Drug Discovery,2019,https://doi.org/10.3390/metabo9110258,871,Essential Oils and Antimicrobial Activity
+918,11,Agricultural and Biological Sciences,2,W3106125810,Gallic acid: Pharmacological activities and molecular mechanisms involved in inflammation-related diseases,2020,https://doi.org/10.1016/j.biopha.2020.110985,721,Phytochemistry and Biological Activities
+918,11,Agricultural and Biological Sciences,3,W2741560216,Demystifying traditional herbal medicine with modern approach,2017,https://doi.org/10.1038/nplants.2017.109,499,Ethnobotanical and Medicinal Plants Studies
+918,11,Agricultural and Biological Sciences,4,W2128450526,Therapeutic Applications of Herbal Medicines for Cancer Patients,2013,https://doi.org/10.1155/2013/302426,384,Medicinal Plant Research
+918,16,Chemistry,1,W2344164095,Using Singlet Oxygen to Synthesize Natural Products and Drugs,2016,https://doi.org/10.1021/acs.chemrev.5b00726,721,Radical Photochemical Reactions
+918,16,Chemistry,2,W2974793213,"1,2,3-Triazole-containing hybrids as potential anticancer agents: Current developments, action mechanisms and structure-activity relationships",2019,https://doi.org/10.1016/j.ejmech.2019.111700,528,Synthesis and biological activity
+918,16,Chemistry,3,W3017783322,Late-Stage Diversification of Natural Products,2020,https://doi.org/10.1021/acscentsci.9b00916,347,Catalytic C–H Functionalization Methods
+918,16,Chemistry,4,W2966600544,Coumarin-containing hybrids and their anticancer activities,2019,https://doi.org/10.1016/j.ejmech.2019.111587,235,Synthesis and biological activity
+918,17,Computer Science,1,W2803627340,Natural Products for Drug Discovery in the 21st Century: Innovations for Novel Drug Discovery,2018,https://doi.org/10.3390/ijms19061578,1246,Computational Drug Discovery Methods
+918,17,Computer Science,2,W3108860514,HERB: a high-throughput experiment- and reference-guided database of traditional Chinese medicine,2020,https://doi.org/10.1093/nar/gkaa1063,700,Computational Drug Discovery Methods
+918,17,Computer Science,3,W3039977092,Overcoming cancer therapeutic bottleneck by drug repurposing,2020,https://doi.org/10.1038/s41392-020-00213-8,518,Computational Drug Discovery Methods
+918,17,Computer Science,4,W4388033637,BATMAN-TCM 2.0: an enhanced integrative database for known and predicted interactions between traditional Chinese medicine ingredients and target proteins,2023,https://doi.org/10.1093/nar/gkad926,213,Computational Drug Discovery Methods
+918,24,Immunology and Microbiology,1,W3022673979,A review on the application of herbal medicines in the disease control of aquatic animals,2020,https://doi.org/10.1016/j.aquaculture.2020.735422,253,Aquaculture disease management and microbiota
+918,24,Immunology and Microbiology,2,W2130698854,Repurposing drugs for the treatment and control of helminth infections,2014,https://doi.org/10.1016/j.ijpddr.2014.07.002,200,Parasites and Host Interactions
+918,24,Immunology and Microbiology,3,W2280003843,Antischistosomal activity of artemisinin derivatives in vivo and in patients,2016,https://doi.org/10.1016/j.phrs.2016.02.017,111,Parasites and Host Interactions
+918,24,Immunology and Microbiology,4,W2945053682,Antibiotic Application and Resistance in Swine Production in China: Current Situation and Future Perspectives,2019,https://doi.org/10.3389/fvets.2019.00136,109,Antibiotic Use and Resistance
+1024,13,"Biochemistry, Genetics and Molecular Biology",1,W2006247279,Regulation of microRNA biogenesis,2014,https://doi.org/10.1038/nrm3838,5462,MicroRNA in disease regulation
+1024,13,"Biochemistry, Genetics and Molecular Biology",2,W2782708334,mRNA vaccines — a new era in vaccinology,2018,https://doi.org/10.1038/nrd.2017.243,4667,RNA Interference and Gene Delivery
+1024,13,"Biochemistry, Genetics and Molecular Biology",3,W3188940990,Lipid nanoparticles for mRNA delivery,2021,https://doi.org/10.1038/s41578-021-00358-0,4084,RNA Interference and Gene Delivery
+1024,13,"Biochemistry, Genetics and Molecular Biology",4,W2067632426,Immunogenic cell death and DAMPs in cancer therapy,2012,https://doi.org/10.1038/nrc3380,3223,Cell death mechanisms and regulation
+1024,27,Medicine,1,W3111255098,Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine,2020,https://doi.org/10.1056/nejmoa2034577,14592,SARS-CoV-2 and COVID-19 Research
+1024,27,Medicine,2,W3043722389,An mRNA Vaccine against SARS-CoV-2 — Preliminary Report,2020,https://doi.org/10.1056/nejmoa2022483,3234,SARS-CoV-2 and COVID-19 Research
+1024,27,Medicine,3,W3093367571,Safety and Immunogenicity of Two RNA-Based Covid-19 Vaccine Candidates,2020,https://doi.org/10.1056/nejmoa2027906,2615,SARS-CoV-2 and COVID-19 Research
+1024,27,Medicine,4,W3017680297,The Architecture of SARS-CoV-2 Transcriptome,2020,https://doi.org/10.1016/j.cell.2020.04.011,2192,SARS-CoV-2 and COVID-19 Research
+1024,24,Immunology and Microbiology,1,W2042851093,Sterile inflammation: sensing and reacting to damage,2010,https://doi.org/10.1038/nri2873,3051,Immune Response and Inflammation
+1024,24,Immunology and Microbiology,2,W2025980739,Suppression of RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA,2005,https://doi.org/10.1016/j.immuni.2005.06.008,2728,Immune Response and Inflammation
+1024,24,Immunology and Microbiology,3,W1953890763,Inhibiting DNA Methylation Causes an Interferon Response in Cancer via dsRNA Including Endogenous Retroviruses,2015,https://doi.org/10.1016/j.cell.2015.07.011,2021,interferon and immune responses
+1024,24,Immunology and Microbiology,4,W2412158473,Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy,2016,https://doi.org/10.1038/nature18300,1778,Immunotherapy and Immune Responses
+1024,25,Materials Science,1,W3176970273,"Lipid NanoparticlesFrom Liposomes to mRNA Vaccine Delivery, a Landscape of Research Diversity and Advancement",2021,https://doi.org/10.1021/acsnano.1c04996,2218,Nanoparticle-Based Drug Delivery
+1024,25,Materials Science,2,W2811501377,Block Copolymer Micelles in Nanomedicine Applications,2018,https://doi.org/10.1021/acs.chemrev.8b00199,1310,Nanoparticle-Based Drug Delivery
+1024,25,Materials Science,3,W2984284890,Smart cancer nanomedicine,2019,https://doi.org/10.1038/s41565-019-0567-y,1242,Nanoparticle-Based Drug Delivery
+1024,25,Materials Science,4,W4200561001,On the mechanism of tissue-specific mRNA delivery by selective organ targeting nanoparticles,2021,https://doi.org/10.1073/pnas.2109256118,1018,Nanoparticle-Based Drug Delivery
+1024,11,Agricultural and Biological Sciences,1,W2347011735,Roles for retrotransposon insertions in human disease,2016,https://doi.org/10.1186/s13100-016-0065-9,670,Chromosomal and Genetic Variations
+1024,11,Agricultural and Biological Sciences,2,W1963990067,Alu elements: know the SINEs,2011,https://doi.org/10.1186/gb-2011-12-12-236,652,Chromosomal and Genetic Variations
+1024,11,Agricultural and Biological Sciences,3,W2737372261,Mobile DNA in Health and Disease,2017,https://doi.org/10.1056/nejmra1510092,445,Chromosomal and Genetic Variations
+1024,11,Agricultural and Biological Sciences,4,W2516620605,Restricting retrotransposons: a review,2016,https://doi.org/10.1186/s13100-016-0070-z,436,Chromosomal and Genetic Variations
+1024,28,Neuroscience,1,W2079320514,Astrocytes are active players in cerebral innate immunity,2007,https://doi.org/10.1016/j.it.2007.01.005,1304,Neuroinflammation and Neurodegeneration Mechanisms
+1024,28,Neuroscience,2,W2116356198,Wallerian degeneration: gaining perspective on inflammatory events after peripheral nerve injury,2011,https://doi.org/10.1186/1742-2094-8-110,902,Nerve injury and regeneration
+1024,28,Neuroscience,3,W2165413779,TLR Signaling Tailors Innate Immune Responses in Human Microglia and Astrocytes,2005,https://doi.org/10.4049/jimmunol.175.7.4320,734,Neuroinflammation and Neurodegeneration Mechanisms
+1024,28,Neuroscience,4,W2133956375,The immunology of acute stroke,2012,https://doi.org/10.1038/nrneurol.2012.98,714,Neuroinflammation and Neurodegeneration Mechanisms
+678,20,"Economics, Econometrics and Finance",1,W2100130392,The Log of Gravity,2006,https://doi.org/10.1162/rest.88.4.641,6412,Global trade and economics
+678,20,"Economics, Econometrics and Finance",2,W2070720254,Econometric policy evaluation: A critique,1976,https://doi.org/10.1016/s0167-2231(76)80003-6,6111,Monetary Policy and Economic Impact
+678,20,"Economics, Econometrics and Finance",3,W3124124240,"Skills, Tasks and Technologies: Implications for Employment and Earnings",2011,https://doi.org/10.1016/s0169-7218(11)02410-5,3799,Labor market dynamics and wage inequality
+678,20,"Economics, Econometrics and Finance",4,W2163362767,Do free trade agreements actually increase members' international trade?,2006,https://doi.org/10.1016/j.jinteco.2006.02.005,2692,Global trade and economics
+678,33,Social Sciences,1,W4229738978,Varieties of Capitalism,2001,https://doi.org/10.1093/0199247757.001.0001,8750,Social Policy and Reform Studies
+678,33,Social Sciences,2,W1883239598,On Economic Inequality,1973,https://doi.org/10.1093/0198281935.001.0001,3433,"Income, Poverty, and Inequality"
+678,33,Social Sciences,3,W2146031733,The New Politics of the Welfare State,2001,https://doi.org/10.1093/0198297564.001.0001,3353,Social Policy and Reform Studies
+678,33,Social Sciences,4,W172274565,An Introduction to Varieties of Capitalism,2001,https://doi.org/10.1093/0199247757.003.0001,3203,Social Policy and Reform Studies
+678,14,"Business, Management and Accounting",1,W2172099087,Institutional Determinants of Foreign Direct Investment,2007,https://doi.org/10.1111/j.1467-9701.2007.01022.x,1119,International Business and FDI
+678,14,"Business, Management and Accounting",2,W1989452586,Differences in managerial discretion across countries: how nation‐level institutions affect the degree to which ceos matter,2010,https://doi.org/10.1002/smj.913,640,Corporate Finance and Governance
+678,14,"Business, Management and Accounting",3,W2139848267,A Feminist Reinterpretation of The Stakeholder Concept,1994,https://doi.org/10.2307/3857345,473,Corporate Social Responsibility Reporting
+678,14,"Business, Management and Accounting",4,W3123482145,"Dynamic pricing and learning: Historical origins, current research, and new directions",2015,https://doi.org/10.1016/j.sorms.2015.03.001,433,Supply Chain and Inventory Management
+678,23,Environmental Science,1,W2115593523,Evolutionary approaches for sustainable innovation policies: From niche to paradigm?,2009,https://doi.org/10.1016/j.respol.2009.01.011,481,Sustainability and Climate Change Governance
+678,23,Environmental Science,2,W2794463236,Measuring the temporal dynamics of policy mixes – An empirical analysis of renewable energy policy mixes’ balance and design features in nine countries,2018,https://doi.org/10.1016/j.respol.2018.03.012,351,Sustainability and Climate Change Governance
+678,23,Environmental Science,3,W3122000501,Evaluating Projects and Assessing Sustainable Development in Imperfect Economies,2006,https://doi.org/10.1007/1-4020-2515-7_7,249,Sustainable Development and Environmental Policy
+678,23,Environmental Science,4,W2166039504,Environmental Policy: Ecological Modernisation or the Risk Society?,1997,https://doi.org/10.1080/0042098975853,211,Sustainable Development and Environmental Management
+678,18,Decision Sciences,1,W2265790795,Identification Properties of Recent Production Function Estimators,2015,https://doi.org/10.3982/ecta13408,2263,Efficiency Analysis Using DEA
+678,18,Decision Sciences,2,W1543040011,From substantive to procedural rationality,1976,https://doi.org/10.1007/978-1-4613-4367-7_6,1315,Decision-Making and Behavioral Economics
+678,18,Decision Sciences,3,W2030076260,A GENERAL METHOD FOR ESTIMATING A LINEAR STRUCTURAL EQUATION SYSTEM*,1970,https://doi.org/10.1002/j.2333-8504.1970.tb00783.x,1108,Psychometric Methodologies and Testing
+678,18,Decision Sciences,4,W20683381,Path Models with Latent Variables: The NIPALS Approach,1975,https://doi.org/10.1016/b978-0-12-103950-9.50017-4,842,Psychometric Methodologies and Testing
+678,22,Engineering,1,W2624963369,The Internet and income inequality: Socio-economic challenges in a hyperconnected society,2017,https://doi.org/10.1016/j.telpol.2017.05.009,198,ICT Impact and Policies
+678,22,Engineering,2,W2007149450,Liner Shipping Connectivity and Port Infrastructure as Determinants of Freight Rates in the Caribbean,2008,https://doi.org/10.1057/palgrave.mel.9100195,181,Maritime Ports and Logistics
+678,22,Engineering,3,W2163061403,Decarbonizing Europe's power sector by 2050 — Analyzing the economic implications of alternative decarbonization pathways,2013,https://doi.org/10.1016/j.eneco.2013.08.019,150,Integrated Energy Systems Optimization
+678,22,Engineering,4,W4232193948,Almost invariant subspaces: An approach to high gain feedback design--Part II: Almost conditionally invariant subspaces,1982,https://doi.org/10.1109/tac.1982.1103074,135,Stability and Control of Uncertain Systems
+719,33,Social Sciences,1,W2128248134,Closing the gap in a generation: health equity through action on the social determinants of health,2008,https://doi.org/10.1016/s0140-6736(08)61690-6,7914,Public Health and Social Inequalities
+719,33,Social Sciences,2,W1978918752,Social Theory of International Politics,1999,https://doi.org/10.1017/cbo9780511612183,7664,International Relations and Foreign Policy
+719,33,Social Sciences,3,W3122074090,Greed and grievance in civil war,2004,https://doi.org/10.1093/oep/gpf064,6112,Political Conflict and Governance
+719,33,Social Sciences,4,W2150518915,Anarchy is what states make of it: the social construction of power politics,1992,https://doi.org/10.1017/s0020818300027764,5887,International Relations and Foreign Policy
+719,20,"Economics, Econometrics and Finance",1,W2571495779,Satisfaction and comparison income,1996,https://doi.org/10.1016/0047-2727(95)01564-7,2971,Labor market dynamics and wage inequality
+719,20,"Economics, Econometrics and Finance",2,W2129678216,Strategy-proofness and Arrow's conditions: Existence and correspondence theorems for voting procedures and social welfare functions,1975,https://doi.org/10.1016/0022-0531(75)90050-2,2834,Game Theory and Voting Systems
+719,20,"Economics, Econometrics and Finance",3,W2130387153,Polycentric systems for coping with collective action and global environmental change,2010,https://doi.org/10.1016/j.gloenvcha.2010.07.004,2466,Climate Change Policy and Economics
+719,20,"Economics, Econometrics and Finance",4,W2113337769,"Natural resources, education, and economic development",2001,https://doi.org/10.1016/s0014-2921(01)00127-1,2078,Natural Resources and Economic Development
+719,12,Arts and Humanities,1,W1974609519,11. Reasons and Persons,1986,https://doi.org/10.1093/019824908x.001.0001,5779,Philosophical Ethics and Theory
+719,12,Arts and Humanities,2,W2290778907,Ethnic conflict and civic life: Hindus and Muslims in India,2002,https://doi.org/10.5860/choice.40-1099,1012,South Asian Studies and Diaspora
+719,12,Arts and Humanities,3,W2116953061,Compassion: The Basic Social Emotion,1996,https://doi.org/10.1017/s0265052500001515,688,Philosophical Ethics and Theory
+719,12,Arts and Humanities,4,W4300068742,Practical Intelligence and the Virtues,2009,https://doi.org/10.1093/acprof:oso/9780199565795.001.0001,582,Philosophical Ethics and Theory
+719,23,Environmental Science,1,W2909678677,Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems,2019,https://doi.org/10.1016/s0140-6736(18)31788-4,10893,Agriculture Sustainability and Environmental Impact
+719,23,Environmental Science,2,W4233283252,Vulnerability,2006,https://doi.org/10.1016/j.gloenvcha.2006.02.006,5427,Sustainability and Climate Change Governance
+719,23,Environmental Science,3,W1994668345,A framework for vulnerability analysis in sustainability science,2003,https://doi.org/10.1073/pnas.1231335100,4379,Sustainability and Climate Change Governance
+719,23,Environmental Science,4,W1496684753,Ecosystems and human well-being: a framework for assessment,2004,https://doi.org/10.5860/choice.41-4645,2846,Land Use and Ecosystem Services
+719,14,"Business, Management and Accounting",1,W1985721027,Misery Loves Companies: Rethinking Social Initiatives by Business,2003,https://doi.org/10.2307/3556659,5131,Corporate Social Responsibility Reporting
+719,14,"Business, Management and Accounting",2,W2031518390,National Innovation Systems—Analytical Concept and Development Tool,2007,https://doi.org/10.1080/13662710601130863,1602,University-Industry-Government Innovation Models
+719,14,"Business, Management and Accounting",3,W2115290060,Leadership structure: Separating the CEO and Chairman of the Board,1997,https://doi.org/10.1016/s0929-1199(96)00013-2,1529,Corporate Finance and Governance
+719,14,"Business, Management and Accounting",4,W2129996389,Reinventing strategies for emerging markets: beyond the transnational model,2004,https://doi.org/10.1057/palgrave.jibs.8400099,1440,Innovation and Socioeconomic Development
+719,11,Agricultural and Biological Sciences,1,W2160065655,A Theory of Access*,2003,https://doi.org/10.1111/j.1549-0831.2003.tb00133.x,2356,Land Rights and Reforms
+719,11,Agricultural and Biological Sciences,2,W2160883209,Adaptation to climate change in the developing world,2003,https://doi.org/10.1191/1464993403ps060oa,1819,Climate change impacts on agriculture
+719,11,Agricultural and Biological Sciences,3,W2105457488,"Income Risk, Coping Strategies, and Safety Nets",2002,https://doi.org/10.1093/wbro/17.2.141,1185,Agricultural risk and resilience
+719,11,Agricultural and Biological Sciences,4,W2574109959,Climate Change and Global Food Systems: Potential Impacts on Food Security and Undernutrition,2017,https://doi.org/10.1146/annurev-publhealth-031816-044356,1108,Climate change impacts on agriculture
+846,33,Social Sciences,1,W4229738978,Varieties of Capitalism,2001,https://doi.org/10.1093/0199247757.001.0001,8750,Social Policy and Reform Studies
+846,33,Social Sciences,2,W2129135549,Altruistic punishment in humans,2002,https://doi.org/10.1038/415137a,5616,Evolutionary Game Theory and Cooperation
+846,33,Social Sciences,3,W1968869144,Beyond Markets and States: Polycentric Governance of Complex Economic Systems,2010,https://doi.org/10.1080/19186444.2010.11658229,4409,Water Governance and Infrastructure
+846,33,Social Sciences,4,W2109745229,"Social Capital: Implications for Development Theory, Research, and Policy",2000,https://doi.org/10.1093/wbro/15.2.225,4339,Social Capital and Networks
+846,23,Environmental Science,1,W2034994370,A General Framework for Analyzing Sustainability of Social-Ecological Systems,2009,https://doi.org/10.1126/science.1172133,8662,Sustainability and Climate Change Governance
+846,23,Environmental Science,2,W2084530896,Resilience: The emergence of a perspective for social–ecological systems analyses,2006,https://doi.org/10.1016/j.gloenvcha.2006.04.002,7755,Sustainability and Climate Change Governance
+846,23,Environmental Science,3,W2105414963,Planetary Boundaries: Exploring the Safe Operating Space for Humanity,2009,https://doi.org/10.5751/es-03180-140232,7188,Sustainability and Climate Change Governance
+846,23,Environmental Science,4,W1976759885,ADAPTIVE GOVERNANCE OF SOCIAL-ECOLOGICAL SYSTEMS,2005,https://doi.org/10.1146/annurev.energy.30.050504.144511,5813,Sustainability and Climate Change Governance
+846,20,"Economics, Econometrics and Finance",1,W2102435235,"What Firms Do? Coordination, Identity, and Learning",1996,https://doi.org/10.1287/orsc.7.5.502,3078,Economic Theory and Institutions
+846,20,"Economics, Econometrics and Finance",2,W2031626068,"Shadow Economies: Size, Causes, and Consequences",2000,https://doi.org/10.1257/jel.38.1.77,3034,Taxation and Compliance Studies
+846,20,"Economics, Econometrics and Finance",3,W1600429647,Property-Rights Regimes and Natural Resources: A Conceptual Analysis,1992,https://doi.org/10.2307/3146375,2676,"Law, Economics, and Judicial Systems"
+846,20,"Economics, Econometrics and Finance",4,W2130387153,Polycentric systems for coping with collective action and global environmental change,2010,https://doi.org/10.1016/j.gloenvcha.2010.07.004,2466,Climate Change Policy and Economics
+846,11,Agricultural and Biological Sciences,1,W2160065655,A Theory of Access*,2003,https://doi.org/10.1111/j.1549-0831.2003.tb00133.x,2356,Land Rights and Reforms
+846,11,Agricultural and Biological Sciences,2,W2010100330,Understanding and promoting adoption of conservation practices by rural landholders,2006,https://doi.org/10.1071/ea05037,1468,Agricultural Innovations and Practices
+846,11,Agricultural and Biological Sciences,3,W2000969591,"Contract Farming, Smallholders, and Rural Development in Latin America: The Organization of Agroprocessing Firms and the Scale of Outgrower Production",1999,https://doi.org/10.1016/s0305-750x(98)00144-2,746,Agriculture and Agroindustry Studies
+846,11,Agricultural and Biological Sciences,4,W2479116221,"Agriculture, Forestry and Fisheries",2004,https://doi.org/10.1057/9780230522756_17,643,Agricultural Economics and Policy
+846,14,"Business, Management and Accounting",1,W2153784191,Why would corporations behave in socially responsible ways? an institutional theory of corporate social responsibility,2007,https://doi.org/10.5465/amr.2007.25275684,4898,Corporate Social Responsibility Reporting
+846,14,"Business, Management and Accounting",2,W919187098,Institutions and axioms: an extension and update of service-dominant logic,2015,https://doi.org/10.1007/s11747-015-0456-3,3703,Service and Product Innovation
+846,14,"Business, Management and Accounting",3,W3041188046,The sharing economy: Why people participate in collaborative consumption,2015,https://doi.org/10.1002/asi.23552,3439,Sharing Economy and Platforms
+846,14,"Business, Management and Accounting",4,W2168751125,Can Patents Deter Innovation? The Anticommons in Biomedical Research,1998,https://doi.org/10.1126/science.280.5364.698,2577,Intellectual Property and Patents
+846,22,Engineering,1,W2000628210,Regional strategies for the accelerating global problem of groundwater depletion,2012,https://doi.org/10.1038/ngeo1617,913,Water resources management and optimization
+846,22,Engineering,2,W1977548549,Four concepts for resilience and the implications for the future of resilience engineering,2015,https://doi.org/10.1016/j.ress.2015.03.018,884,Infrastructure Resilience and Vulnerability Analysis
+846,22,Engineering,3,W2495301159,Knowledge as a Global Public Good,1999,https://doi.org/10.1093/0195130529.003.0015,881,ICT Impact and Policies
+846,22,Engineering,4,W3214625971,Climate change and COP26: Are digital technologies and information management part of the problem or the solution? An editorial reflection and call to action,2021,https://doi.org/10.1016/j.ijinfomgt.2021.102456,761,Green IT and Sustainability
+1034,33,Social Sciences,1,W2144383963,Gender Differences in Preferences,2009,https://doi.org/10.1257/jel.47.2.448,5783,Experimental Behavioral Economics Studies
+1034,33,Social Sciences,2,W2121005211,Economics and Identity*,2000,https://doi.org/10.1162/003355300554881,5680,Experimental Behavioral Economics Studies
+1034,33,Social Sciences,3,W3123223998,Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination,2004,https://doi.org/10.1257/0002828042002561,4505,"Names, Identity, and Discrimination Research"
+1034,33,Social Sciences,4,W2148501506,"Income Inequality in the United States, 1913-1998",2003,https://doi.org/10.1162/00335530360535135,3771,"Income, Poverty, and Inequality"
+1034,20,"Economics, Econometrics and Finance",1,W2526781987,The future of employment: How susceptible are jobs to computerisation?,2016,https://doi.org/10.1016/j.techfore.2016.08.019,8708,Labor market dynamics and wage inequality
+1034,20,"Economics, Econometrics and Finance",2,W2892380133,The Skill Content of Recent Technological Change: An Empirical Exploration,2003,https://doi.org/10.1162/003355303322552801,6211,Labor market dynamics and wage inequality
+1034,20,"Economics, Econometrics and Finance",3,W2107497267,"Changes in Relative Wages, 1963-1987: Supply and Demand Factors",1992,https://doi.org/10.2307/2118323,4794,Labor market dynamics and wage inequality
+1034,20,"Economics, Econometrics and Finance",4,W3124124240,"Skills, Tasks and Technologies: Implications for Employment and Earnings",2011,https://doi.org/10.1016/s0169-7218(11)02410-5,3799,Labor market dynamics and wage inequality
+1034,14,"Business, Management and Accounting",1,W3126012573,"CEO gender, corporate risk-taking, and the efficiency of capital allocation",2016,https://doi.org/10.1016/j.jcorpfin.2016.02.008,1689,Corporate Finance and Governance
+1034,14,"Business, Management and Accounting",2,W2129848538,The Role of Family in Family Firms,2006,https://doi.org/10.1257/jep.20.2.73,1412,Family Business Performance and Succession
+1034,14,"Business, Management and Accounting",3,W2143957156,The Entrepreneurial Propensity of Women,2007,https://doi.org/10.1111/j.1540-6520.2007.00177.x,1098,Entrepreneurship Studies and Influences
+1034,14,"Business, Management and Accounting",4,W2123192905,"IT Assets, Organizational Capabilities, and Firm Performance: How Resource Allocations and Organizational Differences Explain Performance Variation",2007,https://doi.org/10.1287/orsc.1070.0306,948,Information Technology Governance and Strategy
+1034,27,Medicine,1,W3123306174,The Power of the Pill: Oral Contraceptives and Women’s Career and Marriage Decisions,2002,https://doi.org/10.1086/340778,1389,Reproductive Health and Contraception
+1034,27,Medicine,2,W2123676639,Is the 1918 Influenza Pandemic Over? Long‐Term Effects of In Utero Influenza Exposure in the Post‐1940 U.S. Population,2006,https://doi.org/10.1086/507154,1190,"Birth, Development, and Health"
+1034,27,Medicine,3,W2168922851,Timing of onset of cognitive decline: results from Whitehall II prospective cohort study,2012,https://doi.org/10.1136/bmj.d7622,835,Dementia and Cognitive Impairment Research
+1034,27,Medicine,4,W2106507263,Demographic and medical consequences of the postponement of parenthood,2011,https://doi.org/10.1093/humupd/dmr040,656,Reproductive Health and Technologies
+1034,32,Psychology,1,W2100217005,"Culture, Gender, and Math",2008,https://doi.org/10.1126/science.1154094,1026,"Education, Achievement, and Giftedness"
+1034,32,Psychology,2,W2039732301,Demographics of the gay and lesbian population in the United States: Evidence from available systematic data sources,2000,https://doi.org/10.2307/2648117,777,"LGBTQ Health, Identity, and Policy"
+1034,32,Psychology,3,W1978637367,Explaining the Gender Gap in Math Test Scores: The Role of Competition,2010,https://doi.org/10.1257/jep.24.2.129,527,"Education, Achievement, and Giftedness"
+1034,32,Psychology,4,W3124600147,The Paradox of Declining Female Happiness,2009,https://doi.org/10.1257/pol.1.2.190,519,Psychological Well-being and Life Satisfaction
+1034,12,Arts and Humanities,1,W2117916735,Three models of education,2006,https://doi.org/10.1177/1477878506060683,521,"Education, Philosophy, and Society"
+1034,12,Arts and Humanities,2,W4206148242,Personality and Individual Differences,2022,https://doi.org/10.1093/oxfordhb/9780190056285.013.25,388,Diverse Music Education Insights
+1034,12,Arts and Humanities,3,W2910305247,Scepticism and Implicit Bias,2013,https://doi.org/10.2478/disp-2013-0019,183,"Epistemology, Ethics, and Metaphysics"
+1034,12,Arts and Humanities,4,W2981582624,Loving Music Till It Hurts,2019,https://doi.org/10.1093/oso/9780190620134.001.0001,145,Musicology and Musical Analysis
+26,31,Physics and Astronomy,1,W2135830616,On the Einstein Podolsky Rosen paradox,1964,https://doi.org/10.1103/physicsphysiquefizika.1.195,12229,Quantum Mechanics and Applications
+26,31,Physics and Astronomy,2,W2765081049,GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral,2017,https://doi.org/10.1103/physrevlett.119.161101,9447,Pulsars and Gravitational Waves Research
+26,31,Physics and Astronomy,3,W2162488624,Stochastic Problems in Physics and Astronomy,1943,https://doi.org/10.1103/revmodphys.15.1,8466,Statistical Mechanics and Entropy
+26,31,Physics and Astronomy,4,W2028815089,Proposed Experiment to Test Local Hidden-Variable Theories,1969,https://doi.org/10.1103/physrevlett.23.880,7573,Quantum Mechanics and Applications
+26,17,Computer Science,1,W1978553093,Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels,1993,https://doi.org/10.1103/physrevlett.70.1895,13703,Quantum Information and Cryptography
+26,17,Computer Science,2,W2051051926,Quantum cryptography based on Bell’s theorem,1991,https://doi.org/10.1103/physrevlett.67.661,10764,Quantum Information and Cryptography
+26,17,Computer Science,3,W3037737784,Quantum entanglement,2009,https://doi.org/10.1103/revmodphys.81.865,10094,Quantum Information and Cryptography
+26,17,Computer Science,4,W3038067977,Quantum cryptography,2002,https://doi.org/10.1103/revmodphys.74.145,8509,Quantum Information and Cryptography
+26,22,Engineering,1,W2126863855,"Effects of particle size, particle/matrix interface adhesion and particle loading on mechanical properties of particulate–polymer composites",2008,https://doi.org/10.1016/j.compositesb.2008.01.002,3569,Polymer Science and Applications
+26,22,Engineering,2,W2119767565,Plasmon-induced hot carrier science and technology,2015,https://doi.org/10.1038/nnano.2014.311,3552,Plasmonic and Surface Plasmon Research
+26,22,Engineering,3,W2010945250,A calculation of the viscous force exerted by a flowing fluid on a dense swarm of particles,1949,https://doi.org/10.1007/bf02120313,3005,Particle Dynamics in Fluid Flows
+26,22,Engineering,4,W2055655412,Redox flow batteries: a review,2011,https://doi.org/10.1007/s10800-011-0348-2,2017,Advanced battery technologies research
+26,12,Arts and Humanities,1,W4290960102,Causality and Explanation,1998,https://doi.org/10.1093/0195108647.001.0001,854,Philosophy and History of Science
+26,12,Arts and Humanities,2,W2075725716,Computational philosophy of science,1989,https://doi.org/10.5860/choice.26-2691,644,Philosophy and History of Science
+26,12,Arts and Humanities,3,W103251751,Discussion with Einstein on Epistemological Problems in Atomic Physics,1996,https://doi.org/10.1016/s1876-0503(08)70379-7,628,"Philosophy, Science, and History"
+26,12,Arts and Humanities,4,W109028304,Meeting the Universe Halfway: Realism and Social Constructivism without Contradiction,1996,https://doi.org/10.1007/978-94-009-1742-2_9,534,Philosophy and History of Science
+26,25,Materials Science,1,W2075937489,Lower limit to the thermal conductivity of disordered crystals,1992,https://doi.org/10.1103/physrevb.46.6131,2614,Thermal properties of materials
+26,25,Materials Science,2,W2965295081,X-ray photoelectron spectroscopy: Towards reliable binding energy referencing,2019,https://doi.org/10.1016/j.pmatsci.2019.100591,2546,Electron and X-Ray Spectroscopy Techniques
+26,25,Materials Science,3,W2138281910,Nanoparticles - A review,2007,https://doi.org/10.4314/tjpr.v5i1.14634,1434,Nanoparticle-Based Drug Delivery
+26,25,Materials Science,4,W2320371789,One-Dimensional Titanium Dioxide Nanomaterials: Nanotubes,2014,https://doi.org/10.1021/cr500061m,1216,Anodic Oxide Films and Nanostructures
+26,16,Chemistry,1,W2051687132,Eine neue Bestimmung der Moleküldimensionen,1906,https://doi.org/10.1002/andp.19063240204,4569,Advanced Physical and Chemical Molecular Interactions
+26,16,Chemistry,2,W2147440332,Synthetic Molecular Motors and Mechanical Machines,2006,https://doi.org/10.1002/anie.200504313,2615,Supramolecular Chemistry and Complexes
+26,16,Chemistry,3,W1989925383,Brownian dynamics with hydrodynamic interactions,1978,https://doi.org/10.1063/1.436761,2478,Advanced Physical and Chemical Molecular Interactions
+26,16,Chemistry,4,W4211135297,Supramolecular Polymerization,2009,https://doi.org/10.1021/cr900181u,2461,Supramolecular Chemistry and Complexes
+27,31,Physics and Astronomy,1,W2128158076,Geant4—a simulation toolkit,2003,https://doi.org/10.1016/s0168-9002(03)01368-8,25082,Particle Detector Development and Performance
+27,31,Physics and Astronomy,2,W1986407511,Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?,1935,https://doi.org/10.1103/physrev.47.777,16642,Quantum Mechanics and Applications
+27,31,Physics and Astronomy,3,W2222517232,Effects of Configuration Interaction on Intensities and Phase Shifts,1961,https://doi.org/10.1103/physrev.124.1866,11176,Atomic and Molecular Physics
+27,31,Physics and Astronomy,4,W2028815089,Proposed Experiment to Test Local Hidden-Variable Theories,1969,https://doi.org/10.1103/physrevlett.23.880,7573,Quantum Mechanics and Applications
+27,12,Arts and Humanities,1,W256019955,Falsification and the Methodology of Scientific Research Programmes,1970,https://doi.org/10.1017/cbo9781139171434.009,4671,"Philosophy, Science, and History"
+27,12,Arts and Humanities,2,W1582174699,Falsification and the Methodology of Scientific Research Programmes,1976,https://doi.org/10.1007/978-94-010-1863-0_14,3903,"Philosophy, Science, and History"
+27,12,Arts and Humanities,3,W1983870751,Studies in the Logic of Explanation,1948,https://doi.org/10.1086/286983,3173,Philosophy and History of Science
+27,12,Arts and Humanities,4,W2492298132,On Linguistic Aspects of Translation,1959,https://doi.org/10.4159/harvard.9780674731615.c18,2893,Translation Studies and Practices
+27,22,Engineering,1,W2987637782,THE STOPPING AND RANGE OF IONS IN SOLIDS,1988,https://doi.org/10.1016/b978-0-12-780621-1.50005-8,9047,Ion-surface interactions and analysis
+27,22,Engineering,2,W2055881008,THE STOPPING AND RANGE OF IONS IN SOLIDS,1984,https://doi.org/10.1016/b978-0-12-780620-4.50007-0,5863,Ion-surface interactions and analysis
+27,22,Engineering,3,W4253056353,The Stopping and Range of Ions in Matter,1985,https://doi.org/10.1007/978-1-4615-8103-1_3,4219,Ion-surface interactions and analysis
+27,22,Engineering,4,W112633697,The Stopping and Ranges of Ions in Matter,1980,https://doi.org/10.1016/c2013-0-02882-4,2982,Ion-surface interactions and analysis
+27,32,Psychology,1,W2007179372,"Culture, dialectics, and reasoning about contradiction.",1999,https://doi.org/10.1037//0003-066x.54.9.741,1759,Cultural Differences and Values
+27,32,Psychology,2,W2072159950,The Physiology and Psychology of Behavioral Inhibition in Children,1987,https://doi.org/10.1111/j.1467-8624.1987.tb03858.x,1339,Child and Adolescent Psychosocial and Emotional Development
+27,32,Psychology,3,W2169214866,The development of features in object concepts,1998,https://doi.org/10.1017/s0140525x98000107,597,"Categorization, perception, and language"
+27,32,Psychology,4,W2464669330,A new theory of the relationship of mind and matter,1990,https://doi.org/10.1080/09515089008573004,325,Philosophy and Theoretical Science
+27,17,Computer Science,1,W101435204,The Physics of Quantum Information,2000,https://doi.org/10.1007/978-3-662-04209-0,1982,Quantum Information and Cryptography
+27,17,Computer Science,2,W1973948787,Unified View of Quantum and Classical Correlations,2010,https://doi.org/10.1103/physrevlett.104.080501,801,Quantum Information and Cryptography
+27,17,Computer Science,3,W2159530242,ON MUTUALLY UNBIASED BASES,2010,https://doi.org/10.1142/s0219749910006502,727,Quantum Information and Cryptography
+27,17,Computer Science,4,W2017543646,Colloquium: The Einstein-Podolsky-Rosen paradox: From concepts to applications,2009,https://doi.org/10.1103/revmodphys.81.1727,660,Quantum Information and Cryptography
+27,33,Social Sciences,1,W2266294403,Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning,2007,,7214,Posthumanist Ethics and Activism
+27,33,Social Sciences,2,W1993040486,Grounded Theory and Organizational Research,1986,https://doi.org/10.1177/002188638602200207,1225,Qualitative Research Methods and Applications
+27,33,Social Sciences,3,W2480858995,Getting Real: Technoscientific Practices and the Materialization of Reality,1998,https://doi.org/10.1215/10407391-10-2-87,611,Posthumanist Ethics and Activism
+27,33,Social Sciences,4,W2156757862,Some considerations on the validity of evidence-based practice in social work,2001,https://doi.org/10.1093/bjsw/31.1.57,601,Social Work Education and Practice
+217,16,Chemistry,1,W2038767330,"Intermolecular interactions from a natural bond orbital, donor-acceptor viewpoint",1988,https://doi.org/10.1021/cr00088a005,17387,Crystallography and molecular interactions
+217,16,Chemistry,2,W2021720051,Patterns in Hydrogen Bonding: Functionality and Graph Set Analysis in Crystals,1995,https://doi.org/10.1002/anie.199515551,8234,Crystallography and molecular interactions
+217,16,Chemistry,3,W2147304506,The Hydrogen Bond in the Solid State,2002,https://doi.org/10.1002/1521-3773(20020104)41:1<48::aid-anie48>3.0.co;2-u,6269,Crystallography and molecular interactions
+217,16,Chemistry,4,W2091702998,Steric effects of phosphorus ligands in organometallic chemistry and homogeneous catalysis,1977,https://doi.org/10.1021/cr60307a002,4824,Organometallic Complex Synthesis and Catalysis
+217,25,Materials Science,1,W2167590372,Revised effective ionic radii and systematic studies of interatomic distances in halides and chalcogenides,1976,https://doi.org/10.1107/s0567739476001551,66177,Crystal Structures and Properties
+217,25,Materials Science,2,W2105685140,The electronic properties of graphene,2009,https://doi.org/10.1103/revmodphys.81.109,24804,Graphene research and applications
+217,25,Materials Science,3,W2014416110,Effective ionic radii in oxides and fluorides,1969,https://doi.org/10.1107/s0567740869003220,8636,Crystal Structures and Properties
+217,25,Materials Science,4,W1988619801,Metallic Phase with Long-Range Orientational Order and No Translational Symmetry,1984,https://doi.org/10.1103/physrevlett.53.1951,7075,Quasicrystal Structures and Properties
+217,13,"Biochemistry, Genetics and Molecular Biology",1,W2008708467,Dictionary of protein secondary structure: Pattern recognition of hydrogen‐bonded and geometrical features,1983,https://doi.org/10.1002/bip.360221211,15322,Protein Structure and Dynamics
+217,13,"Biochemistry, Genetics and Molecular Biology",2,W2165201727,Free radicals and antioxidants in normal physiological functions and human disease,2006,https://doi.org/10.1016/j.biocel.2006.07.001,14253,Redox biology and oxidative stress
+217,13,"Biochemistry, Genetics and Molecular Biology",3,W2110835349,BEAST: Bayesian evolutionary analysis by sampling trees,2007,https://doi.org/10.1186/1471-2148-7-214,12963,Genomics and Phylogenetic Studies
+217,13,"Biochemistry, Genetics and Molecular Biology",4,W2048553024,"Free radicals, metals and antioxidants in oxidative stress-induced cancer",2006,https://doi.org/10.1016/j.cbi.2005.12.009,6680,Redox biology and oxidative stress
+217,31,Physics and Astronomy,1,W2155155530,ReaxFF: A Reactive Force Field for Hydrocarbons,2001,https://doi.org/10.1021/jp004368u,6438,Advanced Chemical Physics Studies
+217,31,Physics and Astronomy,2,W2101958915,Conceptual Density Functional Theory,2003,https://doi.org/10.1021/cr990029p,5333,Advanced Chemical Physics Studies
+217,31,Physics and Astronomy,3,W2075966481,Simplified LCAO Method for the Periodic Potential Problem,1954,https://doi.org/10.1103/physrev.94.1498,5188,Advanced Chemical Physics Studies
+217,31,Physics and Astronomy,4,W2038583777,Classification of chemical bonds based on topological analysis of electron localization functions,1994,https://doi.org/10.1038/371683a0,4413,Advanced Chemical Physics Studies
+217,22,Engineering,1,W2093914900,General Relationship for the Thermal Oxidation of Silicon,1965,https://doi.org/10.1063/1.1713945,3476,Semiconductor materials and devices
+217,22,Engineering,2,W2124709562,Methanogens: reevaluation of a unique biological group,1979,https://doi.org/10.1128/mmbr.43.2.260-296.1979,2964,Anaerobic Digestion and Biogas Production
+217,22,Engineering,3,W2327721819,Organic–Inorganic Perovskites: Structural Versatility for Functional Materials Design,2016,https://doi.org/10.1021/acs.chemrev.5b00715,2933,Perovskite Materials and Applications
+217,22,Engineering,4,W3045599769,High-Efficiency Perovskite Solar Cells,2020,https://doi.org/10.1021/acs.chemrev.0c00107,2813,Perovskite Materials and Applications
+217,27,Medicine,1,W2084744450,A Receptor-Mediated Pathway for Cholesterol Homeostasis,1986,https://doi.org/10.1126/science.3513311,5695,Cholesterol and Lipid Metabolism
+217,27,Medicine,2,W2072522618,What we can do and what we cannot do with fMRI,2008,https://doi.org/10.1038/nature06976,3615,Advanced MRI Techniques and Applications
+217,27,Medicine,3,W3003464757,Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan,2020,https://doi.org/10.1080/22221751.2020.1719902,3063,SARS-CoV-2 and COVID-19 Research
+217,27,Medicine,4,W2085958374,Atomic Structure of Acetylcholinesterase from Torpedo californica : A Prototypic Acetylcholine-Binding Protein,1991,https://doi.org/10.1126/science.1678899,2711,Cholinesterase and Neurodegenerative Diseases
+222,13,"Biochemistry, Genetics and Molecular Biology",1,W2138270253,DNA sequencing with chain-terminating inhibitors,1977,https://doi.org/10.1073/pnas.74.12.5463,68572,DNA and Nucleic Acid Chemistry
+222,13,"Biochemistry, Genetics and Molecular Biology",2,W2168909179,Initial sequencing and analysis of the human genome,2001,https://doi.org/10.1038/35057062,24213,Genomics and Phylogenetic Studies
+222,13,"Biochemistry, Genetics and Molecular Biology",3,W1975304761,A simple method for displaying the hydropathic character of a protein,1982,https://doi.org/10.1016/0022-2836(82)90515-0,22871,Protein Structure and Dynamics
+222,13,"Biochemistry, Genetics and Molecular Biology",4,W2032118018,Primer-Directed Enzymatic Amplification of DNA with a Thermostable DNA Polymerase,1988,https://doi.org/10.1126/science.239.4839.487,17719,Molecular Biology Techniques and Applications
+222,27,Medicine,1,W2162804111,A novel potent vasoconstrictor peptide produced by vascular endothelial cells,1988,https://doi.org/10.1038/332411a0,10717,Nitric Oxide and Endothelin Effects
+222,27,Medicine,2,W2039599894,Identification of the Cystic Fibrosis Gene: Cloning and Characterization of Complementary DNA,1989,https://doi.org/10.1126/science.2475911,7420,Cystic Fibrosis Research Advances
+222,27,Medicine,3,W2046182783,Development of Virus-Like Particle Technology from Small Highly Symmetric to Large Complex Virus-Like Particle Structures,2013,https://doi.org/10.1159/000346773,5950,Cervical Cancer and HPV Research
+222,27,Medicine,4,W2081881251,The precursor of Alzheimer's disease amyloid A4 protein resembles a cell-surface receptor,1987,https://doi.org/10.1038/325733a0,4619,Alzheimer's disease research and treatments
+222,11,Agricultural and Biological Sciences,1,W2156843275,Hypervariability of simple sequences as a general source for polymorphic DNA markers,1989,https://doi.org/10.1093/nar/17.16.6463,2317,Chromosomal and Genetic Variations
+222,11,Agricultural and Biological Sciences,2,W2015065370,"CTR1, a negative regulator of the ethylene response pathway in arabidopsis, encodes a member of the Raf family of protein kinases",1993,https://doi.org/10.1016/0092-8674(93)90119-b,1925,Plant Stress Responses and Tolerance
+222,11,Agricultural and Biological Sciences,3,W1990849226,Identification of DNA sequences required for activity of the cauliflower mosaic virus 35S promoter,1985,https://doi.org/10.1038/313810a0,1415,Plant Molecular Biology Research
+222,11,Agricultural and Biological Sciences,4,W2003912358,The product of the tobacco mosaic virus resistance gene N: Similarity to toll and the interleukin-1 receptor,1994,https://doi.org/10.1016/0092-8674(94)90283-6,1346,Plant-Microbe Interactions and Immunity
+222,24,Immunology and Microbiology,1,W2134219545,Circulating mitochondrial DAMPs cause inflammatory responses to injury,2010,https://doi.org/10.1038/nature08780,3812,Immune Response and Inflammation
+222,24,Immunology and Microbiology,2,W2079468421,"Magainins, a class of antimicrobial peptides from Xenopus skin: isolation, characterization of two active forms, and partial cDNA sequence of a precursor.",1987,https://doi.org/10.1073/pnas.84.15.5449,2305,Antimicrobial Peptides and Activities
+222,24,Immunology and Microbiology,3,W2030017358,"Complete nucleotide sequence of the AIDS virus, HTLV-III",1985,https://doi.org/10.1038/313277a0,2247,T-cell and Retrovirus Studies
+222,24,Immunology and Microbiology,4,W2002076761,Complementary DNA for a novel human interleukin (BSF-2) that induces B lymphocytes to produce immunoglobulin,1986,https://doi.org/10.1038/324073a0,2137,T-cell and B-cell Immunology
+222,23,Environmental Science,1,W2172820226,DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates.,1994,,15611,Crustacean biology and ecology
+222,23,Environmental Science,2,W1532331378,Nucleotide sequence of bacteriophage G4 DNA,1978,https://doi.org/10.1038/276236a0,2099,Bacteriophages and microbial interactions
+222,23,Environmental Science,3,W2055305007,Genetic diversity in Sargasso Sea bacterioplankton,1990,https://doi.org/10.1038/345060a0,1654,Microbial Community Ecology and Physiology
+222,23,Environmental Science,4,W4293088719,Nucleotide sequence of bacteriophage φX174 DNA,1977,https://doi.org/10.1038/265687a0,1619,Bacteriophages and microbial interactions
+222,28,Neuroscience,1,W1996713062,Positional cloning of the mouse obese gene and its human homologue,1994,https://doi.org/10.1038/372425a0,13420,Regulation of Appetite and Obesity
+222,28,Neuroscience,2,W2121642311,A novel gene containing a trinucleotide repeat that is expanded and unstable on Huntington's disease chromosomes,1993,https://doi.org/10.1016/0092-8674(93)90585-e,8355,Genetic Neurodegenerative Diseases
+222,28,Neuroscience,3,W1966092598,Molecular cloning and characterization of a novel dopamine receptor (D3) as a target for neuroleptics,1990,https://doi.org/10.1038/347146a0,2609,Neurotransmitter Receptor Influence on Behavior
+222,28,Neuroscience,4,W2053980736,Heteromeric NMDA Receptors: Molecular and Functional Distinction of Subtypes,1992,https://doi.org/10.1126/science.256.5060.1217,2537,Neuroscience and Neuropharmacology Research
+339,27,Medicine,1,W2012251902,A new antibiotic kills pathogens without detectable resistance,2015,https://doi.org/10.1038/nature14098,2438,Microbial Natural Products and Biosynthesis
+339,27,Medicine,2,W2892224462,"Methicillin-Resistant Staphylococcus aureus: Molecular Characterization, Evolution, and Epidemiology",2018,https://doi.org/10.1128/cmr.00020-18,1648,Antimicrobial Resistance in Staphylococcus
+339,27,Medicine,3,W2990135525,Chitosan as a Wound Dressing Starting Material: Antimicrobial Properties and Mode of Action,2019,https://doi.org/10.3390/ijms20235889,826,Wound Healing and Treatments
+339,27,Medicine,4,W2949718649,A Review of the Microbial Production of Bioactive Natural Products and Biologics,2019,https://doi.org/10.3389/fmicb.2019.01404,570,Microbial Natural Products and Biosynthesis
+339,13,"Biochemistry, Genetics and Molecular Biology",1,W2982531601,CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database,2019,https://doi.org/10.1093/nar/gkz935,3203,Antibiotic Resistance in Bacteria
+339,13,"Biochemistry, Genetics and Molecular Biology",2,W2300011769,Antibacterial drug discovery in the resistance era,2016,https://doi.org/10.1038/nature17042,2266,Antibiotic Resistance in Bacteria
+339,13,"Biochemistry, Genetics and Molecular Biology",3,W2463871935,β-Lactams and β-Lactamase Inhibitors: An Overview,2016,https://doi.org/10.1101/cshperspect.a025247,1365,Antibiotic Resistance in Bacteria
+339,13,"Biochemistry, Genetics and Molecular Biology",4,W2160452746,Acquired Antibiotic Resistance Genes: An Overview,2011,https://doi.org/10.3389/fmicb.2011.00203,1135,Antibiotic Resistance in Bacteria
+339,24,Immunology and Microbiology,1,W4392349824,"Antimicrobial resistance: Impacts, challenges, and future prospects",2024,https://doi.org/10.1016/j.glmedi.2024.100081,1255,Antibiotic Use and Resistance
+339,24,Immunology and Microbiology,2,W3088313863,A New Era of Antibiotics: The Clinical Potential of Antimicrobial Peptides,2020,https://doi.org/10.3390/ijms21197047,487,Antimicrobial Peptides and Activities
+339,24,Immunology and Microbiology,3,W1576571210,α‐Defensins in human innate immunity,2011,https://doi.org/10.1111/j.1600-065x.2011.01082.x,429,Antimicrobial Peptides and Activities
+339,24,Immunology and Microbiology,4,W1996260034,Antimicrobial Peptides: Old Molecules with New Ideas,2011,https://doi.org/10.1038/jid.2011.387,394,Antimicrobial Peptides and Activities
+339,23,Environmental Science,1,W1509407096,"The soil resistome: a critical review on antibiotic resistance origins, ecology and dissemination potential in telluric bacteria",2014,https://doi.org/10.1111/1462-2920.12631,309,Pharmaceutical and Antibiotic Environmental Impacts
+339,23,Environmental Science,2,W3165684069,Antibiotic-Resistant Bacteria in Aquaculture and Climate Change: A Challenge for Health in the Mediterranean Area,2021,https://doi.org/10.3390/ijerph18115723,302,Pharmaceutical and Antibiotic Environmental Impacts
+339,23,Environmental Science,3,W3034733307,Antibiotic resistome in the livestock and aquaculture industries: Status and solutions,2020,https://doi.org/10.1080/10643389.2020.1777815,302,Pharmaceutical and Antibiotic Environmental Impacts
+339,23,Environmental Science,4,W1565440417,The biology of habitat dominance; can microbes behave as weeds?,2013,https://doi.org/10.1111/1751-7915.12027,269,Microbial Community Ecology and Physiology
+339,16,Chemistry,1,W2148510533,Chemical Synthesis of β-Lactams: Asymmetric Catalysis and Other Recent Advances,2014,https://doi.org/10.1021/cr4005549,330,Synthesis of β-Lactam Compounds
+339,16,Chemistry,2,W2101444285,Small organometallic compounds as antibacterial agents,2012,https://doi.org/10.1039/c2dt12460b,253,Organometallic Compounds Synthesis and Characterization
+339,16,Chemistry,3,W2555387921,Targeting the hard to reach: challenges and novel strategies in the treatment of intracellular bacterial infections,2016,https://doi.org/10.1111/bph.13664,208,Antimicrobial agents and applications
+339,16,Chemistry,4,W2950939233,Ferrocene derivatives as anti-infective agents,2019,https://doi.org/10.1016/j.ccr.2019.06.004,138,Ferrocene Chemistry and Applications
+339,11,Agricultural and Biological Sciences,1,W2144181899,"Bacterial-Fungal Interactions: Hyphens between Agricultural, Clinical, Environmental, and Food Microbiologists",2011,https://doi.org/10.1128/mmbr.00020-11,913,Plant-Microbe Interactions and Immunity
+339,11,Agricultural and Biological Sciences,2,W2757615240,Developing new antimicrobial therapies: Are synergistic combinations of plant extracts/compounds with conventional antibiotics the solution?,2017,https://doi.org/10.4103/phrev.phrev_21_17,552,Essential Oils and Antimicrobial Activity
+339,11,Agricultural and Biological Sciences,3,W1839943429,The Soil as a Source of Microorganisms Antagonistic to Disease-Producing Bacteria,1940,https://doi.org/10.1128/jb.40.4.581-600.1940,218,Plant-Microbe Interactions and Immunity
+339,11,Agricultural and Biological Sciences,4,W3194216547,Phytochemicals: A Promising Weapon in the Arsenal against Antibiotic-Resistant Bacteria,2021,https://doi.org/10.3390/antibiotics10091044,217,Essential Oils and Antimicrobial Activity
+372,13,"Biochemistry, Genetics and Molecular Biology",1,W2168909179,Initial sequencing and analysis of the human genome,2001,https://doi.org/10.1038/35057062,24213,Genomics and Phylogenetic Studies
+372,13,"Biochemistry, Genetics and Molecular Biology",2,W1525734744,Evolution of Protein Molecules,1969,https://doi.org/10.1016/b978-1-4832-3211-9.50009-7,11102,Evolution and Genetic Dynamics
+372,13,"Biochemistry, Genetics and Molecular Biology",3,W2109291482,Sequence and organization of the human mitochondrial genome,1981,https://doi.org/10.1038/290457a0,9640,Mitochondrial Function and Pathology
+372,13,"Biochemistry, Genetics and Molecular Biology",4,W2151464048,Initial sequencing and comparative analysis of the mouse genome,2002,https://doi.org/10.1038/nature01262,7180,Genomics and Phylogenetic Studies
+372,25,Materials Science,1,W1995017064,Crystallography & NMR System: A New Software Suite for Macromolecular Structure Determination,1998,https://doi.org/10.1107/s0907444998003254,15720,Enzyme Structure and Function
+372,25,Materials Science,2,W2161162374,Collagen Structure and Stability,2009,https://doi.org/10.1146/annurev.biochem.77.032207.120833,3924,Collagen: Extraction and Characterization
+372,25,Materials Science,3,W1591680814,[27] Maximum-likelihood heavy-atom parameter refinement for multiple isomorphous replacement and multiwavelength anomalous diffraction methods,1997,https://doi.org/10.1016/s0076-6879(97)76073-7,1892,Enzyme Structure and Function
+372,25,Materials Science,4,W1996112440,Structure of Hen Egg-White Lysozyme: A Three-dimensional Fourier Synthesis at 2 Å Resolution,1965,https://doi.org/10.1038/206757a0,1666,Enzyme Structure and Function
+372,27,Medicine,1,W1497143641,A theory of marginotomy,1973,https://doi.org/10.1016/0022-5193(73)90198-7,1847,"Telomeres, Telomerase, and Senescence"
+372,27,Medicine,2,W1994458586,A vision for the future of genomics research,2003,https://doi.org/10.1038/nature01626,1752,"Science, Research, and Medicine"
+372,27,Medicine,3,W1978763290,Structure of influenza haemagglutinin at the pH of membrane fusion,1994,https://doi.org/10.1038/371037a0,1564,Influenza Virus Research Studies
+372,27,Medicine,4,W2018478612,Paul Ehrlich's magic bullet concept: 100 years of progress,2008,https://doi.org/10.1038/nrc2394,1462,Historical Medical Research and Treatments
+372,11,Agricultural and Biological Sciences,1,W2171787842,Microsatellites: simple sequences with complex evolution,2004,https://doi.org/10.1038/nrg1348,2451,Chromosomal and Genetic Variations
+372,11,Agricultural and Biological Sciences,2,W1935763178,Slipped-strand mispairing: a major mechanism for DNA sequence evolution.,1987,https://doi.org/10.1093/oxfordjournals.molbev.a040442,2251,Chromosomal and Genetic Variations
+372,11,Agricultural and Biological Sciences,3,W2048540261,"Selfish genes, the phenotype paradigm and genome evolution",1980,https://doi.org/10.1038/284601a0,1830,Chromosomal and Genetic Variations
+372,11,Agricultural and Biological Sciences,4,W2005877477,The evolutionary dynamics of repetitive DNA in eukaryotes,1994,https://doi.org/10.1038/371215a0,1627,Chromosomal and Genetic Variations
+372,31,Physics and Astronomy,1,W2087895317,Selforganization of matter and the evolution of biological macromolecules,1971,https://doi.org/10.1007/bf00623322,3785,Origins and Evolution of Life
+372,31,Physics and Astronomy,2,W2010790220,Synthesis of activated pyrimidine ribonucleotides in prebiotically plausible conditions,2009,https://doi.org/10.1038/nature08013,1382,Origins and Evolution of Life
+372,31,Physics and Astronomy,3,W1924311576,Before enzymes and templates: theory of surface metabolism,1988,https://doi.org/10.1128/mmbr.52.4.452-484.1988,1241,Origins and Evolution of Life
+372,31,Physics and Astronomy,4,W2133830966,Prebiotic Chemistry and the Origin of the RNA World,2004,https://doi.org/10.1080/10409230490460765,1124,Origins and Evolution of Life
+372,12,Arts and Humanities,1,W2106533942,Exaptation—a Missing Term in the Science of Form,1982,https://doi.org/10.1017/s0094837300004310,5136,Philosophy and History of Science
+372,12,Arts and Humanities,2,W2014781793,Strong Inference,1964,https://doi.org/10.1126/science.146.3642.347,2907,Philosophy and History of Science
+372,12,Arts and Humanities,3,W2176699305,The sequence of sequencers: The history of sequencing DNA,2015,https://doi.org/10.1016/j.ygeno.2015.11.003,1397,Philosophy and History of Science
+372,12,Arts and Humanities,4,W2077423161,Genetical Implications of the Structure of Deoxyribonucleic Acid,2017,https://doi.org/10.1007/978-3-662-47150-0_5,1297,Philosophy and History of Science
+679,20,"Economics, Econometrics and Finance",1,W2131773668,EFFICIENT CAPITAL MARKETS: A REVIEW OF THEORY AND EMPIRICAL WORK*,1970,https://doi.org/10.1111/j.1540-6261.1970.tb00518.x,15733,Financial Markets and Investment Strategies
+679,20,"Economics, Econometrics and Finance",2,W2105973145,ON THE PRICING OF CORPORATE DEBT: THE RISK STRUCTURE OF INTEREST RATES*,1974,https://doi.org/10.1111/j.1540-6261.1974.tb03058.x,10784,Credit Risk and Financial Regulations
+679,20,"Economics, Econometrics and Finance",3,W2108491286,Financial Intermediation and Delegated Monitoring,1984,https://doi.org/10.2307/2297430,8406,"Banking stability, regulation, efficiency"
+679,20,"Economics, Econometrics and Finance",4,W3021444882,A Theory of the Term Structure of Interest Rates,1985,https://doi.org/10.2307/1911242,8327,Stochastic processes and financial applications
+679,33,Social Sciences,1,W4229738978,Varieties of Capitalism,2001,https://doi.org/10.1093/0199247757.001.0001,8750,Social Policy and Reform Studies
+679,33,Social Sciences,2,W1968869144,Beyond Markets and States: Polycentric Governance of Complex Economic Systems,2010,https://doi.org/10.1080/19186444.2010.11658229,4409,Water Governance and Infrastructure
+679,33,Social Sciences,3,W172274565,An Introduction to Varieties of Capitalism,2001,https://doi.org/10.1093/0199247757.003.0001,3203,Social Policy and Reform Studies
+679,33,Social Sciences,4,W1556452705,2. Public Goods: A Survey of Experimental Research,1995,https://doi.org/10.1515/9780691213255-004,3027,Experimental Behavioral Economics Studies
+679,18,Decision Sciences,1,W2076452041,Measuring the efficiency of decision making units,1978,https://doi.org/10.1016/0377-2217(78)90138-8,29775,Efficiency Analysis Using DEA
+679,18,Decision Sciences,2,W2145107370,Time Discounting and Time Preference: A Critical Review,2002,https://doi.org/10.1257/002205102320161311,6400,Decision-Making and Behavioral Economics
+679,18,Decision Sciences,3,W2135839350,Mental accounting matters,1999,https://doi.org/10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f,3353,Decision-Making and Behavioral Economics
+679,18,Decision Sciences,4,W1997529294,Theory of Cost and Production Functions,2015,https://doi.org/10.1515/9781400871087,2791,Efficiency Analysis Using DEA
+679,14,"Business, Management and Accounting",1,W1518732113,Making knowledge the basis of a dynamic theory of the firm,1996,https://doi.org/10.1002/smj.4250171106,4348,Innovation and Knowledge Management
+679,14,"Business, Management and Accounting",2,W2146880834,The Determination of Financial Structure: The Incentive-Signalling Approach,1977,https://doi.org/10.2307/3003485,4170,Corporate Finance and Governance
+679,14,"Business, Management and Accounting",3,W3121545263,Crowdfunding: Tapping the right crowd,2013,https://doi.org/10.1016/j.jbusvent.2013.07.003,2754,"FinTech, Crowdfunding, Digital Finance"
+679,14,"Business, Management and Accounting",4,W2156667558,Depression Babies: Do Macroeconomic Experiences Affect Risk Taking?*,2011,https://doi.org/10.1093/qje/qjq004,2481,"Financial Literacy, Pension, Retirement Analysis"
+679,23,Environmental Science,1,W2081155979,The concept of scale and the human dimensions of global change: a survey,2000,https://doi.org/10.1016/s0921-8009(99)00092-0,1116,Land Use and Ecosystem Services
+679,23,Environmental Science,2,W2170928036,Beyond GDP: The Quest for a Measure of Social Welfare,2009,https://doi.org/10.1257/jel.47.4.1029,657,Sustainable Development and Environmental Policy
+679,23,Environmental Science,3,W2034221877,Shared producer and consumer responsibility — Theory and practice,2006,https://doi.org/10.1016/j.ecolecon.2006.05.018,656,Environmental Impact and Sustainability
+679,23,Environmental Science,4,W2089315562,Examining equity: A multidimensional framework for assessing equity in payments for ecosystem services,2012,https://doi.org/10.1016/j.envsci.2012.10.006,645,"Conservation, Biodiversity, and Resource Management"
+679,17,Computer Science,1,W2161413792,Minimizing a Submodular Function on a Lattice,1978,https://doi.org/10.1287/opre.26.2.305,1323,Complexity and Algorithms in Graphs
+679,17,Computer Science,2,W1974360117,Evaluating the accuracy of implicit feedback from clicks and query reformulations in Web search,2007,https://doi.org/10.1145/1229179.1229181,677,Information Retrieval and Search Behavior
+679,17,Computer Science,3,W2120194367,The Architecture of Participation: Does Code Architecture Mitigate Free Riding in the Open Source Development Model?,2006,https://doi.org/10.1287/mnsc.1060.0546,502,Open Source Software Innovations
+679,17,Computer Science,4,W3122896188,Structural estimation of markov decision processes,1986,,494,Adaptive Dynamic Programming Control
+759,18,Decision Sciences,1,W2133469585,Prospect theory: An analysis of decision under risk,1988,https://doi.org/10.1017/cbo9780511609220.014,32477,Decision-Making and Behavioral Economics
+759,18,Decision Sciences,2,W4292157289,Judgment under Uncertainty: Heuristics and Biases,1974,https://doi.org/10.1126/science.185.4157.1124,28810,Decision-Making and Behavioral Economics
+759,18,Decision Sciences,3,W158727920,Judgment under Uncertainty: Heuristics and Biases,1975,https://doi.org/10.1007/978-94-010-1834-0_8,22649,Decision-Making and Behavioral Economics
+759,18,Decision Sciences,4,W2096452841,The Framing of Decisions and the Psychology of Choice,1981,https://doi.org/10.1126/science.7455683,17842,Decision-Making and Behavioral Economics
+759,33,Social Sciences,1,W2001442493,Framing: Toward Clarification of a Fractured Paradigm,1993,https://doi.org/10.1111/j.1460-2466.1993.tb01304.x,16205,Media Studies and Communication
+759,33,Social Sciences,2,W3022808291,"A Theory of Fairness, Competition, and Cooperation",1999,https://doi.org/10.1162/003355399556151,11196,Experimental Behavioral Economics Studies
+759,33,Social Sciences,3,W2134310663,Framing Processes and Social Movements: An Overview and Assessment,2000,https://doi.org/10.1146/annurev.soc.26.1.611,9931,Social Movements and Cultural Identity
+759,33,Social Sciences,4,W2091069417,Perception of Risk,1987,https://doi.org/10.1126/science.3563507,9276,Risk Perception and Management
+759,14,"Business, Management and Accounting",1,W2164284962,Exploration and Exploitation in Organizational Learning,1991,https://doi.org/10.1287/orsc.2.1.71,21942,Organizational Learning and Leadership
+759,14,"Business, Management and Accounting",2,W2169667133,Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance,2007,https://doi.org/10.1002/smj.640,16852,Innovation and Knowledge Management
+759,14,"Business, Management and Accounting",3,W2095299437,Agency Theory: An Assessment and Review,1989,https://doi.org/10.2307/258191,13344,Outsourcing and Supply Chain Management
+759,14,"Business, Management and Accounting",4,W2115374626,Clarifying the Entrepreneurial Orientation Construct and Linking It To Performance,1996,https://doi.org/10.2307/258632,10160,Entrepreneurship Studies and Influences
+759,20,"Economics, Econometrics and Finance",1,W2125520394,Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency,1993,https://doi.org/10.1111/j.1540-6261.1993.tb04702.x,11583,Financial Markets and Investment Strategies
+759,20,"Economics, Econometrics and Finance",2,W2144487825,Does the Stock Market Overreact?,1985,https://doi.org/10.1111/j.1540-6261.1985.tb05004.x,7580,Financial Markets and Investment Strategies
+759,20,"Economics, Econometrics and Finance",3,W2113305199,Multifactor Explanations of Asset Pricing Anomalies,1996,https://doi.org/10.1111/j.1540-6261.1996.tb05202.x,6716,Financial Markets and Investment Strategies
+759,20,"Economics, Econometrics and Finance",4,W1999918735,A Simple Model of Capital Market Equilibrium with Incomplete Information,1987,https://doi.org/10.1111/j.1540-6261.1987.tb04565.x,5812,Economic theories and models
+759,32,Psychology,1,W2007445014,The role of positive emotions in positive psychology: The broaden-and-build theory of positive emotions.,2001,https://doi.org/10.1037//0003-066x.56.3.218,16171,Psychological Well-being and Life Satisfaction
+759,32,Psychology,2,W2157289187,Development of NASA-TLX (Task Load Index): Results of Empirical and Theoretical Research,1988,https://doi.org/10.1016/s0166-4115(08)62386-9,15093,Human-Automation Interaction and Safety
+759,32,Psychology,3,W3126140319,Subjective well-being: Three decades of progress.,1999,https://doi.org/10.1037//0033-2909.125.2.276,12886,Psychological Well-being and Life Satisfaction
+759,32,Psychology,4,W2085876742,The weirdest people in the world?,2010,https://doi.org/10.1017/s0140525x0999152x,12615,Cultural Differences and Values
+759,28,Neuroscience,1,W2122896223,Orienting of Attention,1980,https://doi.org/10.1080/00335558008248231,9670,Visual perception and processing mechanisms
+759,28,Neuroscience,2,W2156761163,The Attention System of the Human Brain,1990,https://doi.org/10.1146/annurev.ne.13.030190.000325,8070,Neural and Behavioral Psychology Studies
+759,28,Neuroscience,3,W2123791568,The emotional dog and its rational tail: A social intuitionist approach to moral judgment.,2001,https://doi.org/10.1037/0033-295x.108.4.814,8047,Psychology of Moral and Emotional Judgment
+759,28,Neuroscience,4,W2104640717,Updating P300: An integrative theory of P3a and P3b,2007,https://doi.org/10.1016/j.clinph.2007.04.019,7910,Neural and Behavioral Psychology Studies

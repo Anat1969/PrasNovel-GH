@@ -1,151 +1,171 @@
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import { FIELD, FIELDS, FieldCode, Model, NOBEL_TO_OA, OA_FIELD_HE, nameHe } from "../lib/data";
 import FieldGlyph from "../lib/FieldGlyph";
+import IdeaPanel from "../lib/IdeaPanel";
 import Rich from "../lib/Rich";
-import { href } from "../lib/route";
-import { useSize } from "../lib/useSize";
-import { Src, Tone } from "../lib/ui";
+import { go } from "../lib/route";
+import { SortHead, useSort } from "../lib/sort";
+import { FieldChips, Src, Tone } from "../lib/ui";
 
-type Row = { id: string; name: string; field: FieldCode; total: number; out: number; top: [string, number][] };
+type Row = { id: string; name: string; disc: string | null; field: FieldCode; total: number; out: number; top: [string, number][] };
+type Pick = { kind: "idea"; id: string; f?: string } | { kind: "cell"; a: FieldCode; b: FieldCode } | null;
 
-export default function Cross({ m }: { m: Model }) {
+export default function Cross({ m, params }: { m: Model; params: Record<string, string> }) {
   const [view, setView] = useState<"use" | "mentors">("use");
-  const [hover, setHover] = useState<string | null>(null);
-  const rows: Row[] = useMemo(() => m.selected.filter((s) => s.openalex.fields?.length).map((s) => {
+  const [fields, setFields] = useState<FieldCode[]>(() => (params.f ? (params.f.split(",") as FieldCode[]) : []));
+  const [pick, setPick] = useState<Pick>(null);
+  const rows: Row[] = useMemo(() => m.selected.filter((s) => s.openalex.fields?.length && (!fields.length || fields.includes(s.field))).map((s) => {
     const f = s.openalex.fields!; const home = NOBEL_TO_OA[s.field];
     const total = f.reduce((a, x) => a + x[1], 0);
     const outside = f.filter((x) => !home.includes(x[0]));
-    return { id: s.nobel_id, name: nameHe(m.byId.get(s.nobel_id)), field: s.field, total, out: outside.reduce((a, x) => a + x[1], 0) / total, top: outside.slice(0, 2) };
-  }).sort((a, b) => b.out - a.out), [m]);
+    return { id: s.nobel_id, name: nameHe(m.byId.get(s.nobel_id)), disc: s.discovery, field: s.field, total, out: outside.reduce((a, x) => a + x[1], 0) / total, top: outside.slice(0, 2) };
+  }), [m, fields]);
+  const { sorted, s, toggle } = useSort(rows, {
+    name: (r: Row) => r.name, field: (r: Row) => FIELD[r.field].he, out: (r: Row) => r.out, total: (r: Row) => r.total,
+  }, { key: "out", dir: "desc" });
   const T = rows.reduce((a, r) => a + r.total, 0);
   const overall = rows.reduce((a, r) => a + r.out * r.total, 0) / Math.max(1, T);
 
-  // מנחים ותלמידים בין תחומים
-  const flows = useMemo(() => {
-    const c = new Map<string, number>();
-    for (const l of m.links) {
-      const a = m.firstField.get(l.m), b = m.firstField.get(l.s);
-      if (!a || !b) continue;
-      c.set(`${a}>${b}`, (c.get(`${a}>${b}`) ?? 0) + 1);
-    }
-    return [...c.entries()].map(([k, n]) => { const [a, b] = k.split(">") as FieldCode[]; return { a, b, n }; });
-  }, [m]);
-  const crossLinks = m.links.filter((l) => m.firstField.get(l.m) !== m.firstField.get(l.s));
+  // מנחה ותלמיד לפי תחום (הפרס הראשון של כל אחד)
+  const links = useMemo(() => m.links.filter((l) => {
+    const a = m.firstField.get(l.m), b = m.firstField.get(l.s);
+    return a && b && (!fields.length || fields.includes(a) || fields.includes(b));
+  }), [m, fields]);
+  const codes = FIELDS.map((f) => f.code);
+  const cell = (a: FieldCode, b: FieldCode) => links.filter((l) => m.firstField.get(l.m) === a && m.firstField.get(l.s) === b);
+  const cross = links.filter((l) => m.firstField.get(l.m) !== m.firstField.get(l.s));
+  const top = codes.flatMap((a) => codes.filter((b) => b !== a).map((b) => ({ a, b, n: cell(a, b).length }))).sort((x, y) => y.n - x.n)[0];
+  const max = Math.max(1, ...codes.flatMap((a) => codes.map((b) => cell(a, b).length)));
   const doubles = [...m.prizesOf.entries()].filter(([, ps]) => new Set(ps.map((p) => p.f)).size > 1);
-
-  const box = useRef<HTMLDivElement>(null);
-  const { w, h } = useSize(box);
+  const setF = (f: FieldCode[]) => { setFields(f); setPick(null); go("cross", { f: f.join(",") || undefined }); };
 
   return (
     <div className="focus-aside">
-      <div className="screen" style={{ gridTemplateRows: "auto auto minmax(0,1fr)" }}>
+      <div className="screen" style={{ gridTemplateRows: "auto minmax(0,1fr)" }}>
         <div className="screen-head">
           <div>
-            <Rich as="h1" className="insight-line">{`**${Math.round(overall * 100)}%** מהציטוטים לרעיונות הנבחרים מגיעים מחוץ לתחום הפרס.`}</Rich>
-            <p className="explain">הפרס מסווג לתחום אחד. <mark className="insight">הרעיון עצמו נודד: לרפואה, להנדסה, לסביבה ולחברה.</mark></p>
+            {view === "use"
+              ? <Rich as="h1" className="insight-line">{`**${Math.round(overall * 100)}%** מהעבודות שמצטטות את הרעיונות הנבחרים הן מחוץ לתחום הפרס.`}</Rich>
+              : <Rich as="h1" className="insight-line">{`**${cross.length}** מתוך **${links.length}** קשרי מנחה ותלמיד בין זוכים חוצים תחומים.`}</Rich>}
+            <p className="explain">{view === "use"
+              ? <>הפרס מסווג לתחום אחד. <mark className="insight">הרעיון עצמו נודד: לרפואה, להנדסה, לסביבה ולחברה.</mark> לחיצה על זוכה מציגה בצד את העבודות שמשתמשות ברעיון.</>
+              : <>שורה: התחום של המנחה. עמודה: התחום של התלמיד. {top && top.n > 0 && <mark className="insight">המעבר הנפוץ: מ{FIELD[top.a].he} ל{FIELD[top.b].he} ({top.n}).</mark>} לחיצה על תא מציגה בצד את הזוגות.</>}</p>
+          </div>
+          <div className="controls">
+            <FieldChips value={fields} onChange={setF} />
+            <div className="seg" role="group" aria-label="תצוגה">
+              <button className="seg-btn" aria-pressed={view === "use"} onClick={() => { setView("use"); setPick(null); }}>מי משתמש ברעיון</button>
+              <button className="seg-btn" aria-pressed={view === "mentors"} onClick={() => { setView("mentors"); setPick(null); }}>מנחים ותלמידים בין תחומים</button>
+            </div>
           </div>
         </div>
-        <div className="seg" role="group" aria-label="תצוגה">
-          <button className="seg-btn" aria-pressed={view === "use"} onClick={() => setView("use")}>מי משתמש ברעיון</button>
-          <button className="seg-btn" aria-pressed={view === "mentors"} onClick={() => setView("mentors")}>מנחים ותלמידים בין תחומים</button>
-        </div>
-        <div className="panel fill" ref={box}>
+        <div className="panel fill">
           {view === "use" ? (
             <div className="use-rows">
-              <div className="use-head label"><span>זוכה</span><span>בתוך התחום · מחוצה לו</span><span>מחוץ לתחום</span><span>לאן בעיקר</span></div>
-              {rows.map((r) => (
-                <a key={r.id} className="use-row" href={href("people", { id: r.id })} style={{ ["--c" as string]: FIELD[r.field].color }}
-                  data-dim={hover && hover !== r.field ? "1" : undefined}>
-                  <span className="use-name"><FieldGlyph f={r.field} size={12} /> {r.name}</span>
+              <div className="use-head">
+                <SortHead k="name" s={s} toggle={toggle}>זוכה והגילוי</SortHead>
+                <SortHead k="total" s={s} toggle={toggle}>בתוך התחום · מחוצה לו</SortHead>
+                <SortHead k="out" s={s} toggle={toggle}>מחוץ</SortHead>
+                <SortHead k="field" s={s} toggle={toggle}>לאן בעיקר</SortHead>
+              </div>
+              {sorted.map((r) => (
+                <div key={r.id} role="button" tabIndex={0} className={`use-row${pick?.kind === "idea" && pick.id === r.id ? " on" : ""}`} style={{ ["--c" as string]: FIELD[r.field].color }}
+                  onClick={() => setPick({ kind: "idea", id: r.id, f: r.top[0]?.[0] })} onKeyDown={(e) => { if (e.key === "Enter") setPick({ kind: "idea", id: r.id, f: r.top[0]?.[0] }); }}>
+                  <span className="use-name"><FieldGlyph f={r.field} size={12} />
+                    <span className="idea-n"><button className="lline-name" onClick={(e) => { e.stopPropagation(); go("people", { id: r.id }); }} title="לכרטיס הזוכה">{r.name}</button>
+                      <span className="idea-disc">{r.disc}</span></span></span>
                   <span className="use-bar" title={`${r.total.toLocaleString("en-US")} עבודות מצטטות`}>
                     <i className="in" style={{ width: `${(1 - r.out) * 100}%` }} /><i className="out" style={{ width: `${r.out * 100}%` }} />
                   </span>
                   <span className="num use-pct">{Math.round(r.out * 100)}%</span>
                   <span className="use-top">{r.top.map(([f]) => OA_FIELD_HE[f] ?? f).join(" · ")}</span>
-                </a>
+                </div>
               ))}
-              <div className="legend idea-legend" onMouseLeave={() => setHover(null)}>
-                {FIELDS.filter((f) => rows.some((r) => r.field === f.code)).map((f) => (
-                  <button key={f.code} className="chip" onMouseEnter={() => setHover(f.code)} onFocus={() => setHover(f.code)} aria-pressed={hover === f.code}
-                    onClick={() => setHover(hover === f.code ? null : f.code)}>
-                    <i className="dot" style={{ background: f.color }} />{f.he}
-                  </button>
-                ))}
+              <div className="legend panel-legend">
                 <span><i style={{ background: "var(--ink)", borderRadius: 0 }} />מחוץ לתחום הפרס</span>
+                <span><i style={{ background: "#2F5D8A", borderRadius: 0 }} />בתוך התחום (בצבע התחום)</span>
                 <span>לפי תחום המחקר של העבודות המצטטות (OpenAlex)</span>
               </div>
             </div>
           ) : (
-            w > 0 && <Flows flows={flows} w={w} h={h} hover={hover} setHover={setHover} />
+            <div className="matrix-wrap">
+              <table className="matrix">
+                <thead><tr><th className="m-corner"><span>מנחה ↓</span><span>תלמיד ←</span></th>
+                  {codes.map((b) => <th key={b} style={{ color: FIELD[b].color }}>{FIELD[b].he}</th>)}</tr></thead>
+                <tbody>
+                  {codes.map((a) => (
+                    <tr key={a}><th style={{ color: FIELD[a].color }}>{FIELD[a].he}</th>
+                      {codes.map((b) => {
+                        const n = cell(a, b).length; const same = a === b;
+                        const on = pick?.kind === "cell" && pick.a === a && pick.b === b;
+                        return (
+                          <td key={b}>
+                            <button className={`m-cell${same ? " same" : ""}${on ? " on" : ""}`} disabled={!n} onClick={() => setPick({ kind: "cell", a, b })}
+                              style={{ ["--k" as string]: n / max, ["--ca" as string]: FIELD[a].color }} title={`${FIELD[a].he} ← ${FIELD[b].he}: ${n}`}>
+                              <span className="num">{n || ""}</span>
+                            </button>
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <div className="legend panel-legend">
+                <span>אלכסון (אפור): מנחה ותלמיד באותו תחום</span>
+                <span>תא צבעוני: מעבר בין תחומים. עוצמת הצבע לפי מספר הזוגות</span>
+              </div>
+            </div>
           )}
         </div>
       </div>
       <aside className="panel panel-pad scroll-in stack">
-        <Tone kind="insight" title="למה זה חשוב [הערכה]">{"==הגבולות בין התחומים הם מנהליים, לא טבעיים.==\nרעיון בפיזיקה הופך לכלי ברפואה, ורעיון בכלכלה הופך למדיניות סביבתית."}</Tone>
-        <div className="label">זכו בשני תחומים</div>
-        {doubles.map(([id, ps]) => (
-          <div key={id} className="dense-row"><strong>{nameHe(m.byId.get(id))}</strong>
-            <span className="label" style={{ marginInlineStart: "auto" }}>{ps.map((p) => `${FIELD[p.f].he} ${p.y}`).join(" · ")}</span></div>
-        ))}
-        <div className="label">מנחה בתחום אחד, תלמיד בתחום אחר (<bdi className="num">{crossLinks.length}</bdi> מתוך <bdi className="num">{m.links.length}</bdi>)</div>
-        <div>
-          {crossLinks.slice(0, 40).map((l) => (
-            <div key={l.m + l.s} className="dense-row cross-row">
-              <span><span style={{ color: FIELD[m.firstField.get(l.m)!].color }}>●</span> {nameHe(m.byId.get(l.m))}</span>
-              <span className="muted">←</span>
-              <span><span style={{ color: FIELD[m.firstField.get(l.s)!].color }}>●</span> {nameHe(m.byId.get(l.s))}</span>
-            </div>
-          ))}
-        </div>
-        <Tone kind="problem" title="איך לקרוא">{"תחום עבודה מצטטת נקבע לפי הנושא הראשי שלה ב-OpenAlex.\nקשר מנחה הוא מה שתועד ב-Wikidata. היעדר קשר אינו היעדר השפעה."}</Tone>
-        <Src href="https://docs.openalex.org/api-entities/topics">OpenAlex: נושאים ותחומים</Src>
+        {pick?.kind === "idea" ? <IdeaPanel m={m} id={pick.id} focusField={pick.f} onClose={() => setPick(null)} />
+          : pick?.kind === "cell" ? <CellPanel m={m} a={pick.a} b={pick.b} pairs={cell(pick.a, pick.b)} onClose={() => setPick(null)} />
+          : <>
+            <Tone kind="insight" title="למה זה חשוב [הערכה]">{"==הגבולות בין התחומים הם מנהליים, לא טבעיים.==\nרעיון בפיזיקה הופך לכלי ברפואה, ורעיון בכלכלה הופך למדיניות סביבתית."}</Tone>
+            <div className="label">זכו בשני תחומים</div>
+            {doubles.map(([id, ps]) => (
+              <div key={id} className="stack-tight">
+                <strong>{nameHe(m.byId.get(id))}</strong>
+                {ps.map((p) => <span key={p.y} className="dc-sub"><bdi className="num">{p.y}</bdi> {FIELD[p.f].he}: <strong>{p.d}</strong></span>)}
+              </div>
+            ))}
+            <Tone kind="neutral" title="איך קוראים">{"לחיצה על זוכה: העבודות מתחומים אחרים שמשתמשות ברעיון.\nלחיצה על תא בטבלת המנחים: הזוגות עצמם."}</Tone>
+            <Tone kind="problem" title="הטיה">{"תחום של עבודה מצטטת נקבע לפי הנושא הראשי שלה ב-OpenAlex.\nביוכימיה נחשבת בית גם לכימיה וגם לרפואה.\nקשר מנחה הוא מה שתועד ב-Wikidata. היעדר קשר אינו היעדר השפעה."}</Tone>
+            <Src href="https://docs.openalex.org/api-entities/topics">OpenAlex: נושאים ותחומים</Src>
+          </>}
       </aside>
     </div>
   );
 }
 
-/** זרימות: מנחים מימין (תחום המנחה), תלמידים משמאל (תחום התלמיד). רוחב הסרט: מספר הקשרים. */
-function Flows({ flows, w, h, hover, setHover }: { flows: { a: FieldCode; b: FieldCode; n: number }[]; w: number; h: number;
-  hover: string | null; setHover: (v: string | null) => void }) {
-  const codes = FIELDS.map((f) => f.code).filter((c) => flows.some((x) => x.a === c || x.b === c));
-  const tot = flows.reduce((a, x) => a + x.n, 0);
-  const pad = 40, gap = 14, colW = 14;
-  const usable = h - pad * 2 - gap * (codes.length - 1);
-  const k = usable / Math.max(1, tot);
-  const outSum = (c: string) => flows.filter((x) => x.a === c).reduce((a, x) => a + x.n, 0);
-  const inSum = (c: string) => flows.filter((x) => x.b === c).reduce((a, x) => a + x.n, 0);
-  const xR = w - 150, xL = 150;
-  const yR = new Map<string, number>(), yL = new Map<string, number>();
-  let y = pad; for (const c of codes) { yR.set(c, y); y += outSum(c) * k + gap; }
-  y = pad; for (const c of codes) { yL.set(c, y); y += inSum(c) * k + gap; }
-  const offR = new Map(codes.map((c) => [c, 0])), offL = new Map(codes.map((c) => [c, 0]));
-  const sorted = [...flows].sort((p, q) => codes.indexOf(p.a) - codes.indexOf(q.a) || codes.indexOf(p.b) - codes.indexOf(q.b));
+/** הזוגות בתא: מי הנחה את מי, מה כל אחד גילה, ולמה המעבר מעניין. */
+function CellPanel({ m, a, b, pairs, onClose }: { m: Model; a: FieldCode; b: FieldCode; pairs: { m: string; s: string }[]; onClose: () => void }) {
+  const first = (id: string) => [...(m.prizesOf.get(id) ?? [])].sort((x, y) => x.y - y.y)[0];
   return (
-    <svg width={w} height={h} style={{ direction: "ltr" }} role="img" aria-label="זרימת מנחים ותלמידים בין תחומים">
-      {sorted.map((f) => {
-        const t = f.n * k;
-        const y0 = yR.get(f.a)! + offR.get(f.a)!; offR.set(f.a, offR.get(f.a)! + t);
-        const y1 = yL.get(f.b)! + offL.get(f.b)!; offL.set(f.b, offL.get(f.b)! + t);
-        const cross = f.a !== f.b;
-        const on = !hover || hover === f.a || hover === f.b;
-        const mx = (xR + xL) / 2;
-        const d = `M${xR - colW},${y0} C${mx},${y0} ${mx},${y1} ${xL + colW},${y1} L${xL + colW},${y1 + t} C${mx},${y1 + t} ${mx},${y0 + t} ${xR - colW},${y0 + t} Z`;
-        return <path key={f.a + f.b} d={d} fill={FIELD[f.a].color} opacity={on ? (cross ? .75 : .16) : .05}>
-          <title>{`${FIELD[f.a].he} ← ${FIELD[f.b].he}: ${f.n}`}</title></path>;
+    <div className="stack rise" key={a + b}>
+      <div className="aside-ops"><span className="label">מנחה ב{FIELD[a].he}, תלמיד ב{FIELD[b].he}</span><button className="press icon-btn" onClick={onClose} aria-label="סגירה">×</button></div>
+      <Rich as="p">{a === b ? `**${pairs.length}** זוגות באותו תחום: מסורת שעוברת מדור לדור.` : `**${pairs.length}** זוגות שבהם שיטה מ${FIELD[a].he} הגיעה ל${FIELD[b].he}.`}</Rich>
+      {pairs.map((l) => {
+        const pm = first(l.m), ps = first(l.s);
+        return (
+          <div key={l.m + l.s} className="pair">
+            <div className="pair-side" style={{ ["--c" as string]: FIELD[pm.f].color }}>
+              <span className="label">מנחה · <bdi className="num">{pm.y}</bdi></span>
+              <button className="lline-name" onClick={() => m.selIds.has(l.m) && go("people", { id: l.m })}>{nameHe(m.byId.get(l.m))}</button>
+              <strong className="pair-disc">{pm.d}</strong>
+            </div>
+            <span className="pair-arrow" aria-hidden="true">←</span>
+            <div className="pair-side" style={{ ["--c" as string]: FIELD[ps.f].color }}>
+              <span className="label">תלמיד · <bdi className="num">{ps.y}</bdi></span>
+              <button className="lline-name" onClick={() => m.selIds.has(l.s) && go("people", { id: l.s })}>{nameHe(m.byId.get(l.s))}</button>
+              <strong className="pair-disc">{ps.d}</strong>
+            </div>
+          </div>
+        );
       })}
-      {codes.map((c) => (
-        <g key={c} onMouseEnter={() => setHover(c)} onMouseLeave={() => setHover(null)} style={{ cursor: "default" }}>
-          <rect x={xR - colW} y={yR.get(c)} width={colW} height={Math.max(2, outSum(c) * k)} fill={FIELD[c as FieldCode].color} />
-          <text x={xR + 6} y={yR.get(c)! + Math.max(2, outSum(c) * k) / 2} dy="0.35em" fontSize="13" fill="#1B1A17" fontFamily="var(--mono)">{outSum(c)}</text>
-          <text x={xR + 40} y={yR.get(c)! + Math.max(2, outSum(c) * k) / 2} dy="0.35em" fontSize="13" fill="#1B1A17">{FIELD[c as FieldCode].he}</text>
-          <rect x={xL} y={yL.get(c)} width={colW} height={Math.max(2, inSum(c) * k)} fill={FIELD[c as FieldCode].color} />
-          <text x={xL - 6} y={yL.get(c)! + Math.max(2, inSum(c) * k) / 2} dy="0.35em" textAnchor="end" fontSize="13" fill="#1B1A17" fontFamily="var(--mono)">{inSum(c)}</text>
-          <text x={xL - 40} y={yL.get(c)! + Math.max(2, inSum(c) * k) / 2} dy="0.35em" textAnchor="end" fontSize="13" fill="#1B1A17">{FIELD[c as FieldCode].he}</text>
-        </g>
-      ))}
-      <text x={w - 10} y={22} textAnchor="end" fontSize="12" fill="#77756F">תחום המנחה</text>
-      <text x={10} y={22} fontSize="12" fill="#77756F">תחום התלמיד</text>
-      <text x={w / 2} y={h - 12} textAnchor="middle" fontSize="12" fill="#77756F">סרט מלא: חוצה תחומים. סרט שקוף: בתוך אותו תחום.</text>
-    </svg>
+      {a !== b && <p className="src">{m.mentor_why}</p>}
+    </div>
   );
 }
