@@ -14,3 +14,11 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
       - run: cd scripts && python quality_checks.py
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: cd web && npm ci && npm run build
