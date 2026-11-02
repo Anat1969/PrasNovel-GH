@@ -65,3 +65,32 @@ def test_citation_edges_only_between_linked_laureates():
     ok = set(link.nobel_id)
     assert set(cites.citing_nobel_id) <= ok and set(cites.cited_nobel_id) <= ok
     assert (cites.citing_nobel_id != cites.cited_nobel_id).all()
+
+
+@needs_snapshot
+def test_citation_evidence_backs_every_edge():
+    """Every laureate-to-laureate citation shown has at least one citing work stored as evidence."""
+    cites = pd.read_csv(CURATED / "cite_edge.csv", dtype=str)
+    ev = pd.read_csv(CURATED / "cite_edge_work.csv", dtype=str)
+    for r in cites.itertuples():
+        assert ((ev.citing_nobel_id == r.citing_nobel_id) & (ev.cited_nobel_id == r.cited_nobel_id)).any(), (r.citing_nobel_id, r.cited_nobel_id)
+
+
+def test_laureate_links_join_two_laureates_by_qid():
+    path = CURATED / "laureate_link.csv"
+    if not path.exists():
+        pytest.skip("no Wikidata links built")
+    links = pd.read_csv(path, dtype=str)
+    lau = pd.read_csv(CURATED / "laureate.csv", dtype=str)
+    q2n = dict(zip(lau.qid, lau.nobel_id))
+    assert (links.mentor_qid != links.student_qid).all()
+    assert (links.mentor_qid.map(q2n) == links.mentor_nobel_id).all()
+    assert (links.student_qid.map(q2n) == links.student_nobel_id).all()
+
+
+def test_degrees_come_from_education_statements():
+    path = CURATED / "degree.csv"
+    if not path.exists():
+        pytest.skip("no degrees built")
+    deg = pd.read_csv(path, dtype=str)
+    assert deg.by_en.notna().all(), "a degree without an institution came from bare P512, which mixes honorary degrees"

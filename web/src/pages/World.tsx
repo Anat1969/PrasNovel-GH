@@ -57,8 +57,8 @@ export default function World({ m, params }: { m: Model; params: Record<string, 
               <button className="seg-btn" aria-pressed={window10} onClick={() => setWindow10(true)}>עשור בלבד</button>
             </div>
           </div>
-          <div className="clock num">{window10 ? `${year - 9}–${year}` : year}</div>
-          <div className="clock-sub label"><bdi className="num">{visible.length}</bdi> זוכים על {flat ? "המפה" : "הגלובוס"}</div>
+          <div className="clock num">{year}</div>
+          <div className="clock-sub label">{window10 ? <>עשור <bdi className="num">{year - 9}–{year}</bdi> · </> : null}<bdi className="num">{visible.length}</bdi> זוכים על {flat ? "המפה" : "הגלובוס"}</div>
           <Globe flat={flat} points={points} focus={focus} spin={!focus} onPick={(id) => go("world", { id, f: fields.join(",") || undefined })} />
           <div className="legend chart-legend">
             {(fields.length ? fields : (["physics", "chemistry", "medicine", "economics", "peace", "literature"] as FieldCode[])).map((f) =>

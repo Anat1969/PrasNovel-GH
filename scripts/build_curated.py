@@ -222,7 +222,8 @@ def build_openalex():
     except FileNotFoundError:
         return {}
     load = lambda n: json.loads((snap / f"{n}.json").read_text(encoding="utf-8")) if (snap / f"{n}.json").exists() else {}
-    links, authors, works, curves, cross = (load(n) for n in ("links", "authors", "works", "citing_by_year", "cross_citations"))
+    links, authors, works, curves, cross, cfields, evid = (load(n) for n in (
+        "links", "authors", "works", "citing_by_year", "cross_citations", "citing_fields", "edge_evidence"))
     short = lambda s: (s or "").rsplit("/", 1)[-1]
     link_rows, ev_rows = [], []
     fetched = {l["nobel_id"]: set(l["authors"]) for l in links or []}  # ids the raw works/curves were fetched for
@@ -276,7 +277,26 @@ def build_openalex():
                 agg[n] = max(agg.get(n, 0), b["count"])  # split profiles: take max, never sum the same works twice
         for citing, n in agg.items():
             cite_rows.append({"citing_nobel_id": citing, "cited_nobel_id": cited, "works": n})
-    return {"openalex_link": pd.DataFrame(link_rows), "openalex_evidence": pd.DataFrame(ev_rows),
+    field_rows = []
+    for nid, g in (cfields or {}).items():
+        if nid not in linked or keep[nid] != fetched.get(nid):
+            continue
+        for b in g.get("group_by", []):
+            if b.get("key") and b["key"] != "unknown":
+                field_rows.append({"nobel_id": nid, "field_id": short(b["key"]), "field_en": b.get("key_display_name"), "citing_works": b["count"]})
+    title_of = {(nid, short(r["id"])): r.get("title") for nid, w in (works or {}).items() for r in w.get("results", [])}
+    ev_work_rows = []
+    for key, r in (evid or {}).items():
+        citing, cited = key.split(">")
+        if citing not in linked or cited not in linked:
+            continue
+        for w in r.get("results", []):
+            refs = [title_of[(cited, short(x))] for x in w.get("referenced_works", []) if (cited, short(x)) in title_of]
+            ev_work_rows.append({"citing_nobel_id": citing, "cited_nobel_id": cited, "work_id": short(w["id"]), "title": w.get("title"),
+                                 "year": w.get("publication_year"), "doi": w.get("doi"), "cited_by": w.get("cited_by_count"),
+                                 "references": " || ".join(refs)})
+    return {"openalex_citing_field": pd.DataFrame(field_rows), "cite_edge_work": pd.DataFrame(ev_work_rows),
+            "openalex_link": pd.DataFrame(link_rows), "openalex_evidence": pd.DataFrame(ev_rows),
             "openalex_stats": pd.DataFrame(stat_rows), "openalex_work": pd.DataFrame(work_rows),
             "openalex_curve": pd.DataFrame(curve_rows), "cite_edge": pd.DataFrame(cite_rows)}
 

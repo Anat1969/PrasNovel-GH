@@ -20,6 +20,42 @@ def none(v):
     return None if pd.isna(v) else v
 
 
+STOP = set("""a an and the of for in on to by with his her their its as at from into that which who whom whose this these those
+their them they he she it be been being is are was were has have had through also both all other such use used new
+recognition discoveries discovery work works contributions contribution concerning services rendered extraordinary
+especially particular respect field fields theory theories studies study development developments investigations
+method methods outstanding fundamental important regarding research upon named him after between having thereby
+service forms connection importance efforts effort role cause prominent life principles pioneering origin made led
+towards toward particularly great early many together well first based related demonstrated whereby given within
+contributed contributing achievements achievement significant leading lasting devoted long struggle activity activities
+work done own pioneer ideas approach area areas analyses analysis""".split())
+
+
+def era_terms(prz, k=6):
+    """Most distinctive words in the official motivations, per field and quarter century (tf-idf style)."""
+    import math
+    import re
+    eras = [(1901, 1925), (1926, 1950), (1951, 1975), (1976, 2000), (2001, 2100)]
+    out = {}
+    for f, g in prz.groupby("field"):
+        docs = []
+        for a, b in eras:
+            words = re.findall(r"[a-z][a-z\-]{2,}", " ".join(g[(g.year >= a) & (g.year <= b)].motivation_en.fillna("")).lower())
+            docs.append([w for w in words if w not in STOP])
+        df = {}
+        for d in docs:
+            for w in set(d):
+                df[w] = df.get(w, 0) + 1
+        out[f] = []
+        for (a, b), d in zip(eras, docs):
+            tf = {}
+            for w in d:
+                tf[w] = tf.get(w, 0) + 1
+            score = sorted(((c * math.log(1 + len(eras) / df[w]), w) for w, c in tf.items() if c >= 2), reverse=True)
+            out[f].append({"from": a, "to": b, "terms": [w for _, w in score[:k]]})
+    return out
+
+
 def main() -> int:
     lau = pd.read_csv(CURATED / "laureate.csv", dtype=str)
     prz = pd.read_csv(CURATED / "prize.csv", dtype={"nobel_id": str})
@@ -35,8 +71,29 @@ def main() -> int:
     anchors_path = CONFIG / "openalex_anchors.json"
     anchors = json.loads(anchors_path.read_text(encoding="utf-8")) if anchors_path.exists() else {}
     oa = {n: pd.read_csv(CURATED / f"{n}.csv", dtype={"nobel_id": str, "citing_nobel_id": str, "cited_nobel_id": str})
-          for n in ("openalex_link", "openalex_stats", "openalex_work", "openalex_curve", "openalex_evidence", "cite_edge")
+          for n in ("openalex_link", "openalex_stats", "openalex_work", "openalex_curve", "openalex_evidence", "cite_edge",
+                    "openalex_citing_field", "cite_edge_work")
           if (CURATED / f"{n}.csv").exists()}
+    conn_path = CONFIG / "connections.json"
+    conn = json.loads(conn_path.read_text(encoding="utf-8")) if conn_path.exists() else {}
+    deg = pd.read_csv(CURATED / "degree.csv", dtype={"nobel_id": str}) if (CURATED / "degree.csv").exists() else pd.DataFrame()
+    llink = pd.read_csv(CURATED / "laureate_link.csv", dtype=str) if (CURATED / "laureate_link.csv").exists() else pd.DataFrame()
+
+    RANK = [("doctor", 3), ("doctorate", 3), ("master", 2), ("licentiate", 2), ("bachelor", 1)]
+
+    def degree(nid):
+        if deg.empty:
+            return None
+        rows = deg[deg.nobel_id == nid].copy()
+        if rows.empty:
+            return None
+        rows["rank"] = [max([r for k, r in RANK if k in str(e).lower()] or [0]) for e in rows.degree_en]
+        rows = rows[rows["rank"] > 0].sort_values(["rank", "year"], ascending=[False, True])
+        if rows.empty:
+            return None
+        r = rows.iloc[0]
+        return {"he": none(r.degree_he), "en": none(r.degree_en), "by_he": none(r.by_he), "by_en": none(r.by_en),
+                "year": None if pd.isna(r.year) else int(r.year), "url": r.source_url}
 
     def openalex(nid):
         if nid in (anchors.get("not_relevant") or {}):
@@ -72,6 +129,10 @@ def main() -> int:
             out["curve"] = [[int(x.year), int(x.citing_works)] for x in cv[cv.nobel_id == nid].sort_values("year").itertuples()
                             if first <= int(x.year) <= 2025]  # 2026 is a partial year in the snapshot
             out["curve_dropped"] = int(cv[(cv.nobel_id == nid) & (cv.year < first)].citing_works.sum())
+        cf = oa.get("openalex_citing_field")
+        if cf is not None:
+            rows = cf[cf.nobel_id == nid].sort_values("citing_works", ascending=False)
+            out["fields"] = [[x.field_en, int(x.citing_works)] for x in rows.itertuples()]
         return out
 
     people = []
@@ -107,6 +168,8 @@ def main() -> int:
             "image": (images.get("images") or {}).get(s["nobel_id"]),
             "image_gap": (images.get("gaps") or {}).get(s["nobel_id"]),
             "openalex": openalex(s["nobel_id"]),
+            "degree": degree(s["nobel_id"]),
+            "proposal": bool(s.get("proposal")),
         })
 
     edges = [{
@@ -139,8 +202,17 @@ def main() -> int:
         "selected": selected,
         "edges": edges,
         "home": museum.get("home"),
-        "cites": [{"s": r.citing_nobel_id, "t": r.cited_nobel_id, "n": int(r.works)} for r in oa["cite_edge"].itertuples()]
-                 if "cite_edge" in oa else [],
+        "cites": [{"s": r.citing_nobel_id, "t": r.cited_nobel_id, "n": int(r.works),
+                   "ev": [{"title": w.title, "y": None if pd.isna(w.year) else int(w.year), "doi": none(w.doi), "refs": none(w.references)}
+                          for w in oa["cite_edge_work"][(oa["cite_edge_work"].citing_nobel_id == r.citing_nobel_id)
+                                                        & (oa["cite_edge_work"].cited_nobel_id == r.cited_nobel_id)].head(4).itertuples()]
+                   if "cite_edge_work" in oa else [],
+                   **(conn.get("cites", {}).get(f"{r.citing_nobel_id}>{r.cited_nobel_id}") or {})}
+                  for r in oa["cite_edge"].itertuples()] if "cite_edge" in oa else [],
+        "links": [{"m": r.mentor_nobel_id, "s": r.student_nobel_id, "p": r.properties} for r in llink.itertuples()] if not llink.empty else [],
+        "mentor_why": conn.get("mentor_why"),
+        "mentor_props": conn.get("mentor_props"),
+        "terms": era_terms(prz),
         "quality": {
             "fields": [{"f": f, "api_prizes": awarded.get(f, 0), "spec_prizes": rp,
                         "api_laureates": int((prz.field == f).sum()), "spec_laureates": rl}

@@ -1,0 +1,335 @@
+nobel_id,field_id,field_en,citing_works
+1,31,Physics and Astronomy,414
+1,27,Medicine,300
+1,22,Engineering,255
+1,25,Materials Science,242
+1,12,Arts and Humanities,154
+1,16,Chemistry,138
+1,13,"Biochemistry, Genetics and Molecular Biology",78
+1,15,Chemical Engineering,34
+1,17,Computer Science,34
+1,19,Earth and Planetary Sciences,30
+1,28,Neuroscience,19
+1,33,Social Sciences,16
+1,36,Health Professions,11
+1,35,Dentistry,10
+1,11,Agricultural and Biological Sciences,9
+1,23,Environmental Science,9
+1,18,Decision Sciences,8
+1,21,Energy,5
+1,24,Immunology and Microbiology,3
+1,26,Mathematics,2
+1,14,"Business, Management and Accounting",1
+1,20,"Economics, Econometrics and Finance",1
+6,12,Arts and Humanities,12
+6,31,Physics and Astronomy,5
+6,22,Engineering,3
+6,25,Materials Science,3
+6,13,"Biochemistry, Genetics and Molecular Biology",1
+6,16,Chemistry,1
+6,33,Social Sciences,1
+6,36,Health Professions,1
+37,25,Materials Science,1442
+37,31,Physics and Astronomy,1090
+37,13,"Biochemistry, Genetics and Molecular Biology",1069
+37,22,Engineering,1004
+37,19,Earth and Planetary Sciences,399
+37,16,Chemistry,218
+37,27,Medicine,89
+37,12,Arts and Humanities,76
+37,23,Environmental Science,66
+37,17,Computer Science,55
+37,15,Chemical Engineering,43
+37,21,Energy,34
+37,11,Agricultural and Biological Sciences,28
+37,26,Mathematics,23
+37,18,Decision Sciences,9
+37,30,"Pharmacology, Toxicology and Pharmaceutics",8
+37,33,Social Sciences,8
+37,35,Dentistry,6
+37,28,Neuroscience,4
+37,14,"Business, Management and Accounting",2
+37,32,Psychology,1
+962,31,Physics and Astronomy,5167
+962,22,Engineering,1688
+962,25,Materials Science,226
+962,27,Medicine,47
+962,16,Chemistry,44
+962,13,"Biochemistry, Genetics and Molecular Biology",43
+962,17,Computer Science,26
+962,26,Mathematics,10
+962,12,Arts and Humanities,8
+962,19,Earth and Planetary Sciences,7
+962,35,Dentistry,7
+962,33,Social Sciences,4
+962,23,Environmental Science,3
+962,28,Neuroscience,3
+962,30,"Pharmacology, Toxicology and Pharmaceutics",2
+962,15,Chemical Engineering,1
+962,18,Decision Sciences,1
+962,21,Energy,1
+962,32,Psychology,1
+962,34,Veterinary,1
+160,16,Chemistry,165
+160,19,Earth and Planetary Sciences,77
+160,23,Environmental Science,64
+160,25,Materials Science,47
+160,13,"Biochemistry, Genetics and Molecular Biology",45
+160,22,Engineering,42
+160,12,Arts and Humanities,41
+160,31,Physics and Astronomy,38
+160,15,Chemical Engineering,27
+160,11,Agricultural and Biological Sciences,21
+160,27,Medicine,12
+160,33,Social Sciences,8
+160,17,Computer Science,5
+160,26,Mathematics,3
+160,28,Neuroscience,3
+160,30,"Pharmacology, Toxicology and Pharmaceutics",2
+160,21,Energy,1
+160,24,Immunology and Microbiology,1
+160,32,Psychology,1
+160,34,Veterinary,1
+160,36,Health Professions,1
+230,13,"Biochemistry, Genetics and Molecular Biology",1048
+230,27,Medicine,678
+230,16,Chemistry,467
+230,25,Materials Science,332
+230,12,Arts and Humanities,59
+230,24,Immunology and Microbiology,44
+230,30,"Pharmacology, Toxicology and Pharmaceutics",37
+230,28,Neuroscience,33
+230,23,Environmental Science,25
+230,29,Nursing,25
+230,31,Physics and Astronomy,25
+230,17,Computer Science,19
+230,21,Energy,19
+230,22,Engineering,17
+230,11,Agricultural and Biological Sciences,16
+230,19,Earth and Planetary Sciences,5
+230,15,Chemical Engineering,4
+230,33,Social Sciences,3
+230,34,Veterinary,3
+230,32,Psychology,2
+230,36,Health Professions,2
+230,14,"Business, Management and Accounting",1
+230,18,Decision Sciences,1
+230,26,Mathematics,1
+292,31,Physics and Astronomy,4561
+292,16,Chemistry,1775
+292,13,"Biochemistry, Genetics and Molecular Biology",1479
+292,22,Engineering,1076
+292,25,Materials Science,837
+292,17,Computer Science,92
+292,27,Medicine,74
+292,28,Neuroscience,31
+292,26,Mathematics,30
+292,19,Earth and Planetary Sciences,29
+292,15,Chemical Engineering,24
+292,12,Arts and Humanities,22
+292,21,Energy,19
+292,11,Agricultural and Biological Sciences,12
+292,23,Environmental Science,5
+292,30,"Pharmacology, Toxicology and Pharmaceutics",5
+292,18,Decision Sciences,4
+292,33,Social Sciences,3
+292,24,Immunology and Microbiology,2
+292,32,Psychology,2
+292,35,Dentistry,1
+292,36,Health Professions,1
+1055,16,Chemistry,37680
+1055,25,Materials Science,16054
+1055,22,Engineering,10573
+1055,21,Energy,5400
+1055,23,Environmental Science,2211
+1055,15,Chemical Engineering,1209
+1055,13,"Biochemistry, Genetics and Molecular Biology",961
+1055,31,Physics and Astronomy,520
+1055,27,Medicine,330
+1055,11,Agricultural and Biological Sciences,91
+1055,26,Mathematics,71
+1055,30,"Pharmacology, Toxicology and Pharmaceutics",51
+1055,19,Earth and Planetary Sciences,40
+1055,17,Computer Science,37
+1055,18,Decision Sciences,30
+1055,33,Social Sciences,17
+1055,24,Immunology and Microbiology,16
+1055,35,Dentistry,14
+1055,12,Arts and Humanities,7
+1055,28,Neuroscience,6
+1055,36,Health Professions,6
+1055,14,"Business, Management and Accounting",4
+1055,34,Veterinary,4
+1055,20,"Economics, Econometrics and Finance",3
+1055,29,Nursing,2
+1055,32,Psychology,2
+428,11,Agricultural and Biological Sciences,4935
+428,13,"Biochemistry, Genetics and Molecular Biology",3371
+428,27,Medicine,1282
+428,12,Arts and Humanities,290
+428,23,Environmental Science,63
+428,24,Immunology and Microbiology,57
+428,28,Neuroscience,56
+428,32,Psychology,46
+428,17,Computer Science,40
+428,33,Social Sciences,25
+428,31,Physics and Astronomy,20
+428,19,Earth and Planetary Sciences,19
+428,18,Decision Sciences,14
+428,22,Engineering,14
+428,26,Mathematics,14
+428,16,Chemistry,7
+428,29,Nursing,7
+428,30,"Pharmacology, Toxicology and Pharmaceutics",5
+428,21,Energy,4
+428,25,Materials Science,4
+428,36,Health Professions,4
+428,14,"Business, Management and Accounting",2
+428,20,"Economics, Econometrics and Finance",2
+428,34,Veterinary,2
+428,35,Dentistry,2
+428,15,Chemical Engineering,1
+918,27,Medicine,1162
+918,13,"Biochemistry, Genetics and Molecular Biology",718
+918,11,Agricultural and Biological Sciences,300
+918,16,Chemistry,196
+918,17,Computer Science,118
+918,24,Immunology and Microbiology,104
+918,25,Materials Science,82
+918,30,"Pharmacology, Toxicology and Pharmaceutics",66
+918,22,Engineering,58
+918,28,Neuroscience,31
+918,33,Social Sciences,22
+918,12,Arts and Humanities,21
+918,18,Decision Sciences,21
+918,23,Environmental Science,17
+918,20,"Economics, Econometrics and Finance",13
+918,34,Veterinary,10
+918,26,Mathematics,9
+918,36,Health Professions,8
+918,31,Physics and Astronomy,7
+918,15,Chemical Engineering,6
+918,32,Psychology,5
+918,14,"Business, Management and Accounting",2
+918,19,Earth and Planetary Sciences,2
+918,21,Energy,2
+918,29,Nursing,2
+918,35,Dentistry,2
+1024,13,"Biochemistry, Genetics and Molecular Biology",5416
+1024,27,Medicine,5068
+1024,24,Immunology and Microbiology,2040
+1024,25,Materials Science,259
+1024,11,Agricultural and Biological Sciences,154
+1024,28,Neuroscience,150
+1024,22,Engineering,113
+1024,16,Chemistry,90
+1024,30,"Pharmacology, Toxicology and Pharmaceutics",89
+1024,33,Social Sciences,39
+1024,18,Decision Sciences,37
+1024,12,Arts and Humanities,28
+1024,17,Computer Science,27
+1024,26,Mathematics,26
+1024,23,Environmental Science,22
+1024,14,"Business, Management and Accounting",18
+1024,20,"Economics, Econometrics and Finance",15
+1024,34,Veterinary,10
+1024,29,Nursing,8
+1024,31,Physics and Astronomy,8
+1024,32,Psychology,8
+1024,35,Dentistry,5
+1024,36,Health Professions,5
+1024,15,Chemical Engineering,1
+1024,21,Energy,1
+678,20,"Economics, Econometrics and Finance",4350
+678,33,Social Sciences,1809
+678,14,"Business, Management and Accounting",556
+678,23,Environmental Science,230
+678,18,Decision Sciences,175
+678,22,Engineering,156
+678,26,Mathematics,155
+678,11,Agricultural and Biological Sciences,127
+678,12,Arts and Humanities,77
+678,21,Energy,70
+678,31,Physics and Astronomy,56
+678,17,Computer Science,50
+678,32,Psychology,36
+678,36,Health Professions,15
+678,27,Medicine,10
+678,13,"Biochemistry, Genetics and Molecular Biology",2
+678,28,Neuroscience,2
+678,24,Immunology and Microbiology,1
+678,25,Materials Science,1
+678,29,Nursing,1
+719,33,Social Sciences,31698
+719,20,"Economics, Econometrics and Finance",6825
+719,12,Arts and Humanities,2318
+719,23,Environmental Science,2266
+719,14,"Business, Management and Accounting",2137
+719,11,Agricultural and Biological Sciences,1697
+719,32,Psychology,1288
+719,18,Decision Sciences,1284
+719,36,Health Professions,1178
+719,17,Computer Science,1056
+719,27,Medicine,966
+719,22,Engineering,480
+719,29,Nursing,194
+719,26,Mathematics,156
+719,28,Neuroscience,91
+719,21,Energy,67
+719,31,Physics and Astronomy,44
+719,13,"Biochemistry, Genetics and Molecular Biology",29
+719,19,Earth and Planetary Sciences,16
+719,24,Immunology and Microbiology,15
+719,30,"Pharmacology, Toxicology and Pharmaceutics",8
+719,34,Veterinary,8
+719,35,Dentistry,8
+719,16,Chemistry,2
+719,25,Materials Science,2
+719,15,Chemical Engineering,1
+846,33,Social Sciences,24441
+846,23,Environmental Science,21660
+846,20,"Economics, Econometrics and Finance",5193
+846,11,Agricultural and Biological Sciences,4438
+846,14,"Business, Management and Accounting",4120
+846,22,Engineering,2060
+846,18,Decision Sciences,1586
+846,17,Computer Science,1378
+846,12,Arts and Humanities,915
+846,36,Health Professions,646
+846,32,Psychology,630
+846,27,Medicine,394
+846,19,Earth and Planetary Sciences,279
+846,31,Physics and Astronomy,227
+846,21,Energy,180
+846,13,"Biochemistry, Genetics and Molecular Biology",73
+846,28,Neuroscience,65
+846,26,Mathematics,59
+846,24,Immunology and Microbiology,58
+846,29,Nursing,35
+846,16,Chemistry,10
+846,25,Materials Science,9
+846,34,Veterinary,8
+846,30,"Pharmacology, Toxicology and Pharmaceutics",6
+846,35,Dentistry,3
+846,15,Chemical Engineering,1
+1034,33,Social Sciences,9330
+1034,20,"Economics, Econometrics and Finance",4346
+1034,14,"Business, Management and Accounting",621
+1034,27,Medicine,429
+1034,32,Psychology,307
+1034,12,Arts and Humanities,272
+1034,18,Decision Sciences,180
+1034,17,Computer Science,156
+1034,36,Health Professions,129
+1034,22,Engineering,66
+1034,23,Environmental Science,63
+1034,26,Mathematics,62
+1034,11,Agricultural and Biological Sciences,47
+1034,28,Neuroscience,43
+1034,29,Nursing,19
+1034,13,"Biochemistry, Genetics and Molecular Biology",10
+1034,30,"Pharmacology, Toxicology and Pharmaceutics",7
+1034,21,Energy,6
+1034,31,Physics and Astronomy,3
+1034,24,Immunology and Microbiology,2
+1034,25,Materials Science,1

@@ -28,7 +28,7 @@ export default function Home({ m }: { m: Model }) {
   const counts = Object.fromEntries(FIELDS.map((f) => [f.code, m.prizes.filter((p) => p.f === f.code).length]));
 
   const map = [
-    { page: "people", label: "עשרים הזוכים", num: `${m.selected.length}`, line: "תמונת עבודה, תקציר והייקו לכל אחד" },
+    { page: "people", label: "הזוכים הנבחרים", num: `${m.selected.length}`, line: "התרומה, מה שנתנה, ותמונת עבודה לכל אחד" },
     { page: "time", label: "ציר זמן", num: `${phys[0]}→${phys[1]}`, line: "גיל הזכייה החציוני בפיזיקה, לפני 1950 ואחרי 2000" },
     { page: "net", label: "רשת המנחים", num: `${m.edges.length}`, line: `קשרי מנחה ותלמיד, ${s.laureateEdges} מהם בין זוכים` },
     { page: "world", label: "גלובוס", num: `${eu.share.toFixed(0)}%`, line: `מהפרסים לאנשים: נולדו ב${CONT_HE[eu.c] ?? eu.c}` },
@@ -42,7 +42,7 @@ export default function Home({ m }: { m: Model }) {
           <Rich as="h1" className="home-h1">{`**${m.people.length.toLocaleString("en")}** ענקים. **${m.selected.length}** כתפיים לעמוד עליהן.`}</Rich>
           <p className="explain lines">
             <Rich>{`${span} שנות פרס, ${m.prizes.length.toLocaleString("en")} הענקות, שישה תחומים.`}</Rich>
-            <Rich>{"עשרים זוכים נבחרו להעמקה: ==ללמוד מהם, בלי להפוך אותם לנוסחה.=="}</Rich>
+            <Rich>{`${m.selected.length} זוכים נבחרו להעמקה: ==ללמוד מהם, בלי להפוך אותם לנוסחה.==`}</Rich>
           </p>
         </div>
         <div className="home-tones rise" style={{ animationDelay: ".1s" }}>
@@ -89,7 +89,7 @@ export default function Home({ m }: { m: Model }) {
               <i className="dot" style={{ background: f.color }} />{f.he} <bdi className="num" style={{ fontWeight: 400 }}>{counts[f.code]}</bdi>
             </button>
           ))}
-          <span><i className="ring" />עשרים הנבחרים</span>
+          <span><i className="ring" />הנבחרים</span>
         </div>
       </section>
     </div>

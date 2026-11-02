@@ -7,17 +7,24 @@ export type Image = { file: string; page_url: string; thumb_url: string; width: 
 export type Selected = { nobel_id: string; qid: string; field: FieldCode; year: number; why_he: string; motivation_he: string | null;
   card: Record<string, string | null>; card_status: string; card_file: string | null;
   affiliations: { name: string; city: string | null; country: string | null }[];
-  museum: { haiku: string[]; note: string } | null; image: Image | null; image_gap: string | null; openalex: OpenAlex };
+  museum: { haiku: string[]; note: string; contribution?: string; takeaway?: string } | null; image: Image | null; image_gap: string | null;
+  openalex: OpenAlex; degree: { he: string | null; en: string | null; by_he: string | null; by_en: string | null; year: number | null; url: string } | null;
+  proposal: boolean };
 /** OpenAlex: status of the link and, when linked, counts, top works and the citing-works curve. */
 export type OpenAlex = { status: "אומת" | "הערכה" | "סתירה" | "לא קושר" | "לא רלוונטי" | "לא נאסף"; why?: string;
   ids?: string[]; split?: boolean; snapshot?: string; evidence?: { kind: string; ref: string; ok: boolean }[];
   works?: number; cited?: number; h?: number; topic?: string | null; recent?: Record<string, number>;
-  top?: { title: string; y: number | null; c: number; doi: string | null }[]; curve?: [number, number][]; curve_dropped?: number };
-export type Cite = { s: string; t: string; n: number };
+  top?: { title: string; y: number | null; c: number; doi: string | null }[]; curve?: [number, number][]; curve_dropped?: number;
+  fields?: [string, number][] };
+export type Cite = { s: string; t: string; n: number; ev: { title: string; y: number | null; doi: string | null; refs: string | null }[];
+  title?: string; why?: string; label?: string };
+export type Link = { m: string; s: string; p: string };
+export type EraTerms = { from: number; to: number; terms: string[] };
 export type Edge = { s: string; t: string; sl: string | null; tl: string | null; sh: string | null; th: string | null;
   sn: string | null; tn: string | null; prop: string; url: string };
 export type Data = {
   meta: Record<string, string | null>; people: Person[]; prizes: Prize[]; selected: Selected[]; edges: Edge[]; cites: Cite[];
+  links: Link[]; mentor_why: string | null; mentor_props: Record<string, string> | null; terms: Record<FieldCode, EraTerms[]>;
   home: { quote_en: string; quote_he: string; quote_by: string; quote_url: string; insight: string; haiku: string[]; haiku_note: string; inspiration: string } | null;
   quality: { fields: { f: FieldCode; api_prizes: number; spec_prizes: number; api_laureates: number; spec_laureates: number }[];
     birth: Record<string, number>; mismatches: { id: string; en: string; api: string; wd: string }[]; top_institutions: { name: string; n: number }[] };
@@ -62,3 +69,21 @@ export const median = (xs: number[]) => {
   return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
 };
 export const nameHe = (p: Person | undefined) => (p ? p.he || p.en : "");
+
+/** תחומי OpenAlex (רמת field) בעברית. */
+export const OA_FIELD_HE: Record<string, string> = {
+  "Agricultural and Biological Sciences": "חקלאות וביולוגיה", "Arts and Humanities": "אמנויות ומדעי הרוח",
+  "Biochemistry, Genetics and Molecular Biology": "ביוכימיה וגנטיקה", "Business, Management and Accounting": "ניהול ועסקים",
+  "Chemical Engineering": "הנדסה כימית", "Chemistry": "כימיה", "Computer Science": "מדעי המחשב", "Decision Sciences": "מדעי ההחלטה",
+  "Earth and Planetary Sciences": "מדעי כדור הארץ", "Economics, Econometrics and Finance": "כלכלה", "Energy": "אנרגיה",
+  "Engineering": "הנדסה", "Environmental Science": "מדעי הסביבה", "Immunology and Microbiology": "אימונולוגיה ומיקרוביולוגיה",
+  "Materials Science": "מדע החומרים", "Mathematics": "מתמטיקה", "Medicine": "רפואה", "Neuroscience": "מדעי המוח", "Nursing": "סיעוד",
+  "Pharmacology, Toxicology and Pharmaceutics": "פרמקולוגיה", "Physics and Astronomy": "פיזיקה ואסטרונומיה", "Psychology": "פסיכולוגיה",
+  "Social Sciences": "מדעי החברה", "Veterinary": "וטרינריה", "Dentistry": "רפואת שיניים", "Health Professions": "מקצועות הבריאות",
+};
+/** איזה תחום OpenAlex מקביל לכל תחום נובל, כדי לזהות "השפעה מחוץ לתחום". */
+export const NOBEL_TO_OA: Record<FieldCode, string[]> = {
+  physics: ["Physics and Astronomy"], chemistry: ["Chemistry", "Chemical Engineering"],
+  medicine: ["Medicine", "Biochemistry, Genetics and Molecular Biology", "Immunology and Microbiology", "Neuroscience"],
+  economics: ["Economics, Econometrics and Finance"], peace: [], literature: ["Arts and Humanities"],
+};
