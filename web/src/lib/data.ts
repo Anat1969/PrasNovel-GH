@@ -7,11 +7,17 @@ export type Image = { file: string; page_url: string; thumb_url: string; width: 
 export type Selected = { nobel_id: string; qid: string; field: FieldCode; year: number; why_he: string; motivation_he: string | null;
   card: Record<string, string | null>; card_status: string; card_file: string | null;
   affiliations: { name: string; city: string | null; country: string | null }[];
-  museum: { haiku: string[]; note: string } | null; image: Image | null; image_gap: string | null };
+  museum: { haiku: string[]; note: string } | null; image: Image | null; image_gap: string | null; openalex: OpenAlex };
+/** OpenAlex: status of the link and, when linked, counts, top works and the citing-works curve. */
+export type OpenAlex = { status: "אומת" | "הערכה" | "סתירה" | "לא קושר" | "לא רלוונטי" | "לא נאסף"; why?: string;
+  ids?: string[]; split?: boolean; snapshot?: string; evidence?: { kind: string; ref: string; ok: boolean }[];
+  works?: number; cited?: number; h?: number; topic?: string | null; recent?: Record<string, number>;
+  top?: { title: string; y: number | null; c: number; doi: string | null }[]; curve?: [number, number][]; curve_dropped?: number };
+export type Cite = { s: string; t: string; n: number };
 export type Edge = { s: string; t: string; sl: string | null; tl: string | null; sh: string | null; th: string | null;
   sn: string | null; tn: string | null; prop: string; url: string };
 export type Data = {
-  meta: Record<string, string | null>; people: Person[]; prizes: Prize[]; selected: Selected[]; edges: Edge[];
+  meta: Record<string, string | null>; people: Person[]; prizes: Prize[]; selected: Selected[]; edges: Edge[]; cites: Cite[];
   home: { quote_en: string; quote_he: string; quote_by: string; quote_url: string; insight: string; haiku: string[]; haiku_note: string; inspiration: string } | null;
   quality: { fields: { f: FieldCode; api_prizes: number; spec_prizes: number; api_laureates: number; spec_laureates: number }[];
     birth: Record<string, number>; mismatches: { id: string; en: string; api: string; wd: string }[]; top_institutions: { name: string; n: number }[] };

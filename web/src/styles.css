@@ -249,3 +249,36 @@ mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, v
 .chart .axis-title { fill: var(--ink-soft); }
 .clock { top: 34px; }
 .clock-sub { top: calc(34px + clamp(46px, 6vw, 92px)); }
+
+/* חיי הרעיון (OpenAlex) */
+.st { display: inline-block; font-size: 11px; line-height: 1; padding: 3px 6px; border-radius: 3px; font-weight: 500; vertical-align: 1px; }
+.st-ok { background: var(--bank-wash); color: var(--bank); }
+.st-est { background: #FFF9D6; color: #8A6D00; }
+.st-bad { background: var(--cut-wash); color: var(--cut); }
+.st-na { background: #F1EFEA; color: var(--ink-mute); }
+.ideas { display: grid; grid-template-rows: minmax(0, 1fr) auto; padding: 8px 12px; }
+.idea-rows { display: grid; align-content: start; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+.idea-axis { position: sticky; top: 0; background: var(--sheet, #fff); z-index: 1; }
+.idea-axis, .idea-row { display: grid; grid-template-columns: 172px var(--cw) 76px; align-items: center; column-gap: 12px; }
+.idea-axis { height: 18px; }
+.idea-row { height: var(--row); background: none; border: 0; border-bottom: 1px solid var(--rule); padding: 0; font: inherit; color: inherit; text-align: start; cursor: pointer; transition: opacity .2s, background .2s; }
+.idea-row:hover, .idea-row:focus-visible { background: var(--medal-wash); outline: none; }
+.idea-row[data-dim] { opacity: .35; }
+.idea-name { font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; gap: 5px; align-items: center; }
+.idea-total { font-size: 12px; color: var(--ink-soft); text-align: end; }
+.idea-curve { display: block; }
+.cite-row { display: grid; grid-template-columns: minmax(0, 1fr) 70px 30px; gap: 8px; align-items: center; font-size: 12.5px; color: inherit; text-decoration: none; padding: 4px 0; border-bottom: 1px solid var(--rule); }
+.cite-row:hover { background: var(--medal-wash); }
+.cite-bar { height: 6px; background: #F1EFEA; display: block; }
+.cite-bar i { display: block; height: 100%; }
+.oa-curve { display: block; margin: 4px 0; }
+.oa-curve svg { width: 100%; height: 46px; }
+.oa-work { display: grid; grid-template-columns: 38px minmax(0, 1fr) auto; font-size: 12.5px; }
+.oa-work a, .oa-work span[dir] { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 760px) {
+  .idea-axis, .idea-row { grid-template-columns: 96px var(--cw) 52px; column-gap: 6px; }
+  .idea-name .st { display: none; }
+}
+.idea-legend { padding-top: 8px; border-top: 1px solid var(--rule); }
+.idea-n { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.idea-name > svg, .idea-name .st { flex: 0 0 auto; }

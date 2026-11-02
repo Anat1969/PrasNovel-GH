@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { FIELD, FIELDS, FieldCode, Model, Selected } from "../lib/data";
 import FieldGlyph from "../lib/FieldGlyph";
+import IdeaCurve from "../lib/IdeaCurve";
 import Rich from "../lib/Rich";
 import { go, href } from "../lib/route";
 import { FieldChips, Icon, Name, Src, Tone } from "../lib/ui";
@@ -21,6 +22,43 @@ function WorkImage({ s, large }: { s: Selected; large?: boolean }) {
   return (
     <div className={large ? "work-gap large" : "work-gap"} title={why}>
       <FieldGlyph f={s.field} size={large ? 64 : 40} />
+    </div>
+  );
+}
+
+const ST: Record<string, string> = { "אומת": "st-ok", "הערכה": "st-est", "סתירה": "st-bad", "לא קושר": "st-bad", "לא רלוונטי": "st-na", "לא נאסף": "st-na" };
+
+/** OpenAlex בכרטיס: סטטוס הקישור, עקומת חיי הרעיון והמאמרים המצוטטים ביותר. */
+function OpenAlexBlock({ s }: { s: Selected }) {
+  const o = s.openalex;
+  return (
+    <div className="detail-block">
+      <div className="label">חיי הרעיון <span className={`st ${ST[o.status]}`}>{o.status}</span></div>
+      {o.why && <p className="src">{o.why}</p>}
+      {o.curve && o.curve.length > 0 && (
+        <a href="#/ideas" title="לכל העקומות" className="oa-curve">
+          <IdeaCurve curve={o.curve} prize={s.year} color={FIELD[s.field].color} w={300} h={46} from={Math.min(o.curve[0][0], s.year - 5)} />
+        </a>
+      )}
+      {o.cited != null && (
+        <dl className="facts">
+          <dt>עבודות</dt><dd><bdi className="num">{o.works?.toLocaleString("en-US")}</bdi></dd>
+          <dt>ציטוטים</dt><dd><bdi className="num">{o.cited.toLocaleString("en-US")}</bdi></dd>
+          <dt>מדד h</dt><dd><bdi className="num">{o.h}</bdi></dd>
+        </dl>
+      )}
+      {o.top?.slice(0, 3).map((w) => (
+        <div key={w.title + w.y} className="dense-row oa-work">
+          <span className="num label">{w.y ?? "-"}</span>
+          {w.doi ? <a href={w.doi} target="_blank" rel="noreferrer" dir="auto">{w.title}</a> : <span dir="auto">{w.title}</span>}
+          <span className="num label" title="ציטוטים">{w.c.toLocaleString("en-US")}</span>
+        </div>
+      ))}
+      {o.ids && o.ids.length > 0 && (
+        <p className="src">{o.split ? "OpenAlex מפצל את הזוכה לשני פרופילים, ושניהם נספרים. " : ""}
+          {o.ids.map((id) => <a key={id} href={`https://openalex.org/${id}`} target="_blank" rel="noreferrer" style={{ marginInlineEnd: 6 }}>OpenAlex {id}</a>)}
+        </p>
+      )}
     </div>
   );
 }
@@ -132,6 +170,7 @@ function Detail({ m, s, idx, n, prev, next }: { m: Model; s: Selected; idx: numb
           {students.length > 6 && <a className="src" href={href("net", { id: s.nobel_id })}>עוד {students.length - 6} ברשת המנחים</a>}
         </div>
       )}
+      <OpenAlexBlock s={s} />
       {s.museum && (
         <div className="detail-block">
           <div className="haiku">{s.museum.haiku.map((l) => <span key={l}>{l}</span>)}</div>
