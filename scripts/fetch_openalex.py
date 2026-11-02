@@ -145,6 +145,24 @@ def main() -> int:
                 "sort": "cited_by_count:desc", "per-page": 10,
                 "select": "id,doi,title,publication_year,cited_by_count,referenced_works"})
     save_raw("openalex", "edge_evidence", evidence, stamp)
+
+    # Examples: the most cited works in each of the top citing fields, to show HOW other fields use the idea.
+    examples = {}
+    for nid, top in works.items():
+        wids = [short(w["id"]) for w in top.get("results", [])][:CITE_WORKS]
+        groups = (fields.get(nid) or {}).get("group_by", [])[:6]
+        if not wids:
+            continue
+        examples[nid] = {}
+        for g in groups:
+            fid = short(g.get("key"))
+            if not fid or fid == "unknown":
+                continue
+            examples[nid][fid] = get("/works", {
+                "filter": "cites:" + "|".join(wids) + ",primary_topic.field.id:" + fid,
+                "sort": "cited_by_count:desc", "per-page": 4,
+                "select": "id,doi,title,publication_year,cited_by_count,primary_topic"})
+    save_raw("openalex", "field_examples", examples, stamp)
     ok = sum(1 for l in links if l["authors"])
     print(f"openalex {stamp}: {ok}/{len(links)} laureates linked")
     return 0
