@@ -1,0 +1,18 @@
+{"endpoint": "https://api.nobelprize.org/2.1/laureates", "meta": {"count": 2},
+ "laureates": [
+  {"id": "1", "knownName": {"en": "Person A"}, "fullName": {"en": "Person A Full"}, "gender": "female",
+   "birth": {"date": "1900-06-15", "place": {"cityNow": {"en": "City", "latitude": "1", "longitude": "2"},
+     "country": {"en": "Old Country"}, "countryNow": {"en": "New Country"}, "continent": {"en": "Asia"}}},
+   "wikidata": {"id": "Q1"}, "wikipedia": {"english": "https://en.wikipedia.org/wiki/A"},
+   "nobelPrizes": [
+     {"awardYear": "1950", "category": {"en": "Physics"}, "motivation": {"en": "for something"},
+      "portion": "1/2", "sortOrder": "1", "prizeStatus": "received", "dateAwarded": "1950-06-14",
+      "affiliations": [{"name": {"en": "Old Institute"}, "nameNow": {"en": "New Institute"},
+        "city": {"en": "City"}, "country": {"en": "Old Country"}, "countryNow": {"en": "New Country"}}]},
+     {"awardYear": "1960", "category": {"en": "Peace"}, "motivation": {"en": "for peace"},
+      "portion": "1", "sortOrder": "1", "prizeStatus": "received", "dateAwarded": "1960-06-15"}]},
+  {"id": "2", "orgName": {"en": "Org B"}, "founded": {"date": "1917-00-00", "place": {}},
+   "wikidata": {"id": "Q2"}, "wikipedia": {},
+   "nobelPrizes": [{"awardYear": "1944", "category": {"en": "Peace"}, "motivation": {"en": "for help"},
+      "portion": "1", "sortOrder": "1", "prizeStatus": "received", "dateAwarded": "1944-12-10"}]}
+ ]}
