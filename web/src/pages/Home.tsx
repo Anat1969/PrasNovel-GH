@@ -44,6 +44,8 @@ export default function Home({ m }: { m: Model }) {
             <Rich>{`${span} שנות פרס, ${m.prizes.length.toLocaleString("en")} הענקות, שישה תחומים.`}</Rich>
             <Rich>{`${m.selected.length} זוכים נבחרו להעמקה: ==ללמוד מהם, בלי להפוך אותם לנוסחה.==`}</Rich>
           </p>
+          {/* סרטון הדגמה: הכפתור נטען מ-demo.js (תיק האפליקציות) רק כשיש לאפליקציה סרטון ב-aoa_apps */}
+          <div className="home-demo" data-aoa-demo="" aria-label="סרטון הדגמה" />
         </div>
         <div className="home-tones rise" style={{ animationDelay: ".1s" }}>
           <Tone kind="problem" title="בעיה">{`המדגם מוטה: רק **${s.womenShare.toFixed(1)}%** מהפרסים לאנשים הוענקו לנשים.\nאין פרס לאדריכלות ולתכנון ערים.`}</Tone>
