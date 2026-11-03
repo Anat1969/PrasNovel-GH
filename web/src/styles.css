@@ -138,6 +138,10 @@ mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, v
 .globe-tip { background: #fff; border: 1px solid var(--rule); box-shadow: var(--shadow-2); padding: 4px 8px; font-size: 12.5px; white-space: nowrap; }
 /* בית */
 .home { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: var(--s4); min-height: 0; }
+/* סרטון הדגמה: הכפתור והנגן לוקחים את צבעי ה-DNA (דיו וזהב-מדליה) */
+:root { --aoa-demo-ink: #1B1A17; --aoa-demo-accent: #B08A2E; --aoa-demo-accent-hover: #c49d3c; }
+.home-demo { margin-top: var(--s2, 8px); }
+.home-demo:empty { display: none; }
 .home-text { display: flex; flex-direction: column; gap: clamp(12px, 2.2vh, 28px); min-height: 0; justify-content: center; }
 .home-h1 { font-size: clamp(26px, 3vw, 46px); line-height: 1.1; margin: 6px 0 8px; font-weight: 600; }
 .home-h1 strong { font-weight: 700; }
