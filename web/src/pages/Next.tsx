@@ -3,7 +3,7 @@ import { FIELD, FIELDS, FieldCode, Model, nameHe } from "../lib/data";
 import FieldGlyph from "../lib/FieldGlyph";
 import LaureateLine from "../lib/Laureate";
 import Rich from "../lib/Rich";
-import { go } from "../lib/route";
+import { go, href } from "../lib/route";
 import { FieldChips, Src, Tone } from "../lib/ui";
 
 /** הגילוי הבא: כתבת EPOCH לכל תחום. התחזית היא הנחה; העובדות, השמות והציטוט מהנתונים הרשמיים. */
@@ -25,7 +25,7 @@ export default function Next({ m, params }: { m: Model; params: Record<string, s
             <h1 className="insight-line">הגילוי הבא ב{F.he}</h1>
             <p className="explain">כתבה לכל תחום, ברוח EPOCH. <mark className="insight">התחזית היא [הנחה], ניסוי מחשבתי.</mark> השמות, המוסדות והנימוקים מנתוני הנובל.</p>
           </div>
-          <div className="controls"><FieldChips value={[field]} onChange={setF} /></div>
+          <div className="controls"><FieldChips value={[field]} onChange={setF} /><a className="press nx-print" href={href("print", { f: field })}>גרסת הדפסה A4</a><a className="press nx-print" href={href("print", { f: "all" })}>כל השש להדפסה</a></div>
         </div>
         <article className="panel fill nx" style={{ ["--c" as string]: F.color }} key={field}>
           <div className="nx-scroll">

@@ -12,6 +12,7 @@ import Fields from "./pages/Fields";
 import Cross from "./pages/Cross";
 import City from "./pages/City";
 import Next from "./pages/Next";
+import PrintNext from "./pages/PrintNext";
 
 const TABS = [
   { page: "home", label: "בית" },
@@ -88,6 +89,7 @@ export default function App() {
     document.title = t && t !== "בית" ? `${t} · גמד על כתפי ענקים` : "גמד על כתפי ענקים";
   }, [route.page]);
   const page = TABS.some((t) => t.page === route.page) ? route.page : "home";
+  if (route.page === "print") return m ? <PrintNext m={m} params={route.params} /> : <div className="empty">{err ?? "טוען..."}</div>;
   return (
     <div className="app-shell">
       <header className="topbar">
