@@ -6,19 +6,22 @@ name_en: Han Kang
 field: literature
 year: 2024
 status: טיוטה
-motivation_en: for her intense poetic prose that confronts historical traumas and exposes the fragility of human life
-motivation_he: על הפרוזה הפואטית העזה שלה, שמתמודדת עם טראומות היסטוריות וחושפת את שבריריות חיי האדם
+motivation_en: for her intense poetic prose that confronts historical traumas and
+  exposes the fragility of human life
+motivation_he: על הפרוזה הפואטית העזה שלה, שמתמודדת עם טראומות היסטוריות וחושפת את
+  שבריריות חיי האדם
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/1042
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: ספרות מחזיקה זיכרון קשה בלי להקהות אותו.
+method_he: קול אישי ושברירי מול היסטוריה גדולה.
+method_source: https://www.nobelprize.org/laureate/1042
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לא לייפות את מה שקשה.
+label: הערכה
+bias_note: 'הראשונה מקוריאה שזכתה בספרות: גיוון גדל רק בעשורים האחרונים.'
+urban_example_he: 'אנדרטה ומרחב זיכרון בעיר: כנות במקום הקהיה.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

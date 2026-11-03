@@ -6,19 +6,22 @@ name_en: Francis Crick
 field: medicine
 year: 1962
 status: טיוטה
-motivation_en: for their discoveries concerning the molecular structure of nucleic acids and its significance for information transfer in living material
-motivation_he: על גילוייהם בנוגע למבנה המולקולרי של חומצות הגרעין ולמשמעותו להעברת מידע בחומר החי
+motivation_en: for their discoveries concerning the molecular structure of nucleic
+  acids and its significance for information transfer in living material
+motivation_he: על גילוייהם בנוגע למבנה המולקולרי של חומצות הגרעין ולמשמעותו להעברת
+  מידע בחומר החי
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/372
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: מבנה מסביר תפקיד.
+method_he: עבודה בזוג, עם נתונים של אחרים.
+method_source: https://www.nobelprize.org/laureate/372
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: שיתוף ונתונים פתוחים מאיצים פענוח.
+label: הערכה
+bias_note: רוזלינד פרנקלין, שתמונתה הייתה מפתח, לא זכתה. נפטרה ב-1958.
+urban_example_he: לתת קרדיט לכל מי שתרם נתונים לתוכנית.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

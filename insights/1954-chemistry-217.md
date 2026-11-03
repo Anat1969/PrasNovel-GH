@@ -6,19 +6,21 @@ name_en: Linus Pauling
 field: chemistry
 year: 1954
 status: טיוטה
-motivation_en: for his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances
+motivation_en: for his research into the nature of the chemical bond and its application
+  to the elucidation of the structure of complex substances
 motivation_he: על מחקרו בטבעו של הקשר הכימי ויישומו לפענוח המבנה של חומרים מורכבים
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/217
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: חיבור קטן קובע את צורת השלם.
+method_he: חשיבה מרחבית עם מודלים פיזיים.
+method_source: https://www.nobelprize.org/laureate/217
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לבנות מודל בידיים כדי לחשוב.
+label: הערכה
+bias_note: זוכה לבדו בשני תחומים, אבל טעה במבנה ה-DNA.
+urban_example_he: מודל פיזי של שכונה ככלי חשיבה בתכנון.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

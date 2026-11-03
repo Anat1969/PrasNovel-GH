@@ -6,19 +6,21 @@ name_en: Jan Tinbergen
 field: economics
 year: 1969
 status: טיוטה
-motivation_en: for having developed and applied dynamic models for the analysis of economic processes
+motivation_en: for having developed and applied dynamic models for the analysis of
+  economic processes
 motivation_he: על פיתוח ויישום מודלים דינמיים לניתוח תהליכים כלכליים
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/678
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: מדיניות היא מערכת של מטרות וכלים.
+method_he: מודל כמותי של כלכלה שלמה.
+method_source: https://www.nobelprize.org/laureate/678
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לכל מטרה צריך כלי אחד לפחות.
+label: הערכה
+bias_note: הפרס הראשון בכלכלה, שנוסף רק ב-1969 ואינו מצוואת נובל.
+urban_example_he: 'תוכנית מתאר: לכל יעד (דיור, תעסוקה) כלי מדיניות נפרד ומדיד.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

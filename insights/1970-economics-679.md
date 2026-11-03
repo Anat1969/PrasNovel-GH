@@ -6,19 +6,23 @@ name_en: Paul A. Samuelson
 field: economics
 year: 1970
 status: טיוטה
-motivation_en: for the scientific work through which he has developed static and dynamic economic theory and actively contributed to raising the level of analysis in economic science
-motivation_he: על העבודה המדעית שבאמצעותה פיתח את התאוריה הכלכלית הסטטית והדינמית ותרם באופן פעיל להעלאת רמת הניתוח במדע הכלכלה
+motivation_en: for the scientific work through which he has developed static and dynamic
+  economic theory and actively contributed to raising the level of analysis in economic
+  science
+motivation_he: על העבודה המדעית שבאמצעותה פיתח את התאוריה הכלכלית הסטטית והדינמית
+  ותרם באופן פעיל להעלאת רמת הניתוח במדע הכלכלה
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/679
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: שפה משותפת מאפשרת שיחה.
+method_he: ניסוח מתמטי של רעיונות כלכליים.
+method_source: https://www.nobelprize.org/laureate/679
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לנסח רעיון כך שאחרים יוכלו לבדוק אותו.
+label: הערכה
+bias_note: הכלכלה המתמטית קיבלה יתרון על פני גישות אחרות.
+urban_example_he: הגדרה ברורה של 'מוצר ציבורי' בתקציב העירייה.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

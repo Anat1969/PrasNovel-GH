@@ -6,19 +6,21 @@ name_en: Jacobus H. van 't Hoff
 field: chemistry
 year: 1901
 status: טיוטה
-motivation_en: in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions
+motivation_en: in recognition of the extraordinary services he has rendered by the
+  discovery of the laws of chemical dynamics and osmotic pressure in solutions
 motivation_he: על השירות יוצא הדופן בגילוי חוקי הדינמיקה הכימית והלחץ האוסמוטי בתמיסות
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/160
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: חוקים פשוטים מתארים מה קורה בתמיסה.
+method_he: חיבור בין תאוריה מתמטית לניסויים שאחרים כבר עשו.
+method_source: https://www.nobelprize.org/laureate/160
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לפעמים התרומה היא לנסח מחדש ידע קיים.
+label: הערכה
+bias_note: הפרס הראשון בכימיה. מוניטין מוקדם השפיע על הבחירה.
+urban_example_he: 'מים בעיר: אוסמוזה הפוכה, ניהול מי נגר וקרקע שמחלחלת.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

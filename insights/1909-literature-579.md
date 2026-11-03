@@ -6,19 +6,22 @@ name_en: Selma Lagerlöf
 field: literature
 year: 1909
 status: טיוטה
-motivation_en: in appreciation of the lofty idealism, vivid imagination and spiritual perception that characterize her writings
-motivation_he: בהוקרה על האידיאליזם הנעלה, הדמיון החי והתפיסה הרוחנית שמאפיינים את כתביה
+motivation_en: in appreciation of the lofty idealism, vivid imagination and spiritual
+  perception that characterize her writings
+motivation_he: בהוקרה על האידיאליזם הנעלה, הדמיון החי והתפיסה הרוחנית שמאפיינים את
+  כתביה
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/579
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: ידע על מקום עובר הכי טוב דרך סיפור.
+method_he: כתיבה מוזמנת לבתי ספר שהפכה ליצירה.
+method_source: https://www.nobelprize.org/laureate/579
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: הזמנה מעשית יכולה להוליד יצירה גדולה.
+label: הערכה
+bias_note: 'האישה הראשונה בספרות: הוועדה פתחה את הדלת לאט.'
+urban_example_he: סיפור השכונה כחלק מתהליך התכנון והשיתוף.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

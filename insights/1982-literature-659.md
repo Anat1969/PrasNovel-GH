@@ -6,19 +6,23 @@ name_en: Gabriel García Márquez
 field: literature
 year: 1982
 status: טיוטה
-motivation_en: for his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts
-motivation_he: על הרומנים והסיפורים הקצרים שלו, שבהם הפנטסטי והריאליסטי משולבים בעולם דמיון עשיר ומורכב, המשקף את חייה ואת סכסוכיה של יבשת
+motivation_en: for his novels and short stories, in which the fantastic and the realistic
+  are combined in a richly composed world of imagination, reflecting a continent's
+  life and conflicts
+motivation_he: על הרומנים והסיפורים הקצרים שלו, שבהם הפנטסטי והריאליסטי משולבים בעולם
+  דמיון עשיר ומורכב, המשקף את חייה ואת סכסוכיה של יבשת
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/659
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: עיר כדמות בסיפור.
+method_he: זיכרון משפחתי שהפך למיתוס.
+method_source: https://www.nobelprize.org/laureate/659
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: להפוך את המקום לדמות.
+label: הערכה
+bias_note: הריאליזם המאגי הפך למותג, והוועדה תגמלה זרם פופולרי.
+urban_example_he: לספר את סיפור העיר כדמות במיתוג ובתכנון.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

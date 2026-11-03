@@ -10,15 +10,16 @@ motivation_en: in recognition of their work on the structure of the nervous syst
 motivation_he: על עבודתם על מבנה מערכת העצבים
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/299
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: הרשת בנויה מיחידות נפרדות שנוגעות זו בזו.
+method_he: שרטוט ידני מדויק של אלפי תאים.
+method_source: https://www.nobelprize.org/laureate/299
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: השרטוט הוא כלי חשיבה, לא רק תיעוד.
+label: הערכה
+bias_note: חלק את הפרס עם גולג'י, שטען את ההפך. הוועדה לא הכריעה.
+urban_example_he: 'תכנון רשת רחובות: יחידות נפרדות (מגרשים) שמתחברות בנקודות מגע.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

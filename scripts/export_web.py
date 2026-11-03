@@ -270,6 +270,7 @@ def main() -> int:
         "mentor_props": conn.get("mentor_props"),
         "terms": era_terms(prz),
         "transitions": transitions(llink, oa.get("cite_edge")),
+        "next": json.loads((CONFIG / "next.json").read_text(encoding="utf-8")) if (CONFIG / "next.json").exists() else None,
         "evolution": json.loads((CONFIG / "evolution.json").read_text(encoding="utf-8"))["eras"] if (CONFIG / "evolution.json").exists() else {},
         "quality": {
             "fields": [{"f": f, "api_prizes": awarded.get(f, 0), "spec_prizes": rp,

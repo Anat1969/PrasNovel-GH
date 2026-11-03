@@ -10,15 +10,16 @@ motivation_en: for his work on the structure of proteins, especially that of ins
 motivation_he: על עבודתו על מבנה החלבונים, ובמיוחד מבנה האינסולין
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/222
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: לקרוא אות אחר אות.
+method_he: פיתוח שיטה ולא רק תשובה.
+method_source: https://www.nobelprize.org/laureate/222
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: השיטה שווה יותר מהתוצאה האחת.
+label: הערכה
+bias_note: 'זכה פעמיים: הוועדה מתגמלת כלים שמשנים תחום.'
+urban_example_he: כלי מדידה עירוני אחד שמשמש פרויקטים רבים.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

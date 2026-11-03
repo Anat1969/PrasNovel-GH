@@ -10,15 +10,16 @@ motivation_en: for her discoveries concerning a novel therapy against Malaria
 motivation_he: על תגליותיה בנוגע לטיפול חדש נגד מלריה
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/918
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: ידע ישן נקרא מחדש בשאלה חדשה.
+method_he: סקירה של טקסטים עתיקים ושינוי שיטת המיצוי.
+method_source: https://www.nobelprize.org/laureate/918
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לפני שממציאים, בודקים מה כבר נכתב.
+label: הערכה
+bias_note: 'ללא דוקטורט וללא עבודה במערב: יוצאת דופן במדגם.'
+urban_example_he: 'תכנון עם ידע מקומי: דפוסי בנייה מסורתיים כמקור לפתרון אקלימי.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

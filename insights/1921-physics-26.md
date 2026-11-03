@@ -6,19 +6,21 @@ name_en: Albert Einstein
 field: physics
 year: 1921
 status: טיוטה
-motivation_en: for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect
+motivation_en: for his services to Theoretical Physics, and especially for his discovery
+  of the law of the photoelectric effect
 motivation_he: על תרומתו לפיזיקה התיאורטית, ובמיוחד על גילוי חוק האפקט הפוטואלקטרי
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/26
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: האור מגיע במנות.
+method_he: ניסוי מחשבתי ועבודה מחוץ לאקדמיה.
+method_source: https://www.nobelprize.org/laureate/26
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לשאול מה היה קורה אם, לפני שבודקים.
+label: הערכה
+bias_note: 'הפרס לא ניתן על תורת היחסות, החשובה יותר: הוועדה הייתה זהירה.'
+urban_example_he: מודל מחשבתי לתרחיש עתידי לפני שמתכננים.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

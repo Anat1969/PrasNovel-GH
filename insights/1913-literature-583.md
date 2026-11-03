@@ -6,19 +6,23 @@ name_en: Rabindranath Tagore
 field: literature
 year: 1913
 status: טיוטה
-motivation_en: because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West
-motivation_he: על שירתו הרגישה, הרעננה והיפה, שבה הפך את מחשבתו הפואטית, במילים האנגליות שלו, לחלק מספרות המערב
+motivation_en: because of his profoundly sensitive, fresh and beautiful verse, by
+  which, with consummate skill, he has made his poetic thought, expressed in his own
+  English words, a part of the literature of the West
+motivation_he: על שירתו הרגישה, הרעננה והיפה, שבה הפך את מחשבתו הפואטית, במילים האנגליות
+  שלו, לחלק מספרות המערב
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/583
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: היוצר הוא גם המתרגם.
+method_he: תרגום עצמי שקירב את השירה לקורא המערבי.
+method_source: https://www.nobelprize.org/laureate/583
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: להנגיש את העבודה בשפה של מי שצריך להבין אותה.
+label: הערכה
+bias_note: הזוכה הראשון מחוץ לאירופה, בזכות תרגום לאנגלית.
+urban_example_he: להציג תוכנית לתושבים בשפה שלהם, לא בשפת המקצוע.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

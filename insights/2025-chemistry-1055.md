@@ -10,15 +10,16 @@ motivation_en: for the development of metal–organic frameworks
 motivation_he: על פיתוח מסגרות מתכתיות־אורגניות (MOF)
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/1055
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: החלל הריק הוא המוצר.
+method_he: תכנון מראש של מבנה מאבני בניין ידועות.
+method_source: https://www.nobelprize.org/laureate/1055
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לתכנן את הריק כמו שמתכננים את הבנוי.
+label: הערכה
+bias_note: הפרס משותף לשלושה, והקרדיט האישי מתחלק.
+urban_example_he: 'המרחב הציבורי כחלל מתוכנן: רחוב וכיכר הם ה''נקבוביות'' של העיר.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

@@ -70,7 +70,7 @@ export default function People({ m, params }: { m: Model; params: Record<string,
   const order = FIELDS.map((f) => f.code);
   const list = useMemo(() => m.selected
     .filter((s) => !fields.length || fields.includes(s.field))
-    .sort((a, b) => order.indexOf(a.field) - order.indexOf(b.field) || a.year - b.year), [m, fields]);
+    .sort((a, b) => order.indexOf(a.field) - order.indexOf(b.field) || a.year - b.year), [m, fields]); // תואם לסדר השורות
   const id = params.id && list.some((s) => s.nobel_id === params.id) ? params.id : list[0]?.nobel_id;
   const idx = list.findIndex((s) => s.nobel_id === id);
   const cur = list[idx];
@@ -86,6 +86,8 @@ export default function People({ m, params }: { m: Model; params: Record<string,
     return () => window.removeEventListener("keydown", on);
   });
 
+  // שורה לכל תחום, הזוכים לפי הסדר הכרונולוגי
+  const byField = order.map((f) => [f, list.filter((s) => s.field === f).sort((a, b) => a.year - b.year)] as const).filter(([, v]) => v.length) as [FieldCode, Selected[]][];
   const women = list.filter((s) => m.byId.get(s.nobel_id)?.g === "female").length;
   return (
     <div className="focus-aside">
@@ -98,23 +100,34 @@ export default function People({ m, params }: { m: Model; params: Record<string,
           </div>
           <FieldChips value={fields} onChange={(f) => { setFields(f); setSel(undefined, f); }} />
         </div>
-        <div className="people-grid" style={{ ["--rows" as string]: Math.ceil(list.length / 6), ["--cols" as string]: 6 }}>
-          {list.map((s, i) => {
-            const p = m.byId.get(s.nobel_id)!; const prize = m.prizesOf.get(s.nobel_id)!.find((x) => x.y === s.year)!;
-            return (
-              <a key={s.nobel_id} href={href("people", { id: s.nobel_id, f: fields.join(",") || undefined })}
-                className="press tile rise" style={{ ["--c" as string]: FIELD[s.field].color, animationDelay: `${i * .03}s` }}
-                aria-current={s.nobel_id === id ? "true" : undefined}>
-                <div className="tile-img"><WorkImage s={s} /></div>
-                <div className="tile-txt">
-                  <span className="label">{FIELD[s.field].he} · <bdi className="num">{s.year}</bdi></span>
-                  <strong className="tile-name">{p.he || p.en}</strong>
-                  <span className="tile-disc">{s.discovery ?? ""}</span>
-                </div>
-                <span className="tile-age num" title="גיל בזכייה">{prize.age ?? ""}</span>
-              </a>
-            );
-          })}
+        <div className={`people-rows${byField.length === 1 ? " single" : ""}`} style={{ ["--rows" as string]: byField.length }}>
+          {byField.map(([f, items]) => (
+            <section key={f} className="prow" style={{ ["--c" as string]: FIELD[f].color }} aria-label={FIELD[f].he}>
+              <div className="prow-head">
+                <FieldGlyph f={f} size={16} />
+                <strong>{FIELD[f].he}</strong>
+                <span className="prow-span num">{items[0].year}–{items[items.length - 1].year}</span>
+              </div>
+              <div className="prow-line" aria-hidden="true" />
+              {items.map((s, i) => {
+                const p = m.byId.get(s.nobel_id)!; const prize = m.prizesOf.get(s.nobel_id)!.find((x) => x.y === s.year)!;
+                return (
+                  <a key={s.nobel_id} href={href("people", { id: s.nobel_id, f: fields.join(",") || undefined })}
+                    className="press tile rise" style={{ animationDelay: `${i * .03}s` }}
+                    aria-current={s.nobel_id === id ? "true" : undefined}
+                    title={`${p.he || p.en} · ${s.year} · ${s.discovery ?? ""}`}>
+                    <div className="tile-img"><WorkImage s={s} /></div>
+                    <div className="tile-txt">
+                      <span className="tile-year num">{s.year}</span>
+                      <strong className="tile-name">{p.he || p.en}</strong>
+                      <span className="tile-disc">{s.discovery ?? ""}</span>
+                    </div>
+                    <span className="tile-age num" title="גיל בזכייה">{prize.age ?? ""}</span>
+                  </a>
+                );
+              })}
+            </section>
+          ))}
         </div>
       </div>
       {cur ? <Detail m={m} s={cur} idx={idx} n={list.length}
@@ -204,16 +217,21 @@ function Detail({ m, s, idx, n, prev, next }: { m: Model; s: Selected; idx: numb
       )}
 
       <section className="dc-block">
-        <h3 className="dc-h">למה נבחר/ה</h3>
+        <h3 className="dc-h">כרטיס התובנה</h3>
         <p className="dc-take">{s.why_he} <span className="label">[הנחה]</span></p>
-        {s.card_status === "מאושר" ? (
-          <>
-            <Tone kind="insight" title="הרעיון">{c.idea_he ?? ""}</Tone>
-            <Tone kind="solution" title={`מה לוקחים לעבודה [${c.label}]`}>{c.takeaway_he ?? ""}</Tone>
-            <Tone kind="problem" title="שדה הטיה">{c.bias_note ?? ""}</Tone>
-          </>
+        {c.idea_he ? (
+          <div className="ins-card">
+            <div className="ins-head"><span className={`st ${s.card_status === "מאושר" ? "st-ok" : "st-est"}`}>{s.card_status === "מאושר" ? "מאושר" : "טיוטה לאישור"}</span>
+              {c.label && <span className="label">[{c.label}]</span>}</div>
+            <Tone kind="insight" title="הרעיון">{`==${c.idea_he}==`}</Tone>
+            {c.method_he && <p className="ins-line"><strong>השיטה:</strong> {c.method_he}</p>}
+            {c.takeaway_he && <Tone kind="solution" title="מה לוקחים לעבודה">{c.takeaway_he}</Tone>}
+            {c.urban_example_he && <p className="ins-line ins-city"><strong>לעיר:</strong> {c.urban_example_he}</p>}
+            {c.bias_note && <Tone kind="problem" title="שדה הטיה">{c.bias_note}</Tone>}
+            {s.card_file && <a className="src" href={REPO + s.card_file} target="_blank" rel="noreferrer">לעריכה ולאישור</a>}
+          </div>
         ) : (
-          <p className="dc-sub">כרטיס התובנה שלך עוד ריק.{" "}{s.card_file && <a href={REPO + s.card_file} target="_blank" rel="noreferrer">לעריכה</a>}</p>
+          <p className="dc-sub">כרטיס התובנה עוד ריק.{" "}{s.card_file && <a href={REPO + s.card_file} target="_blank" rel="noreferrer">לעריכה</a>}</p>
         )}
       </section>
 

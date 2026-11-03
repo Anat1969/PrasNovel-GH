@@ -10,17 +10,21 @@ import Quality from "./pages/Quality";
 import Ideas from "./pages/Ideas";
 import Fields from "./pages/Fields";
 import Cross from "./pages/Cross";
+import City from "./pages/City";
+import Next from "./pages/Next";
 
 const TABS = [
   { page: "home", label: "בית" },
   { page: "people", label: "הזוכים" },
   { page: "time", label: "ציר זמן" },
-  { page: "fields", label: "התפתחות תחום" },
+  { page: "fields", label: "התפתחות" },
   { page: "ideas", label: "חיי הרעיון" },
-  { page: "cross", label: "בין התחומים" },
+  { page: "cross", label: "בין תחומים" },
+  { page: "city", label: "לעיר" },
+  { page: "next", label: "הגילוי הבא" },
   { page: "net", label: "רשת המנחים" },
   { page: "world", label: "גלובוס" },
-  { page: "quality", label: "איכות הנתונים" },
+  { page: "quality", label: "איכות" },
 ];
 const PREFIX = /^(ו|ה|ב|כ|ל|מ|ש){0,2}/;
 
@@ -104,6 +108,8 @@ export default function App() {
           : page === "net" ? <Network m={m} params={route.params} />
           : page === "world" ? <World m={m} params={route.params} />
           : page === "fields" ? <Fields m={m} params={route.params} />
+          : page === "city" ? <City m={m} params={route.params} />
+          : page === "next" ? <Next m={m} params={route.params} />
           : page === "cross" ? <Cross m={m} params={route.params} />
           : page === "ideas" ? <Ideas m={m} params={route.params} />
           : page === "quality" ? <Quality m={m} />
