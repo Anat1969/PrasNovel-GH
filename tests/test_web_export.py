@@ -69,3 +69,13 @@ def test_next_articles_reference_real_prizes(data):
         for ref in a["experts"] + [a["quote_ref"]]:
             assert (ref["id"], ref["y"]) in keys, (f, ref)
         assert len(a["haiku"]) == 3, f
+
+
+def test_next_articles_have_print_assets():
+    """לכל כתבה יש תמונה מקומית ו-PDF בגודל A4, כדי שההדפסה לא תלויה ב-Commons."""
+    root = ROOT / "web" / "public" / "next"
+    arts = json.loads((CONFIG / "next.json").read_text(encoding="utf-8"))
+    arts = arts.get("articles", arts)
+    for f in arts:
+        assert (root / f"{f}.jpg").exists(), f
+        assert (root / "pdf" / f"next-{f}.pdf").exists(), f
