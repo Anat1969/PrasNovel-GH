@@ -6,19 +6,22 @@ name_en: Daniel Kahneman
 field: economics
 year: 2002
 status: טיוטה
-motivation_en: for having integrated insights from psychological research into economic science, especially concerning human judgment and decision-making under uncertainty
-motivation_he: על שילוב תובנות מן המחקר הפסיכולוגי במדע הכלכלה, במיוחד בנוגע לשיפוט האנושי ולקבלת החלטות בתנאי אי־ודאות
+motivation_en: for having integrated insights from psychological research into economic
+  science, especially concerning human judgment and decision-making under uncertainty
+motivation_he: על שילוב תובנות מן המחקר הפסיכולוגי במדע הכלכלה, במיוחד בנוגע לשיפוט
+  האנושי ולקבלת החלטות בתנאי אי־ודאות
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/759
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: אנשים מחליטים בקיצורי דרך שיטתיים.
+method_he: ניסויים פשוטים עם שאלות היפותטיות.
+method_source: https://www.nobelprize.org/laureate/759
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לבדוק איך אנשים באמת מחליטים.
+label: הערכה
+bias_note: פסיכולוג שזכה בכלכלה, כי אין פרס לפסיכולוגיה.
+urban_example_he: ברירת מחדל בטפסים עירוניים, למשל מחזור או השתתפות.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

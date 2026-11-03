@@ -6,19 +6,21 @@ name_en: Niels Bohr
 field: physics
 year: 1922
 status: טיוטה
-motivation_en: for his services in the investigation of the structure of atoms and of the radiation emanating from them
+motivation_en: for his services in the investigation of the structure of atoms and
+  of the radiation emanating from them
 motivation_he: על תרומתו לחקר מבנה האטומים והקרינה הנפלטת מהם
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/27
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: מבנה מסודר מסביר התנהגות.
+method_he: מכון שהפגיש חוקרים צעירים מכל העולם.
+method_source: https://www.nobelprize.org/laureate/27
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: מקום שמפגיש אנשים מייצר רעיונות.
+label: הערכה
+bias_note: 'בית ספר אחד בקופנהגן הוביל לפרסים רבים: הטיה של רשת.'
+urban_example_he: מרחב חדשנות עירוני שמפגיש אנשים.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

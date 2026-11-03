@@ -10,15 +10,16 @@ motivation_en: for her analysis of economic governance, especially the commons
 motivation_he: על ניתוח הממשל הכלכלי, ובמיוחד של משאבים משותפים
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/846
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: קהילה מנהלת משאב משותף בלי שוק ובלי מדינה.
+method_he: מחקר שדה ארוך בעשרות קהילות.
+method_source: https://www.nobelprize.org/laureate/846
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לפני שמפריטים או מלאימים, בודקים מה הקהילה כבר עושה.
+label: הערכה
+bias_note: האישה הראשונה בכלכלה, 40 שנה אחרי הפרס הראשון.
+urban_example_he: גינות קהילתיות, חניה משותפת וניהול חוף עם תושבים.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

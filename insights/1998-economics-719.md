@@ -10,15 +10,16 @@ motivation_en: for his contributions to welfare economics
 motivation_he: על תרומתו לכלכלת הרווחה
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/719
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: מודדים מה אנשים יכולים לעשות, לא כמה יש להם.
+method_he: פילוסופיה וכלכלה יחד, עם נתונים על רעב.
+method_source: https://www.nobelprize.org/laureate/719
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: המדד קובע מה רואים.
+label: הערכה
+bias_note: נולד בהודו, עבד במוסדות מערביים.
+urban_example_he: 'מדד לשכונה: נגישות, צל וזמן הליכה, לא רק שווי נכסים.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

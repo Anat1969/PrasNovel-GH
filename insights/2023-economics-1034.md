@@ -10,15 +10,16 @@ motivation_en: for having advanced our understanding of women’s labour market 
 motivation_he: על קידום ההבנה שלנו את תוצאות הנשים בשוק העבודה
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/1034
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: פער שנראה קבוע הוא תוצאה של מוסדות לאורך זמן.
+method_he: איסוף נתונים היסטוריים של מאתיים שנה.
+method_source: https://www.nobelprize.org/laureate/1034
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: כדי להבין פער, מסתכלים על הסדרה הארוכה.
+label: הערכה
+bias_note: אישה ראשונה שזכתה לבדה בכלכלה, ב-2023.
+urban_example_he: 'תכנון שמתחשב בעבודה ובטיפול: מעונות, תחבורה וקרבה למקום העבודה.'
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

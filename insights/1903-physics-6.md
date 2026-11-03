@@ -6,19 +6,24 @@ name_en: Marie Curie
 field: physics
 year: 1903
 status: טיוטה
-motivation_en: in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel
-motivation_he: על השירות יוצא הדופן במחקר המשותף על תופעות הקרינה שגילה פרופסור אנרי בקרל
+motivation_en: in recognition of the extraordinary services they have rendered by
+  their joint researches on the radiation phenomena discovered by Professor Henri
+  Becquerel
+motivation_he: על השירות יוצא הדופן במחקר המשותף על תופעות הקרינה שגילה פרופסור אנרי
+  בקרל
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/6
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: קרינה היא תכונה של האטום, לא של התרכובת.
+method_he: מדידה כמותית עיקשת בציוד שבנה פייר, ועבודה על טונות של עפרה.
+method_source: https://www.nobelprize.org/laureate/6
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: כשמשהו חלש וקשה למדידה, בונים את כלי המדידה.
+label: הערכה
+bias_note: האישה הראשונה בנובל. ההכרה הגיעה לצד בעלה, ולכן קשה להפריד את תרומתה.
+urban_example_he: מדדים עירוניים חלשים, כמו רעש וצל, דורשים כלי מדידה ייעודי לפני
+  מדיניות.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

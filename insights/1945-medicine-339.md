@@ -6,19 +6,21 @@ name_en: Sir Alexander Fleming
 field: medicine
 year: 1945
 status: טיוטה
-motivation_en: for the discovery of penicillin and its curative effect in various infectious diseases
+motivation_en: for the discovery of penicillin and its curative effect in various
+  infectious diseases
 motivation_he: על גילוי הפניצילין והשפעתו המרפאת במחלות זיהומיות שונות
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/339
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: תקלה שנשאלה עליה השאלה הנכונה.
+method_he: תשומת לב לצלחת מזוהמת במקום לזרוק אותה.
+method_source: https://www.nobelprize.org/laureate/339
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: לבדוק את מה שהשתבש לפני שמנקים.
+label: הערכה
+bias_note: חלק את הפרס עם פלורי וצ'יין, שהפכו את התגלית לתרופה.
+urban_example_he: כישלון של פרויקט כמקור ללמידה ולא רק לתיקון.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

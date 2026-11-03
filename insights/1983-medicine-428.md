@@ -10,15 +10,16 @@ motivation_en: for her discovery of mobile genetic elements
 motivation_he: על גילוי היסודות הגנטיים הניידים
 motivation_he_note: תרגום של Claude לנימוק הרשמי. לא נוסח רשמי.
 facts_url: https://www.nobelprize.org/laureate/428
-idea_he: ''
-method_he: ''
-method_source: ''
+idea_he: 'הגנום אינו קבוע: קטעים בו זזים.'
+method_he: התבוננות ארוכה בגרעיני תירס בודדים.
+method_source: https://www.nobelprize.org/laureate/428
 quote: ''
 quote_source: ''
-takeaway_he: ''
-label: ''
-bias_note: ''
-urban_example_he: ''
+takeaway_he: אנומליה קטנה שחוזרת שווה מעקב של שנים.
+label: הערכה
+bias_note: 'הכרה ב-1983 על עבודה משנות הארבעים: הוועדה מחכה לקונצנזוס.'
+urban_example_he: שינויים קטנים בשכונה (שימושים זמניים) מנבאים שינוי גדול.
+draft_note: טיוטת Claude לעריכה של ענת. הציטוט הקצר נשאר ריק עד שייבדק מול המקור.
 ---
 
 ## הערות עבודה

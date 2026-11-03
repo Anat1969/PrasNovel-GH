@@ -59,3 +59,13 @@ def test_every_prize_has_hebrew_reason_and_discovery(data):
     assert all(p["mh"] and p["d"] for p in prizes)
     assert all(2 <= len(p["d"].split()) <= 8 for p in prizes)
     assert all(p["m"] for p in prizes)
+
+
+def test_next_articles_reference_real_prizes(data):
+    """Every expert and quote in the 'next discovery' articles points to a prize that exists (id and year)."""
+    arts = (data.get("next") or {}).get("articles", {})
+    keys = {(p["id"], p["y"]) for p in data["prizes"]}
+    for f, a in arts.items():
+        for ref in a["experts"] + [a["quote_ref"]]:
+            assert (ref["id"], ref["y"]) in keys, (f, ref)
+        assert len(a["haiku"]) == 3, f
