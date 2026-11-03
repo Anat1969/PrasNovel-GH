@@ -670,3 +670,8 @@ button.lline-name:hover { color: var(--c); }
 }
 .nx-print { padding: 5px 12px; font-size: 13px; white-space: nowrap; }
 .a4-credit { display: block; margin-top: .6mm; }
+
+/* יצירות: דף שנקרא בגלילה רגילה, לא בתוך מעטפת בגובה המסך */
+.app-shell.page-creations { height: auto; min-height: 100dvh; overflow: visible; }
+.app-shell.page-creations .app-main { display: block; }
+.creations-page { max-width: 1280px; margin: 0 auto; padding: 8px 0 40px; }

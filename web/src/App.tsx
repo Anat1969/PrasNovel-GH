@@ -13,6 +13,7 @@ import Cross from "./pages/Cross";
 import City from "./pages/City";
 import Next from "./pages/Next";
 import PrintNext from "./pages/PrintNext";
+import Creations from "./pages/Creations";
 
 const TABS = [
   { page: "home", label: "בית" },
@@ -23,6 +24,7 @@ const TABS = [
   { page: "cross", label: "בין תחומים" },
   { page: "city", label: "לעיר" },
   { page: "next", label: "הגילוי הבא" },
+  { page: "creations", label: "יצירות" },
   { page: "net", label: "רשת המנחים" },
   { page: "world", label: "גלובוס" },
   { page: "quality", label: "איכות" },
@@ -91,7 +93,7 @@ export default function App() {
   const page = TABS.some((t) => t.page === route.page) ? route.page : "home";
   if (route.page === "print") return m ? <PrintNext m={m} params={route.params} /> : <div className="empty">{err ?? "טוען..."}</div>;
   return (
-    <div className="app-shell">
+    <div className={`app-shell${page === "creations" ? " page-creations" : ""}`}>
       <header className="topbar">
         <div className="topbar-in">
           <a className="brand" href="#/" aria-label="דף הבית"><img src="./icon.svg" alt="" /><span>גמד על כתפי ענקים</span></a>
@@ -115,6 +117,7 @@ export default function App() {
           : page === "cross" ? <Cross m={m} params={route.params} />
           : page === "ideas" ? <Ideas m={m} params={route.params} />
           : page === "quality" ? <Quality m={m} />
+          : page === "creations" ? <Creations />
           : <Home m={m} />}
       </main>
     </div>
