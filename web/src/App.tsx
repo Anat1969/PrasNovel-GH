@@ -15,6 +15,7 @@ import Next from "./pages/Next";
 import PrintNext from "./pages/PrintNext";
 import Creations from "./pages/Creations";
 import PritzkerPage from "./pages/Pritzker";
+import TuringPage from "./pages/Turing";
 
 const TABS = [
   { page: "home", label: "בית" },
@@ -27,7 +28,8 @@ const TABS = [
   { page: "next", label: "הגילוי הבא" },
   { page: "creations", label: "יצירות" },
   { page: "pritzker", label: "פריצקר" },
-  { page: "net", label: "רשת המנחים" },
+  { page: "turing", label: "טיורינג" },
+  { page: "net", label: "מנחים" },
   { page: "world", label: "גלובוס" },
   { page: "quality", label: "איכות" },
 ];
@@ -121,6 +123,7 @@ export default function App() {
           : page === "quality" ? <Quality m={m} />
           : page === "creations" ? <Creations />
           : page === "pritzker" ? <PritzkerPage m={m} params={route.params} />
+          : page === "turing" ? <TuringPage m={m} params={route.params} />
           : <Home m={m} />}
       </main>
     </div>

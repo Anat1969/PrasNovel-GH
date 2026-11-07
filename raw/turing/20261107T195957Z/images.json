@@ -1,0 +1,619 @@
+{
+ "Q45575": {
+  "file": "File:Dennis Ritchie 2011.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Dennis_Ritchie_2011.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Dennis_Ritchie_2011.jpg/500px-Dennis_Ritchie_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Denise Panyik-Dale",
+  "free": true,
+  "local": "turing/Q45575.jpg"
+ },
+ "Q62843": {
+  "file": "File:Bob Kahn.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Bob_Kahn.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Bob_Kahn.jpg/500px-Bob_Kahn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "Вени Марковски | Veni Markovski",
+  "free": true,
+  "local": "turing/Q62843.jpg"
+ },
+ "Q62857": {
+  "file": "File:Maurice Vincent Wilkes 1980 (3).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Maurice_Vincent_Wilkes_1980_(3).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Maurice_Vincent_Wilkes_1980_%283%29.jpg/500px-Maurice_Vincent_Wilkes_1980_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0 uk",
+  "artist": "Unknown authorUnknown author",
+  "free": true,
+  "local": "turing/Q62857.jpg"
+ },
+ "Q62866": {
+  "file": "File:Ivan Sutherland at CHM.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Ivan_Sutherland_at_CHM.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "Dick Lyon",
+  "free": true,
+  "local": "turing/Q62866.jpg"
+ },
+ "Q62870": {
+  "file": "File:Prof.Cook.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Prof.Cook.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Prof.Cook.jpg/500px-Prof.Cook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jiří Janíček\n\nPokud hodláte některou z mých fotografií použít mimo Wikipedii, budu rád, když mi o tom dáte vědět, a to např. prostřednictvím tohoto e-mailu. Děkuji.\nIf you are going to use a photograph of mine outside of Wikipedia, I would appreciate, if you let me know about that, e.g. using this e-mail. Thank you.",
+  "free": true,
+  "local": "turing/Q62870.jpg"
+ },
+ "Q62874": {
+  "file": "File:Hopcrofg.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Hopcrofg.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Hopcrofg.jpg/500px-Hopcrofg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "Pavel.mavrin",
+  "free": true,
+  "local": "turing/Q62874.jpg"
+ },
+ "Q80": {
+  "file": "File:LS3 4919 (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:LS3_4919_(cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/LS3_4919_%28cropped%29.jpg/500px-LS3_4919_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Web Summit",
+  "free": true,
+  "local": "turing/Q80.jpg"
+ },
+ "Q11609": {
+  "file": "File:Shafi Goldwasser.JPG",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Shafi_Goldwasser.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Shafi_Goldwasser.JPG/500px-Shafi_Goldwasser.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "Weizmann Institute of Science",
+  "free": true,
+  "local": "turing/Q11609.jpg"
+ },
+ "Q17457": {
+  "file": "File:Donald Ervin Knuth (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Donald_Ervin_Knuth_(cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Donald_Ervin_Knuth_%28cropped%29.jpg/500px-Donald_Ervin_Knuth_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "artist": "Alex Handy",
+  "free": true,
+  "local": "turing/Q17457.jpg"
+ },
+ "Q62888": {
+  "file": "File:Andrew Yao.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Andrew_Yao.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Andrew_Yao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 2.0 de",
+  "artist": "Schmid, Renate",
+  "free": true,
+  "local": "turing/Q62888.jpg"
+ },
+ "Q8556": {
+  "file": "File:Edsger Wybe Dijkstra.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Edsger_Wybe_Dijkstra.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Edsger_Wybe_Dijkstra.jpg/500px-Edsger_Wybe_Dijkstra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "Hamilton Richards",
+  "free": true,
+  "local": "turing/Q8556.jpg"
+ },
+ "Q9602": {
+  "file": "File:Frances Allen Dec 11 2007.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Frances_Allen_Dec_11_2007.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Frances_Allen_Dec_11_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "The original uploader was Ajitroyal at English Wikipedia.",
+  "free": true,
+  "local": "turing/Q9602.jpg"
+ },
+ "Q92602": {
+  "file": "File:Sir Tony Hoare IMG 5125.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Sir_Tony_Hoare_IMG_5125.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Sir_Tony_Hoare_IMG_5125.jpg/500px-Sir_Tony_Hoare_IMG_5125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0 fr",
+  "artist": "Rama",
+  "free": true,
+  "local": "turing/Q92602.jpg"
+ },
+ "Q92604": {
+  "file": "File:Niklaus Wirth, UrGU.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Niklaus_Wirth,_UrGU.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Niklaus_Wirth%2C_UrGU.jpg/500px-Niklaus_Wirth%2C_UrGU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Copyrighted free use",
+  "artist": "Tyomitch",
+  "free": false
+ },
+ "Q92609": {
+  "file": "File:Fred Brooks.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Fred_Brooks.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Fred_Brooks.jpg/500px-Fred_Brooks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "Copyright owned by SD&amp;M (www.sdm.de)",
+  "free": true,
+  "local": "turing/Q92609.jpg"
+ },
+ "Q92612": {
+  "file": "File:Karp mg 7725-b.cr2.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Karp_mg_7725-b.cr2.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Karp_mg_7725-b.cr2.jpg/500px-Karp_mg_7725-b.cr2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0 fr",
+  "artist": "Rama",
+  "free": true,
+  "local": "turing/Q92612.jpg"
+ },
+ "Q92614": {
+  "file": "File:SRI Douglas Engelbart 1968 (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:SRI_Douglas_Engelbart_1968_(cropped).jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/SRI_Douglas_Engelbart_1968_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "SRI International",
+  "free": true,
+  "local": "turing/Q92614.jpg"
+ },
+ "Q92613": {
+  "file": "File:Leslie Lamport.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Leslie_Lamport.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/50/Leslie_Lamport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Copyrighted free use",
+  "artist": "Leslie Lamport",
+  "free": false
+ },
+ "Q92638": {
+  "file": "File:Bob Tarjan.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Bob_Tarjan.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bob_Tarjan.jpg/500px-Bob_Tarjan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "GFDL",
+  "artist": "Renatokeshet",
+  "free": false
+ },
+ "Q92649": {
+  "file": "File:Amir Pnueli.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Amir_Pnueli.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Amir_Pnueli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 1.0",
+  "artist": "David Monniaux",
+  "free": true,
+  "local": "turing/Q92649.jpg"
+ },
+ "Q92739": {
+  "file": "File:John McCarthy Stanford.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/John_McCarthy_Stanford.jpg/500px-John_McCarthy_Stanford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "artist": "\"null0\"",
+  "free": true,
+  "local": "turing/Q92739.jpg"
+ },
+ "Q92618": {
+  "file": "File:Peternaur.JPG",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Peternaur.JPG",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Peternaur.JPG/500px-Peternaur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "The original uploader was Eriktj at English Wikipedia.",
+  "free": true,
+  "local": "turing/Q92618.jpg"
+ },
+ "Q92626": {
+  "file": "File:Manuel Blum 1973 (re-scanned, portioned).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Manuel_Blum_1973_(re-scanned,_portioned).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Manuel_Blum_1973_%28re-scanned%2C_portioned%29.jpg/500px-Manuel_Blum_1973_%28re-scanned%2C_portioned%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "George Bergman",
+  "free": true,
+  "local": "turing/Q92626.jpg"
+ },
+ "Q92742": {
+  "file": "File:Alan Kay (3097597186) (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Kay_(3097597186)_(cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Alan_Kay_%283097597186%29_%28cropped%29.jpg/500px-Alan_Kay_%283097597186%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Marcin Wichary from San Francisco, U.S.A.",
+  "free": true,
+  "local": "turing/Q92742.jpg"
+ },
+ "Q92743": {
+  "file": "File:Dr Vint Cerf ForMemRS.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Dr_Vint_Cerf_ForMemRS.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Dr_Vint_Cerf_ForMemRS.jpg/500px-Dr_Vint_Cerf_ForMemRS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Duncan.Hull",
+  "free": true,
+  "local": "turing/Q92743.jpg"
+ },
+ "Q92766": {
+  "file": "File:With Bob Metcalfe (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:With_Bob_Metcalfe_(cropped).jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/85/With_Bob_Metcalfe_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "Andreu Veà, WiWiW.org",
+  "free": true,
+  "local": "turing/Q92766.jpg"
+ },
+ "Q92828": {
+  "file": "File:Chuckthacker.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Chuckthacker.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Chuckthacker.jpg/500px-Chuckthacker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Marcin Wichary from San Francisco, U.S.A.",
+  "free": true,
+  "local": "turing/Q92828.jpg"
+ },
+ "Q92823": {
+  "file": "File:27. Dr. Edward A. Feigenbaum 1994-1997.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:27._Dr._Edward_A._Feigenbaum_1994-1997.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/27._Dr._Edward_A._Feigenbaum_1994-1997.jpg/500px-27._Dr._Edward_A._Feigenbaum_1994-1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "United States Air Force",
+  "free": true,
+  "local": "turing/Q92823.jpg"
+ },
+ "Q92824": {
+  "file": "File:Judea Pearl at NIPS 2013 (11781981594) (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Judea_Pearl_at_NIPS_2013_(11781981594)_(cropped).jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Judea_Pearl_at_NIPS_2013_%2811781981594%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY 2.0",
+  "artist": "Better Than Bacon",
+  "free": true,
+  "local": "turing/Q92824.jpg"
+ },
+ "Q1107006": {
+  "file": "File:Ken Thompson, 2019.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Ken_Thompson,_2019.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ken_Thompson%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 4.0",
+  "artist": "A.C.Diller",
+  "free": true,
+  "local": "turing/Q1107006.jpg"
+ },
+ "Q3571662": {
+  "file": "File:Yann LeCun - 2025 (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Yann_LeCun_-_2025_(cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Yann_LeCun_-_2025_%28cropped%29.jpg/500px-Yann_LeCun_-_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "artist": "Ecole  polytechnique from Paris",
+  "free": true,
+  "local": "turing/Q3571662.jpg"
+ },
+ "Q3572699": {
+  "file": "File:Yoshua Bengio 2019 cropped.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Yoshua_Bengio_2019_cropped.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Yoshua_Bengio_2019_cropped.jpg/500px-Yoshua_Bengio_2019_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 4.0",
+  "artist": "Maryse Boyce",
+  "free": true,
+  "local": "turing/Q3572699.jpg"
+ },
+ "Q92894": {
+  "file": "File:Geoffrey Hinton in 2026.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Geoffrey_Hinton_in_2026.jpg/500px-Geoffrey_Hinton_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Cmichel67",
+  "free": true,
+  "local": "turing/Q92894.jpg"
+ },
+ "Q92931": {
+  "file": "File:Dr. Charles Bennett IBM Fellow.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Dr._Charles_Bennett_IBM_Fellow.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Dr._Charles_Bennett_IBM_Fellow.jpg/500px-Dr._Charles_Bennett_IBM_Fellow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0",
+  "artist": "IBM Research",
+  "free": true,
+  "local": "turing/Q92931.jpg"
+ },
+ "Q92938": {
+  "file": "File:Gilles Brassard (2019).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Gilles_Brassard_(2019).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Gilles_Brassard_%282019%29.jpg/500px-Gilles_Brassard_%282019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Lëa-Kim Châteauneuf",
+  "free": true,
+  "local": "turing/Q92938.jpg"
+ },
+ "Q16080922": {
+  "file": "File:Turing Centenary Celebration Liskov.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Turing_Centenary_Celebration_Liskov.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Turing_Centenary_Celebration_Liskov.jpg/500px-Turing_Centenary_Celebration_Liskov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Dennis Hamilton from Seattle, Washington, USA",
+  "free": true,
+  "local": "turing/Q16080922.jpg"
+ },
+ "Q92957": {
+  "file": "File:Avi Wigderson (London 2012) Cropped.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Avi_Wigderson_(London_2012)_Cropped.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Avi_Wigderson_%28London_2012%29_Cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "Ednawig",
+  "free": true,
+  "local": "turing/Q92957.jpg"
+ },
+ "Q93080": {
+  "file": "File:Silvio Micali IMG 0459.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Silvio_Micali_IMG_0459.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Silvio_Micali_IMG_0459.jpg/500px-Silvio_Micali_IMG_0459.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0 fr",
+  "artist": "Rama",
+  "free": true,
+  "local": "turing/Q93080.jpg"
+ },
+ "Q93154": {
+  "file": "File:Leslie Valiant.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Leslie_Valiant.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Leslie_Valiant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 2.0 de",
+  "artist": "Schmid, Renate",
+  "free": true,
+  "local": "turing/Q93154.jpg"
+ },
+ "Q181529": {
+  "file": "File:Herbert Simon, RIT NandE Vol13Num11 1981 Mar19 Complete.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Herbert_Simon,_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Herbert_Simon%2C_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg/500px-Herbert_Simon%2C_RIT_NandE_Vol13Num11_1981_Mar19_Complete.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "Rochester Institute of Technology",
+  "free": true,
+  "local": "turing/Q181529.jpg"
+ },
+ "Q204815": {
+  "file": "File:Marvin Minsky at OLPCb (3x4 cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Marvin_Minsky_at_OLPCb_%283x4_cropped%29.jpg/500px-Marvin_Minsky_at_OLPCb_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 3.0",
+  "artist": "The original uploader was Sethwoodworth at English Wikipedia.",
+  "free": true,
+  "local": "turing/Q204815.jpg"
+ },
+ "Q320624": {
+  "file": "File:Adi Shamir Royal Society.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Adi_Shamir_Royal_Society.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Adi_Shamir_Royal_Society.jpg/500px-Adi_Shamir_Royal_Society.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Duncan.Hull",
+  "free": true,
+  "local": "turing/Q320624.jpg"
+ },
+ "Q357965": {
+  "file": "File:M O Rabin.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:M_O_Rabin.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/M_O_Rabin.jpg/500px-M_O_Rabin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0 de",
+  "artist": "Konrad Jacobs, Erlangen, Copyright is MFO",
+  "free": true,
+  "local": "turing/Q357965.jpg"
+ },
+ "Q462089": {
+  "file": "File:Whitfield Diffie Royal Society.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Whitfield_Diffie_Royal_Society.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Whitfield_Diffie_Royal_Society.jpg/500px-Whitfield_Diffie_Royal_Society.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Duncan.Hull",
+  "free": true,
+  "local": "turing/Q462089.jpg"
+ },
+ "Q476466": {
+  "file": "File:Martin-Hellman.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Martin-Hellman.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Martin-Hellman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "User .:Ajvol:. on en.wikipedia",
+  "free": true,
+  "local": "turing/Q476466.jpg"
+ },
+ "Q578036": {
+  "file": "File:Ronald L Rivest photo.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Ronald_L_Rivest_photo.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Ronald_L_Rivest_photo.jpg/500px-Ronald_L_Rivest_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ronald L. Rivest",
+  "free": true,
+  "local": "turing/Q578036.jpg"
+ },
+ "Q918650": {
+  "file": "File:Len-mankin-pic.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Len-mankin-pic.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Len-mankin-pic.jpg/500px-Len-mankin-pic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "len adlmen",
+  "free": true,
+  "local": "turing/Q918650.jpg"
+ },
+ "Q92606": {
+  "file": "File:Jim Gray Computing in the 21st Century 2006.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Jim_Gray_Computing_in_the_21st_Century_2006.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Jim_Gray_Computing_in_the_21st_Century_2006.jpg/500px-Jim_Gray_Computing_in_the_21st_Century_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0 us",
+  "artist": "Microsoft Research",
+  "free": true,
+  "local": "turing/Q92606.jpg"
+ },
+ "Q92625": {
+  "file": "File:Fernando Corbato.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Fernando_Corbato.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Fernando_Corbato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jason Dorfman, MIT CSAIL photographer",
+  "free": true,
+  "local": "turing/Q92625.jpg"
+ },
+ "Q92628": {
+  "file": "File:2012-06-15 Juris Hartmanis (35414382405).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:2012-06-15_Juris_Hartmanis_(35414382405).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2012-06-15_Juris_Hartmanis_%2835414382405%29.jpg/500px-2012-06-15_Juris_Hartmanis_%2835414382405%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Dennis Hamilton from Seattle, Washington, USA",
+  "free": true,
+  "local": "turing/Q92628.jpg"
+ },
+ "Q92629": {
+  "file": "File:KEI with ATW NY Aug 1989 (cropped) - Ken Iverson.png",
+  "page_url": "https://commons.wikimedia.org/wiki/File:KEI_with_ATW_NY_Aug_1989_(cropped)_-_Ken_Iverson.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0f/KEI_with_ATW_NY_Aug_1989_%28cropped%29_-_Ken_Iverson.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rob Hodgkinson",
+  "free": true,
+  "local": "turing/Q92629.jpg"
+ },
+ "Q92644": {
+  "file": "File:Professional Developers Conference 2009 Technical Leaders Panel 6.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Professional_Developers_Conference_2009_Technical_Leaders_Panel_6.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Professional_Developers_Conference_2009_Technical_Leaders_Panel_6.jpg/500px-Professional_Developers_Conference_2009_Technical_Leaders_Panel_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Microsoft PDC",
+  "free": true,
+  "local": "turing/Q92644.jpg"
+ },
+ "Q92670": {
+  "file": "File:Jack-dongarra-2022.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Jack-dongarra-2022.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Jack-dongarra-2022.jpg/500px-Jack-dongarra-2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "ICLTSG",
+  "free": true,
+  "local": "turing/Q92670.jpg"
+ },
+ "Q92746": {
+  "file": "File:John Backus 2.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:John_Backus_2.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/John_Backus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 4.0",
+  "artist": "PIerre.Lescanne",
+  "free": true,
+  "local": "turing/Q92746.jpg"
+ },
+ "Q92744": {
+  "file": "File:Kristen-Nygaard-SBLP-1997-head.png",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Kristen-Nygaard-SBLP-1997-head.png",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Kristen-Nygaard-SBLP-1997-head.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Public domain",
+  "artist": "Jorge Stolfi",
+  "free": true,
+  "local": "turing/Q92744.jpg"
+ },
+ "Q92758": {
+  "file": "File:Michael Stonebraker 2.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Michael_Stonebraker_2.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Michael_Stonebraker_2.jpg/500px-Michael_Stonebraker_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC0",
+  "artist": "Dcoetzee",
+  "free": true,
+  "local": "turing/Q92758.jpg"
+ },
+ "Q92782": {
+  "file": "File:William Kahan.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:William_Kahan.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b1/William_Kahan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "GFDL 1.2",
+  "artist": "George Bergman",
+  "free": false
+ },
+ "Q92781": {
+  "file": "File:Joseph Sifakis mg 4603.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Joseph_Sifakis_mg_4603.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Joseph_Sifakis_mg_4603.jpg/500px-Joseph_Sifakis_mg_4603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.0 fr",
+  "artist": "Rama",
+  "free": true,
+  "local": "turing/Q92781.jpg"
+ },
+ "Q92819": {
+  "file": "File:Edmund Clarke FLoC 2006.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Edmund_Clarke_FLoC_2006.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/86/Edmund_Clarke_FLoC_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY 2.0",
+  "artist": "Dennis Hamilton",
+  "free": true,
+  "local": "turing/Q92819.jpg"
+ },
+ "Q92822": {
+  "file": "File:Dick Stearns (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Dick_Stearns_(cropped).jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dick_Stearns_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "Richard Edwin Stearns",
+  "free": true,
+  "local": "turing/Q92822.jpg"
+ },
+ "Q92820": {
+  "file": "File:ProfReddys Photo Cropped.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:ProfReddys_Photo_Cropped.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/ProfReddys_Photo_Cropped.jpg/500px-ProfReddys_Photo_Cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "Vishnugsr",
+  "free": true,
+  "local": "turing/Q92820.jpg"
+ },
+ "Q92821": {
+  "file": "File:E-allen-emerson (3x4 cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:E-allen-emerson_(3x4_cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/E-allen-emerson_%283x4_cropped%29.jpg/500px-E-allen-emerson_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Copyright E. Allen Emerson (the subject)",
+  "free": true,
+  "local": "turing/Q92821.jpg"
+ },
+ "Q92851": {
+  "file": "File:David A Patterson.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:David_A_Patterson.jpg",
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/David_A_Patterson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 3.0",
+  "artist": "Peg Skorpinski",
+  "free": true,
+  "local": "turing/Q92851.jpg"
+ },
+ "Q92854": {
+  "file": "File:John L Hennessy.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:John_L_Hennessy.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/John_L_Hennessy.jpg/500px-John_L_Hennessy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Eric Chan",
+  "free": true,
+  "local": "turing/Q92854.jpg"
+ },
+ "Q93161": {
+  "file": "File:VES Awards 89 cropped.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:VES_Awards_89_cropped.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/VES_Awards_89_cropped.jpg/500px-VES_Awards_89_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "VES_Awards_89.jpg: Jeff Heusser\nderivative work: Ahonc",
+  "free": true,
+  "local": "turing/Q93161.jpg"
+ },
+ "Q7143512": {
+  "file": "File:Pat Hanrahan Tableau Customer Conference 2009.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Pat_Hanrahan_Tableau_Customer_Conference_2009.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Pat_Hanrahan_Tableau_Customer_Conference_2009.jpg/500px-Pat_Hanrahan_Tableau_Customer_Conference_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Francois Lamotte from Belgium",
+  "free": true,
+  "local": "turing/Q7143512.jpg"
+ },
+ "Q7328833": {
+  "file": "File:SD 2025 - Richard Sutton 01 (cropped).jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:SD_2025_-_Richard_Sutton_01_(cropped).jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/SD_2025_-_Richard_Sutton_01_%28cropped%29.jpg/500px-SD_2025_-_Richard_Sutton_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Xuthoria",
+  "free": true,
+  "local": "turing/Q7328833.jpg"
+ },
+ "Q49823": {
+  "file": "File:Scott Dana small.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Scott_Dana_small.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Scott_Dana_small.jpg/500px-Scott_Dana_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 2.5 si",
+  "artist": "Andrej Bauer",
+  "free": true,
+  "local": "turing/Q49823.jpg"
+ },
+ "Q62894": {
+  "file": "File:Charles Bachman 2012.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Charles_Bachman_2012.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Charles_Bachman_2012.jpg/500px-Charles_Bachman_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 2.0",
+  "artist": "Hamilton_and_Bachman_at_ACM_Turing_Centenary_Celebration.jpg: Dennis Hamilton\nderivative work: YMS",
+  "free": true,
+  "local": "turing/Q62894.jpg"
+ }
+}

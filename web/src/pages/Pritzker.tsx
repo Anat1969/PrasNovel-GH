@@ -64,7 +64,7 @@ export default function PritzkerPage({ m, params }: { m: Model; params: Record<s
       <aside className="panel panel-pad scroll-in stack">
         {cur ? <Card e={cur} close={() => { setPick(null); setParams(dec, women, null); }} status={P.status} /> : (
           <>
-            <Tone kind="insight" title="מה יש בחדר">{`==כל זוכה מוצג עם הרעיון שלו, ומה העיר לוקחת ממנו.==\nהשנים והשמות מאומתים מול הרשימה הרשמית ומול Wikidata.\nהרעיון והיישום לעיר הם **טיוטה** בניסוח שלי, עד שתאשרי.`}</Tone>
+            <Tone kind="insight" title="מה יש בחדר">{`==כל זוכה מוצג עם הרעיון שלו, ומה העיר לוקחת ממנו.==\nהשנים והשמות מאומתים מול הרשימה הרשמית ומול Wikidata.\nהרעיון והיישום לעיר: ${P.status === "מאושר" ? "**פרשנות מאושרת** [הערכה]" : "**טיוטה** לאישור"}.`}</Tone>
             <div className="pz-stats">
               <div><span className="label">נשים</span><strong className="num">{nWomen}/{people.length}</strong><span className="dc-sub">הראשונה: {firstWoman?.he}, <bdi className="num">{firstWoman?.y}</bdi></span></div>
               <div><span className="label">מדינות (לפי אזרחות ראשונה)</span><strong className="num">{countries.size}</strong>
@@ -124,7 +124,7 @@ function Card({ e, close, status }: { e: PritzkerEntry; close: () => void; statu
           </div>
         ))}
       </div>
-      <span className="st st-est" style={{ justifySelf: "start" }}>{status === "מאושר" ? "מאושר" : "טיוטה לאישור · הערכה"}</span>
+      <span className={`st ${status === "מאושר" ? "st-ok" : "st-est"}`} style={{ justifySelf: "start" }}>{status === "מאושר" ? "פרשנות מאושרת · הערכה" : "טיוטה לאישור · הערכה"}</span>
       <p className="src">שנה ושם: הרשימה הרשמית של הפרס. העבודה: Wikidata, שבה הזוכה רשום כאדריכל.</p>
     </div>
   );
