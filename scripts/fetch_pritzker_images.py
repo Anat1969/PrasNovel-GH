@@ -16,7 +16,7 @@ import urllib.parse
 from common import CONFIG, ROOT, http_get, latest_raw_dir, save_raw
 
 OUT = ROOT / "web" / "public" / "pritzker"
-FREE = re.compile(r"^(cc0|public domain|pd|cc by(-sa)? \d)", re.I)
+FREE = re.compile(r"^(cc0|public domain|pd|cc by(-sa)? \d|fal\b|free art licen[cs]e)", re.I)
 
 
 def main() -> int:
