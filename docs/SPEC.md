@@ -118,3 +118,18 @@
   - `images.json`: מטא-דאטה מ-Commons.
 - **`config/pritzker.json`:** שם בעברית, QID של האנשים, משרד, עבודה מרכזית, `idea_he`, `city_he`, ושמות בעברית לעבודה ולמקום. התווית היא [הערכה] והסטטוס "טיוטה".
 - **`data.json.pritzker`:** `entries[]` עם השדות `y`, `he`, `en`, `idea`, `city`, `people[]` ו-`work{}`.
+
+
+## חדר טיורינג (7.11.2026)
+- **`curated/turing_laureate`:** שורה לכל אדם. השדות:
+  - `slug`, `year`, `area`, `qid`, שמות, מגדר, אזרחות, לידה ופטירה.
+  - `wd_year_ok`: הפרס רשום ב-Wikidata באותה שנה.
+  - `wp_year_ok`: ה-QID מופיע ברשימת ויקיפדיה באותה שנה.
+  - תמונה ורישיון.
+  - `nobel_id`: גשר לנובל לפי QID.
+- **`raw/turing/<stamp>/`:**
+  - `laureates.json`: SPARQL.
+  - `wikipedia.json`: שנה → כותרת ערך → QID.
+  - `images.json`: מטא-דאטה מ-Commons.
+- **`config/turing.json`:** תחומים (`areas`), גלי בינה מלאכותית (`ai_waves`), ולכל שנה: QID, שם בעברית, תחום, `idea_he` ו-`city_he`.
+- **`data.json.turing`:** `entries[]` עם `people[]`. לכל אדם יש `nobel[]`, ו-`wd` מסמן אם הוא רשום ב-Wikidata.

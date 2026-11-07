@@ -30,8 +30,14 @@ export type PritzkerEntry = { slug: string; y: number; he: string; en: string | 
   people: { qid: string; en: string | null; g: "m" | "f" | null; c: string | null; b: string | null; d: string | null; wiki: string | null }[];
   work: { qid: string; en: string | null; he: string | null; place: string | null; y: string | null; img: string | null; lic: string | null; by: string | null; page: string | null } | null };
 export type Pritzker = { status: string; label: string; bias: string; source: string; snapshot: string; entries: PritzkerEntry[] };
+export type TuringEntry = { slug: string; y: number; he: string; area: string; idea: string; city: string;
+  people: { qid: string; en: string | null; g: "m" | "f" | null; c: string | null; b: string | null; d: string | null; wiki: string | null;
+    img: string | null; lic: string | null; by: string | null; page: string | null; wd: boolean; nobel: { id: string; y: number; f: FieldCode }[] }[] };
+export type Turing = { status: string; label: string; bias: string; source: string; checked_wikipedia: boolean;
+  areas: { code: string; he: string; color: string }[]; ai_waves: { from: number; to: number; he: string }[]; entries: TuringEntry[] };
 export type Data = {
   pritzker: Pritzker | null;
+  turing: Turing | null;
   meta: Record<string, string | null>; people: Person[]; prizes: Prize[]; selected: Selected[]; edges: Edge[]; cites: Cite[];
   links: Link[]; mentor_why: string | null; mentor_props: Record<string, string> | null; terms: Record<FieldCode, EraTerms[]>; evolution: Record<FieldCode, string[]>;
   transitions: Record<FieldCode, Transition[]>;

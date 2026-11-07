@@ -10,6 +10,7 @@ import sys
 import pandas as pd
 
 import pritzker_lib
+import turing_lib
 from common import CONFIG, CURATED, INSIGHTS, ROOT, latest_raw_dir
 from insights_lib import load_cards, validate_card
 from quality_checks import SPEC_REFERENCE, classify_birth
@@ -272,6 +273,7 @@ def main() -> int:
         "terms": era_terms(prz),
         "transitions": transitions(llink, oa.get("cite_edge")),
         "pritzker": pritzker_lib.export(),
+        "turing": turing_lib.export(prizes),
         "next": json.loads((CONFIG / "next.json").read_text(encoding="utf-8")) if (CONFIG / "next.json").exists() else None,
         "evolution": json.loads((CONFIG / "evolution.json").read_text(encoding="utf-8"))["eras"] if (CONFIG / "evolution.json").exists() else {},
         "quality": {

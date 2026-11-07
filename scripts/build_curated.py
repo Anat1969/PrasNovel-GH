@@ -13,6 +13,7 @@ import sys
 import pandas as pd
 
 import pritzker_lib
+import turing_lib
 from common import CURATED, DB_PATH, RAW, latest_raw_dir
 
 FIELD_CODE = {
@@ -336,6 +337,7 @@ def main() -> int:
         **build_openalex(),
         **build_wikidata_extra(laureate),
         **pritzker_lib.build(),
+        **turing_lib.build(laureate),
     }
     if DB_PATH.exists():
         DB_PATH.unlink()  # rebuilt from raw every time: idempotent
