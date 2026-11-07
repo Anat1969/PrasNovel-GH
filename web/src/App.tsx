@@ -51,32 +51,43 @@ function Search({ m }: { m: Model }) {
   const [idx, setIdx] = useState(0);
   const input = useRef<HTMLInputElement>(null);
   useEffect(() => { try { sessionStorage.setItem("q", q); } catch { /* ignore */ } }, [q]);
-  const res = useMemo(() => {
+  type Hit = { key: string; title: string; en: string; sub: string; href: string; rank: number; y: number };
+  const res = useMemo<Hit[]>(() => {
     const s = q.trim().toLowerCase();
     if (s.length < 2) return [];
-    return m.people.filter((p) => matches(`${p.he ?? ""} ${p.en}`, s))
-      .sort((a, b) => Number(m.selIds.has(b.id)) - Number(m.selIds.has(a.id)) || (m.firstYear.get(a.id)! - m.firstYear.get(b.id)!));
+    const target = (id: string) => (m.selIds.has(id) ? href("people", { id }) : href("world", { id }));
+    const nobel: Hit[] = m.people.filter((p) => matches(`${p.he ?? ""} ${p.en}`, s)).map((p) => ({
+      key: `n${p.id}`, title: nameHe(p), en: p.en, sub: `נובל ${m.firstYear.get(p.id)}${m.selIds.has(p.id) ? " · נבחר" : ""}`,
+      href: target(p.id), rank: m.selIds.has(p.id) ? 0 : 2, y: m.firstYear.get(p.id) ?? 0 }));
+    const pz: Hit[] = (m.pritzker?.entries ?? []).flatMap((e) => {
+      const hay = `${e.he} ${e.en ?? ""} ${e.people.map((p) => p.en ?? "").join(" ")} ${e.work?.he ?? ""} ${e.work?.en ?? ""}`;
+      return matches(hay, s) ? [{ key: `p${e.slug}`, title: e.he, en: e.work?.he ?? e.work?.en ?? "", sub: `פריצקר ${e.y}`, href: href("pritzker", { id: e.slug }), rank: 1, y: e.y }] : [];
+    });
+    const tu: Hit[] = (m.turing?.entries ?? []).flatMap((e) => {
+      const hay = `${e.he} ${e.people.map((p) => p.en ?? "").join(" ")}`;
+      return matches(hay, s) ? [{ key: `t${e.slug}`, title: e.he, en: e.people.map((p) => p.en).join(", "), sub: `טיורינג ${e.y}`, href: href("turing", { id: e.slug }), rank: 1, y: e.y }] : [];
+    });
+    return [...nobel, ...pz, ...tu].sort((a, b) => a.rank - b.rank || a.y - b.y);
   }, [q, m]);
-  const target = (id: string) => (m.selIds.has(id) ? href("people", { id }) : href("world", { id }));
   return (
     <div className="search" onBlur={() => setTimeout(() => setOpen(false), 150)}>
-      <input ref={input} value={q} placeholder="חיפוש זוכה" aria-label="חיפוש זוכה"
+      <input ref={input} value={q} placeholder="חיפוש: זוכה, אדריכל, בניין" aria-label="חיפוש זוכה, אדריכל או בניין"
         onFocus={(e) => { e.target.select(); setOpen(true); }}
         onChange={(e) => { setQ(e.target.value); setOpen(true); setIdx(0); }}
         onKeyDown={(e) => {
           if (e.key === "Escape") { setQ(""); setOpen(false); }
           if (e.key === "ArrowDown") setIdx((i) => Math.min(i + 1, res.length - 1));
           if (e.key === "ArrowUp") setIdx((i) => Math.max(i - 1, 0));
-          if (e.key === "Enter" && res[idx]) { window.location.hash = target(res[idx].id); setOpen(false); }
+          if (e.key === "Enter" && res[idx]) { window.location.hash = res[idx].href; setOpen(false); }
         }} />
       <button className="x" aria-label="איפוס החיפוש" onClick={() => { setQ(""); input.current?.focus(); }}>×</button>
       {open && q.trim().length >= 2 && (
         <div className="search-results" role="listbox">
-          <div className="search-count"><bdi className="num">{res.length}</bdi> תוצאות{res.length ? `, מתוכן ${res.filter((p) => m.selIds.has(p.id)).length} מהנבחרים` : ""}</div>
-          {res.slice(0, 12).map((p, i) => (
-            <a key={p.id} href={target(p.id)} aria-selected={i === idx} onClick={() => setOpen(false)}>
-              <span><strong>{nameHe(p)}</strong><span className="lat" dir="ltr">{p.en}</span></span>
-              <span className="label">{m.firstYear.get(p.id)}{m.selIds.has(p.id) ? " · נבחר" : ""}</span>
+          <div className="search-count"><bdi className="num">{res.length}</bdi> תוצאות: נובל, פריצקר וטיורינג</div>
+          {res.slice(0, 14).map((h, i) => (
+            <a key={h.key} href={h.href} aria-selected={i === idx} onClick={() => setOpen(false)}>
+              <span><strong>{h.title}</strong>{h.en && <span className="lat" dir="ltr">{h.en}</span>}</span>
+              <span className="label">{h.sub}</span>
             </a>
           ))}
         </div>

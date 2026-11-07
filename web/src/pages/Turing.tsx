@@ -1,14 +1,17 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { FIELD, Model, TuringEntry } from "../lib/data";
 import Rich from "../lib/Rich";
 import { go } from "../lib/route";
 import { Tone } from "../lib/ui";
+import { ArticleView, Step, Thread } from "../lib/Thread";
 
 /** חדר טיורינג: מפה של תחומים לאורך השנים. שורה לכל תחום, פורטרט בכל שנת זכייה. הבינה המלאכותית למעלה, עם הגלים שלה. */
 export default function TuringPage({ m, params }: { m: Model; params: Record<string, string> }) {
   const T = m.turing;
   const [area, setArea] = useState<string | null>(params.a ?? null);
   const [pick, setPick] = useState<string | null>(params.id ?? null);
+  const [read, setRead] = useState(params.art === "1");
+  useEffect(() => { setPick(params.id ?? null); setArea(params.a ?? null); setRead(params.art === "1"); }, [params.id, params.a, params.art]);
   const entries = T?.entries ?? [];
   const areas = T?.areas ?? [];
   const nowShown = useMemo(() => entries.filter((e) => !area || e.area === area), [entries, area]);
@@ -22,7 +25,12 @@ export default function TuringPage({ m, params }: { m: Model; params: Record<str
   const x = (y: number) => 18 + ((y - y0) / (y1 - y0)) * (W - LBL - 40);
   const rowOf = (a: string) => areas.findIndex((r) => r.code === a);
   const cur = entries.find((e) => e.slug === pick) ?? null;
-  const setP = (a: string | null, id: string | null) => go("turing", { a: a ?? undefined, id: id ?? undefined });
+  const setP = (a: string | null, id: string | null, art = false) => go("turing", { a: a ?? undefined, id: id ?? undefined, art: art ? "1" : undefined });
+  const steps = (code: string): Step[] => (T.articles[code]?.steps ?? []).map((s) => {
+    const e = entries.find((x) => x.slug === s.slug)!;
+    return { y: e.y, who: e.he, step: s.step, onClick: () => { setPick(e.slug); setP(code, e.slug, read); } };
+  });
+  const art = area ? T.articles[area] : undefined;
   const color = (a: string) => areas.find((r) => r.code === a)?.color ?? "#888";
   const decades = [];
   for (let d = Math.ceil(y0 / 10) * 10; d <= y1; d += 10) decades.push(d);
@@ -36,14 +44,16 @@ export default function TuringPage({ m, params }: { m: Model; params: Record<str
             <p className="explain">חדר נפרד: <strong>פרס טיורינג</strong> למדעי המחשב, שאינו חלק מפרס נובל. <mark className="insight">כל גל של בינה מלאכותית החליף את התפיסה: מלוגיקה, להסתברות, לנתונים.</mark></p>
           </div>
           <div className="controls tu-controls">
-            <button className="chip" aria-pressed={!area} onClick={() => { setArea(null); setPick(null); setP(null, null); }}>הכול</button>
+            <button className="chip" aria-pressed={!area} onClick={() => { setArea(null); setPick(null); setRead(false); setP(null, null); }}>הכול</button>
             {areas.map((a) => (
-              <button key={a.code} className="chip" aria-pressed={area === a.code} onClick={() => { const v = area === a.code ? null : a.code; setArea(v); setPick(null); setP(v, null); }}>
+              <button key={a.code} className="chip" aria-pressed={area === a.code} onClick={() => { const v = area === a.code ? null : a.code; setArea(v); setPick(null); setRead(false); setP(v, null); }}>
                 <i className="dot" style={{ background: a.color }} />{a.he}
               </button>
             ))}
           </div>
         </div>
+        {read && art && area ? <ArticleView art={art} steps={steps(area)} color={color(area)} kicker={`טיורינג · ${areas.find((a) => a.code === area)?.he}`}
+          status={T.status} onClose={() => { setRead(false); setP(area, pick); }} /> :
         <div className="panel fill tu-panel">
           <div className="tu-map">
             <svg viewBox={`0 0 ${W} ${H}`} className="tu-svg" role="img" aria-label="זוכי פרס טיורינג לפי תחום ושנה">
@@ -57,7 +67,7 @@ export default function TuringPage({ m, params }: { m: Model; params: Record<str
                 </g>
               ))}
               {areas.map((a, i) => (
-                <g key={a.code} className={`tu-lbl${area && area !== a.code ? " dim" : ""}`} onClick={() => { const v = area === a.code ? null : a.code; setArea(v); setPick(null); setP(v, null); }}>
+                <g key={a.code} className={`tu-lbl${area && area !== a.code ? " dim" : ""}`} onClick={() => { const v = area === a.code ? null : a.code; setArea(v); setPick(null); setRead(false); setP(v, null); }}>
                   <line x1={0} x2={W - LBL + 4} y1={TOP + i * ROW + ROW / 2} y2={TOP + i * ROW + ROW / 2} className="tu-row" style={{ stroke: a.color }} />
                   
                   <text x={W - 4} y={TOP + i * ROW + ROW / 2 + 5} style={{ fill: a.color }} className="tu-lbl-t" textAnchor="end">{`${a.he} (${entries.filter((e) => e.area === a.code).length})`}</text>
@@ -86,23 +96,26 @@ export default function TuringPage({ m, params }: { m: Model; params: Record<str
             <span><i className="dot" style={{ background: "#FBF0D0" }} /> גל של בינה מלאכותית</span>
             <span>מספר ליד עיגול: כמה זוכים חלקו את הפרס</span>
             <span>לחיצה על עיגול: הרעיון והעיר בצד</span>
+            <span>לחיצה על תחום: האבולוציה של הרעיונות</span>
           </div>
-        </div>
+        </div>}
       </div>
       <aside className="panel panel-pad scroll-in stack">
         {cur ? <Card m={m} e={cur} color={color(cur.area)} areaHe={areas.find((a) => a.code === cur.area)?.he ?? ""} status={T.status}
           close={() => { setPick(null); setP(area, null); }} /> : area ? (
           <div className="stack">
-            <span className="label">{areas.find((a) => a.code === area)?.he} · <bdi className="num">{nowShown.length}</bdi> פרסים</span>
+            {art && <Thread art={art} steps={steps(area)} color={color(area)} onRead={() => { setRead(true); setP(area, null, true); }} />}
+            <span className="label">כל הזוכים ב{areas.find((a) => a.code === area)?.he} · <bdi className="num">{nowShown.length}</bdi> פרסים</span>
             {nowShown.map((e) => (
-              <button key={e.slug} className="tu-item" onClick={() => { setPick(e.slug); setP(area, e.slug); }}>
-                <span><bdi className="num">{e.y}</bdi> <strong>{e.he}</strong></span>
-                <span className="idea-disc">{e.idea}</span>
+              <button key={e.slug} className="tu-item idea-first" onClick={() => { setPick(e.slug); setP(area, e.slug, read); }}>
+                <span className="idea-big">{e.idea}</span>
+                <span className="who-small"><bdi className="num">{e.y}</bdi> · {e.he}</span>
               </button>
             ))}
           </div>
         ) : (
           <>
+            <button className="press thread-read" onClick={() => { setArea("ai"); setRead(true); setP("ai", null, true); }}>לכתבה: מהלוגיקה אל הניסיון ←</button>
             <Tone kind="insight" title="הרציונל">{"==הפרס משרטט את כל מדעי המחשב: מהתאוריה, דרך השפות והמערכות, עד הרשת וההצפנה.==\nהבינה המלאכותית קיבלה פרס בחמישה גלים, וכל גל החליף את התפיסה הקודמת."}</Tone>
             <div className="tu-waves">
               {T.ai_waves.map((w) => {
@@ -110,7 +123,7 @@ export default function TuringPage({ m, params }: { m: Model; params: Record<str
                 return (
                   <div key={w.he}>
                     <span className="label"><bdi className="num">{w.from === w.to ? w.from : `${w.from}–${w.to}`}</bdi> · {w.he}</span>
-                    {es.map((e) => <button key={e.slug} className="tu-item" onClick={() => { setPick(e.slug); setP(area, e.slug); }}><strong>{e.he}</strong><span className="idea-disc">{e.idea}</span></button>)}
+                    {es.map((e) => <button key={e.slug} className="tu-item idea-first" onClick={() => { setPick(e.slug); setP(area, e.slug); }}><span className="idea-big">{e.idea}</span><span className="who-small">{e.he}</span></button>)}
                   </div>
                 );
               })}
@@ -142,8 +155,8 @@ function Card({ m, e, color, areaHe, status, close }: { m: Model; e: TuringEntry
           </figure>
         ))}
       </div>
-      <h2 className="pz-name">{e.he}</h2>
-      <Tone kind="insight" title="הרעיון">{`==${e.idea}==`}</Tone>
+      <div className="card-idea"><Tone kind="insight" title="הרעיון">{`==${e.idea}==`}</Tone></div>
+      <h2 className="name-small">{e.he}</h2>
       <p className="ins-line ins-city"><strong>לעיר:</strong> {e.city}</p>
       {e.people.some((p) => p.nobel.length) && (
         <button className="press tu-bridge" onClick={() => { const n = e.people.find((p) => p.nobel.length)!.nobel[0]; go(m.selIds.has(n.id) ? "people" : "world", { id: n.id }); }}>

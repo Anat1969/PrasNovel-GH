@@ -105,5 +105,11 @@ def export() -> dict | None:
                 "place": t.get("place_he") or r["work_place_he"] or r["work_place_en"],
                 "y": r["work_year"], "img": r["image"], "lic": r["image_license"], "by": r["image_artist"], "page": r["image_page"]},
         })
+    th = json.loads((CONFIG / "threads.json").read_text(encoding="utf-8"))["pritzker"] if (CONFIG / "threads.json").exists() else None
+    if th:
+        theme_of = {s: c for c, v in th["assign"].items() for s in v}
+        for o in out:
+            o["theme"] = theme_of.get(o["slug"])
     return {"status": cfg["status"], "label": cfg["label"], "bias": cfg["bias_note"], "source": cfg["source_url"],
-            "snapshot": latest_raw_dir("pritzker").name, "entries": out}
+            "snapshot": latest_raw_dir("pritzker").name, "entries": out,
+            "themes": th["themes"] if th else [], "articles": th["articles"] if th else {}}

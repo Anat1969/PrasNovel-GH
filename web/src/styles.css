@@ -730,3 +730,42 @@ button.lline-name:hover { color: var(--c); }
   .tu-map { overflow-x: auto; place-items: start; }
   .tu-svg { min-width: 760px; }
 }
+
+/* ---------- אבולוציה של רעיון: חוט בצד וכתבה במוקד ---------- */
+.idea-first { gap: 3px; }
+.idea-big { font-size: 15.5px; line-height: 1.45; color: var(--ink); font-weight: 500; }
+.who-small { font-size: 12px; color: var(--ink-mute); }
+.card-idea .tone p { font-size: 17px; line-height: 1.55; color: var(--ink); }
+.card-idea .tone h4 { font-size: 12px; }
+.name-small { font-size: 15px; font-weight: 600; color: var(--ink-soft); }
+.thread { display: grid; gap: 8px; border-inline-start: 3px solid var(--c); padding-inline-start: 12px; }
+.thread-title { font-size: 19px; color: var(--c); }
+.thread-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; counter-reset: st; }
+.thread-steps li { position: relative; padding-inline-start: 16px; }
+.thread-steps li::before { content: ""; position: absolute; inset-inline-start: 3px; top: 0; bottom: 0; width: 2px; background: var(--c); opacity: .25; }
+.thread-steps li::after { content: ""; position: absolute; inset-inline-start: 0; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.thread-steps button { font: inherit; text-align: start; border: 0; background: none; padding: 3px 0 6px; cursor: pointer; display: grid; gap: 1px; color: var(--ink); }
+.thread-step { font-size: 15.5px; line-height: 1.45; font-weight: 500; }
+.thread-steps button:hover .thread-step { color: var(--c); }
+.thread-who { font-size: 11.5px; color: var(--ink-mute); }
+.thread-read { justify-self: start; padding: 6px 12px; font-size: 13.5px; }
+.pz-themes { display: grid; gap: 4px; }
+.evo { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); min-height: 0; width: 100%; border-top: 4px solid var(--c); }
+.evo-scroll { overflow-y: auto; padding: 18px 26px 24px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; align-content: start; min-height: 0; }
+.evo-kicker { color: var(--c); }
+.evo-title { font-size: clamp(26px, 2.4vw, 36px); line-height: 1.15; }
+.evo-sub { margin: 0; font-size: 16px; color: var(--ink-soft); }
+.evo-hook { margin: 0; font-size: 18px; line-height: 1.6; font-weight: 500; max-width: 70ch; border-block: 1px solid var(--rule); padding-block: 10px; }
+.evo-body { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.evo-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.evo-steps li { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; }
+.evo-n { color: var(--c); font-size: 15px; padding-top: 3px; }
+.evo-step { margin: 0; font-size: 17px; line-height: 1.5; color: var(--ink); }
+.evo-who { font: inherit; font-size: 12.5px; color: var(--ink-mute); border: 0; background: none; padding: 0; cursor: pointer; text-align: start; }
+.evo-who:hover { color: var(--c); }
+.evo-side { display: grid; gap: 14px; }
+.evo-insight { margin: 0; font-size: 18px; line-height: 1.5; font-weight: 600; border-inline-start: 3px solid var(--c); padding-inline-start: 12px; display: grid; gap: 4px; }
+.evo-next, .evo-city { display: grid; gap: 2px; }
+.evo-next p, .evo-city p { margin: 0; font-size: 15px; line-height: 1.55; }
+.evo-next { background: var(--bank-wash); padding: 10px 12px; }
+@media (max-width: 900px) { .evo-body { grid-template-columns: 1fr; } }
