@@ -675,3 +675,25 @@ button.lline-name:hover { color: var(--c); }
 .app-shell.page-creations { height: auto; min-height: 100dvh; overflow: visible; }
 .app-shell.page-creations .app-main { display: block; }
 .creations-page { max-width: 1280px; margin: 0 auto; padding: 8px 0 40px; }
+
+/* ---------- חדר פריצקר ---------- */
+.pz-controls { flex-wrap: wrap; gap: 4px 14px; }
+.pz-panel { display: grid; grid-template-rows: minmax(0, 1fr) auto; padding: 10px; gap: 8px; }
+.pz-grid { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); grid-template-rows: repeat(var(--rows), minmax(0, 1fr)); gap: 8px; min-height: 0; }
+.pz-tile { min-height: 0; }
+.pz-img { position: relative; }
+.pz-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(.25); transition: filter .2s; }
+.pz-tile:hover .pz-img img, .pz-tile[aria-current="true"] .pz-img img { filter: none; }
+.pz-gap { font-size: 10.5px; color: var(--ink-mute); padding: 4px; text-align: center; }
+.pz-work { color: var(--ink-soft); font-weight: 500; }
+.pz-stats { display: grid; gap: 10px; }
+.pz-stats > div { display: grid; gap: 2px; border-inline-start: 2px solid var(--medal); padding-inline-start: 10px; }
+.pz-stats strong { font-size: 22px; }
+.pz-fig { margin: 0; display: grid; gap: 4px; }
+.pz-name { font-size: 22px; }
+.pz-en { margin: 2px 0 0; text-align: start; }
+.pz-people { display: grid; gap: 4px; }
+.pz-people > div { display: flex; gap: 10px; align-items: baseline; justify-content: space-between; }
+@media (max-width: 760px) {
+  .pz-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; grid-auto-rows: 150px; overflow-y: auto; }
+}

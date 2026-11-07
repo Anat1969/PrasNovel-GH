@@ -1,0 +1,36 @@
+# Fetches the Pritzker key-work images from Wikimedia Commons on a GitHub runner
+# (the cloud sandbox is rate-limited by Commons) and commits them to the same branch.
+name: fetch-pritzker-images
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore: [main]
+    paths:
+      - config/pritzker.json
+      - scripts/fetch_pritzker_images.py
+      - .github/workflows/fetch-pritzker-images.yml
+permissions:
+  contents: write
+concurrency:
+  group: fetch-pritzker-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fetch images
+        run: cd scripts && python fetch_pritzker_images.py
+      - name: Rebuild curated and data.json with the images
+        run: cd scripts && python build_curated.py && python export_web.py
+      - name: Commit images
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add raw/pritzker web/public/pritzker curated web/public/data.json
+          git diff --cached --quiet || (git commit -m "Pritzker images from Commons" && git push)

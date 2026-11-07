@@ -106,3 +106,15 @@
 - **סבב 3 (2.11.2026):** 36 נבחרים, שישה בכל תחום: ארבעה לפי גיוון ושניים לפי השפעה על התפתחות התחום (`criterion: evolution`). לכל פרס: תרגום עברי לנימוק ותווית גילוי קצרה שנגזרה מהנימוק בלבד (`config/motivations_he.json`, תרגום Claude). סיכום לכל תחום ותקופה (`config/evolution.json`, טיוטה [הערכה]). OpenAlex מוסיף דוגמאות לעבודות מצטטות מכל תחום (`openalex_field_example`).
 - **סבב 4 (3.11.2026):** כרטיסי תובנה (`insights/*.md`) קיבלו טיוטות לכל השדות, כולל `urban_example_he`, בסטטוס "טיוטה"; הציטוט הקצר נשאר ריק עד בדיקה מול המקור. `config/next.json`: שש כתבות "הגילוי הבא" (תחזית [הנחה]; מומחים וציטוט לפי מזהה פרס ושנה, שנבדקים מול הנתונים). מסכים חדשים: "לעיר" ו"הגילוי הבא".
 - **סבב 5 (3.11.2026):** מסך `#/print?f=<תחום|all>`: דף A4 לכל כתבה (שוליים אפס, `@page size A4`). תמונות הכתבות נשמרות ב-`web/public/next/<תחום>.jpg`; קובצי PDF ותצוגות דף ב-`web/public/next/pdf/`, מופקים ב-`scripts/print_next.cjs`, שנכשל על גלישה מהדף או תמונה חסרה.
+
+
+## חדר פריצקר (7.11.2026)
+- **טבלאות `curated/`:**
+  - `pritzker_entry`: שורה לכל רשומה ברשימה הרשמית. השדות: `slug`, `year`, `official_names`, `firm_qid`, `work_qid`, `work_en`/`work_he`, מקום, שנה, `work_by_laureate`, תמונה, רישיון, יוצר ועמוד ב-Commons.
+  - `pritzker_laureate`: שורה לכל אדם. השדות: `slug`, `year`, `qid`, שמות, מגדר (P21), אזרחות (P27), לידה ופטירה, `wd_years` ו-`year_ok`.
+- **`raw/pritzker/<stamp>/`:**
+  - `laureates.json` ו-`works.json` (SPARQL).
+  - `official.json`: שנים ושמות בלבד מהרשימה הרשמית.
+  - `images.json`: מטא-דאטה מ-Commons.
+- **`config/pritzker.json`:** שם בעברית, QID של האנשים, משרד, עבודה מרכזית, `idea_he`, `city_he`, ושמות בעברית לעבודה ולמקום. התווית היא [הערכה] והסטטוס "טיוטה".
+- **`data.json.pritzker`:** `entries[]` עם השדות `y`, `he`, `en`, `idea`, `city`, `people[]` ו-`work{}`.
