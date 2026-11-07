@@ -89,4 +89,5 @@ def export(prizes: list[dict] | None = None) -> dict | None:
                                 "nobel": [{"id": p["nobel_id"], **x} for x in nobel_prize.get(p["nobel_id"], [])] if p["nobel_id"] else []}
                                for p in ps]})
     return {"status": cfg["status"], "label": cfg["label"], "bias": cfg["bias_note"], "source": cfg["source_url"],
-            "areas": cfg["areas"], "ai_waves": cfg["ai_waves"], "checked_wikipedia": bool(wp), "entries": out}
+            "areas": cfg["areas"], "ai_waves": cfg["ai_waves"], "checked_wikipedia": bool(wp), "entries": out,
+            "articles": json.loads((CONFIG / "threads.json").read_text(encoding="utf-8"))["turing"] if (CONFIG / "threads.json").exists() else {}}

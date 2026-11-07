@@ -133,3 +133,16 @@
   - `images.json`: מטא-דאטה מ-Commons.
 - **`config/turing.json`:** תחומים (`areas`), גלי בינה מלאכותית (`ai_waves`), ולכל שנה: QID, שם בעברית, תחום, `idea_he` ו-`city_he`.
 - **`data.json.turing`:** `entries[]` עם `people[]`. לכל אדם יש `nobel[]`, ו-`wd` מסמן אם הוא רשום ב-Wikidata.
+
+
+## חוטים של אבולוציה (7.11.2026)
+- **`config/threads.json`:**
+  - `turing.<area>`: כתבה לכל אחד מתשעת התחומים.
+  - `pritzker.themes`: שש משפחות של רעיון.
+  - `pritzker.assign`: שיוך כל slug למשפחה אחת.
+  - `pritzker.articles.<theme>`: כתבה לכל משפחה.
+- **שדות של כתבה:** `title`, `sub`, `hook`, `steps[{slug, step}]`, `insight` [הערכה], `next` [הנחה], `city` ו-`haiku[3]`.
+- **בייצוא:**
+  - `data.json.turing.articles`.
+  - `data.json.pritzker.themes` ו-`articles`.
+  - לכל רשומת פריצקר נוסף השדה `theme`.
