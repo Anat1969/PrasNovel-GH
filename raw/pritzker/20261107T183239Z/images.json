@@ -491,7 +491,8 @@
   "license": "FAL",
   "license_url": "http://artlibre.org/licence/lal/en",
   "artist": "A.Savin",
-  "free": false
+  "free": true,
+  "local": "pritzker/david-chipperfield.jpg"
  },
  "riken-yamamoto": {
   "work": "Q11543551",
