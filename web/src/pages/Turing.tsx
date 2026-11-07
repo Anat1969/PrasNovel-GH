@@ -153,7 +153,7 @@ function Card({ m, e, color, areaHe, status, close }: { m: Model; e: TuringEntry
       <span className={`st ${status === "מאושר" ? "st-ok" : "st-est"}`} style={{ justifySelf: "start" }}>{status === "מאושר" ? "פרשנות מאושרת · הערכה" : "טיוטה לאישור · הערכה"}</span>
       <p className="src">
         {e.people.filter((p) => p.img).map((p) => <span key={p.qid}>תמונה: <bdi dir="ltr">{p.by ?? "לא ידוע"}</bdi>, <bdi dir="ltr">{p.lic}</bdi>{p.page && <> (<a href={p.page} target="_blank" rel="noreferrer">Commons</a>)</>}. </span>)}
-        {e.people.map((p) => p.wiki && <a key={p.qid} href={p.wiki} target="_blank" rel="noreferrer">ויקיפדיה</a>)}
+        {e.people.filter((p) => p.wiki).map((p, i) => <span key={p.qid}>{i ? " · " : ""}<a href={p.wiki!} target="_blank" rel="noreferrer">ויקיפדיה: <bdi dir="ltr">{p.en}</bdi></a></span>)}
       </p>
     </div>
   );
