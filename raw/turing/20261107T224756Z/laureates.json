@@ -1,0 +1,7249 @@
+[
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q11609"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2012-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Shafrira Goldwasser"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "שפי גולדווסר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1958-11-14T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Shafi%20Goldwasser.JPG"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Shafi_Goldwasser"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A9%D7%A4%D7%99_%D7%92%D7%95%D7%9C%D7%93%D7%95%D7%95%D7%A1%D7%A8"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q11609"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Shafrira Goldwasser"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "שפי גולדווסר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1958-11-14T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Shafi%20Goldwasser.JPG"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Shafi_Goldwasser"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A9%D7%A4%D7%99_%D7%92%D7%95%D7%9C%D7%93%D7%95%D7%95%D7%A1%D7%A8"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q17457"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1974-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Donald Knuth"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דונלד קנות'"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-01-10T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Donald%20Ervin%20Knuth%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%95%D7%A0%D7%9C%D7%93_%D7%A7%D7%A0%D7%95%D7%AA%27"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q17457"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Donald Knuth"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דונלד קנות'"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-01-10T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Donald%20Ervin%20Knuth%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%95%D7%A0%D7%9C%D7%93_%D7%A7%D7%A0%D7%95%D7%AA%27"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q8556"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1972-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edsger W. Dijkstra"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדסחר דייקסטרה"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1930-05-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Edsger%20Wybe%20Dijkstra.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ממלכת ארצות השפלה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edsger_W._Dijkstra"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%93%D7%A1%D7%97%D7%A8_%D7%93%D7%99%D7%99%D7%A7%D7%A1%D7%98%D7%A8%D7%94"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-08-06T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q8556"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edsger W. Dijkstra"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדסחר דייקסטרה"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1930-05-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Edsger%20Wybe%20Dijkstra.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ממלכת ארצות השפלה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edsger_W._Dijkstra"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%93%D7%A1%D7%97%D7%A8_%D7%93%D7%99%D7%99%D7%A7%D7%A1%D7%98%D7%A8%D7%94"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-08-06T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q9602"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2006-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Frances Allen"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פרנסס אלן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1932-08-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Frances%20Allen%20Dec%2011%202007.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Frances_Allen"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A0%D7%A1%D7%A1_%D7%90%D7%9C%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-08-04T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q9602"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Frances Allen"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פרנסס אלן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1932-08-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Frances%20Allen%20Dec%2011%202007.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Frances_Allen"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A0%D7%A1%D7%A1_%D7%90%D7%9C%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-08-04T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q9602"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2006-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Frances Allen"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פרנסס אלן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1932-08-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Allen%20mg%202528-3750K-b.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Frances_Allen"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A0%D7%A1%D7%A1_%D7%90%D7%9C%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-08-04T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q9602"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Frances Allen"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פרנסס אלן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1932-08-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Allen%20mg%202528-3750K-b.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Frances_Allen"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%A0%D7%A1%D7%A1_%D7%90%D7%9C%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-08-04T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q80"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2016-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Tim Berners-Lee"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "טים ברנרס-לי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1955-06-08T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/LS3%204919%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%98%D7%99%D7%9D_%D7%91%D7%A8%D7%A0%D7%A8%D7%A1-%D7%9C%D7%99"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q80"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Tim Berners-Lee"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "טים ברנרס-לי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1955-06-08T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/LS3%204919%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%98%D7%99%D7%9D_%D7%91%D7%A8%D7%A0%D7%A8%D7%A1-%D7%9C%D7%99"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q45575"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1983-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Dennis M. Ritchie"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דניס ריצ'י"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-09-09T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dennis%20Ritchie%202011.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%A0%D7%99%D7%A1_%D7%A8%D7%99%D7%A6%27%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2011-10-12T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q45575"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Dennis M. Ritchie"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דניס ריצ'י"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-09-09T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dennis%20Ritchie%202011.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%A0%D7%99%D7%A1_%D7%A8%D7%99%D7%A6%27%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2011-10-12T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92894"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2018-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Geoffrey Hinton"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'פרי הינטון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1947-12-06T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Geoffrey%20Hinton%20in%202026.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה|הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%A4%D7%A8%D7%99_%D7%94%D7%99%D7%A0%D7%98%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92894"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Geoffrey Hinton"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'פרי הינטון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1947-12-06T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Geoffrey%20Hinton%20in%202026.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה|הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%A4%D7%A8%D7%99_%D7%94%D7%99%D7%A0%D7%98%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92931"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Charles H. Bennett"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "צ'ארלס בנט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-04-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr.%20Charles%20Bennett%20IBM%20Fellow.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Charles_H._Bennett_(physicist)"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%A1_%D7%91%D7%A0%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92938"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2025-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Gilles Brassard"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ז'יל ברסר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1955-04-20T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gilles%20Brassard%20%282019%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Gilles_Brassard"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%96%27%D7%99%D7%9C_%D7%91%D7%A8%D7%A1%D7%A8"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92938"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Gilles Brassard"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ז'יל ברסר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1955-04-20T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gilles%20Brassard%20%282019%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Gilles_Brassard"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%96%27%D7%99%D7%9C_%D7%91%D7%A8%D7%A1%D7%A8"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92957"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2023-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Avi Wigderson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אבי ויגדרזון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1956-09-09T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Avi%20Wigderson%20%28London%202012%29%20Cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Avi_Wigderson"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%91%D7%99_%D7%95%D7%99%D7%92%D7%93%D7%A8%D7%96%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92957"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Avi Wigderson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אבי ויגדרזון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1956-09-09T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Avi%20Wigderson%20%28London%202012%29%20Cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Avi_Wigderson"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%91%D7%99_%D7%95%D7%99%D7%92%D7%93%D7%A8%D7%96%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93080"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2012-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Silvio Micali"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "סילביו מיקאלי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1954-10-13T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Silvio%20Micali%20IMG%200459.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Silvio_Micali"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%9C%D7%91%D7%99%D7%95_%D7%9E%D7%99%D7%A7%D7%90%D7%9C%D7%99"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93080"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Silvio Micali"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "סילביו מיקאלי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1954-10-13T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Silvio%20Micali%20IMG%200459.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Silvio_Micali"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%9C%D7%91%D7%99%D7%95_%D7%9E%D7%99%D7%A7%D7%90%D7%9C%D7%99"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93154"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2010-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Leslie Valiant"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "לסלי וליאנט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1949-03-28T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leslie%20Valiant.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Leslie_Valiant"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9C%D7%A1%D7%9C%D7%99_%D7%95%D7%9C%D7%99%D7%90%D7%A0%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93154"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Leslie Valiant"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "לסלי וליאנט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1949-03-28T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leslie%20Valiant.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Leslie_Valiant"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9C%D7%A1%D7%9C%D7%99_%D7%95%D7%9C%D7%99%D7%90%D7%A0%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q181529"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1975-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Herbert Simon"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "הרברט סיימון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1916-06-15T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Simon%2C%20RIT%20NandE%20Vol13Num11%201981%20Mar19%20Complete.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Herbert_A._Simon"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%94%D7%A8%D7%91%D7%A8%D7%98_%D7%A1%D7%99%D7%99%D7%9E%D7%95%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2001-02-09T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q181529"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Herbert Simon"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "הרברט סיימון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1916-06-15T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Simon%2C%20RIT%20NandE%20Vol13Num11%201981%20Mar19%20Complete.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Herbert_A._Simon"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%94%D7%A8%D7%91%D7%A8%D7%98_%D7%A1%D7%99%D7%99%D7%9E%D7%95%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2001-02-09T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q204815"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1969-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Marvin Minsky"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מרווין מינסקי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1927-08-09T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Marvin%20Minsky%20at%20OLPCb%20%283x4%20cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%95%D7%95%D7%99%D7%9F_%D7%9E%D7%99%D7%A0%D7%A1%D7%A7%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2016-01-24T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q204815"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Marvin Minsky"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מרווין מינסקי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1927-08-09T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Marvin%20Minsky%20at%20OLPCb%20%283x4%20cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%95%D7%95%D7%99%D7%9F_%D7%9E%D7%99%D7%A0%D7%A1%D7%A7%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2016-01-24T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q320624"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Adi Shamir"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "עדי שמיר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1952-07-06T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Adi%20Shamir%20Royal%20Society.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Adi_Shamir"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A2%D7%93%D7%99_%D7%A9%D7%9E%D7%99%D7%A8"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q320624"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Adi Shamir"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "עדי שמיר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1952-07-06T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Adi%20Shamir%20Royal%20Society.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Adi_Shamir"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A2%D7%93%D7%99_%D7%A9%D7%9E%D7%99%D7%A8"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q357965"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1976-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Michael O. Rabin"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מיכאל רבין"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1931-09-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/M%20O%20Rabin.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Michael_O._Rabin"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%9B%D7%90%D7%9C_%D7%A8%D7%91%D7%99%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2026-04-14T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q357965"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Michael O. Rabin"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מיכאל רבין"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1931-09-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/M%20O%20Rabin.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Michael_O._Rabin"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%99%D7%9B%D7%90%D7%9C_%D7%A8%D7%91%D7%99%D7%9F"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2026-04-14T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q462089"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2015-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Whitfield Diffie"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ויטפילד דיפי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1944-06-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Whitfield%20Diffie%20Royal%20Society.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Whitfield_Diffie"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%98%D7%A4%D7%99%D7%9C%D7%93_%D7%93%D7%99%D7%A4%D7%99"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q462089"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Whitfield Diffie"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ויטפילד דיפי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1944-06-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Whitfield%20Diffie%20Royal%20Society.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Whitfield_Diffie"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%98%D7%A4%D7%99%D7%9C%D7%93_%D7%93%D7%99%D7%A4%D7%99"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q476466"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2015-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Martin Edward Hellman"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מרטין הלמן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-10-02T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin-Hellman.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Martin_Hellman"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%98%D7%99%D7%9F_%D7%94%D7%9C%D7%9E%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q476466"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Martin Edward Hellman"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מרטין הלמן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-10-02T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin-Hellman.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Martin_Hellman"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%98%D7%99%D7%9F_%D7%94%D7%9C%D7%9E%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q578036"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ron Rivest"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רונלד ריבסט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1947-05-06T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ronald%20L%20Rivest%20photo.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ron_Rivest"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%A0%D7%9C%D7%93_%D7%A8%D7%99%D7%91%D7%A1%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q578036"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ron Rivest"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רונלד ריבסט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1947-05-06T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ronald%20L%20Rivest%20photo.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ron_Rivest"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%A0%D7%9C%D7%93_%D7%A8%D7%99%D7%91%D7%A1%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q918650"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Leonard Adleman"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "לאונרד אדלמן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-12-31T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Len-mankin-pic.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Leonard_Adleman"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9C%D7%90%D7%95%D7%A0%D7%A8%D7%93_%D7%90%D7%93%D7%9C%D7%9E%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q918650"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Leonard Adleman"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "לאונרד אדלמן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-12-31T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Len-mankin-pic.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Leonard_Adleman"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9C%D7%90%D7%95%D7%A0%D7%A8%D7%93_%D7%90%D7%93%D7%9C%D7%9E%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1107006"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1983-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ken Thompson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "קן תומפסון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-02-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Thompson%2C%202019.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ken_Thompson"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A7%D7%9F_%D7%AA%D7%95%D7%9E%D7%A4%D7%A1%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q1107006"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ken Thompson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "קן תומפסון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-02-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Thompson%2C%202019.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ken_Thompson"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A7%D7%9F_%D7%AA%D7%95%D7%9E%D7%A4%D7%A1%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3571662"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2018-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Yann LeCun"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יאן לקון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1961-01-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Yann%20LeCun%20-%202025%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Yann_LeCun"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%90%D7%9F_%D7%9C%D7%A7%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3571662"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Yann LeCun"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יאן לקון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1961-01-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Yann%20LeCun%20-%202025%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Yann_LeCun"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%90%D7%9F_%D7%9C%D7%A7%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3571662"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2018-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Yann LeCun"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יאן לקון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1959-07-08T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Yann%20LeCun%20-%202025%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Yann_LeCun"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%90%D7%9F_%D7%9C%D7%A7%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3571662"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Yann LeCun"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יאן לקון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1959-07-08T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Yann%20LeCun%20-%202025%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Yann_LeCun"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%90%D7%9F_%D7%9C%D7%A7%D7%95%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3572699"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2018-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Yoshua Bengio"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יהושע בנג'יו"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1964-03-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshua%20Bengio%202019%20cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Yoshua_Bengio"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%95%D7%A9%D7%A2_%D7%91%D7%A0%D7%92%27%D7%99%D7%95"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q3572699"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Yoshua Bengio"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יהושע בנג'יו"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1964-03-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshua%20Bengio%202019%20cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Yoshua_Bengio"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%95%D7%A9%D7%A2_%D7%91%D7%A0%D7%92%27%D7%99%D7%95"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q16080922"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2008-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Barbara Liskov"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ברברה ליסקוב"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1939-11-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Turing%20Centenary%20Celebration%20Liskov.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Barbara_Liskov"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%91%D7%A8%D7%94_%D7%9C%D7%99%D7%A1%D7%A7%D7%95%D7%91"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q16080922"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Barbara Liskov"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ברברה ליסקוב"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581072"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1939-11-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Turing%20Centenary%20Celebration%20Liskov.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Barbara_Liskov"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%91%D7%A8%D7%94_%D7%9C%D7%99%D7%A1%D7%A7%D7%95%D7%91"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92596"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1981-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edgar F. Codd"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדגר קוד"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1923-08-19T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edgar_F._Codd"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%93%D7%92%D7%A8_%D7%A7%D7%95%D7%93"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2003-04-18T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92596"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edgar F. Codd"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדגר קוד"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1923-08-19T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edgar_F._Codd"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%93%D7%92%D7%A8_%D7%A7%D7%95%D7%93"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2003-04-18T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92602"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1980-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Tony Hoare"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "טוני הואר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1934-01-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Tony%20Hoare%20IMG%205125.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Tony_Hoare"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%98%D7%95%D7%A0%D7%99_%D7%94%D7%95%D7%90%D7%A8"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2026-03-05T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92602"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Tony Hoare"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "טוני הואר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1934-01-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Tony%20Hoare%20IMG%205125.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Tony_Hoare"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%98%D7%95%D7%A0%D7%99_%D7%94%D7%95%D7%90%D7%A8"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2026-03-05T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92604"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1984-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Niklaus Wirth"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ניקלאוס וירת"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1934-02-15T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Niklaus%20Wirth%2C%20UrGU.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "שווייץ"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Niklaus_Wirth"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A0%D7%99%D7%A7%D7%9C%D7%90%D7%95%D7%A1_%D7%95%D7%99%D7%A8%D7%AA"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2024-01-01T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92604"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Niklaus Wirth"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ניקלאוס וירת"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1934-02-15T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Niklaus%20Wirth%2C%20UrGU.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "שווייץ"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Niklaus_Wirth"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A0%D7%99%D7%A7%D7%9C%D7%90%D7%95%D7%A1_%D7%95%D7%99%D7%A8%D7%AA"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2024-01-01T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92609"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1999-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Fred Brooks"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פרד ברוקס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1931-04-19T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fred%20Brooks.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Fred_Brooks"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%93_%D7%91%D7%A8%D7%95%D7%A7%D7%A1"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2022-11-17T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92609"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Fred Brooks"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פרד ברוקס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1931-04-19T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fred%20Brooks.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Fred_Brooks"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%93_%D7%91%D7%A8%D7%95%D7%A7%D7%A1"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2022-11-17T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92614"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1997-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Douglas Engelbart"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דאגלס אנגלברט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1925-01-30T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SRI%20Douglas%20Engelbart%201968%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%92%D7%9C%D7%A1_%D7%90%D7%A0%D7%92%D7%9C%D7%91%D7%A8%D7%98"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2013-07-02T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92614"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Douglas Engelbart"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דאגלס אנגלברט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1925-01-30T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SRI%20Douglas%20Engelbart%201968%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%92%D7%9C%D7%A1_%D7%90%D7%A0%D7%92%D7%9C%D7%91%D7%A8%D7%98"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2013-07-02T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92614"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1997-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Douglas Engelbart"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דאגלס אנגלברט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1925-01-30T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20Engelbart%20in%202008.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%92%D7%9C%D7%A1_%D7%90%D7%A0%D7%92%D7%9C%D7%91%D7%A8%D7%98"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2013-07-02T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92614"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Douglas Engelbart"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דאגלס אנגלברט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1925-01-30T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20Engelbart%20in%202008.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%92%D7%9C%D7%A1_%D7%90%D7%A0%D7%92%D7%9C%D7%91%D7%A8%D7%98"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2013-07-02T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92612"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1985-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard M. Karp"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ריצ'רד קארפ"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1935-01-03T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Karp%20mg%207725-b.cr2.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_M._Karp"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%99%D7%A6%27%D7%A8%D7%93_%D7%A7%D7%90%D7%A8%D7%A4"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92612"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard M. Karp"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ריצ'רד קארפ"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1935-01-03T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Karp%20mg%207725-b.cr2.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_M._Karp"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%99%D7%A6%27%D7%A8%D7%93_%D7%A7%D7%90%D7%A8%D7%A4"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92613"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2013-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Leslie Lamport"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "לזלי למפורט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-02-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leslie%20Lamport.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Leslie_Lamport"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9C%D7%96%D7%9C%D7%99_%D7%9C%D7%9E%D7%A4%D7%95%D7%A8%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92613"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Leslie Lamport"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "לזלי למפורט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-02-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Leslie%20Lamport.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Leslie_Lamport"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9C%D7%96%D7%9C%D7%99_%D7%9C%D7%9E%D7%A4%D7%95%D7%A8%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92618"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2005-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Peter Naur"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פיטר נאור"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1928-10-25T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Peternaur.JPG"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ממלכת דנמרק"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Peter_Naur"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%98%D7%A8_%D7%A0%D7%90%D7%95%D7%A8"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2016-01-03T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92618"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Peter Naur"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "פיטר נאור"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1928-10-25T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Peternaur.JPG"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ממלכת דנמרק"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Peter_Naur"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%98%D7%A8_%D7%A0%D7%90%D7%95%D7%A8"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2016-01-03T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92619"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1968-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard Hamming"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ריצ'רד המינג"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1915-02-11T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_Hamming"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%99%D7%A6%27%D7%A8%D7%93_%D7%94%D7%9E%D7%99%D7%A0%D7%92"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1998-01-07T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92619"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard Hamming"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ריצ'רד המינג"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1915-02-11T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_Hamming"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%99%D7%A6%27%D7%A8%D7%93_%D7%94%D7%9E%D7%99%D7%A0%D7%92"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1998-01-07T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92626"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1995-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Manuel Blum"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מנואל בלום"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-04-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Manuel%20Blum%201973%20%28re-scanned%2C%20portioned%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ונצואלה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Manuel_Blum"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%95%D7%90%D7%9C_%D7%91%D7%9C%D7%95%D7%9D"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92626"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Manuel Blum"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מנואל בלום"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-04-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Manuel%20Blum%201973%20%28re-scanned%2C%20portioned%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ונצואלה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Manuel_Blum"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%95%D7%90%D7%9C_%D7%91%D7%9C%D7%95%D7%9D"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92626"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1995-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Manuel Blum"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מנואל בלום"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-04-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Blum%20manuel%20lenore%20avrim.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ונצואלה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Manuel_Blum"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%95%D7%90%D7%9C_%D7%91%D7%9C%D7%95%D7%9D"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92626"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Manuel Blum"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מנואל בלום"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-04-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Blum%20manuel%20lenore%20avrim.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|ונצואלה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Manuel_Blum"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%95%D7%90%D7%9C_%D7%91%D7%9C%D7%95%D7%9D"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62843"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2004-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Bob Kahn"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "בוב קאהן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-12-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Kahn.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_Kahn_(computer_scientist)"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%91_%D7%A7%D7%90%D7%94%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62843"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Bob Kahn"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "בוב קאהן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-12-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Kahn.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_Kahn_(computer_scientist)"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%91_%D7%A7%D7%90%D7%94%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62857"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1967-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Maurice Wilkes"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מוריס וינסנט וילקס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1913-06-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Maurice%20Vincent%20Wilkes%201980%20%283%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Maurice_Wilkes"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%A8%D7%99%D7%A1_%D7%95%D7%99%D7%A0%D7%A1%D7%A0%D7%98_%D7%95%D7%99%D7%9C%D7%A7%D7%A1"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2010-11-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62857"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Maurice Wilkes"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "מוריס וינסנט וילקס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1913-06-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Maurice%20Vincent%20Wilkes%201980%20%283%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Maurice_Wilkes"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%A8%D7%99%D7%A1_%D7%95%D7%99%D7%A0%D7%A1%D7%A0%D7%98_%D7%95%D7%99%D7%9C%D7%A7%D7%A1"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2010-11-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62861"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1966-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Alan Perlis"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלן פרליס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1922-04-01T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Alan_Perlis"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9F_%D7%A4%D7%A8%D7%9C%D7%99%D7%A1"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1990-02-07T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62861"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Alan Perlis"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלן פרליס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1922-04-01T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Alan_Perlis"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9F_%D7%A4%D7%A8%D7%9C%D7%99%D7%A1"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1990-02-07T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62866"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1988-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ivan Sutherland"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "איוון סאת'רלנד"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-05-16T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ivan%20Sutherland%20at%20CHM.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ivan_Sutherland"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%95%D7%95%D7%90%D7%9F_%D7%A1%D7%90%D7%AA%27%D7%A8%D7%9C%D7%A0%D7%93"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62866"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ivan Sutherland"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "איוון סאת'רלנד"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1938-05-16T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ivan%20Sutherland%20at%20CHM.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ivan_Sutherland"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%99%D7%95%D7%95%D7%90%D7%9F_%D7%A1%D7%90%D7%AA%27%D7%A8%D7%9C%D7%A0%D7%93"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62870"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1982-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Stephen Cook"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "סטיבן קוק"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1939-12-14T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Prof.Cook.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה|ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Stephen_Cook"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A1%D7%98%D7%99%D7%91%D7%9F_%D7%A7%D7%95%D7%A7"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62870"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Stephen Cook"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "סטיבן קוק"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1939-12-14T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Prof.Cook.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה|ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Stephen_Cook"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A1%D7%98%D7%99%D7%91%D7%9F_%D7%A7%D7%95%D7%A7"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62874"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1986-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John Edward Hopcroft"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון הופקרופט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1939-10-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hopcrofg.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_Hopcroft"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%95%D7%9F_%D7%94%D7%95%D7%A4%D7%A7%D7%A8%D7%95%D7%A4%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62874"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John Edward Hopcroft"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון הופקרופט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1939-10-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Hopcrofg.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_Hopcroft"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%95%D7%9F_%D7%94%D7%95%D7%A4%D7%A7%D7%A8%D7%95%D7%A4%D7%98"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62888"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2000-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Andrew Yao"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אנדרו יאו"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1946-12-24T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Yao.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הרפובליקה העממית של סין"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Andrew_Yao"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%93%D7%A8%D7%95_%D7%99%D7%90%D7%95"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62888"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Andrew Yao"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אנדרו יאו"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1946-12-24T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Yao.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הרפובליקה העממית של סין"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Andrew_Yao"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%93%D7%A8%D7%95_%D7%99%D7%90%D7%95"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92638"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1986-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robert Tarjan"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רוברט טרג'אן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1948-04-30T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Tarjan.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_Tarjan"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%98%D7%A8%D7%92%27%D7%90%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92638"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robert Tarjan"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רוברט טרג'אן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1948-04-30T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Tarjan.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_Tarjan"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%98%D7%A8%D7%92%27%D7%90%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92641"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1978-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robert W. Floyd"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רוברט פלויד"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-06-08T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_W._Floyd"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%A4%D7%9C%D7%95%D7%99%D7%93"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2001-09-25T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92641"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robert W. Floyd"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רוברט פלויד"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-06-08T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_W._Floyd"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%A4%D7%9C%D7%95%D7%99%D7%93"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2001-09-25T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92649"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1996-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Amir Pnueli"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אמיר פנואלי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-04-22T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Pnueli.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Amir_Pnueli"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%9E%D7%99%D7%A8_%D7%A4%D7%A0%D7%95%D7%90%D7%9C%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2009-11-02T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92649"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Amir Pnueli"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אמיר פנואלי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-04-22T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Pnueli.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ישראל"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Amir_Pnueli"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%9E%D7%99%D7%A8_%D7%A4%D7%A0%D7%95%D7%90%D7%9C%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2009-11-02T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92739"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1971-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John McCarthy"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון מקארתי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1927-09-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20McCarthy%20Stanford.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%95%D7%9F_%D7%9E%D7%A7%D7%90%D7%A8%D7%AA%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2011-10-24T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92739"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John McCarthy"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון מקארתי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1927-09-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20McCarthy%20Stanford.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%95%D7%9F_%D7%9E%D7%A7%D7%90%D7%A8%D7%AA%D7%99"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2011-10-24T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92742"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2003-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Alan Kay"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלן קיי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1940-05-17T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Kay%20%283097597186%29%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9F_%D7%A7%D7%99%D7%99_(%D7%9E%D7%93%D7%A2%D7%9F)"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92742"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Alan Kay"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלן קיי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1940-05-17T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Kay%20%283097597186%29%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9F_%D7%A7%D7%99%D7%99_(%D7%9E%D7%93%D7%A2%D7%9F)"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92743"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2004-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Vint Cerf"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "וינט סרף"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-06-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr%20Vint%20Cerf%20ForMemRS.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Vint_Cerf"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A0%D7%98_%D7%A1%D7%A8%D7%A3"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92743"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Vint Cerf"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "וינט סרף"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-06-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dr%20Vint%20Cerf%20ForMemRS.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Vint_Cerf"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A0%D7%98_%D7%A1%D7%A8%D7%A3"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92766"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2022-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robert Metcalfe"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רוברט מטקאלף"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1946-04-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/With%20Bob%20Metcalfe%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_Metcalfe"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%9E%D7%98%D7%A7%D7%9C%D7%A3"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92766"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robert Metcalfe"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רוברט מטקאלף"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1946-04-07T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/With%20Bob%20Metcalfe%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robert_Metcalfe"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%91%D7%A8%D7%98_%D7%9E%D7%98%D7%A7%D7%9C%D7%A3"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92794"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Jeffrey David Ullman"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'פרי אולמן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1942-11-22T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Jeffrey_Ullman"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%A4%D7%A8%D7%99_%D7%90%D7%95%D7%9C%D7%9E%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92794"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Jeffrey David Ullman"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'פרי אולמן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1942-11-22T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Jeffrey_Ullman"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%92%27%D7%A4%D7%A8%D7%99_%D7%90%D7%95%D7%9C%D7%9E%D7%9F"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92823"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1994-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edward Feigenbaum"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדוארד פייגנבאום"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-01-20T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/27.%20Dr.%20Edward%20A.%20Feigenbaum%201994-1997.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edward_Feigenbaum"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%93%D7%95%D7%90%D7%A8%D7%93_%D7%A4%D7%99%D7%99%D7%92%D7%A0%D7%91%D7%90%D7%95%D7%9D"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92823"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edward Feigenbaum"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדוארד פייגנבאום"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-01-20T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/27.%20Dr.%20Edward%20A.%20Feigenbaum%201994-1997.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edward_Feigenbaum"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%90%D7%93%D7%95%D7%90%D7%A8%D7%93_%D7%A4%D7%99%D7%99%D7%92%D7%A0%D7%91%D7%90%D7%95%D7%9D"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92824"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2011-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Judea Pearl"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יהודה פרל"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-09-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Judea%20Pearl%20at%20NIPS%202013%20%2811781981594%29%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Judea_Pearl"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%A4%D7%A8%D7%9C"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92824"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Judea Pearl"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "יהודה פרל"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-09-04T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Judea%20Pearl%20at%20NIPS%202013%20%2811781981594%29%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Judea_Pearl"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%A4%D7%A8%D7%9C"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92828"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2009-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Charles P. Thacker"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "צ'ארלס פ. ת'אקר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-02-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Chuckthacker.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Charles_P._Thacker"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%A1_%D7%A4._%D7%AA%27%D7%90%D7%A7%D7%A8"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2017-06-12T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92828"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Charles P. Thacker"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "צ'ארלס פ. ת'אקר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-02-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Chuckthacker.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Charles_P._Thacker"
+  },
+  "hewiki": {
+   "type": "uri",
+   "value": "https://he.wikipedia.org/wiki/%D7%A6%27%D7%90%D7%A8%D7%9C%D7%A1_%D7%A4._%D7%AA%27%D7%90%D7%A7%D7%A8"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2017-06-12T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92606"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1998-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Jim Gray"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ים גריי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1944-01-12T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Gray%20Computing%20in%20the%2021st%20Century%202006.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2012-01-28T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92606"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Jim Gray"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ים גריי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1944-01-12T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Gray%20Computing%20in%20the%2021st%20Century%202006.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2012-01-28T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92625"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1990-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Fernando J. Corbató"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1926-07-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fernando%20Corbato.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Fernando_J._Corbat%C3%B3"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2019-07-12T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92625"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Fernando J. Corbató"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1926-07-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Fernando%20Corbato.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Fernando_J._Corbat%C3%B3"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2019-07-12T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92628"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1993-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Juris Hartmanis"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1928-07-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/2012-06-15%20Juris%20Hartmanis%20%2835414382405%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|לטביה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Juris_Hartmanis"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2022-07-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92628"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Juris Hartmanis"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1928-07-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/2012-06-15%20Juris%20Hartmanis%20%2835414382405%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|לטביה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Juris_Hartmanis"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2022-07-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92629"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1979-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Kenneth E. Iverson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "קנת איברסון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1920-12-17T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/KEI%20with%20ATW%20NY%20Aug%201989%20%28cropped%29%20-%20Ken%20Iverson.png"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Kenneth_E._Iverson"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2004-10-19T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92629"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Kenneth E. Iverson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "קנת איברסון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1920-12-17T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/KEI%20with%20ATW%20NY%20Aug%201989%20%28cropped%29%20-%20Ken%20Iverson.png"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Kenneth_E._Iverson"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2004-10-19T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92632"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1987-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John Cocke"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון קוק"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1925-05-30T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_Cocke_(computer_scientist)"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-07-16T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92632"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John Cocke"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון קוק"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1925-05-30T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_Cocke_(computer_scientist)"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-07-16T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92643"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1991-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robin Milner"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רובין מילנר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1934-01-13T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robin_Milner"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2010-03-20T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92643"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Robin Milner"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "רובין מילנר"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1934-01-13T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Robin_Milner"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2010-03-20T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92644"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1992-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Butler Lampson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-12-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Professional%20Developers%20Conference%202009%20Technical%20Leaders%20Panel%206.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Butler_Lampson"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92644"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Butler Lampson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-12-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Professional%20Developers%20Conference%202009%20Technical%20Leaders%20Panel%206.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Butler_Lampson"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92644"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1992-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Butler Lampson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-12-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Butler%20Lampson%20Royal%20Society.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Butler_Lampson"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92644"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Butler Lampson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-12-23T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Butler%20Lampson%20Royal%20Society.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Butler_Lampson"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92670"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2021-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Jack Dongarra"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1950-07-18T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack-dongarra-2022.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Jack_Dongarra"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92670"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Jack Dongarra"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1950-07-18T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack-dongarra-2022.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Jack_Dongarra"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92746"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1977-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John Backus"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון באקוס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1924-12-03T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Backus%202.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_Backus"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2007-03-17T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92746"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John Backus"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'ון באקוס"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1924-12-03T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Backus%202.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_Backus"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2007-03-17T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92744"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2001-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Kristen Nygaard"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1926-08-27T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristen-Nygaard-SBLP-1997-head.png"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "נורווגיה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Kristen_Nygaard"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-08-10T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92744"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Kristen Nygaard"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1926-08-27T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristen-Nygaard-SBLP-1997-head.png"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "נורווגיה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Kristen_Nygaard"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-08-10T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92745"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2001-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ole-Johan Dahl"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1931-10-12T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "נורווגיה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ole-Johan_Dahl"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-06-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92745"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Ole-Johan Dahl"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1931-10-12T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "נורווגיה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Ole-Johan_Dahl"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2002-06-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92758"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2014-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Michael Stonebraker"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-10-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Stonebraker%202.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Michael_Stonebraker"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92758"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Michael Stonebraker"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1943-10-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Stonebraker%202.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Michael_Stonebraker"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92782"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1989-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "William Kahan"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ויליאם קאהן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1933-06-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Kahan.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/William_Kahan"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92782"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "William Kahan"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ויליאם קאהן"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1933-06-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Kahan.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/William_Kahan"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92781"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2007-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Iosif Sifakis"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1946-12-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Sifakis%20mg%204603.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "יוון|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Joseph_Sifakis"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92781"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Iosif Sifakis"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1946-12-26T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Sifakis%20mg%204603.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "יוון|צרפת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Joseph_Sifakis"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92819"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2007-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edmund M. Clarke"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-07-27T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Edmund%20Clarke%20FLoC%202006.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edmund_M._Clarke"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-12-22T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92819"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edmund M. Clarke"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-07-27T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Edmund%20Clarke%20FLoC%202006.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edmund_M._Clarke"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-12-22T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92822"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1993-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard E. Stearns"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-07-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dick%20Stearns%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_E._Stearns"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2026-08-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92822"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard E. Stearns"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1936-07-05T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dick%20Stearns%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_E._Stearns"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2026-08-29T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92820"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1994-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Raj Reddy"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ראג' רדי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1937-06-13T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/ProfReddys%20Photo%20Cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|הודו"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Raj_Reddy"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92820"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Raj Reddy"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ראג' רדי"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1937-06-13T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/ProfReddys%20Photo%20Cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית|הודו"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Raj_Reddy"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92821"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2007-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "E. Allen Emerson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1954-06-02T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/E-allen-emerson%20%283x4%20cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/E._Allen_Emerson"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2024-10-15T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92821"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "E. Allen Emerson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1954-06-02T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/E-allen-emerson%20%283x4%20cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/E._Allen_Emerson"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2024-10-15T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92851"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2017-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "David A. Patterson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1947-11-16T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20A%20Patterson.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/David_Patterson_(computer_scientist)"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92851"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "David A. Patterson"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1947-11-16T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20A%20Patterson.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/David_Patterson_(computer_scientist)"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92854"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2017-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John L. Hennessy"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1952-09-22T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20L%20Hennessy.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_L._Hennessy"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q92854"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "John L. Hennessy"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1952-09-22T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20L%20Hennessy.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/John_L._Hennessy"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93161"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2019-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edwin Catmull"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדווין קאטמול"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-03-31T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/VES%20Awards%2089%20cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edwin_Catmull"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q93161"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Edwin Catmull"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אדווין קאטמול"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1945-03-31T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/VES%20Awards%2089%20cropped.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Edwin_Catmull"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q439245"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1975-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Allen Newell"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלן ניוול"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1927-03-19T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Allen_Newell"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1992-07-19T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q439245"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Allen Newell"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלן ניוול"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1927-03-19T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Allen_Newell"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1992-07-19T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q4756294"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Andrew Barto"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1948-01-01T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Andrew_Barto"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q7143512"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2019-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Pat Hanrahan"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1955-05-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Pat%20Hanrahan%20Tableau%20Customer%20Conference%202009.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Pat_Hanrahan"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q7143512"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Pat Hanrahan"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1955-05-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Pat%20Hanrahan%20Tableau%20Customer%20Conference%202009.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Pat_Hanrahan"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q7328833"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2024-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard S. Sutton"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1950-01-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SD%202025%20-%20Richard%20Sutton%2001%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_S._Sutton"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q7328833"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Richard S. Sutton"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1950-01-01T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SD%202025%20-%20Richard%20Sutton%2001%20%28cropped%29.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Richard_S._Sutton"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q49823"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1976-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Dana Scott"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דיינה סקוט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1932-10-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Dana%20small.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Dana_Scott"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q49823"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Dana Scott"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "דיינה סקוט"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1932-10-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Dana%20small.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Dana_Scott"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62877"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1970-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "James H. Wilkinson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'יימס וילקנסון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1919-09-27T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/James_H._Wilkinson"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1986-10-05T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62877"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "James H. Wilkinson"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "ג'יימס וילקנסון"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1919-09-27T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "הממלכה המאוחדת"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/James_H._Wilkinson"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1986-10-05T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62894"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1973-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Charles Bachman"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1924-12-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Bachman%202012.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Charles_Bachman"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2017-07-13T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62894"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Charles Bachman"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1924-12-11T00:00:00Z"
+  },
+  "img": {
+   "type": "uri",
+   "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Bachman%202012.jpg"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "ארצות הברית"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Charles_Bachman"
+  },
+  "death": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2017-07-13T00:00:00Z"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62898"
+  },
+  "year": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "2020-01-01T00:00:00Z"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Alfred Aho"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלפרד אהו"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-08-09T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Alfred_Aho"
+  }
+ },
+ {
+  "item": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q62898"
+  },
+  "en": {
+   "xml:lang": "en",
+   "type": "literal",
+   "value": "Alfred Aho"
+  },
+  "he": {
+   "xml:lang": "he",
+   "type": "literal",
+   "value": "אלפרד אהו"
+  },
+  "gender": {
+   "type": "uri",
+   "value": "http://www.wikidata.org/entity/Q6581097"
+  },
+  "birth": {
+   "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+   "type": "literal",
+   "value": "1941-08-09T00:00:00Z"
+  },
+  "countries_he": {
+   "type": "literal",
+   "value": "קנדה"
+  },
+  "enwiki": {
+   "type": "uri",
+   "value": "https://en.wikipedia.org/wiki/Alfred_Aho"
+  }
+ }
+]

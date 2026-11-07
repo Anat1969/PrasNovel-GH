@@ -1,0 +1,449 @@
+{
+ "page": "https://en.wikipedia.org/wiki/Turing_Award",
+ "rows": {
+  "1966": [
+   {
+    "title": "Alan Perlis",
+    "qid": "Q62861"
+   }
+  ],
+  "1967": [
+   {
+    "title": "Maurice Wilkes",
+    "qid": "Q62857"
+   }
+  ],
+  "1968": [
+   {
+    "title": "Richard Hamming",
+    "qid": "Q92619"
+   }
+  ],
+  "1969": [
+   {
+    "title": "Marvin Minsky",
+    "qid": "Q204815"
+   }
+  ],
+  "1970": [
+   {
+    "title": "James H. Wilkinson",
+    "qid": "Q62877"
+   }
+  ],
+  "1971": [
+   {
+    "title": "John McCarthy (computer scientist)",
+    "qid": "Q92739"
+   }
+  ],
+  "1972": [
+   {
+    "title": "Edsger W. Dijkstra",
+    "qid": "Q8556"
+   }
+  ],
+  "1973": [
+   {
+    "title": "Charles Bachman",
+    "qid": "Q62894"
+   }
+  ],
+  "1974": [
+   {
+    "title": "Donald Knuth",
+    "qid": "Q17457"
+   }
+  ],
+  "1975": [
+   {
+    "title": "Allen Newell",
+    "qid": "Q439245"
+   },
+   {
+    "title": "Herbert A. Simon",
+    "qid": "Q181529"
+   }
+  ],
+  "1976": [
+   {
+    "title": "Michael O. Rabin",
+    "qid": "Q357965"
+   },
+   {
+    "title": "Dana Scott",
+    "qid": "Q49823"
+   }
+  ],
+  "1977": [
+   {
+    "title": "John Backus",
+    "qid": "Q92746"
+   }
+  ],
+  "1978": [
+   {
+    "title": "Robert W. Floyd",
+    "qid": "Q92641"
+   }
+  ],
+  "1979": [
+   {
+    "title": "Kenneth E. Iverson",
+    "qid": "Q92629"
+   }
+  ],
+  "1980": [
+   {
+    "title": "Tony Hoare",
+    "qid": "Q92602"
+   }
+  ],
+  "1981": [
+   {
+    "title": "Edgar F. Codd",
+    "qid": "Q92596"
+   }
+  ],
+  "1982": [
+   {
+    "title": "Stephen Cook",
+    "qid": "Q62870"
+   }
+  ],
+  "1983": [
+   {
+    "title": "Dennis Ritchie",
+    "qid": "Q45575"
+   },
+   {
+    "title": "Ken Thompson (computer programmer)",
+    "qid": "Q1107006"
+   }
+  ],
+  "1984": [
+   {
+    "title": "Niklaus Wirth",
+    "qid": "Q92604"
+   }
+  ],
+  "1985": [
+   {
+    "title": "Richard M. Karp",
+    "qid": "Q92612"
+   }
+  ],
+  "1986": [
+   {
+    "title": "John Hopcroft",
+    "qid": "Q62874"
+   },
+   {
+    "title": "Robert Tarjan",
+    "qid": "Q92638"
+   }
+  ],
+  "1987": [
+   {
+    "title": "John Cocke (computer scientist)",
+    "qid": "Q92632"
+   }
+  ],
+  "1988": [
+   {
+    "title": "Ivan Sutherland",
+    "qid": "Q62866"
+   }
+  ],
+  "1989": [
+   {
+    "title": "William Kahan",
+    "qid": "Q92782"
+   }
+  ],
+  "1990": [
+   {
+    "title": "Fernando J. Corbató",
+    "qid": "Q92625"
+   }
+  ],
+  "1991": [
+   {
+    "title": "Robin Milner",
+    "qid": "Q92643"
+   }
+  ],
+  "1992": [
+   {
+    "title": "Butler Lampson",
+    "qid": "Q92644"
+   }
+  ],
+  "1993": [
+   {
+    "title": "Juris Hartmanis",
+    "qid": "Q92628"
+   },
+   {
+    "title": "Richard E. Stearns",
+    "qid": "Q92822"
+   }
+  ],
+  "1994": [
+   {
+    "title": "Edward Feigenbaum",
+    "qid": "Q92823"
+   },
+   {
+    "title": "Raj Reddy",
+    "qid": "Q92820"
+   }
+  ],
+  "1995": [
+   {
+    "title": "Manuel Blum",
+    "qid": "Q92626"
+   }
+  ],
+  "1996": [
+   {
+    "title": "Amir Pnueli",
+    "qid": "Q92649"
+   }
+  ],
+  "1997": [
+   {
+    "title": "Douglas Engelbart",
+    "qid": "Q92614"
+   }
+  ],
+  "1998": [
+   {
+    "title": "Jim Gray (computer scientist)",
+    "qid": "Q92606"
+   }
+  ],
+  "1999": [
+   {
+    "title": "Fred Brooks",
+    "qid": "Q92609"
+   }
+  ],
+  "2000": [
+   {
+    "title": "Andrew Yao",
+    "qid": "Q62888"
+   }
+  ],
+  "2001": [
+   {
+    "title": "Ole-Johan Dahl",
+    "qid": "Q92745"
+   },
+   {
+    "title": "Kristen Nygaard",
+    "qid": "Q92744"
+   }
+  ],
+  "2002": [
+   {
+    "title": "Leonard Adleman",
+    "qid": "Q918650"
+   },
+   {
+    "title": "Ron Rivest",
+    "qid": "Q578036"
+   },
+   {
+    "title": "Adi Shamir",
+    "qid": "Q320624"
+   }
+  ],
+  "2003": [
+   {
+    "title": "Alan Kay",
+    "qid": "Q92742"
+   }
+  ],
+  "2004": [
+   {
+    "title": "Vint Cerf",
+    "qid": "Q92743"
+   },
+   {
+    "title": "Robert Kahn (computer scientist)",
+    "qid": "Q62843"
+   }
+  ],
+  "2005": [
+   {
+    "title": "Peter Naur",
+    "qid": "Q92618"
+   }
+  ],
+  "2006": [
+   {
+    "title": "Frances Allen",
+    "qid": "Q9602"
+   }
+  ],
+  "2007": [
+   {
+    "title": "Edmund M. Clarke",
+    "qid": "Q92819"
+   },
+   {
+    "title": "E. Allen Emerson",
+    "qid": "Q92821"
+   },
+   {
+    "title": "Joseph Sifakis",
+    "qid": "Q92781"
+   }
+  ],
+  "2008": [
+   {
+    "title": "Barbara Liskov",
+    "qid": "Q16080922"
+   }
+  ],
+  "2009": [
+   {
+    "title": "Charles P. Thacker",
+    "qid": "Q92828"
+   }
+  ],
+  "2010": [
+   {
+    "title": "Leslie Valiant",
+    "qid": "Q93154"
+   }
+  ],
+  "2011": [
+   {
+    "title": "Judea Pearl",
+    "qid": "Q92824"
+   }
+  ],
+  "2012": [
+   {
+    "title": "Shafi Goldwasser",
+    "qid": "Q11609"
+   },
+   {
+    "title": "Silvio Micali",
+    "qid": "Q93080"
+   }
+  ],
+  "2013": [
+   {
+    "title": "Leslie Lamport",
+    "qid": "Q92613"
+   }
+  ],
+  "2014": [
+   {
+    "title": "Michael Stonebraker",
+    "qid": "Q92758"
+   }
+  ],
+  "2015": [
+   {
+    "title": "Whitfield Diffie",
+    "qid": "Q462089"
+   },
+   {
+    "title": "Martin Hellman",
+    "qid": "Q476466"
+   }
+  ],
+  "2016": [
+   {
+    "title": "Tim Berners-Lee",
+    "qid": "Q80"
+   }
+  ],
+  "2017": [
+   {
+    "title": "John L. Hennessy",
+    "qid": "Q92854"
+   },
+   {
+    "title": "David Patterson (computer scientist)",
+    "qid": "Q92851"
+   }
+  ],
+  "2018": [
+   {
+    "title": "Yoshua Bengio",
+    "qid": "Q3572699"
+   },
+   {
+    "title": "Geoffrey Hinton",
+    "qid": "Q92894"
+   },
+   {
+    "title": "Yann LeCun",
+    "qid": "Q3571662"
+   }
+  ],
+  "2019": [
+   {
+    "title": "Edwin Catmull",
+    "qid": "Q93161"
+   },
+   {
+    "title": "Pat Hanrahan",
+    "qid": "Q7143512"
+   }
+  ],
+  "2020": [
+   {
+    "title": "Alfred Aho",
+    "qid": "Q62898"
+   },
+   {
+    "title": "Jeffrey Ullman",
+    "qid": "Q92794"
+   }
+  ],
+  "2021": [
+   {
+    "title": "Jack Dongarra",
+    "qid": "Q92670"
+   }
+  ],
+  "2022": [
+   {
+    "title": "Robert Metcalfe",
+    "qid": "Q92766"
+   }
+  ],
+  "2023": [
+   {
+    "title": "Avi Wigderson",
+    "qid": "Q92957"
+   }
+  ],
+  "2024": [
+   {
+    "title": "Andrew Barto",
+    "qid": "Q4756294"
+   },
+   {
+    "title": "Richard S. Sutton",
+    "qid": "Q7328833"
+   }
+  ],
+  "2025": [
+   {
+    "title": "Charles H. Bennett (physicist)",
+    "qid": "Q92931"
+   },
+   {
+    "title": "Gilles Brassard",
+    "qid": "Q92938"
+   }
+  ]
+ }
+}
