@@ -1,50 +1,50 @@
 slug,year,official_names,firm_qid,work_qid,work_en,work_he,work_place_en,work_place_he,work_year,work_by_laureate,image,image_license,image_artist,image_page
-philip-johnson,1979,Philip Johnson,,Q1506237,Glass House,בית הזכוכית,New Canaan,ניו כנען,1949,True,,,,
-luis-barragan,1980,Luis Barragán,,Q1046414,Luis Barragán House and Studio,בית ברגאן,Miguel Hidalgo,,1998,True,,,,
-james-stirling,1981,James Stirling,,Q316242,Neue Staatsgalerie,,Stuttgart-Mitte,,1984,True,,,,
-kevin-roche,1982,Kevin Roche,,Q5467785,Ford Foundation Center for Social Justice,בית קרן פורד,Manhattan,מנהטן,1968,True,,,,
-i-m-pei,1983,I.M. Pei,,Q13397,Louvre Pyramid,פירמידת מוזיאון הלובר,1st arrondissement of Paris,הרובע הראשון של פריז,1981,True,,,,
-richard-meier,1984,Richard Meier,,Q29247,Getty Center,מרכז גטי,Los Angeles,לוס אנג'לס,1997,True,,,,
-hans-hollein,1985,Hans Hollein,,Q697572,Haas House,,Innere Stadt,אינרה שטאדט,1990,True,,,,
-gottfried-bohm,1986,Gottfried Böhm,,Q1982229,Nevigeser Wallfahrtsdom,,Velbert,פלברט,,True,,,,
-kenzo-tange,1987,Kenzo Tange,,Q1200076,Hiroshima Peace Memorial Museum,מוזיאון ההנצחה לשלום בהירושימה,Nakajimachō,,1955,True,,,,
-oscar-niemeyer,1988,Gordon Bunshaft | Oscar Niemeyer,,Q201720,Cathedral of Brasília,קתדרלת ברזיליה,Brasília,ברזיליה,1970,True,,,,
-gordon-bunshaft,1988,Gordon Bunshaft | Oscar Niemeyer,,Q814779,Beinecke Rare Book & Manuscript Library,הספרייה לספרים עתיקים וכתבי יד של אוניברסיטת ייל,New Haven,ניו הייבן,1963,True,,,,
-frank-gehry,1989,Frank Gehry,,Q179199,Guggenheim Museum Bilbao,מוזיאון גוגנהיים בילבאו,Bilbao,בילבאו,1997,True,,,,
-aldo-rossi,1990,Aldo Rossi,,Q28017523,cemetery of San Cataldo,,Modena,מודנה,1850,True,,,,
-robert-venturi,1991,Robert Venturi,,Q2060721,Vanna Venturi House,בית ונה ונטורי,Chestnut Hill,,1964,True,,,,
-alvaro-siza,1992,Alvaro Siza,,Q1750602,Tidal pools of Leça de Palmeira,,Matosinhos e Leça da Palmeira,,1966,True,,,,
-fumihiko-maki,1993,Fumihiko Maki,,Q904037,Spiral,,Minami-Aoyama,,1985,True,,,,
-christian-de-portzamparc,1994,Christian de Portzamparc,,Q111713330,Cité de la musique,,19th arrondissement of Paris,הרובע התשעה-עשר של פריז,1995,True,,,,
-tadao-ando,1995,Tadao Ando,,Q1655766,Church of the Light,כנסיית האור,Ibaraki,,1999,True,,,,
-rafael-moneo,1996,Rafael Moneo,,Q3330685,National Museum of Roman Art,,Mérida,מרידה,1986,True,,,,
-sverre-fehn,1997,Sverre Fehn,,Q28718193,Villa Schreiner,,Oslo,אוסלו,,True,,,,
-renzo-piano,1998,Renzo Piano,,Q178065,Centre Georges Pompidou,מרכז ז'ורז' פומפידו,Quartier Saint-Merri,רובע סן-מרי,1977,True,,,,
-norman-foster,1999,Norman Foster,,Q151897,Reichstag,בניין הרייכסטאג,Bezirk Mitte,מיטה,1894,True,,,,
-rem-koolhaas,2000,Rem Koolhaas,,Q2531939,Seattle Central Library,הספרייה המרכזית של סיאטל,Seattle,סיאטל,2004,True,,,,
-herzog-de-meuron,2001,Jacques Herzog and Pierre de Meuron,Q308776,Q673223,Elbphilharmonie,אלבפילהרמוני,Hamburg-Mitte,המבורג-מיטה,1963,True,,,,
+philip-johnson,1979,Philip Johnson,,Q1506237,Glass House,בית הזכוכית,New Canaan,ניו כנען,1949,True,pritzker/philip-johnson.jpg,Public domain,Carol M. Highsmith,https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg
+luis-barragan,1980,Luis Barragán,,Q1046414,Luis Barragán House and Studio,בית ברגאן,Miguel Hidalgo,,1998,True,pritzker/luis-barragan.jpg,CC BY-SA 3.0,Ymblanter,https://commons.wikimedia.org/wiki/File:Luis_Barragan_House_exterior_02.jpg
+james-stirling,1981,James Stirling,,Q316242,Neue Staatsgalerie,,Stuttgart-Mitte,,1984,True,pritzker/james-stirling.jpg,CC BY-SA 3.0,Mussklprozz,https://commons.wikimedia.org/wiki/File:Staatsgalerie1.jpg
+kevin-roche,1982,Kevin Roche,,Q5467785,Ford Foundation Center for Social Justice,בית קרן פורד,Manhattan,מנהטן,1968,True,pritzker/kevin-roche.jpg,CC BY 3.0,Stakhanov,https://commons.wikimedia.org/wiki/File:Ford_foundation_building_1.JPG
+i-m-pei,1983,I.M. Pei,,Q13397,Louvre Pyramid,פירמידת מוזיאון הלובר,1st arrondissement of Paris,הרובע הראשון של פריז,1981,True,pritzker/i-m-pei.jpg,CC BY-SA 3.0,Benh LIEU SONG (Flickr),https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg
+richard-meier,1984,Richard Meier,,Q29247,Getty Center,מרכז גטי,Los Angeles,לוס אנג'לס,1997,True,pritzker/richard-meier.jpg,CC BY 4.0,Derbrauni,https://commons.wikimedia.org/wiki/File:2024_Getty_Center_07.jpg
+hans-hollein,1985,Hans Hollein,,Q697572,Haas House,,Innere Stadt,אינרה שטאדט,1990,True,pritzker/hans-hollein.jpg,CC BY-SA 4.0,C.Stadler/Bwag,https://commons.wikimedia.org/wiki/File:Wien_-_Haas-Haus_(3).JPG
+gottfried-bohm,1986,Gottfried Böhm,,Q1982229,Nevigeser Wallfahrtsdom,,Velbert,פלברט,,True,pritzker/gottfried-bohm.jpg,CC BY 2.0,seier+seier,"https://commons.wikimedia.org/wiki/File:Gottfried_b%C3%B6hm,_pilgrimage_church,_neviges_1963-1972_01.jpg"
+kenzo-tange,1987,Kenzo Tange,,Q1200076,Hiroshima Peace Memorial Museum,מוזיאון ההנצחה לשלום בהירושימה,Nakajimachō,,1955,True,pritzker/kenzo-tange.jpg,CC BY-SA 3.0,Taisyo,https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Museum_2008_01.JPG
+oscar-niemeyer,1988,Gordon Bunshaft | Oscar Niemeyer,,Q201720,Cathedral of Brasília,קתדרלת ברזיליה,Brasília,ברזיליה,1970,True,pritzker/oscar-niemeyer.jpg,CC BY-SA 4.0,Mariordo (Mario Roberto Durán Ortiz),https://commons.wikimedia.org/wiki/File:Brasilia_Catedral_08_2005_03.jpg
+gordon-bunshaft,1988,Gordon Bunshaft | Oscar Niemeyer,,Q814779,Beinecke Rare Book & Manuscript Library,הספרייה לספרים עתיקים וכתבי יד של אוניברסיטת ייל,New Haven,ניו הייבן,1963,True,pritzker/gordon-bunshaft.jpg,Public domain,,https://commons.wikimedia.org/wiki/File:Yale-beinecke-library.jpg
+frank-gehry,1989,Frank Gehry,,Q179199,Guggenheim Museum Bilbao,מוזיאון גוגנהיים בילבאו,Bilbao,בילבאו,1997,True,pritzker/frank-gehry.jpg,CC BY 2.0,Naotake Murayama,"https://commons.wikimedia.org/wiki/File:Museo_Guggenheim,_Bilbao_(31273245344).jpg"
+aldo-rossi,1990,Aldo Rossi,,Q28017523,cemetery of San Cataldo,,Modena,מודנה,1850,True,pritzker/aldo-rossi.jpg,CC BY-SA 3.0,Maria Lucia Lusetti Paolo Tedeschi,https://commons.wikimedia.org/wiki/File:San_Cataldo_4.jpg
+robert-venturi,1991,Robert Venturi,,Q2060721,Vanna Venturi House,בית ונה ונטורי,Chestnut Hill,,1964,True,pritzker/robert-venturi.jpg,Public domain,Carol M. Highsmith,"https://commons.wikimedia.org/wiki/File:Vanna_Venturi_House_in_Chestnut_Hill,_Philadelphia,_Pennsylvania_LCCN2011631329.tif"
+alvaro-siza,1992,Alvaro Siza,,Q1750602,Tidal pools of Leça de Palmeira,,Matosinhos e Leça da Palmeira,,1966,True,pritzker/alvaro-siza.jpg,CC BY-SA 4.0,Christian Gänshirt,https://commons.wikimedia.org/wiki/File:Swimming_Pool_Piscinas_de_Mar%C3%A9s_Le%C3%A7a_da_Palmeira_by_%C3%81lvaro_Siza_foto_Christian_G%C3%A4nshirt.jpg
+fumihiko-maki,1993,Fumihiko Maki,,Q904037,Spiral,,Minami-Aoyama,,1985,True,pritzker/fumihiko-maki.jpg,CC BY-SA 3.0,Wiiii,https://commons.wikimedia.org/wiki/File:Spiral_Building.jpg
+christian-de-portzamparc,1994,Christian de Portzamparc,,Q111713330,Cité de la musique,,19th arrondissement of Paris,הרובע התשעה-עשר של פריז,1995,True,pritzker/christian-de-portzamparc.jpg,CC BY-SA 2.0,Olivier Bruchez,"https://commons.wikimedia.org/wiki/File:Cit%C3%A9_de_la_musique,_%22We_Want_Miles%22_exhibit_1.jpg"
+tadao-ando,1995,Tadao Ando,,Q1655766,Church of the Light,כנסיית האור,Ibaraki,,1999,True,pritzker/tadao-ando.jpg,CC BY-SA 3.0,Bergmann,https://commons.wikimedia.org/wiki/File:Ibaraki_Kasugaoka_Church_Outside.JPG
+rafael-moneo,1996,Rafael Moneo,,Q3330685,National Museum of Roman Art,,Mérida,מרידה,1986,True,pritzker/rafael-moneo.jpg,CC BY-SA 4.0,Anual,https://commons.wikimedia.org/wiki/File:Museo_Nacional_de_Arte_Romano_2019An002.jpg
+sverre-fehn,1997,Sverre Fehn,,Q28718193,Villa Schreiner,,Oslo,אוסלו,,True,pritzker/sverre-fehn.jpg,CC BY-SA 3.0,Vidariv,https://commons.wikimedia.org/wiki/File:Villa_Schreiner_-_Oslo.JPG
+renzo-piano,1998,Renzo Piano,,Q178065,Centre Georges Pompidou,מרכז ז'ורז' פומפידו,Quartier Saint-Merri,רובע סן-מרי,1977,True,pritzker/renzo-piano.jpg,CC BY-SA 4.0,Zairon,https://commons.wikimedia.org/wiki/File:Paris_Montmartre_Blick_aufs_Centre_Georges-Pompidou.jpg
+norman-foster,1999,Norman Foster,,Q151897,Reichstag,בניין הרייכסטאג,Bezirk Mitte,מיטה,1894,True,pritzker/norman-foster.jpg,CC BY-SA 4.0,Jörg Braukmann,https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_von_Westen.jpg
+rem-koolhaas,2000,Rem Koolhaas,,Q2531939,Seattle Central Library,הספרייה המרכזית של סיאטל,Seattle,סיאטל,2004,True,pritzker/rem-koolhaas.jpg,CC BY-SA 3.0,DVD R W.,"https://commons.wikimedia.org/wiki/File:Seattle_Central_Library,_Seattle,_Washington_-_20060418.jpg"
+herzog-de-meuron,2001,Jacques Herzog and Pierre de Meuron,Q308776,Q673223,Elbphilharmonie,אלבפילהרמוני,Hamburg-Mitte,המבורג-מיטה,1963,True,pritzker/herzog-de-meuron.jpg,CC BY-SA 4.0,Burkhard Mücke,https://commons.wikimedia.org/wiki/File:2019-05-10_Elbphilharmonie_Hamburg.jpg
 glenn-murcutt,2002,Glenn Murcutt,,,,,,,,False,,,,
-jorn-utzon,2003,Jørn Utzon,,Q45178,Sydney Opera House,בית האופרה של סידני,City of Sydney,העיר סידני,1973,True,,,,
-zaha-hadid,2004,Zaha Hadid,,Q25455138,Vitra Fire Station,,Weil am Rhein,וייל אם ריין,1993,True,,,,
-thom-mayne,2005,Thom Mayne,,Q4637601,41 Cooper Square,,Manhattan,מנהטן,2009,True,,,,
-paulo-mendes-da-rocha,2006,Paulo Mendes da Rocha,,Q2923400,Museu Brasileiro da Escultura,,São Paulo,סאו פאולו,1995,True,,,,
-richard-rogers,2007,Richard Rogers,,Q1814818,Lloyd's building,בניין לוידס,City of London,הסיטי של לונדון,1986,True,,,,
-jean-nouvel,2008,Jean Nouvel,,Q860166,Arab World Institute,מכון העולם הערבי,5th arrondissement of Paris,הרובע החמישי של פריז,1987,True,,,,
-peter-zumthor,2009,Peter Zumthor,,Q112033459,Kolumba,,Altstadt-Nord,אלשטאדט-נורד,,True,,,,
-sanaa,2010,Kazuyo Sejima and Ryue Nishizawa,Q737536,Q3242206,21st Century Museum of Contemporary Art,"המוזיאון לאמנות עכשווית של המאה ה-21, קנאזווה",Hirosaka,,,True,,,,
-eduardo-souto-de-moura,2011,Eduardo Souto de Moura,,Q849239,Estádio Municipal de Braga,האצטדיון העירוני של בראגה,"Real, Dume e Semelhe",,2003,True,,,,
-wang-shu,2012,Wang Shu,,Q1070226,Ningbo Museum,,Yinzhou District,,2008,True,,,,
-toyo-ito,2013,Toyo Ito,,Q988508,Sendai Mediatheque,בניין המדיאטק בסנדאי,Aoba-ku,,2001,True,,,,
-shigeru-ban,2014,Shigeru Ban,,Q15207543,Cardboard Cathedral,,Christchurch City,כרייסטצ'רץ',,True,,,,
-frei-otto,2015,Frei Otto,,Q131610,Munich Olympic Stadium,האצטדיון האולימפי,Munich,מינכן,,True,,,,
-alejandro-aravena,2016,Alejandro Aravena,,Q88667534,Center of Innovation Anacleto Angelini,,Macul,,2014,True,,,,
-rcr-arquitectes,2017,"Rafael Aranda, Carme Pigem & Ramon Vilalta",Q11701698,Q42097175,Parc de la Pedra Tosca,,Les Preses,,2004,True,,,,
-balkrishna-doshi,2018,Balkrishna Doshi,,Q1744232,Amdavad ni Gufa,,Ahmedabad,אחמדאבאד,1995,True,,,,
-arata-isozaki,2019,Arata Isozaki,,Q4448816,Tsukuba Center Building,,Azuma,,1983,True,,,,
-grafton-architects,2020,Yvonne Farrell and Shelley McNamara,,Q99769226,UTEC campus,,Barranco District,באראנקו,2015,True,,,,
-lacaton-vassal,2021,Anne Lacaton and Jean-Philippe Vassal,Q17995421,Q1535247,,פאלה דה טוקיו,16th arrondissement of Paris,הרובע השישה-עשר של פריז,2000,True,,,,
-francis-kere,2022,Diébédo Francis Kéré,,Q134108016,elementary school,,Gando,,,True,,,,
-david-chipperfield,2023,Sir David Alan Chipperfield CH,,Q664484,James Simon Gallery,גלריית ג'יימס סימון,Bezirk Mitte,מיטה,2019,True,,,,
-riken-yamamoto,2024,Riken Yamamoto,,Q11543551,Yokosuka Museum of Art,,Yokosuka,יוקוסוקה,2007,True,,,,
+jorn-utzon,2003,Jørn Utzon,,Q45178,Sydney Opera House,בית האופרה של סידני,City of Sydney,העיר סידני,1973,True,pritzker/jorn-utzon.jpg,CC BY-SA 3.0,No machine-readable author provided. Roybb95~commonswiki assumed (based on copyright claims).,https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_Sails.jpg
+zaha-hadid,2004,Zaha Hadid,,Q25455138,Vitra Fire Station,,Weil am Rhein,וייל אם ריין,1993,True,pritzker/zaha-hadid.jpg,CC0,Marsupium,"https://commons.wikimedia.org/wiki/File:Vitra_Campus_-_Hadid_Fire_Station_-_full_view,_blue_sky.jpg"
+thom-mayne,2005,Thom Mayne,,Q4637601,41 Cooper Square,,Manhattan,מנהטן,2009,True,pritzker/thom-mayne.jpg,CC BY-SA 4.0,Beyond My Ken,https://commons.wikimedia.org/wiki/File:Cooper_Union_New_Academic_Building_from_north.jpg
+paulo-mendes-da-rocha,2006,Paulo Mendes da Rocha,,Q2923400,Museu Brasileiro da Escultura,,São Paulo,סאו פאולו,1995,True,pritzker/paulo-mendes-da-rocha.jpg,CC BY-SA 4.0,Ghiraldini,"https://commons.wikimedia.org/wiki/File:Museu_Brasileiro_da_Escultura,_MuBE.jpg"
+richard-rogers,2007,Richard Rogers,,Q1814818,Lloyd's building,בניין לוידס,City of London,הסיטי של לונדון,1986,True,pritzker/richard-rogers.jpg,CC BY-SA 2.0,Stephen Richards,https://commons.wikimedia.org/wiki/File:Lloyds_building_taken_2011.jpg
+jean-nouvel,2008,Jean Nouvel,,Q860166,Arab World Institute,מכון העולם הערבי,5th arrondissement of Paris,הרובע החמישי של פריז,1987,True,pritzker/jean-nouvel.jpg,CC BY 2.0,"Guilhem Vellut from Paris, France",https://commons.wikimedia.org/wiki/File:Institut_du_Monde_Arabe_au_bord_de_la_Seine.jpg
+peter-zumthor,2009,Peter Zumthor,,Q112033459,Kolumba,,Altstadt-Nord,אלשטאדט-נורד,,True,pritzker/peter-zumthor.jpg,CC BY-SA 3.0,Elke Wetzig (Elya),https://commons.wikimedia.org/wiki/File:Kolumba.jpg
+sanaa,2010,Kazuyo Sejima and Ryue Nishizawa,Q737536,Q3242206,21st Century Museum of Contemporary Art,"המוזיאון לאמנות עכשווית של המאה ה-21, קנאזווה",Hirosaka,,,True,pritzker/sanaa.jpg,CC BY 2.1 jp,金沢市,"https://commons.wikimedia.org/wiki/File:21st_Century_Museum_of_Contemporary_Art,_Kanazawa011.jpg"
+eduardo-souto-de-moura,2011,Eduardo Souto de Moura,,Q849239,Estádio Municipal de Braga,האצטדיון העירוני של בראגה,"Real, Dume e Semelhe",,2003,True,pritzker/eduardo-souto-de-moura.jpg,CC BY-SA 3.0,Manuel Anastácio uploaded 2004-08-17,https://commons.wikimedia.org/wiki/File:Estadio_Braga.JPG
+wang-shu,2012,Wang Shu,,Q1070226,Ningbo Museum,,Yinzhou District,,2008,True,pritzker/wang-shu.jpg,CC BY-SA 3.0,Siyuwj,https://commons.wikimedia.org/wiki/File:South_Gate_of_Ningbo_Museum.jpg
+toyo-ito,2013,Toyo Ito,,Q988508,Sendai Mediatheque,בניין המדיאטק בסנדאי,Aoba-ku,,2001,True,pritzker/toyo-ito.jpg,CC BY 2.0,scarletgreen from Japan,https://commons.wikimedia.org/wiki/File:Sendai_Mediatheque_2009.jpg
+shigeru-ban,2014,Shigeru Ban,,Q15207543,Cardboard Cathedral,,Christchurch City,כרייסטצ'רץ',,True,pritzker/shigeru-ban.jpg,CC BY-SA 3.0,Schwede66,https://commons.wikimedia.org/wiki/File:Cardboard_Cathedral_03.JPG
+frei-otto,2015,Frei Otto,,Q131610,Munich Olympic Stadium,האצטדיון האולימפי,Munich,מינכן,,True,pritzker/frei-otto.jpg,CC BY-SA 4.0,Amrei-Marie,https://commons.wikimedia.org/wiki/File:Blick_vom_Olympiaberg_auf_das_Olympiastadion.jpg
+alejandro-aravena,2016,Alejandro Aravena,,Q88667534,Center of Innovation Anacleto Angelini,,Macul,,2014,True,pritzker/alejandro-aravena.jpg,CC BY-SA 4.0,Vmorande,https://commons.wikimedia.org/wiki/File:Edificio_Anacleto_Angelini.jpg
+rcr-arquitectes,2017,"Rafael Aranda, Carme Pigem & Ramon Vilalta",Q11701698,Q42097175,Parc de la Pedra Tosca,,Les Preses,,2004,True,pritzker/rcr-arquitectes.jpg,Public domain,Wamito,https://commons.wikimedia.org/wiki/File:Vora_Tosca_Cat_20071230_001.jpg
+balkrishna-doshi,2018,Balkrishna Doshi,,Q1744232,Amdavad ni Gufa,,Ahmedabad,אחמדאבאד,1995,True,pritzker/balkrishna-doshi.jpg,CC BY-SA 3.0,Vaishal Dalal,https://commons.wikimedia.org/wiki/File:Amdavad_ni_gufa.jpg
+arata-isozaki,2019,Arata Isozaki,,Q4448816,Tsukuba Center Building,,Azuma,,1983,True,pritzker/arata-isozaki.jpg,CC BY-SA 3.0,Wiiii,https://commons.wikimedia.org/wiki/File:Tsukuba_Center_Building_2008.jpg
+grafton-architects,2020,Yvonne Farrell and Shelley McNamara,,Q99769226,UTEC campus,,Barranco District,באראנקו,2015,True,pritzker/grafton-architects.jpg,CC0,Gatodemichi,https://commons.wikimedia.org/wiki/File:UTEC_BARRANCO_LIMA_PERU_UNIVERSIDAD.jpg
+lacaton-vassal,2021,Anne Lacaton and Jean-Philippe Vassal,Q17995421,Q1535247,,פאלה דה טוקיו,16th arrondissement of Paris,הרובע השישה-עשר של פריז,2000,True,pritzker/lacaton-vassal.jpg,CC BY-SA 3.0,Strobilomyces,https://commons.wikimedia.org/wiki/File:Palais_de_Tokyo_20030101w.JPG
+francis-kere,2022,Diébédo Francis Kéré,,Q134108016,elementary school,,Gando,,,True,pritzker/francis-kere.jpg,CC BY-SA 3.0,Helge Fahrnberger / www.helge.at,https://commons.wikimedia.org/wiki/File:Gando-School-Burkina-Faso.JPG
+david-chipperfield,2023,Sir David Alan Chipperfield CH,,Q664484,James Simon Gallery,גלריית ג'יימס סימון,Bezirk Mitte,מיטה,2019,True,,FAL,A.Savin,https://commons.wikimedia.org/wiki/File:Berlin_James-Simon-Galerie_asv2019-07_img2.jpg
+riken-yamamoto,2024,Riken Yamamoto,,Q11543551,Yokosuka Museum of Art,,Yokosuka,יוקוסוקה,2007,True,pritzker/riken-yamamoto.jpg,CC BY-SA 3.0,Wiiii,https://commons.wikimedia.org/wiki/File:Yokosuka_Museum_of_Art_2009.jpg
 liu-jiakun,2025,Liu Jiakun,,,,,,,,False,,,,
-smiljan-radic,2026,Smiljan Radić Clarke,,Q117048808,Serpentine Gallery Pavilion 2014,,City of Westminster,הסיטי של וסטמינסטר,,True,,,,
+smiljan-radic,2026,Smiljan Radić Clarke,,Q117048808,Serpentine Gallery Pavilion 2014,,City of Westminster,הסיטי של וסטמינסטר,,True,pritzker/smiljan-radic.jpg,CC BY-SA 3.0,Ardfern,"https://commons.wikimedia.org/wiki/File:Serpentine_Gallery_Pavilion,_July_2014_(01).JPG"
